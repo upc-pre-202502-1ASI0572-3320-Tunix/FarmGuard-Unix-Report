@@ -247,13 +247,81 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
   </tbody>
 </table>
 
+
+
 # Capítulo I: Introducción  
 
 ## 1.1 Startup Profile  
 
 ### 1.1.1 Descripción de la Startup  
 
-### 1.1.2 Perfiles de integrantes del equipo  
+**Nombre de la startup:** Tunix
+
+**Producto:** FarmGuard
+
+**Sector:** Ganadería y Veterinaria
+
+**Descripción:**
+
+Somos Tunix, una startup universitaria que busca transformar la manera en que los ganaderos y veterinarios gestionan la salud y el bienestar de los animales. A través de soluciones tecnológicas innovadoras, ofrecemos herramientas que permiten un control eficiente y en tiempo real del estado de los animales, sus historiales médicos y tratamientos.
+
+Nuestra propuesta se apoya en tecnologías emergentes como el Internet de las Cosas (IoT), que facilitan el monitoreo continuo, la automatización de procesos y la generación de alertas preventivas. Esto no solo optimiza la productividad y reduce costos, sino que también garantiza el cumplimiento de estándares de calidad y bienestar animal.
+
+FarmGuard se posiciona como una solución integral, accesible y centrada en el usuario, diseñada para satisfacer las necesidades específicas de granjas y veterinarias, promoviendo una gestión más sostenible y responsable.
+
+### 1.1.2 Perfiles de integrantes del equipo
+
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th colspan="2">Perfiles de integrantes del equipo</th>
+  </tr>
+  <tr>
+    <td>
+      <strong>Carlos Alberto Ochoa Colonio</strong><br>
+      Soy un estudiante y actualmente me encuentro en el octavo ciclo de la carrera de ingeniería de software.
+    </td>
+    <td align="center">
+      <img src="assets/student/Carlos_Ochoa.jpg" alt="Carlos" style="max-height: 250px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Zarate Castro Jose Daniel</strong>
+        Descripcion
+    </td>
+    <td>
+      <img src="assets/student/Me2.jpg" alt="Carlos" style="max-height: 250px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Oscar Nathaniel Garayar Mori</strong>
+        Descripcion
+    </td>
+    <td>
+      <img src="assets/student/Me2.jpg" alt="Carlos" style="max-height: 250px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Jara Benites Quique Vladimir</strong>
+        Descripcion
+    </td>
+    <td>
+      <img src="assets/student/Me2.jpg" alt="Carlos" style="max-height: 250px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Brayan Smith Morales Quispe</strong><br>
+      Soy estudiante de ingenieria de software de la upc 8vo ciclo que le gusta el desarrollo web, desarrollo de videojuegos y aplicaciones moviles.
+    </td>
+    <td>
+      <img src="Assets/img/Integrantes/brayan.png" alt="Bryan" style="max-height:250px;">
+    </td>
+  </tr>
+</table>
+
 
 ## 1.2 Solution Profile  
 
@@ -407,7 +475,7 @@ El segundo segmento objetivo son las veterinarias de todo el país. La razón de
   <tr>
     <td colspan="1" rowspan="2"><p>Perfil</p></td>
     <td colspan="2">Overview</td>
-    <td colspan="1" valign="top">DevDream está enfocada en el sector veterinario y ganadero, proporcionando un software que facilita el control de la salud de los animales, evitando la pérdida de información crítica, la duplicación de datos y la omisión de tratamientos, lo que puede causar problemas de salud y pérdidas económicas.</td>
+    <td colspan="1" valign="top">Tunix está enfocada en el sector veterinario y ganadero, proporcionando un software que facilita el control de la salud de los animales, evitando la pérdida de información crítica, la duplicación de datos y la omisión de tratamientos, lo que puede causar problemas de salud y pérdidas económicas.</td>
     <td colspan="1" valign="top">FarmLogs es una plataforma digital para la gestión agrícola, que permite a los agricultores monitorear cultivos, suelos y recursos, optimizando sus operaciones</td>
     <td colspan="1" valign="top">Herdwatch es una aplicación enfocada en la gestión de granjas, diseñada para rastrear la salud y productividad del ganado, cumpliendo con las regulaciones del sector</td>
     <td colspan="1" valign="top">AgriWebb proporciona un software de gestión de ganado con un fuerte enfoque en la trazabilidad, productividad y bienestar animal, utilizando datos en tiempo real para mejorar las decisiones agrícolas</td>
@@ -422,7 +490,7 @@ El segundo segmento objetivo son las veterinarias de todo el país. La razón de
   <tr>
     <td colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
     <td colspan="2">Mercado objetivo</td>
-    <td colspan="1" valign="top">DevDream se enfoca en veterinarias y granjas que necesitan una solución efectiva para el monitoreo y control de la salud de sus animales, así como en productores agropecuarios que buscan digitalizar sus procesos.</td>
+    <td colspan="1" valign="top">Tunix se enfoca en veterinarias y granjas que necesitan una solución efectiva para el monitoreo y control de la salud de sus animales, así como en productores agropecuarios que buscan digitalizar sus procesos.</td>
     <td colspan="1" valign="top">FarmLogs se dirige a grandes operaciones agrícolas y agricultores que buscan optimizar la gestión de sus cultivos y recursos agrícolas</td>
     <td colspan="1" valign="top">Herdwatch se enfoca en agricultores y veterinarios que requieren un sistema eficaz para el seguimiento de la salud y la productividad del ganado</td>
     <td colspan="1" valign="top">AgriWebb se dirige a agricultores que buscan optimizar la trazabilidad, productividad y bienestar del ganado a través de una plataforma digital.</td>
