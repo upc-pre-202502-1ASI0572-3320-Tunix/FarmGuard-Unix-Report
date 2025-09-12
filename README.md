@@ -851,6 +851,7 @@ En la sección de historias de usuarios, detallaremos las diversas necesidades y
 
 Proporcionar a los usuarios herramientas efectivas para el monitoreo, registro y análisis de la salud de los animales en granjas y clínicas veterinarias es el objetivo principal. Esto permitirá a los dueños de granjas y veterinarios tomar decisiones informadas y reducir los riesgos asociados con la salud animal. Al detallar estas historias de usuario, podremos comprender mejor cómo la plataforma satisfará las necesidades de ambos grupos y ofrecer una solución completa y eficiente para la administración de la salud de los animales.
 
+<!-- ===================== TABLA DE ÉPICAS ===================== -->
 <table>
   <thead>
     <tr>
@@ -862,249 +863,606 @@ Proporcionar a los usuarios herramientas efectivas para el monitoreo, registro y
   <tbody>
     <tr>
       <td>EP-01</td>
-      <td>Gestión de la Granja</td>
-      <td>Digitalización y monitoreo de los animales, incluyendo registros, indicadores, sensores y control sanitario.</td>
+      <td>Gestión y Monitoreo de Animales (IoT)</td>
+      <td>Digitalización integral de la granja: animales, indicadores, historial, vacunas, sensores, insumos, geocercas y mapa.</td>
     </tr>
     <tr>
       <td>EP-02</td>
-      <td>Optimización de Recursos</td>
-      <td>Gestión eficiente de insumos, visualización en mapas y delimitación de áreas para mejorar el uso de recursos.</td>
+      <td>Notificaciones y Alertas</td>
+      <td>Mensajería proactiva ante cambios y eventos críticos de salud.</td>
     </tr>
     <tr>
       <td>EP-03</td>
-      <td>Notificaciones y Alertas</td>
-      <td>Recepción de notificaciones y alertas inmediatas ante cambios en la información o emergencias de salud animal.</td>
+      <td>Identidad y Acceso</td>
+      <td>Registro, autenticación y control de acceso por roles.</td>
     </tr>
     <tr>
       <td>EP-04</td>
-      <td>Identidad y Acceso</td>
-      <td>Registro, autenticación e inicio de sesión seguro de usuarios con validación institucional.</td>
+      <td>Gestión de Perfiles de Usuario</td>
+      <td>Creación y mantenimiento de la información del usuario.</td>
     </tr>
     <tr>
       <td>EP-05</td>
-      <td>Gestión de Perfiles de Usuario</td>
-      <td>Creación, visualización y actualización de perfiles de usuarios para garantizar confianza y transparencia.</td>
+      <td>Landing Page</td>
+      <td>Sitio público con propuesta de valor, planes, equipo y contacto.</td>
     </tr>
     <tr>
       <td>EP-06</td>
-      <td>Landing Page</td>
-      <td>Diseño de la página de aterrizaje para mostrar beneficios, funcionalidades, testimonios y permitir contacto.</td>
+      <td>Gestión de Suscripciones y Pagos</td>
+      <td>Alta, activación y cancelación de suscripciones (web y móvil).</td>
     </tr>
   </tbody>
 </table>
 
+<br>
+
+<!-- ===================== TABLA DE USER STORIES (GHERKIN) ===================== -->
 <table>
   <thead>
     <tr>
-      <th>Epic / Story ID</th>
+      <th>#</th>
+      <th>User Story ID</th>
       <th>Título</th>
       <th>Descripción (User Story)</th>
-      <th>Criterios de aceptación</th>
-      <th>Relacionado con (Epic ID)</th>
+      <th>Criterios de aceptación (Gherkin)</th>
+      <th>Epic</th>
     </tr>
   </thead>
   <tbody>
-    <!-- EP-01: Gestión de la Granja -->
+    <!-- EP-01 -->
     <tr>
-      <td>EP-01-US01</td>
+      <td>1</td>
+      <td>US01</td>
       <td>Gestión digital de los animales</td>
-      <td>Como productor agropecuario quiero registrar y actualizar digitalmente mis animales para acceder a su información en cualquier dispositivo.</td>
+      <td>Como productor quiero registrar y actualizar animales para consultar su información desde cualquier dispositivo.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado que el usuario está autenticado, Cuando agrega un nuevo animal con todos los datos requeridos, Entonces el sistema guarda el registro y lo muestra en la lista.<br>
-        <strong>Escenario 2:</strong> Dado un animal registrado, Cuando edita sus datos, Entonces el sistema actualiza la información y confirma el cambio.
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un usuario autenticado y el formulario con campos obligatorios completos<br>
+            When guarda el nuevo animal<br>
+            Then el sistema crea el registro y lo muestra en la lista
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given un animal existente<br>
+            When el usuario edita datos válidos y guarda<br>
+            Then el sistema actualiza el registro y confirma el cambio
+          </li>
+        </ul>
       </td>
-      <td>EP-01 – Gestión de la Granja</td>
+      <td>EP-01</td>
     </tr>
     <tr>
-      <td>EP-01-US02</td>
+      <td>2</td>
+      <td>US02</td>
       <td>Monitoreo de indicadores clave</td>
-      <td>Como productor agropecuario quiero ver en tiempo real indicadores como temperatura y peso para tomar decisiones informadas sobre mi ganado.</td>
+      <td>Como productor quiero ver temperatura, peso y otros indicadores en tiempo real para decidir mejor.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado sensores conectados, Cuando el usuario abre el panel de monitoreo, Entonces se muestran los indicadores en tiempo real.<br>
-        <strong>Escenario 2:</strong> Dado que un sensor falla, Cuando no envía datos, Entonces se muestra un mensaje “Sensor sin datos”.
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given sensores conectados y operativos<br>
+            When el usuario abre el panel de monitoreo<br>
+            Then se muestran indicadores actualizados en tiempo real
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given un sensor sin envío de datos<br>
+            When el panel intenta cargar su lectura<br>
+            Then se muestra el mensaje "Sensor sin datos"
+          </li>
+        </ul>
       </td>
-      <td>EP-01 – Gestión de la Granja</td>
+      <td>EP-01</td>
     </tr>
     <tr>
-      <td>EP-01-US03</td>
+      <td>3</td>
+      <td>US03</td>
       <td>Integración con equipos y sensores</td>
-      <td>Como productor agropecuario quiero conectar sensores y dispositivos a la plataforma para automatizar el monitoreo del ganado.</td>
+      <td>Como productor quiero vincular sensores/dispositivos para automatizar el monitoreo.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado sensores configurados, Cuando se conectan a la plataforma, Entonces los datos se actualizan automáticamente.<br>
-        <strong>Escenario 2:</strong> Dado reglas predefinidas, Cuando ocurre un evento (p. ej., vacunación), Entonces la acción se registra automáticamente.
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un dispositivo válido y credenciales de vinculación<br>
+            When se completa el proceso de enlace<br>
+            Then el sistema comienza a recibir lecturas del dispositivo
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given reglas automáticas configuradas<br>
+            When llega un evento de dispositivo (p.ej., vacunación registrada)<br>
+            Then el sistema crea el registro correspondiente sin intervención manual
+          </li>
+        </ul>
       </td>
-      <td>EP-01 – Gestión de la Granja</td>
+      <td>EP-01</td>
     </tr>
     <tr>
-      <td>EP-01-US04</td>
-      <td>Gestión digital de vacunas del ganado</td>
-      <td>Como productor agropecuario quiero registrar y consultar las vacunas aplicadas a mis animales para llevar control sanitario de la granja.</td>
+      <td>4</td>
+      <td>US04</td>
+      <td>Gestión de vacunas del ganado</td>
+      <td>Como productor quiero registrar y consultar vacunas para controlar el calendario sanitario.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado un animal registrado, Cuando el usuario agrega una vacuna con fecha y tipo, Entonces se guarda en el historial.<br>
-        <strong>Escenario 2:</strong> Dado que la fecha de revacunación se acerca, Cuando faltan 7 días, Entonces se envía una notificación automática.
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un animal válido y los datos de vacuna (tipo, fecha)<br>
+            When el usuario registra la vacuna<br>
+            Then la vacuna queda guardada en el historial del animal
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given una vacuna con fecha de revacunación configurada a 7 días<br>
+            When se cumple el umbral de aviso<br>
+            Then el sistema envía un recordatorio al usuario
+          </li>
+        </ul>
       </td>
-      <td>EP-01 – Gestión de la Granja</td>
-    </tr>
-    <!-- EP-02: Optimización de Recursos -->
-    <tr>
-      <td>EP-02-US01</td>
-      <td>Gestión de insumos para los animales</td>
-      <td>Como productor agropecuario quiero registrar insumos como alimento y medicinas para optimizar el uso y evitar desabastecimiento.</td>
-      <td>
-        <strong>Escenario 1:</strong> Dado que el usuario registra un nuevo insumo, Cuando guarda los datos, Entonces se actualiza el inventario.<br>
-        <strong>Escenario 2:</strong> Dado que un insumo alcanza nivel crítico, Cuando se detecta, Entonces se muestra alerta “Stock bajo”.
-      </td>
-      <td>EP-02 – Optimización de Recursos</td>
-    </tr>
-    <tr>
-      <td>EP-02-US02</td>
-      <td>Visualización de animales en un mapa</td>
-      <td>Como productor agropecuario quiero ver la ubicación de mis animales en un mapa móvil para supervisar su distribución.</td>
-      <td>
-        <strong>Escenario 1:</strong> Dado animales con dispositivos de geolocalización, Cuando el usuario abre el mapa, Entonces se muestran sus ubicaciones en tiempo real.<br>
-        <strong>Escenario 2:</strong> Dado que un animal no envía señal, Cuando no aparece en el mapa, Entonces se muestra “Animal sin localización”.
-      </td>
-      <td>EP-02 – Optimización de Recursos</td>
+      <td>EP-01</td>
     </tr>
     <tr>
-      <td>EP-02-US03</td>
-      <td>Delimitar área de los animales (móvil)</td>
-      <td>Como productor agropecuario quiero definir áreas de movimiento para mis animales y recibir alertas si salen de la zona.</td>
+      <td>5</td>
+      <td>US05</td>
+      <td>Visualización del estado del animal</td>
+      <td>Como productor quiero ver un resumen del estado actual de cada animal.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado que el usuario define un polígono en el mapa, Cuando guarda el área, Entonces se activa la supervisión.<br>
-        <strong>Escenario 2:</strong> Dado un animal registrado en el área, Cuando cruza el límite, Entonces el sistema envía alerta inmediata al móvil.
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un animal con lecturas recientes<br>
+            When el usuario abre la ficha del animal<br>
+            Then se muestra estado, última lectura y alertas activas
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given datos con antigüedad mayor a X horas<br>
+            When se consulta la ficha<br>
+            Then se indica "Datos desactualizados"
+          </li>
+        </ul>
       </td>
-      <td>EP-02 – Optimización de Recursos</td>
-    </tr>
-    <!-- EP-03: Notificaciones y Alertas -->
-    <tr>
-      <td>EP-03-US01</td>
-      <td>Notificaciones por cambios en información</td>
-      <td>Como productor agropecuario quiero recibir notificaciones cuando se actualicen datos relevantes de mis animales para mantenerme informado.</td>
-      <td>
-        <strong>Escenario 1:</strong> Dado que un animal cambia de estado, Cuando se actualiza su información, Entonces se envía una notificación al usuario.<br>
-        <strong>Escenario 2:</strong> Dado que el usuario desactiva notificaciones, Cuando ocurre un cambio, Entonces no se envía alerta.
-      </td>
-      <td>EP-03 – Notificaciones y Alertas</td>
-    </tr>
-    <tr>
-      <td>EP-03-US02</td>
-      <td>Alertas de emergencia por salud animal</td>
-      <td>Como productor agropecuario quiero recibir alertas inmediatas cuando un animal presente anomalías para tomar acciones rápidas.</td>
-      <td>
-        <strong>Escenario 1:</strong> Dado sensores conectados, Cuando se detecta una anomalía (p. ej., fiebre), Entonces el sistema envía alerta al dispositivo.<br>
-        <strong>Escenario 2:</strong> Dado que se recibe alerta, Cuando el usuario la abre, Entonces se muestran pasos recomendados para atender al animal.
-      </td>
-      <td>EP-03 – Notificaciones y Alertas</td>
-    </tr>
-    <!-- EP-04: Identidad y Acceso -->
-    <tr>
-      <td>EP-04-US01</td>
-      <td>Inicio de sesión</td>
-      <td>Como usuario quiero iniciar sesión con mis credenciales para acceder de forma segura a la plataforma.</td>
-      <td>
-        <strong>Escenario 1:</strong> Dado usuario en la vista de login, Cuando ingresa credenciales válidas, Entonces accede al dashboard.<br>
-        <strong>Escenario 2:</strong> Dado credenciales inválidas, Cuando intenta ingresar, Entonces se muestra “Credenciales incorrectas”.
-      </td>
-      <td>EP-04 – Identidad y Acceso</td>
+      <td>EP-01</td>
     </tr>
     <tr>
-      <td>EP-04-US02</td>
+      <td>6</td>
+      <td>US06</td>
+      <td>Historial médico del animal</td>
+      <td>Como productor quiero consultar el historial médico para analizar tratamientos y eventos.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un animal con registros médicos<br>
+            When el usuario abre el historial<br>
+            Then se listan eventos con fecha, tipo y responsable
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given un filtro por rango de fechas<br>
+            When el usuario aplica el filtro<br>
+            Then se muestran solo los registros del rango seleccionado
+          </li>
+        </ul>
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>US07</td>
+      <td>Gestión de insumos</td>
+      <td>Como productor quiero registrar alimentos y medicinas para controlar inventario y consumo.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un nuevo insumo con datos completos<br>
+            When se guarda el registro<br>
+            Then el stock aumenta y se registra el movimiento
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given un umbral de stock crítico<br>
+            When el stock iguala o cae por debajo del umbral<br>
+            Then el sistema muestra la alerta "Stock bajo"
+          </li>
+        </ul>
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>US08</td>
+      <td>Delimitar área (geocerca)</td>
+      <td>Como productor quiero definir áreas de movimiento y recibir alertas si salen de la zona.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un polígono de geocerca definido y guardado<br>
+            When se activa la supervisión<br>
+            Then el sistema monitorea entradas y salidas del área
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given un animal dentro del área<br>
+            When el animal cruza el límite<br>
+            Then el sistema envía una alerta inmediata al usuario
+          </li>
+        </ul>
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>US09</td>
+      <td>Mapa de animales</td>
+      <td>Como productor quiero visualizar en un mapa la ubicación actual de mis animales.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given dispositivos con GPS activos<br>
+            When el usuario abre el mapa<br>
+            Then se muestran marcadores en tiempo real por animal
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given un animal sin señal de ubicación<br>
+            When el mapa intenta posicionarlo<br>
+            Then se muestra el estado "Sin localización"
+          </li>
+        </ul>
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <!-- EP-02 -->
+    <tr>
+      <td>10</td>
+      <td>US10</td>
+      <td>Notificaciones por cambios</td>
+      <td>Como productor quiero recibir notificaciones cuando cambien datos relevantes de un animal.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un usuario suscrito a un animal<br>
+            When se actualiza su estado o información clave<br>
+            Then el sistema envía una notificación al usuario
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given notificaciones desactivadas por el usuario<br>
+            When ocurre un cambio<br>
+            Then el sistema no envía ninguna notificación
+          </li>
+        </ul>
+      </td>
+      <td>EP-02</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>US11</td>
+      <td>Alertas de emergencia</td>
+      <td>Como productor quiero alertas inmediatas ante anomalías de salud para actuar rápido.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given umbrales de salud configurados<br>
+            When una lectura excede el umbral crítico<br>
+            Then el sistema envía una alerta crítica (push/email)
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given una alerta recibida<br>
+            When el usuario la abre<br>
+            Then se muestran pasos recomendados y contactos de soporte
+          </li>
+        </ul>
+      </td>
+      <td>EP-02</td>
+    </tr>
+    <!-- EP-03 -->
+    <tr>
+      <td>12</td>
+      <td>US12</td>
       <td>Creación de cuenta</td>
-      <td>Como usuario quiero registrarme con mi correo institucional para garantizar que solo miembros autorizados accedan.</td>
+      <td>Como usuario quiero registrarme para acceder a la plataforma.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado que el correo termina en “.edu”, Cuando se valida, Entonces se envía invitación de confirmación.<br>
-        <strong>Escenario 2:</strong> Dado correo inválido, Cuando intenta registrarse, Entonces se muestra “Debe usar correo institucional”.
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un correo permitido y datos válidos<br>
+            When el usuario completa el registro<br>
+            Then el sistema crea la cuenta y envía verificación
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given un correo no permitido<br>
+            When intenta registrarlo<br>
+            Then el sistema muestra "Correo no válido"
+          </li>
+        </ul>
       </td>
-      <td>EP-04 – Identidad y Acceso</td>
+      <td>EP-03</td>
     </tr>
-    <!-- EP-05: Gestión de Perfiles -->
     <tr>
-      <td>EP-05-US01</td>
+      <td>13</td>
+      <td>US13</td>
+      <td>Autenticación/IAM por roles</td>
+      <td>Como usuario quiero iniciar sesión y tener permisos según mi rol.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given credenciales válidas<br>
+            When el usuario inicia sesión<br>
+            Then accede al sistema con el rol correcto asignado
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given un rol sin permiso para una acción<br>
+            When intenta ejecutarla<br>
+            Then el sistema responde "Acceso denegado"
+          </li>
+        </ul>
+      </td>
+      <td>EP-03</td>
+    </tr>
+    <!-- EP-04 -->
+    <tr>
+      <td>14</td>
+      <td>US14</td>
       <td>Completar perfil de usuario</td>
-      <td>Como usuario quiero completar mi perfil con datos personales y académicos para generar confianza en la plataforma.</td>
+      <td>Como usuario quiero completar mi perfil con datos personales/profesionales.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado correo validado, Cuando completa todos los campos obligatorios, Entonces el perfil se guarda.<br>
-        <strong>Escenario 2:</strong> Dado campos faltantes, Cuando intenta guardar, Entonces se muestra “Faltan datos”.
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given todos los campos obligatorios completos<br>
+            When el usuario guarda el perfil<br>
+            Then el sistema actualiza y confirma la operación
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given campos obligatorios faltantes<br>
+            When intenta guardar<br>
+            Then el sistema muestra "Faltan datos"
+          </li>
+        </ul>
       </td>
-      <td>EP-05 – Gestión de Perfiles</td>
+      <td>EP-04</td>
     </tr>
     <tr>
-      <td>EP-05-US02</td>
+      <td>15</td>
+      <td>US15</td>
       <td>Visualizar y editar mi perfil</td>
-      <td>Como usuario quiero visualizar y actualizar mi perfil para mantener mi información precisa y actualizada.</td>
+      <td>Como usuario quiero ver y editar mi perfil para mantener mis datos actualizados.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado usuario autenticado, Cuando abre perfil, Entonces se muestran sus datos actuales.<br>
-        <strong>Escenario 2:</strong> Dado cambios válidos, Cuando los guarda, Entonces el perfil se actualiza y confirma.
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un usuario autenticado<br>
+            When abre la pantalla de perfil<br>
+            Then ve sus datos vigentes
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given cambios válidos en el perfil<br>
+            When guarda los cambios<br>
+            Then el sistema confirma la actualización
+          </li>
+        </ul>
       </td>
-      <td>EP-05 – Gestión de Perfiles</td>
+      <td>EP-04</td>
     </tr>
-    <!-- EP-06: Landing Page -->
+    <!-- EP-05 -->
     <tr>
-      <td>EP-06-US37</td>
-      <td>Explorar sección “Beneficios”</td>
-      <td>Como visitante quiero explorar la sección de beneficios en la landing page para conocer las ventajas de usar la app.</td>
+      <td>16</td>
+      <td>US16</td>
+      <td>Página de inicio (Landing)</td>
+      <td>Como visitante quiero ver la propuesta de valor de la app.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado visitante en desktop, Cuando hace clic en “Beneficios”, Entonces la página desplaza a la sección y muestra íconos y descripciones.<br>
-        <strong>Escenario 2:</strong> Dado visitante en móvil, Cuando abre el menú hamburguesa y selecciona “Beneficios”, Entonces se carga la sección correctamente.
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un visitante en la landing<br>
+            When la página carga<br>
+            Then se muestran héroe, CTA y beneficios clave
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given un recurso de portada que falla<br>
+            When ocurre el error<br>
+            Then se muestran contenidos alternativos sin romper la página
+          </li>
+        </ul>
       </td>
-      <td>EP-06 – Landing Page</td>
-    </tr>
-    <tr>
-      <td>EP-06-US39</td>
-      <td>Ver sección “Sobre la App” y “Videos”</td>
-      <td>Como visitante quiero ver la sección “Sobre la App” y reproducir videos para entender mejor el producto antes de usarlo.</td>
-      <td>
-        <strong>Escenario 1:</strong> Dado visitante desplaza la página, Cuando llega a “Sobre la App”, Entonces se muestra el texto descriptivo.<br>
-        <strong>Escenario 2:</strong> Dado visitante en la sección “Videos”, Cuando hace clic en una miniatura, Entonces el video se reproduce en modal.
-      </td>
-      <td>EP-06 – Landing Page</td>
-    </tr>
-    <tr>
-      <td>EP-06-US40</td>
-      <td>Botones de descarga</td>
-      <td>Como visitante quiero disponer de botones visibles de descarga (App Store y Play Store) para instalar la app fácilmente.</td>
-      <td>
-        <strong>Escenario 1:</strong> Dado visitante en la landing page, Cuando carga la sección final, Entonces se muestran botones claros de descarga.<br>
-        <strong>Escenario 2:</strong> Dado visitante hace clic en el botón correspondiente, Cuando se procesa, Entonces redirige a la tienda correcta.
-      </td>
-      <td>EP-06 – Landing Page</td>
-    </tr>
-    <tr>
-      <td>EP-06-US42</td>
-      <td>Ver sección FAQ</td>
-      <td>Como visitante quiero consultar la sección de preguntas frecuentes para resolver mis dudas comunes sin buscar soporte.</td>
-      <td>
-        <strong>Escenario 1:</strong> Dado visitante en desktop, Cuando expande una pregunta, Entonces se despliega la respuesta.<br>
-        <strong>Escenario 2:</strong> Dado visitante en móvil, Cuando selecciona una pregunta, Entonces se despliega con animación suave.
-      </td>
-      <td>EP-06 – Landing Page</td>
+      <td>EP-05</td>
     </tr>
     <tr>
-      <td>EP-06-US43</td>
+      <td>17</td>
+      <td>US17</td>
+      <td>Sección “Beneficios”</td>
+      <td>Como visitante quiero explorar beneficios antes de registrarme.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un visitante en desktop<br>
+            When hace clic en "Beneficios"<br>
+            Then la página hace scroll y se muestran tarjetas con descripciones
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given un visitante en móvil<br>
+            When abre el menú y selecciona "Beneficios"<br>
+            Then navega a la sección sin errores
+          </li>
+        </ul>
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>US18</td>
+      <td>Planes disponibles</td>
+      <td>Como visitante quiero ver planes y precios para evaluar la suscripción.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given la sección de planes<br>
+            When se carga<br>
+            Then se muestran nombre, precio y descripción por plan
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given el botón "Suscribirme"<br>
+            When el visitante hace clic<br>
+            Then el sistema redirige al flujo de alta correspondiente
+          </li>
+        </ul>
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>US19</td>
+      <td>Sección “Equipo”</td>
+      <td>Como visitante quiero conocer al equipo para generar confianza.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un visitante en desktop<br>
+            When llega a la sección "Equipo"<br>
+            Then se muestran fotos, nombres y roles
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given un visitante en móvil<br>
+            When hace scroll<br>
+            Then las tarjetas se ajustan al ancho del dispositivo
+          </li>
+        </ul>
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>US20</td>
+      <td>Sobre la App y Videos</td>
+      <td>Como visitante quiero ver explicación y videos para entender el producto.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given la sección "Sobre la App"<br>
+            When el visitante llega a la sección<br>
+            Then se muestra el texto descriptivo
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given una miniatura de video<br>
+            When el visitante hace clic<br>
+            Then el video se reproduce en un modal embebido
+          </li>
+        </ul>
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>US21</td>
+      <td>Sección FAQ</td>
+      <td>Como visitante quiero resolver dudas frecuentes sin contactar soporte.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un acordeón de preguntas<br>
+            When el visitante expande una pregunta<br>
+            Then se muestra su respuesta sin colapsar las demás
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given un dispositivo móvil<br>
+            When el visitante toca una pregunta<br>
+            Then la respuesta se despliega con animación suave
+          </li>
+        </ul>
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>US22</td>
       <td>Formulario de contacto</td>
-      <td>Como visitante quiero usar el formulario de contacto para enviar preguntas y recibir respuesta del equipo.</td>
+      <td>Como visitante quiero enviar un mensaje desde la landing y recibir confirmación.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado que el visitante completa los campos requeridos, Cuando pulsa “Enviar”, Entonces se muestra confirmación.<br>
-        <strong>Escenario 2:</strong> Dado campos vacíos, Cuando pulsa “Enviar”, Entonces se resaltan y muestra “Por favor completa los campos”.
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given nombre, correo y mensaje completos<br>
+            When el visitante envía el formulario<br>
+            Then se muestra "Gracias, responderemos pronto"
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given campos obligatorios vacíos<br>
+            When intenta enviar<br>
+            Then se resaltan los campos y se muestra el error correspondiente
+          </li>
+        </ul>
       </td>
-      <td>EP-06 – Landing Page</td>
+      <td>EP-05</td>
+    </tr>
+    <!-- EP-06 -->
+    <tr>
+      <td>23</td>
+      <td>US23</td>
+      <td>Alta de suscripción en web</td>
+      <td>Como usuario quiero registrar y activar mi suscripción desde la web.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un plan seleccionado y pago aprobado<br>
+            When el usuario confirma el alta<br>
+            Then el sistema crea la suscripción con estado "activa"
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given un pago rechazado<br>
+            When el usuario intenta activar<br>
+            Then el sistema muestra el error y mantiene el estado "pendiente"
+          </li>
+        </ul>
+      </td>
+      <td>EP-06</td>
     </tr>
     <tr>
-      <td>EP-06-US44</td>
-      <td>Ver sección “Equipo”</td>
-      <td>Como visitante quiero conocer al equipo detrás de la app para confiar en la profesionalidad del proyecto.</td>
+      <td>24</td>
+      <td>US24</td>
+      <td>Alta de suscripción en móvil</td>
+      <td>Como usuario quiero registrar y activar mi suscripción desde la app móvil.</td>
       <td>
-        <strong>Escenario 1:</strong> Dado visitante en desktop, Cuando llega a la sección “Equipo”, Entonces se muestran fotos, nombres y roles.<br>
-        <strong>Escenario 2:</strong> Dado visitante en móvil, Cuando hace scroll, Entonces las tarjetas se ajustan correctamente a la pantalla.
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given un plan disponible en la app y pago aprobado<br>
+            When el usuario confirma el alta<br>
+            Then la suscripción se crea y se envía confirmación push
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given una desconexión temporal<br>
+            When se procesa el alta<br>
+            Then el sistema reintenta o permite reintento manual manteniendo consistencia
+          </li>
+        </ul>
       </td>
-      <td>EP-06 – Landing Page</td>
+      <td>EP-06</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>US25</td>
+      <td>Cancelación de suscripción en web</td>
+      <td>Como usuario quiero cancelar mi suscripción desde la web y conocer la fecha fin.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given una suscripción activa<br>
+            When el usuario confirma la cancelación<br>
+            Then el estado cambia a "cancelada" y se muestra la fecha de término
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given una suscripción ya cancelada<br>
+            When el usuario intenta cancelar de nuevo<br>
+            Then el sistema informa que no hay suscripción activa
+          </li>
+        </ul>
+      </td>
+      <td>EP-06</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>US26</td>
+      <td>Cancelación de suscripción en móvil</td>
+      <td>Como usuario quiero cancelar mi suscripción desde la app móvil con confirmación clara.</td>
+      <td>
+        <ul>
+          <li><strong>Scenario 1</strong><br>
+            Given una suscripción activa en la app<br>
+            When el usuario confirma la cancelación<br>
+            Then el estado pasa a "cancelada" y se envía confirmación
+          </li>
+          <li><strong>Scenario 2</strong><br>
+            Given un error de red durante la cancelación<br>
+            When ocurre el error<br>
+            Then el sistema permite reintentar y no duplica operaciones
+          </li>
+        </ul>
+      </td>
+      <td>EP-06</td>
     </tr>
   </tbody>
 </table>
-
-
-
 
 
 ## 3.2 Impact Mapping  
@@ -1119,178 +1477,239 @@ Nuestro proyecto ayudará a lograr objetivos más grandes y cómo tendrá un imp
 
 ## 3.3 Product Backlog  
 
-<table>
+
+
+<table border="1" cellspacing="0" cellpadding="6">
   <thead>
-    <tr class="header">
+    <tr>
       <th>#Orden</th>
       <th>User Story ID</th>
       <th>Título</th>
-      <th>Descripción</th>
+      <th>Epic</th>
       <th>Prioridad</th>
-      <th>Story Points (1-2-3-5-8)</th>
+      <th>Story Points</th>
     </tr>
   </thead>
   <tbody>
-    <!-- EP-04 Identidad y Acceso -->
+    <!-- EP-01 -->
     <tr>
       <td>1</td>
-      <td>EP-04-US01</td>
-      <td>Inicio de sesión</td>
-      <td>Como usuario quiero iniciar sesión con credenciales válidas para acceder de forma segura.</td>
+      <td>US01</td>
+      <td>Gestión digital de los animales</td>
+      <td>EP-01</td>
       <td>Alta</td>
-      <td>2</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>2</td>
-      <td>EP-04-US02</td>
-      <td>Creación de cuenta</td>
-      <td>Como usuario quiero registrarme con correo institucional para asegurar acceso autorizado.</td>
+      <td>US02</td>
+      <td>Monitoreo de indicadores clave</td>
+      <td>EP-01</td>
       <td>Alta</td>
-      <td>3</td>
+      <td>5</td>
     </tr>
-    <!-- EP-05 Gestión de Perfiles -->
     <tr>
       <td>3</td>
-      <td>EP-05-US01</td>
-      <td>Completar perfil</td>
-      <td>Como usuario quiero completar mi perfil con datos personales y académicos para generar confianza.</td>
+      <td>US03</td>
+      <td>Integración con equipos y sensores</td>
+      <td>EP-01</td>
       <td>Alta</td>
-      <td>3</td>
+      <td>8</td>
     </tr>
     <tr>
       <td>4</td>
-      <td>EP-05-US02</td>
-      <td>Visualizar y editar perfil</td>
-      <td>Como usuario quiero ver y editar mi perfil para mantener mis datos actualizados.</td>
-      <td>Media</td>
-      <td>2</td>
+      <td>US04</td>
+      <td>Gestión de vacunas del ganado</td>
+      <td>EP-01</td>
+      <td>Alta</td>
+      <td>3</td>
     </tr>
-    <!-- EP-01 Gestión de la Granja -->
     <tr>
       <td>5</td>
-      <td>EP-01-US01</td>
-      <td>Gestión digital de animales</td>
-      <td>Como productor quiero registrar y actualizar animales para tener acceso remoto a la información.</td>
-      <td>Alta</td>
-      <td>5</td>
+      <td>US05</td>
+      <td>Visualización del estado del animal</td>
+      <td>EP-01</td>
+      <td>Media</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>6</td>
-      <td>EP-01-US02</td>
-      <td>Monitoreo de indicadores</td>
-      <td>Como productor quiero ver en tiempo real temperatura y peso de mis animales para tomar decisiones.</td>
-      <td>Alta</td>
+      <td>US06</td>
+      <td>Historial médico del animal</td>
+      <td>EP-01</td>
+      <td>Media</td>
       <td>5</td>
     </tr>
     <tr>
       <td>7</td>
-      <td>EP-01-US03</td>
-      <td>Integración con sensores</td>
-      <td>Como productor quiero conectar dispositivos y sensores para automatizar el monitoreo.</td>
-      <td>Media</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>EP-01-US04</td>
-      <td>Gestión de vacunas</td>
-      <td>Como productor quiero registrar vacunas aplicadas a los animales para controlar su salud.</td>
-      <td>Media</td>
-      <td>3</td>
-    </tr>
-    <!-- EP-02 Optimización de Recursos -->
-    <tr>
-      <td>9</td>
-      <td>EP-02-US01</td>
+      <td>US07</td>
       <td>Gestión de insumos</td>
-      <td>Como productor quiero registrar insumos (alimentos, medicinas) para optimizar inventario.</td>
+      <td>EP-01</td>
       <td>Alta</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>10</td>
-      <td>EP-02-US02</td>
-      <td>Mapa de animales</td>
-      <td>Como productor quiero visualizar animales en un mapa móvil para supervisar ubicación.</td>
+      <td>8</td>
+      <td>US08</td>
+      <td>Delimitar área (geocerca)</td>
+      <td>EP-01</td>
       <td>Media</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>US09</td>
+      <td>Mapa de animales</td>
+      <td>EP-01</td>
+      <td>Media</td>
+      <td>5</td>
+    </tr>
+    <!-- EP-02 -->
+    <tr>
+      <td>10</td>
+      <td>US10</td>
+      <td>Notificaciones por cambios</td>
+      <td>EP-02</td>
+      <td>Alta</td>
       <td>3</td>
     </tr>
     <tr>
       <td>11</td>
-      <td>EP-02-US03</td>
-      <td>Delimitación de área</td>
-      <td>Como productor quiero delimitar áreas de animales y recibir alertas si salen de la zona.</td>
-      <td>Media</td>
+      <td>US11</td>
+      <td>Alertas de emergencia</td>
+      <td>EP-02</td>
+      <td>Alta</td>
       <td>5</td>
     </tr>
-    <!-- EP-03 Notificaciones y Alertas -->
+    <!-- EP-03 -->
     <tr>
       <td>12</td>
-      <td>EP-03-US01</td>
-      <td>Notificaciones por cambios</td>
-      <td>Como productor quiero recibir notificaciones automáticas cuando cambie la información de un animal.</td>
+      <td>US12</td>
+      <td>Creación de cuenta</td>
+      <td>EP-03</td>
       <td>Alta</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>EP-03-US02</td>
-      <td>Alertas de emergencia</td>
-      <td>Como productor quiero recibir alertas inmediatas cuando un animal presente anomalías de salud.</td>
-      <td>Alta</td>
-      <td>5</td>
-    </tr>
-    <!-- EP-06 Landing Page -->
-    <tr>
-      <td>14</td>
-      <td>EP-06-US37</td>
-      <td>Explorar sección Beneficios</td>
-      <td>Como visitante quiero explorar la sección de beneficios para conocer las ventajas de la app.</td>
-      <td>Baja</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>EP-06-US39</td>
-      <td>Ver sección Sobre la App y Videos</td>
-      <td>Como visitante quiero ver información sobre la app y reproducir videos explicativos.</td>
-      <td>Baja</td>
       <td>3</td>
     </tr>
     <tr>
+      <td>13</td>
+      <td>US13</td>
+      <td>Autenticación/IAM por roles</td>
+      <td>EP-03</td>
+      <td>Alta</td>
+      <td>5</td>
+    </tr>
+    <!-- EP-04 -->
+    <tr>
+      <td>14</td>
+      <td>US14</td>
+      <td>Completar perfil de usuario</td>
+      <td>EP-04</td>
+      <td>Media</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>US15</td>
+      <td>Visualizar y editar mi perfil</td>
+      <td>EP-04</td>
+      <td>Media</td>
+      <td>2</td>
+    </tr>
+    <!-- EP-05 -->
+    <tr>
       <td>16</td>
-      <td>EP-06-US40</td>
-      <td>Botones de descarga</td>
-      <td>Como visitante quiero tener botones claros de descarga en la landing para instalar la app fácilmente.</td>
+      <td>US16</td>
+      <td>Página de inicio (Landing)</td>
+      <td>EP-05</td>
       <td>Media</td>
       <td>2</td>
     </tr>
     <tr>
       <td>17</td>
-      <td>EP-06-US42</td>
-      <td>FAQ</td>
-      <td>Como visitante quiero consultar una sección de preguntas frecuentes para resolver dudas comunes.</td>
+      <td>US17</td>
+      <td>Sección “Beneficios”</td>
+      <td>EP-05</td>
       <td>Baja</td>
       <td>2</td>
     </tr>
     <tr>
       <td>18</td>
-      <td>EP-06-US43</td>
-      <td>Formulario de contacto</td>
-      <td>Como visitante quiero enviar un mensaje a través de un formulario de contacto.</td>
+      <td>US18</td>
+      <td>Planes disponibles</td>
+      <td>EP-05</td>
       <td>Media</td>
-      <td>2</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>19</td>
-      <td>EP-06-US44</td>
-      <td>Sección Equipo</td>
-      <td>Como visitante quiero conocer al equipo detrás de la app para generar confianza.</td>
+      <td>US19</td>
+      <td>Sección “Equipo”</td>
+      <td>EP-05</td>
       <td>Baja</td>
-      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>US20</td>
+      <td>Sobre la App y Videos</td>
+      <td>EP-05</td>
+      <td>Baja</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>US21</td>
+      <td>Sección FAQ</td>
+      <td>EP-05</td>
+      <td>Baja</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>US22</td>
+      <td>Formulario de contacto</td>
+      <td>EP-05</td>
+      <td>Media</td>
+      <td>2</td>
+    </tr>
+    <!-- EP-06 -->
+    <tr>
+      <td>23</td>
+      <td>US23</td>
+      <td>Alta de suscripción en web</td>
+      <td>EP-06</td>
+      <td>Alta</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>US24</td>
+      <td>Alta de suscripción en móvil</td>
+      <td>EP-06</td>
+      <td>Alta</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>US25</td>
+      <td>Cancelación de suscripción en web</td>
+      <td>EP-06</td>
+      <td>Media</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>US26</td>
+      <td>Cancelación de suscripción en móvil</td>
+      <td>EP-06</td>
+      <td>Media</td>
+      <td>3</td>
     </tr>
   </tbody>
 </table>
+
+
+
 
 # Capítulo IV: Solution Software Design  
 
