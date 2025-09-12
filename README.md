@@ -1120,139 +1120,177 @@ Nuestro proyecto ayudará a lograr objetivos más grandes y cómo tendrá un imp
 ## 3.3 Product Backlog  
 
 <table>
-<colgroup>
-<col style="width: 13%" />
-<col style="width: 12%" />
-<col style="width: 18%" />
-<col style="width: 28%" />
-<col style="width: 14%" />
-<col style="width: 12%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>#Orden</th>
-<th>User Story ID</th>
-<th>Titulo</th>
-<th>Descripcion</th>
-<th>Prioridad</th>
-<th>Story Points</th>
-</tr>
-</thead>
-<tbody>
-
-<tr class="odd">
-<td>1</td>
-<td>E1-US01</td>
-<td>Gestión digital de la granja</td>
-<td><p><strong>Como</strong> productor agropecuario familiarizado con la tecnología,</p>
-<p><strong>quiero</strong> digitalizar la gestión de mis animales</p>
-<p><strong>para</strong> poder acceder a toda la información desde cualquier dispositivo y agilizar mis operaciones.</p></td>
-<td>Alta</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>E1-US02	</td>
-<td>Monitoreo de indicadores clave</td>
-<td><p><strong>Como</strong> productor agropecuario con expriencia tecnológica,</p>
-<p><strong>quiero</strong> monitorear indicadores clave de salud de los animales en tiempo real.</p>
-<p><strong>para</strong> tomar decisiones más informadas y mejorar la productividad de mi granja.</p></td>
-<td>Alta</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>E1-US03	</td>
-<td>Integración con Equipos y Sensores</td>
-<td><p><strong>Como</strong> productor agropecuario interesado en la innovación,</p>
-<p><strong>quiero</strong> integrar la plataforma con sensores y dispositivos en mi granja</p>
-<p><strong>para</strong> automatizar el monitoreo de la salud de los animales y reducir la intervención manual.</p></td>
-<td>Alta</td>
-<td>13</td>
-</tr>
-
-
-<tr class="even">
-<td>4</td>
-<td>E2-US01</td>
-<td>Herramientas de aprendizaje</td>
-<td><p><strong>Como</strong> productor agropecuario con poca capacitación,</p>
-<p><strong>quiero</strong> acceder a recursos educativos dentro de la plataforma</p>
-<p><strong>para</strong> aprender más sobre la gestión efectiva de mi granja y mejorar el bienestar de mis animales.</p></td>
-<td>Media</td>
-<td>5</td>
-</tr>
-
-<tr class="odd">
-<td>5</td>
-<td>E2-US02</td>
-<td>Simplificación de tareas</td>
-<td><p><strong>Como</strong> productor agropecuario sin experiencia tecnológica,</p>
-<p><strong>quiero</strong> que la aplicación tenga una interfaz sencilla y fácil de usar</p>
-<p><strong>para</strong> poder gestionar mi granja sin necesidad de conocimientos avanzados en tecnología.</p></td>
-<td>Media</td>
-<td>5</td>
-</tr>
-
-<tr class="even">
-<td>6</td>
-<td>E2-US03</td>
-<td>Guia Paso a Paso</td>
-<td><p><strong>Como</strong> productor agropecuario que no ha recibido capacitacion,</p>
-<p><strong>quiero</strong> seguir un proceso guiado paso a paso</p>
-<p><strong>para</strong> registrar el estado de mis animales y recibir recomendaciones automáticas sobre sus cuidados, sin necesidad de entender términos complejos.</p></td>
-<td>Media</td>
-<td>5</td>
-</tr>
-
-<tr class="odd">
-<td>7</td>
-<td>E3-US01</td>
-<td>Predicción de necesidades alimenticias</td>
-<td><p><strong>Como</strong> productor agropecuario interesado en en mejorar productividad y la salud del ganado,</p>
-<p><strong>quiero</strong> que la plataforma ofresca predicciones de necesidades alimenticias basandose en las características del animal</p>
-<p><strong>para</strong> poder optimizar el uso de los recursos disponibles y asegurar la salud de los animales.</p></td>
-<td>Media</td>
-<td>5</td>
-</tr>
-
-<tr class="even">
-<td>8</td>
-<td>E3-US02</td>
-<td>Alertas de emergencia por salud animal</td>
-<td><p><strong>Como</strong> productor agropecuario interesado en la salud de mis animales,</p>
-<p><strong>Quiero</strong> recibir alertas caundo alguno de mis animales presente anomalías en su salud</p>
-<p><strong>Para</strong> poder tomar las acciones necesarias en la salud de mis animales</p>
-</td>
-<td>Alta</td>
-<td>13</td>
-</tr>
-
-
-<tr class="odd">
-<td>9</td>
-<td>E4-US01</td>
-<td>Gestión de inventarios de insumos</td>
-<td><p><strong>Como</strong> productor agropecuario que desea tener control preciso de los insumos de la granja,</p>
-<p><strong>Quiero</strong> gestionar el inventario de los insumos (alimentos, medicinas, etc) dentro de la plataforma</p>
-<p><strong>para</strong> poder tener un mejor manejo de los recursos disponibles y evitar desabastecimiento.</p></td>
-<td>Alta</td>
-<td>8</td>
-</tr>
-
-<tr class="even">
-<td>10</td>
-<td>E4-US02</td>
-<td>Planificacion de actividades agricolas</td>
-<td><p><strong>Como</strong> productor agropecuario con actividades programadas,</p>
-<p><strong>Quiero</strong> planificar las actividades diarias de mi granja (limpieza, alimentacion, vacunacion, etc.) dentro de la plataforma</p>
-<p><strong>para</strong> poder garantizar un mejor manejo del tiempo para realizar exitosamente todas las actividades diarias.</p></td>
-<td>Media</td>
-<td>5</td>
-</tr>
+  <thead>
+    <tr class="header">
+      <th>#Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Prioridad</th>
+      <th>Story Points (1-2-3-5-8)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- EP-04 Identidad y Acceso -->
+    <tr>
+      <td>1</td>
+      <td>EP-04-US01</td>
+      <td>Inicio de sesión</td>
+      <td>Como usuario quiero iniciar sesión con credenciales válidas para acceder de forma segura.</td>
+      <td>Alta</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>EP-04-US02</td>
+      <td>Creación de cuenta</td>
+      <td>Como usuario quiero registrarme con correo institucional para asegurar acceso autorizado.</td>
+      <td>Alta</td>
+      <td>3</td>
+    </tr>
+    <!-- EP-05 Gestión de Perfiles -->
+    <tr>
+      <td>3</td>
+      <td>EP-05-US01</td>
+      <td>Completar perfil</td>
+      <td>Como usuario quiero completar mi perfil con datos personales y académicos para generar confianza.</td>
+      <td>Alta</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>EP-05-US02</td>
+      <td>Visualizar y editar perfil</td>
+      <td>Como usuario quiero ver y editar mi perfil para mantener mis datos actualizados.</td>
+      <td>Media</td>
+      <td>2</td>
+    </tr>
+    <!-- EP-01 Gestión de la Granja -->
+    <tr>
+      <td>5</td>
+      <td>EP-01-US01</td>
+      <td>Gestión digital de animales</td>
+      <td>Como productor quiero registrar y actualizar animales para tener acceso remoto a la información.</td>
+      <td>Alta</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>EP-01-US02</td>
+      <td>Monitoreo de indicadores</td>
+      <td>Como productor quiero ver en tiempo real temperatura y peso de mis animales para tomar decisiones.</td>
+      <td>Alta</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>EP-01-US03</td>
+      <td>Integración con sensores</td>
+      <td>Como productor quiero conectar dispositivos y sensores para automatizar el monitoreo.</td>
+      <td>Media</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>EP-01-US04</td>
+      <td>Gestión de vacunas</td>
+      <td>Como productor quiero registrar vacunas aplicadas a los animales para controlar su salud.</td>
+      <td>Media</td>
+      <td>3</td>
+    </tr>
+    <!-- EP-02 Optimización de Recursos -->
+    <tr>
+      <td>9</td>
+      <td>EP-02-US01</td>
+      <td>Gestión de insumos</td>
+      <td>Como productor quiero registrar insumos (alimentos, medicinas) para optimizar inventario.</td>
+      <td>Alta</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>EP-02-US02</td>
+      <td>Mapa de animales</td>
+      <td>Como productor quiero visualizar animales en un mapa móvil para supervisar ubicación.</td>
+      <td>Media</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>EP-02-US03</td>
+      <td>Delimitación de área</td>
+      <td>Como productor quiero delimitar áreas de animales y recibir alertas si salen de la zona.</td>
+      <td>Media</td>
+      <td>5</td>
+    </tr>
+    <!-- EP-03 Notificaciones y Alertas -->
+    <tr>
+      <td>12</td>
+      <td>EP-03-US01</td>
+      <td>Notificaciones por cambios</td>
+      <td>Como productor quiero recibir notificaciones automáticas cuando cambie la información de un animal.</td>
+      <td>Alta</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>EP-03-US02</td>
+      <td>Alertas de emergencia</td>
+      <td>Como productor quiero recibir alertas inmediatas cuando un animal presente anomalías de salud.</td>
+      <td>Alta</td>
+      <td>5</td>
+    </tr>
+    <!-- EP-06 Landing Page -->
+    <tr>
+      <td>14</td>
+      <td>EP-06-US37</td>
+      <td>Explorar sección Beneficios</td>
+      <td>Como visitante quiero explorar la sección de beneficios para conocer las ventajas de la app.</td>
+      <td>Baja</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>EP-06-US39</td>
+      <td>Ver sección Sobre la App y Videos</td>
+      <td>Como visitante quiero ver información sobre la app y reproducir videos explicativos.</td>
+      <td>Baja</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>EP-06-US40</td>
+      <td>Botones de descarga</td>
+      <td>Como visitante quiero tener botones claros de descarga en la landing para instalar la app fácilmente.</td>
+      <td>Media</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>EP-06-US42</td>
+      <td>FAQ</td>
+      <td>Como visitante quiero consultar una sección de preguntas frecuentes para resolver dudas comunes.</td>
+      <td>Baja</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>EP-06-US43</td>
+      <td>Formulario de contacto</td>
+      <td>Como visitante quiero enviar un mensaje a través de un formulario de contacto.</td>
+      <td>Media</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>EP-06-US44</td>
+      <td>Sección Equipo</td>
+      <td>Como visitante quiero conocer al equipo detrás de la app para generar confianza.</td>
+      <td>Baja</td>
+      <td>1</td>
+    </tr>
+  </tbody>
 </table>
-
----
 
 # Capítulo IV: Solution Software Design  
 
