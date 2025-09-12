@@ -575,6 +575,49 @@ realizar las preguntas a los diferentes segmentos objetivos
 
 ### 2.2.1 Diseño de entrevistas  
 
+
+#### 1. Contexto Inicial – Gestión y monitoreo de animales
+
+**1.1** ¿Cómo gestionas actualmente la salud y el bienestar de tus animales?
+→ ¿Usas herramientas específicas o métodos tradicionales? (Registros en papel, Excel, software especializado)
+
+**1.2** ¿Qué tan frecuente realizas un seguimiento del estado de salud de tus animales?
+→ ¿Qué información consideras más importante monitorear?
+
+#### 2. Motivaciones y deseos
+
+**2.1** ¿Qué mejoras te gustaría implementar en la gestión de tus animales?
+→ (Por ejemplo: reducir costos, optimizar tratamientos, mejorar la productividad)
+
+**2.2** ¿Qué tan importante es para ti contar con datos en tiempo real sobre tus animales?
+→ ¿Por qué?
+
+#### 3. Sentimientos y frustraciones
+
+**3.1** ¿Te ha pasado que pierdes información crítica sobre tus animales?
+→ ¿Cómo te afecta esto en tu trabajo diario?
+
+**3.2** ¿Qué dificultades encuentras al gestionar múltiples registros de animales?
+→ ¿Qué impacto tienen estas dificultades en la salud de los animales y en tu productividad?
+
+#### 4. Presentación de la Solución – FarmGuard
+
+**4.1** ¿Qué te parece la idea de tener un sistema que automatice el monitoreo y registro de la salud de tus animales?
+→ ¿Te suena útil o innecesario para ti en este momento?
+
+**4.2** ¿Preferirías que el sistema te ofrezca reportes simples y directos, o con gráficos interactivos y análisis predictivos? ¿Por qué?
+
+**4.3** ¿Te interesa recibir alertas preventivas sobre posibles problemas de salud en tus animales? ¿Por qué?
+
+#### 5. Cierre – Evaluación personal
+
+**5.1** De acuerdo a lo visto y hablado anteriormente:
+→ ¿Qué características de FarmGuard te llamaron más la atención?
+
+**5.2** Imagina que usas FarmGuard todos los días por seis meses:
+→ ¿Qué cambios crees que notarías en la gestión y productividad de tu granja o veterinaria?
+
+
 ### 2.2.2 Registro de entrevistas  
 
 ### 2.2.3 Análisis de entrevistas  
@@ -808,322 +851,261 @@ En la sección de historias de usuarios, detallaremos las diversas necesidades y
 
 Proporcionar a los usuarios herramientas efectivas para el monitoreo, registro y análisis de la salud de los animales en granjas y clínicas veterinarias es el objetivo principal. Esto permitirá a los dueños de granjas y veterinarios tomar decisiones informadas y reducir los riesgos asociados con la salud animal. Al detallar estas historias de usuario, podremos comprender mejor cómo la plataforma satisfará las necesidades de ambos grupos y ofrecer una solución completa y eficiente para la administración de la salud de los animales.
 
+<table>
+  <thead>
+    <tr>
+      <th>Epic ID</th>
+      <th>Nombre del Epic</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EP-01</td>
+      <td>Gestión de la Granja</td>
+      <td>Digitalización y monitoreo de los animales, incluyendo registros, indicadores, sensores y control sanitario.</td>
+    </tr>
+    <tr>
+      <td>EP-02</td>
+      <td>Optimización de Recursos</td>
+      <td>Gestión eficiente de insumos, visualización en mapas y delimitación de áreas para mejorar el uso de recursos.</td>
+    </tr>
+    <tr>
+      <td>EP-03</td>
+      <td>Notificaciones y Alertas</td>
+      <td>Recepción de notificaciones y alertas inmediatas ante cambios en la información o emergencias de salud animal.</td>
+    </tr>
+    <tr>
+      <td>EP-04</td>
+      <td>Identidad y Acceso</td>
+      <td>Registro, autenticación e inicio de sesión seguro de usuarios con validación institucional.</td>
+    </tr>
+    <tr>
+      <td>EP-05</td>
+      <td>Gestión de Perfiles de Usuario</td>
+      <td>Creación, visualización y actualización de perfiles de usuarios para garantizar confianza y transparencia.</td>
+    </tr>
+    <tr>
+      <td>EP-06</td>
+      <td>Landing Page</td>
+      <td>Diseño de la página de aterrizaje para mostrar beneficios, funcionalidades, testimonios y permitir contacto.</td>
+    </tr>
+  </tbody>
+</table>
 
 <table>
-<colgroup>
-<col style="width: 11%" />
-<col style="width: 15%" />
-<col style="width: 21%" />
-<col style="width: 39%" />
-<col style="width: 11%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td>Epic / Story ID</td>
-<td>Título</td>
-<td>Descripción</td>
-<td>Criterios de Aceptación</td>
-<td>Relación Epic ID</td>
-</tr>
-<tr class="even">
-    <td>E1-US01</td>
-    <td>Gestión digital de la granja</td>
-    <td>
-        <p><strong>Como</strong> productor agropecuario familiarizado con la tecnología,</p>
-        <p><strong>Quiero</strong> digitalizar la gestión de mis animales </p>
-        <p><strong>Para</strong> poder acceder a toda la información desde cualquier dispositivo y agilizar mis operaciones. </p>
-    </td>
-    <td>
-        <p>Escenario 1: Acceso a la plataforma desde múltiples dispositivos</p>
-        <p><strong>Dado</strong> que el usuario esta familiarizado con dispositivos tecnologicos,</p>
-        <p><strong>Cuando</strong> accede a la plataforma desde su movil o computadora,</p>
-        <p><strong>Entonces</strong> podrá visualizar, aregar y actualizar la informacion de los animales de su granja de manera remota.</p>
-        <p>Escenario 2: Actualización automática en tiempo real
-        <p><strong>Dado</strong> que el usuario ha actualizado los datos de su granja,</p>
-        <p><strong>Cuando</strong> ingresa nuevas entradas en la plataforma</p>
-        <p><strong>Entonces</strong> los cambios se sincronizarán automaticamente en todos sus dispositivos</p>
-    </td>
-    <td>1</td>
-</tr>
-<tr class="odd">
-<td>E1-US02</td>
-<td>Monitoreo de indicadores clave</td>
-<td>
-<p><strong>Como</strong> productor agropecuario con expriencia tecnológica,</p>
-<p><strong>Quiero</strong> monitorear indicadores clave de salud de los animales en tiempo real </p>
-<p><strong>Para</strong> tomar decisiones más informadas y mejorar la productividad de mi granja.</p>
-</td>
-<td>
-<p>Escenario 1: Indicadores en tiempo real</p>
-<p><strong>Dado</strong> que el usuario tiene acceso a sensores de la granja.</p>
-<p><strong>Cuando</strong> abre la plataforma </p>
-<p><strong>Entonces</strong> podrá ver los indicadores de salud actualizados de los animales, como tempertura, peso, y frecuencia cardíaca </p>
-<p>Escenario 2: Actualización automática en tiempo real</p>
-<p><strong>Dado</strong> que el usuario ha actualizado los datos de su granja,</p>
-<p><strong>Cuando</strong> ingresa nuevas entradas en la plataforma</p>
-<p><strong>Entonces</strong> los cambios se sincronizaran automaticamente en todos sus dispositivos</p>
-</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>E1-US03</td>
-<td>Integración con Equipos y Sensores</td>
-<td>
-<p><strong>Como</strong> productor agropecuario interesado en la innovación,</p>
-<p><strong>Quiero</strong> integrar la plataforma con sensores y dispositivos en mi granja</p>
-<p><strong>Para</strong> automatizar el monitoreo de la salud de los animales y reducir la intervención manual</p>
-</td>
-<td>
-<p>Escenario 1: Conexión de dispositivos</p>
-<p><strong>Dado</strong> que el usuario cuenta con sensores instalados</p>
-<p><strong>Cuando</strong> los dispositivos se conecten a la plataforma, </p>
-<p><strong>Entonces</strong> la información se actualizará automáticamente en la aplicación sin intervención manual. </p>
-<p>Escenario 2: Automatización de tareas repetitivas</p>
-<p><strong>Dado</strong> que el usuario ha integrado sus dispositivos,</p>
-<p><strong>Cuando</strong> un animal cumpla con ciertos criterios predeterminados, </p>
-<p><strong>Entonces</strong> la plataforma ejecutará acciones automáticas, como registrar una vacuna aplicada</p>
-</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>E2-US01</td>
-<td>Herramientas de Aprendizaje</td>
-<td>
-<p><strong>Como</strong> productor agropecuario con poca capacitación, </p>
-<p><strong>Quiero</strong> acceder a recursos educativos dentro de la plataforma</p>
-<p><strong>Para</strong> aprender más sobre la gestión efectiva de mi granja y mejorar el bienestar de mis animales</p>
-</td>
-<td>
-<p>Escenario 1: Acceso a material educativo</p>
-<p><strong>Dado</strong> que el usuario tiene poca experiencia en la gestión de granjas,</p>
-<p><strong>Cuando</strong> accede a la plataforma, </p>
-<p><strong>Entonces</strong> podrá visualizar tutoriales y guías que le enseñen buenas prácticas para la gestión de la salud animal. </p>
-<p>Escenario 2: Retroalimentación educativa</p>
-<p><strong>Dado</strong> que el usuario está completando un tutorial,</p>
-<p><strong>Cuando</strong> finaliza una lección, </p>
-<p><strong>Entonces</strong> recibirá retroalimentación automática sobre su progreso y recomendaciones adicionales.</p>
-</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>E2-US02</td>
-<td>Simplificación de tareas</td>
-<td>
-<p><strong>Como</strong> productor agropecuario sin experiencia tecnológica,</p>
-<p><strong>Quiero</strong> que la aplicación tenga una interfaz sencilla y fácil de usar</p>
-<p><strong>Para</strong> poder gestionar mi granja sin necesidad de conocimientos avanzados en tecnología</p>
-</td>
-<td>
-<p>Escenario 1: Interfaz de usuario simplificada</p>
-<p><strong>Dado</strong> que el usuario no está familiarizado con aplicaciones complejas</p>
-<p><strong>Cuando</strong> accede a la plataforma, </p>
-<p><strong>Entonces</strong> verá una interfaz amigable y simplificada con iconos y pasos claros para realizar tareas básicas</p>
-<p>Escenario 2: Guías de usuario</p>
-<p><strong>Dado</strong> que el usuario está usando la paltaforma por primera vez,</p>
-<p><strong>Cuando</strong> se enfrente a una nueva funcionalidad,</p>
-<p><strong>Entonces</strong> se le proporcionará una guía paso a paso para completar la tarea.</p>
-</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>E2-US03</td>
-<td>Guia Paso a Paso</td>
-<td>
-<p><strong>Como</strong> productor agropecuario que no ha recibido capacitacion,</p>
-<p><strong>Quiero</strong> seguir un proceso guiado paso a paso</p>
-<p><strong>Para</strong> registrar el estado de mis animales y recibir recomendaciones automáticas sobre sus cuidados, sin necesidad de entender términos complejos</p>
-</td>
-<td>
-<p>Escenario 1: Registro guiado de animales</p>
-<p><strong>Dado</strong> que el usuario está registrando un nuevo animal,</p>
-<p><strong>Cuando</strong> complete cada paso del registro, </p>
-<p><strong>Entonces</strong> la plataforma le proporcionará instrucciones claras y sencillas para llenar los campos correctamente.</p>
-<p>Escenario 2: Recomendaciones personalizadas</p>
-<p><strong>Dado</strong> que el usuario ha completado el registro de un animal,</p>
-<p><strong>Cuando</strong> se detecten necesidades específicas de ese animal,</p>
-<p><strong>Entonces</strong> la plataforma le proporcionará recomendaciones automáticas sobre cuidados o tratamientos necesarios.</p>
-</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>E3-US01</td>
-<td>Predicción de necesidades alimenticias</td>
-<td>
-<p><strong>Como</strong> productor agropecuario interesado en en mejorar productividad y la salud del ganado,</p>
-<p><strong>Quiero</strong> que la plataforma ofresca predicciones de necesidades alimenticias basandose en las características del animal </p>
-<p><strong>Para</strong> poder optimizar el uso de los recursos disponibles y asegurar la salud de los animales. </p>
-</td>
-<td>
-<p>Escenario 1: Recomendaciones de dieta</p>
-<p><strong>Dado</strong> que los animales tienen sus datos actualizados,</p>
-<p><strong>Cuando</strong> el usuario consulte las necesidades alimenticias,</p>
-<p><strong>Entonces</strong> la plataforma le mostrará dietas racomendadas para cada animal.</p>
-<p>Escenario 2: Ajuste de cantidad de alimentos
-<p><strong>Dado</strong> que el peso y edad de los animales ha cambiado,</p>
-<p><strong>Cuando</strong> el sistema analice los nuevos datos</p>
-<p><strong>Entonces</strong> se reajustará las recomendaciones de dietas de acuerdo a las nuevas características de los animales</p>
-</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>E3-US02</td>
-<td>Alertas de emergencia por salud animal</td>
-<td>
-<p><strong>Como</strong> productor agropecuario interesado en la salud de mis animales,</p>
-<p><strong>Quiero</strong> recibir alertas caundo alguno de mis animales presente anomalías en su salud</p>
-<p><strong>Para</strong> poder tomar las acciones necesarias en la salud de mis animales</p>
-</td>
-<td>
-<p>Escenario 1: Deteccion de anomalias en la salud del animal</p>
-<p><strong>Dado</strong> que los animales estan conectado a sensores que monitorean su salud,</p>
-<p><strong>Cuando</strong> se detecten datos fuera de lo normal, </p>
-<p><strong>Entonces</strong> la plataforma enviara una alerta al dispositivo vinculado con detalles de la salud del animal.</p>
-<p>Escenario 2: Planes de acción</p>
-<p><strong>Dado</strong> que el sistema ha emitido una alerta del estado de salud del animal,</p>
-<p><strong>Cuando</strong> el usuario habra la alerta en su dispositivo,</p>
-<p><strong>Entonces</strong> la plataforma le proporcionará tratamientos e instrucciones para atender cualquier emergencia.</p>
-</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>E4-US01</td>
-<td>Gestión de inventarios de insumos</td>
-<td>
-<p><strong>Como</strong> productor agropecuario que desea tener control preciso de los insumos de la granja,</p>
-<p><strong>Quiero</strong> gestionar el inventario de los insumos (alimentos, medicinas, etc) dentro de la plataforma </p>
-<p><strong>Para</strong> poder tener un mejor manejo de los recursos disponibles y evitar desabastecimiento. </p>
-</td>
-<td>
-<p>Escenario 1: Registro automatico de insumos</p>
-<p><strong>Dado</strong> que el usuario ingresa los nuevos insumos al almacén,</p>
-<p><strong>Cuando</strong> se registre las entradas de nuevos insumos,</p>
-<p><strong>Entonces</strong> la plataforma  actualizara automaticamente el inventario disponible e informara si hace falta algun insumo.</p>
-<p>Escenario 2: Generación de informes de insumos
-<p><strong>Dado</strong> que el usuario desea analizar el uso de insumos,</p>
-<p><strong>Cuando</strong> el sistema genere un reporte de inventario</p>
-<p><strong>Entonces</strong> la plataforma mostrara el historial de ingreso y uso de insumos</p>
-</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>E4-US02</td>
-<td>Planificacion de actividades agricolas</td>
-<td>
-<p><strong>Como</strong> productor agropecuario con actividades programadas,</p>
-<p><strong>Quiero</strong> planificar las actividades diarias de mi granja (limpieza, alimentacion, vacunacion, etc.) dentro de la plataforma</p>
-<p><strong>Para</strong> poder garantizar un mejor manejo del tiempo para realizar exitosamente todas las actividades diarias</p>
-</td>
-<td>
-<p>Escenario 1: Calendario de actividades</p>
-<p><strong>Dado</strong> que el usuario desea tener planificado las actividades diarias</p>
-<p><strong>Cuando</strong> se cree un plan en la plataforma, </p>
-<p><strong>Entonces</strong> se podra visualizar un cronograma con las tareas hechas y por hacer, ademas recibir notificaciones de recordatorio.</p>
-<p>Escenario 2: Asignacion de tareas</p>
-<p><strong>Dado</strong> que exiten multiples tareas diarias,</p>
-<p><strong>Cuando</strong> el usuario planifique las actividades diarias,</p>
-<p><strong>Entonces</strong> se podra asignar tareas a empleados especificos, y ellos recibiran una notificacion con las tareas que se les fueron asignadas.</p>
-</td>
-<td>4</td>
-</tr>
-<tr class="even">
-    <td>E5-US011 </td>
-    <td>Sección sobre los planes del Landing Page de FarmGuard</td>
-    <td>
-        <p><strong>Como</strong> visitante del sitio estatico,</p>
-        <p><strong>Quiero</strong> tener informacion sobre los planes disponibles de la app web. </p>
-        <p><strong>Para</strong> poder considerar la adquisicion de uno de estos. </p>
-    </td>
-    <td>
-        <p>Escenario 1: Buscar los planes disponibles.</p>
-        <p><strong>Dado</strong> que el visitante esta interesado en los planes disponibles,</p>
-        <p><strong>Cuando</strong> accede al landing page a la seccion de planes,</p>
-        <p><strong>Entonces</strong> podrá visualizar, los diferentes planes disponibles y leer la informacion clara y precisa.</p>
-        <p>Escenario 2: No encuentra los planes disponibles.
-        <p><strong>Dado</strong> que el visitante esta interesado en los planes disponibles,</p>
-        <p><strong>Cuando</strong>accede al landing page a la seccion de planes,</p>
-        <p><strong>Entonces</strong> la seccion de planes no aparece correctamente y no carga la informacion importante.</p>
-    </td>
-    <td>5</td>
-</tr>
-<tr class="odd">
-    <td>E5-US12</td>
-    <td>Sección sobre los beneficios del Landing Page de FarmGuard</td>
-    <td>
-        <p><strong>Como</strong> visitante del sitio estatico,</p>
-        <p><strong>Quiero</strong> tener informacion sobre los beneficios que me brinda la app web. </p>
-        <p><strong>Para</strong> poder considerar el uso de esta misma.</p>
-    </td>
-    <td>
-        <p>Escenario 1: Buscar la seccion de beneficios</p>
-        <p><strong>Dado</strong> que el visitante esta interesado en los beneficios de la app web,</p>
-        <p><strong>Cuando</strong> cuando presione en el boton de Beneficios en el navbar, </p>
-        <p><strong>Entonces</strong> se podra visualizar la seccion de los beneficios con sus respectivas imagenes con tiempos de carga cortos.</p>
-        <p>Escenario 2: No se encuentra la seccion de beneficios.</p>
-        <p><strong>Dado</strong> que el visitante esta interesado en los beneficios de la app web,</p>
-        <p><strong>Cuando</strong> cuando presione en el boton de Beneficios en el navbar,</p>
-        <p><strong>Entonces</strong> la pagina no lo redirrecciona a la seccion respectiva.</p>
-    </td>
-    <td>5</td>
-</tr>
-<tr class="even">
-    <td>E5-US013 </td>
-    <td>Sección de contactanos del Landing Page de FarmGuard</td>
-    <td>
-        <p><strong>Como</strong> visitante del sitio estatico,</p>
-        <p><strong>Quiero</strong> tener la opcion de poder de contactar con el equipo de desarrollo </p>
-        <p><strong>Para</strong> poder tener mas informacion.</p>
-    </td>
-    <td>
-        <p>Escenario 1: Buscar el formulario para contactar al equipo.</p>
-        <p><strong>Dado</strong> que el visitante esta interesado contactar con el equipo de desarrollo,</p>
-        <p><strong>Cuando</strong> accede al landing page a la seccion de contactanos,</p>
-        <p><strong>Entonces</strong> el visitante navega hasta esa seccion para poder llenar su informacion y enviar sus datos para la consulta.</p>
-    </td>
-    <td>5</td>
-</tr>
-<tr class="odd">
-    <td>E5-US14</td>
-    <td>Sección sobre los integrantes del Landing Page de FarmGuard</td>
-    <td>
-        <p><strong>Como</strong> visitante del sitio estatico,</p>
-        <p><strong>Quiero</strong> tener informacion sobre los creadores de la app web. </p>
-        <p><strong>Para</strong> poder saber mas sobre el equipo detras de la app web.</p>
-    </td>
-    <td>
-        <p>Escenario 1: Buscar la seccion de Nosotros</p>
-        <p><strong>Dado</strong> que el visitante esta interesado en saber del equipo detras de la app web,</p>
-        <p><strong>Cuando</strong>presione en el boton de Nosotros en el navbar, </p>
-        <p><strong>Entonces</strong> se podra visualizar la seccion Nosotros con sus respectivas imagenes con tiempos de carga cortos y descripciones de cada miembro.</p>
-        <p>Escenario 2: No carga la seccion nosotros.</p>
-        <p><strong>Dado</strong> que el visitante esta interesado en conocer los desarrolladores de la app web,</p>
-        <p><strong>Cuando</strong> presione en el boton de Nosotros en el navbar,</p>
-        <p><strong>Entonces</strong> la pagina no lo redirrecciona a la seccion respectiva y no carga la informacion.</p>
-    </td>
-    <td>5</td>
-</tr>
-<tr class="even">
-    <td>E5-US015 </td>
-    <td>Boton de accion del Landing Page a FarmGuard</td>
-    <td>
-        <p><strong>Como</strong> visitante del sitio estatico,</p>
-        <p><strong>Quiero</strong> tener la opcion de poder dirigirme a la app web  </p>
-        <p><strong>Para</strong> para poder usarla.</p>
-    </td>
-    <td>
-        <p>Escenario 1: Presiona un boton para dirigirse al app web.</p>
-        <p><strong>Dado</strong> que el visitante esta buscando ir a la app web,</p>
-        <p><strong>Cuando</strong> presiona el boton de accion,</p>
-        <p><strong>Entonces</strong> este le redirige a la app web.</p>
-        <p>Escenario 2: Presiona un boton para dirigirse al app web y no pasa nada.</p>
-        <p><strong>Dado</strong> que el visitante esta buscando ir a la app web,</p>
-        <p><strong>Cuando</strong> presiona el boton de accion,</p>
-        <p><strong>Entonces</strong> el boton no realiza ninguna accion.</p>
-    </td>
-    <td>5</td>
-</tr>
-</tbody>
+  <thead>
+    <tr>
+      <th>Epic / Story ID</th>
+      <th>Título</th>
+      <th>Descripción (User Story)</th>
+      <th>Criterios de aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- EP-01: Gestión de la Granja -->
+    <tr>
+      <td>EP-01-US01</td>
+      <td>Gestión digital de los animales</td>
+      <td>Como productor agropecuario quiero registrar y actualizar digitalmente mis animales para acceder a su información en cualquier dispositivo.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que el usuario está autenticado, Cuando agrega un nuevo animal con todos los datos requeridos, Entonces el sistema guarda el registro y lo muestra en la lista.<br>
+        <strong>Escenario 2:</strong> Dado un animal registrado, Cuando edita sus datos, Entonces el sistema actualiza la información y confirma el cambio.
+      </td>
+      <td>EP-01 – Gestión de la Granja</td>
+    </tr>
+    <tr>
+      <td>EP-01-US02</td>
+      <td>Monitoreo de indicadores clave</td>
+      <td>Como productor agropecuario quiero ver en tiempo real indicadores como temperatura y peso para tomar decisiones informadas sobre mi ganado.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado sensores conectados, Cuando el usuario abre el panel de monitoreo, Entonces se muestran los indicadores en tiempo real.<br>
+        <strong>Escenario 2:</strong> Dado que un sensor falla, Cuando no envía datos, Entonces se muestra un mensaje “Sensor sin datos”.
+      </td>
+      <td>EP-01 – Gestión de la Granja</td>
+    </tr>
+    <tr>
+      <td>EP-01-US03</td>
+      <td>Integración con equipos y sensores</td>
+      <td>Como productor agropecuario quiero conectar sensores y dispositivos a la plataforma para automatizar el monitoreo del ganado.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado sensores configurados, Cuando se conectan a la plataforma, Entonces los datos se actualizan automáticamente.<br>
+        <strong>Escenario 2:</strong> Dado reglas predefinidas, Cuando ocurre un evento (p. ej., vacunación), Entonces la acción se registra automáticamente.
+      </td>
+      <td>EP-01 – Gestión de la Granja</td>
+    </tr>
+    <tr>
+      <td>EP-01-US04</td>
+      <td>Gestión digital de vacunas del ganado</td>
+      <td>Como productor agropecuario quiero registrar y consultar las vacunas aplicadas a mis animales para llevar control sanitario de la granja.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado un animal registrado, Cuando el usuario agrega una vacuna con fecha y tipo, Entonces se guarda en el historial.<br>
+        <strong>Escenario 2:</strong> Dado que la fecha de revacunación se acerca, Cuando faltan 7 días, Entonces se envía una notificación automática.
+      </td>
+      <td>EP-01 – Gestión de la Granja</td>
+    </tr>
+    <!-- EP-02: Optimización de Recursos -->
+    <tr>
+      <td>EP-02-US01</td>
+      <td>Gestión de insumos para los animales</td>
+      <td>Como productor agropecuario quiero registrar insumos como alimento y medicinas para optimizar el uso y evitar desabastecimiento.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que el usuario registra un nuevo insumo, Cuando guarda los datos, Entonces se actualiza el inventario.<br>
+        <strong>Escenario 2:</strong> Dado que un insumo alcanza nivel crítico, Cuando se detecta, Entonces se muestra alerta “Stock bajo”.
+      </td>
+      <td>EP-02 – Optimización de Recursos</td>
+    </tr>
+    <tr>
+      <td>EP-02-US02</td>
+      <td>Visualización de animales en un mapa</td>
+      <td>Como productor agropecuario quiero ver la ubicación de mis animales en un mapa móvil para supervisar su distribución.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado animales con dispositivos de geolocalización, Cuando el usuario abre el mapa, Entonces se muestran sus ubicaciones en tiempo real.<br>
+        <strong>Escenario 2:</strong> Dado que un animal no envía señal, Cuando no aparece en el mapa, Entonces se muestra “Animal sin localización”.
+      </td>
+      <td>EP-02 – Optimización de Recursos</td>
+    </tr>
+    <tr>
+      <td>EP-02-US03</td>
+      <td>Delimitar área de los animales (móvil)</td>
+      <td>Como productor agropecuario quiero definir áreas de movimiento para mis animales y recibir alertas si salen de la zona.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que el usuario define un polígono en el mapa, Cuando guarda el área, Entonces se activa la supervisión.<br>
+        <strong>Escenario 2:</strong> Dado un animal registrado en el área, Cuando cruza el límite, Entonces el sistema envía alerta inmediata al móvil.
+      </td>
+      <td>EP-02 – Optimización de Recursos</td>
+    </tr>
+    <!-- EP-03: Notificaciones y Alertas -->
+    <tr>
+      <td>EP-03-US01</td>
+      <td>Notificaciones por cambios en información</td>
+      <td>Como productor agropecuario quiero recibir notificaciones cuando se actualicen datos relevantes de mis animales para mantenerme informado.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que un animal cambia de estado, Cuando se actualiza su información, Entonces se envía una notificación al usuario.<br>
+        <strong>Escenario 2:</strong> Dado que el usuario desactiva notificaciones, Cuando ocurre un cambio, Entonces no se envía alerta.
+      </td>
+      <td>EP-03 – Notificaciones y Alertas</td>
+    </tr>
+    <tr>
+      <td>EP-03-US02</td>
+      <td>Alertas de emergencia por salud animal</td>
+      <td>Como productor agropecuario quiero recibir alertas inmediatas cuando un animal presente anomalías para tomar acciones rápidas.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado sensores conectados, Cuando se detecta una anomalía (p. ej., fiebre), Entonces el sistema envía alerta al dispositivo.<br>
+        <strong>Escenario 2:</strong> Dado que se recibe alerta, Cuando el usuario la abre, Entonces se muestran pasos recomendados para atender al animal.
+      </td>
+      <td>EP-03 – Notificaciones y Alertas</td>
+    </tr>
+    <!-- EP-04: Identidad y Acceso -->
+    <tr>
+      <td>EP-04-US01</td>
+      <td>Inicio de sesión</td>
+      <td>Como usuario quiero iniciar sesión con mis credenciales para acceder de forma segura a la plataforma.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado usuario en la vista de login, Cuando ingresa credenciales válidas, Entonces accede al dashboard.<br>
+        <strong>Escenario 2:</strong> Dado credenciales inválidas, Cuando intenta ingresar, Entonces se muestra “Credenciales incorrectas”.
+      </td>
+      <td>EP-04 – Identidad y Acceso</td>
+    </tr>
+    <tr>
+      <td>EP-04-US02</td>
+      <td>Creación de cuenta</td>
+      <td>Como usuario quiero registrarme con mi correo institucional para garantizar que solo miembros autorizados accedan.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que el correo termina en “.edu”, Cuando se valida, Entonces se envía invitación de confirmación.<br>
+        <strong>Escenario 2:</strong> Dado correo inválido, Cuando intenta registrarse, Entonces se muestra “Debe usar correo institucional”.
+      </td>
+      <td>EP-04 – Identidad y Acceso</td>
+    </tr>
+    <!-- EP-05: Gestión de Perfiles -->
+    <tr>
+      <td>EP-05-US01</td>
+      <td>Completar perfil de usuario</td>
+      <td>Como usuario quiero completar mi perfil con datos personales y académicos para generar confianza en la plataforma.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado correo validado, Cuando completa todos los campos obligatorios, Entonces el perfil se guarda.<br>
+        <strong>Escenario 2:</strong> Dado campos faltantes, Cuando intenta guardar, Entonces se muestra “Faltan datos”.
+      </td>
+      <td>EP-05 – Gestión de Perfiles</td>
+    </tr>
+    <tr>
+      <td>EP-05-US02</td>
+      <td>Visualizar y editar mi perfil</td>
+      <td>Como usuario quiero visualizar y actualizar mi perfil para mantener mi información precisa y actualizada.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado usuario autenticado, Cuando abre perfil, Entonces se muestran sus datos actuales.<br>
+        <strong>Escenario 2:</strong> Dado cambios válidos, Cuando los guarda, Entonces el perfil se actualiza y confirma.
+      </td>
+      <td>EP-05 – Gestión de Perfiles</td>
+    </tr>
+    <!-- EP-06: Landing Page -->
+    <tr>
+      <td>EP-06-US37</td>
+      <td>Explorar sección “Beneficios”</td>
+      <td>Como visitante quiero explorar la sección de beneficios en la landing page para conocer las ventajas de usar la app.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado visitante en desktop, Cuando hace clic en “Beneficios”, Entonces la página desplaza a la sección y muestra íconos y descripciones.<br>
+        <strong>Escenario 2:</strong> Dado visitante en móvil, Cuando abre el menú hamburguesa y selecciona “Beneficios”, Entonces se carga la sección correctamente.
+      </td>
+      <td>EP-06 – Landing Page</td>
+    </tr>
+    <tr>
+      <td>EP-06-US39</td>
+      <td>Ver sección “Sobre la App” y “Videos”</td>
+      <td>Como visitante quiero ver la sección “Sobre la App” y reproducir videos para entender mejor el producto antes de usarlo.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado visitante desplaza la página, Cuando llega a “Sobre la App”, Entonces se muestra el texto descriptivo.<br>
+        <strong>Escenario 2:</strong> Dado visitante en la sección “Videos”, Cuando hace clic en una miniatura, Entonces el video se reproduce en modal.
+      </td>
+      <td>EP-06 – Landing Page</td>
+    </tr>
+    <tr>
+      <td>EP-06-US40</td>
+      <td>Botones de descarga</td>
+      <td>Como visitante quiero disponer de botones visibles de descarga (App Store y Play Store) para instalar la app fácilmente.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado visitante en la landing page, Cuando carga la sección final, Entonces se muestran botones claros de descarga.<br>
+        <strong>Escenario 2:</strong> Dado visitante hace clic en el botón correspondiente, Cuando se procesa, Entonces redirige a la tienda correcta.
+      </td>
+      <td>EP-06 – Landing Page</td>
+    </tr>
+    <tr>
+      <td>EP-06-US42</td>
+      <td>Ver sección FAQ</td>
+      <td>Como visitante quiero consultar la sección de preguntas frecuentes para resolver mis dudas comunes sin buscar soporte.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado visitante en desktop, Cuando expande una pregunta, Entonces se despliega la respuesta.<br>
+        <strong>Escenario 2:</strong> Dado visitante en móvil, Cuando selecciona una pregunta, Entonces se despliega con animación suave.
+      </td>
+      <td>EP-06 – Landing Page</td>
+    </tr>
+    <tr>
+      <td>EP-06-US43</td>
+      <td>Formulario de contacto</td>
+      <td>Como visitante quiero usar el formulario de contacto para enviar preguntas y recibir respuesta del equipo.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que el visitante completa los campos requeridos, Cuando pulsa “Enviar”, Entonces se muestra confirmación.<br>
+        <strong>Escenario 2:</strong> Dado campos vacíos, Cuando pulsa “Enviar”, Entonces se resaltan y muestra “Por favor completa los campos”.
+      </td>
+      <td>EP-06 – Landing Page</td>
+    </tr>
+    <tr>
+      <td>EP-06-US44</td>
+      <td>Ver sección “Equipo”</td>
+      <td>Como visitante quiero conocer al equipo detrás de la app para confiar en la profesionalidad del proyecto.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado visitante en desktop, Cuando llega a la sección “Equipo”, Entonces se muestran fotos, nombres y roles.<br>
+        <strong>Escenario 2:</strong> Dado visitante en móvil, Cuando hace scroll, Entonces las tarjetas se ajustan correctamente a la pantalla.
+      </td>
+      <td>EP-06 – Landing Page</td>
+    </tr>
+  </tbody>
 </table>
-<hr>
+
+
+
+
 
 ## 3.2 Impact Mapping  
 
@@ -1239,8 +1221,9 @@ Nuestro proyecto ayudará a lograr objetivos más grandes y cómo tendrá un imp
 <td>E3-US02</td>
 <td>Alertas de emergencia por salud animal</td>
 <td><p><strong>Como</strong> productor agropecuario interesado en la salud de mis animales,</p>
-<p><strong>quiero</strong> recibir alertas caundo alguno de mis animales presente anomalías en su salud</p>
-<p><strong>para</strong> poder tomar las acciones necesarias en la salud de mis animales.</p></td>
+<p><strong>Quiero</strong> recibir alertas caundo alguno de mis animales presente anomalías en su salud</p>
+<p><strong>Para</strong> poder tomar las acciones necesarias en la salud de mis animales</p>
+</td>
 <td>Alta</td>
 <td>13</td>
 </tr>
@@ -1251,7 +1234,7 @@ Nuestro proyecto ayudará a lograr objetivos más grandes y cómo tendrá un imp
 <td>E4-US01</td>
 <td>Gestión de inventarios de insumos</td>
 <td><p><strong>Como</strong> productor agropecuario que desea tener control preciso de los insumos de la granja,</p>
-<p><strong>quiero</strong> gestionar el inventario de los insumos (alimentos, medicinas, etc) dentro de la plataforma</p>
+<p><strong>Quiero</strong> gestionar el inventario de los insumos (alimentos, medicinas, etc) dentro de la plataforma</p>
 <p><strong>para</strong> poder tener un mejor manejo de los recursos disponibles y evitar desabastecimiento.</p></td>
 <td>Alta</td>
 <td>8</td>
@@ -1262,7 +1245,7 @@ Nuestro proyecto ayudará a lograr objetivos más grandes y cómo tendrá un imp
 <td>E4-US02</td>
 <td>Planificacion de actividades agricolas</td>
 <td><p><strong>Como</strong> productor agropecuario con actividades programadas,</p>
-<p><strong>quiero</strong> planificar las actividades diarias de mi granja (limpieza, alimentacion, vacunacion, etc.) dentro de la plataforma</p>
+<p><strong>Quiero</strong> planificar las actividades diarias de mi granja (limpieza, alimentacion, vacunacion, etc.) dentro de la plataforma</p>
 <p><strong>para</strong> poder garantizar un mejor manejo del tiempo para realizar exitosamente todas las actividades diarias.</p></td>
 <td>Media</td>
 <td>5</td>
@@ -1480,7 +1463,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 | **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que haya tiempo disponible. |
 | **2** | Problema menor: ocurre con algo más de frecuencia o es un poco más difícil de resolver para el usuario. Debería corregirse con baja prioridad en la siguiente versión. |
 | **3** | Problema mayor: ocurre con frecuencia o el usuario no puede resolverlo. Es importante corregirlo con alta prioridad. |
-| **4** | Problema muy grave: impide al usuario continuar usando la herramienta. Debe corregirse antes del despliegue. |
+| **4** | Problema muy grave: impide al usuario continuar usando la herramienta. Debe corregerse antes del despliegue. |
 
 ## TABLA RESUMEN DE PROBLEMAS DETECTADOS
 
@@ -1569,4 +1552,6 @@ El video adopta un tono cercano, claro y profesional, coherente con la identidad
 
 - **Mobile Application (Android - Kotlin)**  
   []()
+
+
 
