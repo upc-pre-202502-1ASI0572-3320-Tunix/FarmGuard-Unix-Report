@@ -976,7 +976,7 @@ Proporcionar a los usuarios herramientas efectivas para el monitoreo, registro y
     <tr>
       <td>4</td>
       <td>US04</td>
-      <td>Gestión de vacunas del ganado</td>
+      <td>Gestión de vacunas del animal</td>
       <td>Como productor quiero registrar y consultar vacunas para controlar el calendario sanitario.</td>
       <td>
         <ul>
