@@ -305,10 +305,10 @@ FarmGuard se posiciona como una solución integral, accesible y centrada en el u
   <tr>
     <td>
       <strong>Jara Benites Quique Vladimir</strong>
-        Descripcion
+        Estudiante de octavo ciclo de la carrera Ingenieria de Software, tengo conocimientos técnicos en Java, Js y python. Asimismo, para el desarrollo en equipo, cuento con habilidades como participación comunicativa, creatividad, resolución de problemas, adaptabilidad y toma de decisiones
     </td>
     <td>
-      <img src="assets/student/Me2.jpg" alt="Carlos" style="max-height: 250px;">
+     <img width="840" height="843" alt="Image" src="https://github.com/user-attachments/assets/5de507d9-5c43-4cf5-b40e-33557d064679" />
     </td>
   </tr>
   <tr>
@@ -1717,8 +1717,7 @@ Nuestro proyecto ayudará a lograr objetivos más grandes y cómo tendrá un imp
 
 ### 4.1.1 Design-Level EventStorming  
 
-#### 4.1.1.1 Candidate Context Discovery  
-
+#### 4.1.1.1 Candidate Context Discovery
 #### 4.1.1.2 Domain Message Flows Modeling  
 
 #### 4.1.1.3 Bounded Context Canvases  
