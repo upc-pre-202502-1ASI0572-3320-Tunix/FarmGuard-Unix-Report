@@ -1757,6 +1757,15 @@ Para el event storming el equipo completo se reunio por alrededor de 2 horas par
 
 #### 4.1.1.2 Domain Message Flows Modeling  
 
+**Domain: Identity and Access Management (IAM)**
+Se describe el flujo de autenticación que permite al usuario acceder a la funcionalidad principal de la aplicación.
+El proceso inicia cuando el usuario abre la aplicación e ingresa sus credenciales en la pantalla de inicio de sesión mediante el command Iniciar sesión.
+El sistema de autenticación valida los datos proporcionados y, si son correctos, emite el event Acceso concedido, permitiendo el ingreso a la aplicación.
+Una vez autenticado, el usuario puede continuar navegando y acceder a las funcionalidades habilitadas según su perfil.
+En caso de que las credenciales sean inválidas, el sistema emite el event Acceso denegado, devolviendo un mensaje de error y evitando la apertura de sesión.
+
+<img width="886" alt="Image" src="https://github.com/user-attachments/assets/1914db79-3b41-4592-826d-f1a3625688fa" /> 
+
 #### 4.1.1.3 Bounded Context Canvases  
 
 ### 4.1.2 Context Mapping  
