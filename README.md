@@ -1738,25 +1738,436 @@ Nuestro proyecto ayudará a lograr objetivos más grandes y cómo tendrá un imp
 ## 4.2 Tactical-Level Domain-Driven Design  
 
 
-### 4.2.X Bounded Context: <Bounded Context Name>  
+### 4.2.X Bounded Context: <Bounded Animal Management>
 
-#### 4.2.X.1 Domain Layer  
+## Diccionario de Clases
+ 
+ ### Clase: `Section`
+ 
+ Representa un al conjunto de animales que tiene un veterinario o ganadero.
+ 
+ | Nombre      | Section                                                                                                          |
+ | ----------- | ------------------------------------------------------------------------------------------------------------------- |
+ | Relaciones  | Animal,Veterinarian, Vaccine,Disease, Medication                                                                                                              |
+ | Descripción |  Agrupa animales y administra su ciclo de vida (creación, actualización, eliminación), reasignación e invitaciones de acceso.  |
+ 
+ ##### Atributos
+ 
+ | Nombre         | Tipo de Dato | Visibilidad |
+ | -------------- | ------------ | ----------- |
+ | Id             | int          | private     |
+ | Animals[]      | Array        | private     |
+ | ProfileId      | int          | private     |
+ | CreatedAt      | datetime     | private     |
+ | UpdatedAt      | datetime     | private     |
+ | IsActive       | bool         | private     |
+
+ 
+ ##### Métodos
+ 
+  - `Create(): Section`
+  - `Update(profileId?:int): void`
+  - `Delete(): void`
+  - `AddAnimal(animal:Animal): void`
+  - `RemoveAnimal(animalId:int): void`
+  - `ReassignAnimal(animalId:int, targetSectionId:int): void`
+  - `InviteVeterinarian(vetId:int): Invitation`
+  - `AcceptInvitation(invitationId:int): AccessGrant`
+  - `GrantAccess(vetId:int): AccessGrant`
+  - `RevokeAccess(vetId:int): void`
+  - `ListAnimals(): Animal[]`
+ 
+ ---
+
+ ### Clase: `Animal`
+
+Entidad principal: un animal dentro de una `Section`.
+
+| Nombre      | Animal |
+| ----------- | ------ |
+| Relaciones  | Section, MedicalHistory, FoodDiary |
+| Descripción | Identidad básica del animal y vínculo con historiales médico y de alimentación. |
+
+##### Atributos
+
+| Nombre        | Tipo de Dato         | Visibilidad |
+| ------------- | -------------------- | ----------- |
+| Id            | int                  | private     |
+| TagCode       | string               | private     |
+| Name          | string               | private     |
+| BirthDate     | date                 | private     |
+| Sex           | string               | private     |
+| Species       | string               | private     |
+| ImageUrl      | string               | private     |
+| UrlIot        | string               | private     |
+| SectionId     | int                  | private     |
+| MedicalHistory| MedicalHistory       | private     |
+| FoodDiary     | FoodDiary            | private     |
+| Status        | string               | private     |
+| CreatedAt     | datetime             | private     |
+| UpdatedAt     | datetime             | private     |
+
+
+##### Métodos
+
+- `AssignToSection(sectionId:int): void`
+- `UpdateProfile(fields:object): void`
+- `GetMedicalHistory(): MedicalHistory`
+- `GetFoodDiary(): FoodDiary`
+
+---
+
+### Clase: `MedicalHistory`
+
+Historial médico longitudinal del animal (gestionado por veterinario).
+
+| Nombre      | MedicalHistory |
+| ----------- | ---------------|
+| Relaciones  | Animal, Veterinarian, Treatment, VaccinationRecord, DiseaseDiagnosis, Medication |
+| Descripción | Registro de diagnósticos, vacunas y tratamientos; conserva modificaciones y anulaciones. |
+
+##### Atributos
+
+| Nombre           | Tipo de Dato               | Visibilidad |
+| ---------------- | -------------------------- | ----------- |
+| Id               | int                         | private     |
+| AnimalId         | int                         | private     |
+| Vaccinations[]   | Vaccine[]                   | private     |
+| Treatments[]     | Treatment[]                 | private     |
+| Diagnoses[]      | DiseaseDiagnosis[]          | private     |
+| LastUpdatedBy    | int (VeterinarianId)        | private     |
+| LastUpdatedAt    | datetime                    | private     |
+
+##### Métodos
+
+- `AddVaccination(record:Vaccine): void`
+- `ModifyVaccination(recordId:int, changes:object): void`
+- `AnnulVaccination(recordId:int, reason:string): void`
+- `RemoveVaccination(recordId:int, reason:string): void`
+- `AddTreatment(t:Treatment): void`
+- `ModifyTreatment(treatmentId:int, changes:object): void`
+- `CloseTreatment(treatmentId:int): void`
+- `RemoveTreatment(treatmentId:int, reason:string): void`
+- `AddDiagnosis(d:DiseaseDiagnosis): void`
+- `ModifyDiagnosis(diagnosisId:int, changes:object): void`
+- `RemoveDiagnosis(diagnosisId:int, reason:string): void`
+
+
+
+---
+
+
+<!--Clases bases-->
+
+### Clase: `Treatment`
+
+Tratamiento veterinario registrado/cerrado/modificado.
+
+| Nombre      | Treatment |
+| ----------- | --------- |
+| Relaciones  | MedicalHistory, Medication |
+| Descripción | Indica protocolo terapéutico, dosis y estado. |
+
+##### Atributos
+
+| Nombre        | Tipo de Dato | Visibilidad |
+| ------------- | ------------ | ----------- |
+| Id            | int          | private     |
+| MedicalHistoryId | int       | private     |
+| Title         | string       | private     |
+| Notes         | string       | private     |
+| StartDate     | date         | private     |
+| EndDate       | date?        | private     |
+| Medications[] | Medication[] | private     |
+| Status        | string (open|closed) | private |
+
+##### Métodos
+
+- `Close(): void`
+- `Modify(changes:object): void`
+- `Remove(reason:string): void`
+---
+
+### Clase: `DiseaseDiagnosis`
+
+Diagnóstico de enfermedad.
+
+| Nombre      | DiseaseDiagnosis |
+| ----------- | ---------------- |
+| Relaciones  | MedicalHistory, Disease |
+| Descripción | Registro de diagnóstico con severidad y estado. |
+
+##### Atributos
+
+| Nombre       | Tipo de Dato | Visibilidad |
+| ------------ | ------------ | ----------- |
+| Id           | int          | private     |
+| DiseaseId    | int          | private     |
+| Severity     | string       | private     |
+| Notes        | string       | private     |
+| DiagnosedAt  | datetime     | private     |
+| PerformedBy  | int (VeterinarianId) | private |
+| Status       | string (active|modified|removed) | private |
+
+##### Métodos
+- `Modify(changes:object): void`
+- `Remove(reason:string): void`
+
+---
+
+### Clase: `Vaccine` (catálogo)
+
+| Nombre      | Vaccine |
+| ----------- | ------- |
+| Relaciones  | VaccinationRecord |
+| Descripción | Catálogo de vacunas. |
+
+##### Atributos
+
+| Nombre       | Tipo de Dato | Visibilidad |
+| ------------ | ------------ | ----------- |
+| Id           | int          | private     |
+| Name         | string       | private     |
+| Manufacturer | string       | private     |
+| Schema       | string       | private     |
+
+---
+
+
+### Clase: `Medication` (catálogo)
+
+| Nombre      | Medication |
+| ----------- | ---------- |
+| Relaciones  | Treatment |
+| Descripción | Catálogo de medicamentos y principios activos. |
+
+##### Atributos
+
+| Nombre            | Tipo de Dato | Visibilidad |
+| ----------------- | ------------ | ----------- |
+| Id                | int          | private     |
+| Name              | string       | private     |
+| ActiveIngredient  | string       | private     |
+| DoseDefault       | string       | private     |
+| RouteDefault      | string       | private     |
+
+---
+
+
+#### 4.2.X.1 Domain Layer 
+Dentro del dominio de Animal Management (gestión de animales y salud), se concentran las entidades y servicios que permiten identificar a cada animal, administrarlo dentro de una Section (rebaño/lote), y mantener su Historial Médico y Bitácora de Alimentación, controlando además el acceso de veterinarios y generando notificaciones de cambios relevantes.
+
+Este dominio es crítico para garantizar la integridad clínica y trazabilidad: registrar diagnósticos, vacunas y tratamientos (con modificaciones, cierres o anulaciones con motivo); asegurar que los usuarios autorizados (veterinarios) puedan actuar; y que cada animal disponga de su información actualizada (incluida su imagen).
+
+  ### Aggregate Root
+
+  - Animal → contiene referencias a su MedicalHistory (3 arrays) y FoodDiary.
+  - Section → agrupa Animal(es) y gestiona accesos (invitaciones/permisos a veterinarios).
+
+  ### Entities
+
+  - Animal (Id, TagCode, Name, BirthDate, Sex, Species, Breed, ImageUrl, SectionId, Status).
+
+  - MedicalHistory (AnimalId, Vaccinations[], Treatments[], Diagnoses[], LastUpdatedBy, LastUpdatedAt).
+
+    - VaccinationRecord (VaccineId, Dose, Lot, Site, AppliedAt, PerformedBy, Status, Notes).
+
+    - Treatment (Title, Notes, StartDate, EndDate?, Medications[], PerformedBy, Status).
+
+    - DiseaseDiagnosis (DiseaseId, Severity, Notes, DiagnosedAt, PerformedBy, Status).
+
+  - FoodDiary / FoodEntry (alimento, cantidad/unidad, GivenAt, notas).
+
+  - Veterinarian, Invitation, AccessGrant (acceso controlado por sección).
+
+  #### Value Object:
+
+  - TagCode, ImageUrl, Dose, Severity, Status
 
 #### 4.2.X.2 Interface Layer  
 
+  ## 🧭 Controladores del Sistema
+
+  ### 🐾 Gestión de Animales
+  - `AnimalsController`
+
+  ### 📂 Secciones
+  - `SectionsController`
+
+  ### 🩺 Historial Médico
+  - `MedicalHistoryController`
+
+  ### 💉 Vacunaciones
+  - `VaccinationsController`
+
+  ### 🏥 Tratamientos
+  - `TreatmentsController`
+
+  ### 🦠 Diagnósticos
+  - `DiagnosesController`
+
+  ### 🍽️ Alimentación
+  - `FeedingController`
+
+  ### 👨‍⚕️ Acceso de Veterinarios
+  - `AccessController` _(invitaciones/permisos de veterinarios)_
+
+  ## 🐾 Comandos de Escritura
+
+  ### 📋 Gestión de Animales
+  - `RegisterAnimalCommand`
+  - `UpdateAnimalCommand`
+  - `ReassignAnimalCommand`
+
+  ### 🖼️ Imagen del Animal
+  - `UploadAnimalImageCommand`
+
+  ### 💉 Vacunación
+  - `ApplyVaccineCommand`
+  - `ModifyVaccinationCommand`
+  - `AnnulVaccinationCommand`
+  - `RemoveVaccinationCommand`
+
+  ### 🏥 Tratamientos
+  - `RegisterTreatmentCommand`
+  - `ModifyTreatmentCommand`
+  - `CloseTreatmentCommand`
+  - `RemoveTreatmentCommand`
+
+  ### 🦠 Diagnóstico de Enfermedades
+  - `DiagnoseDiseaseCommand`
+  - `ModifyDiagnosisCommand`
+  - `RemoveDiagnosisCommand`
+
+  ### 🍽️ Registro de Alimentación
+  - `RegisterFeedingEntryCommand`
+  - `ModifyFeedingEntryCommand`
+  - `DeleteFeedingEntryCommand`
+
+  ### 👨‍⚕️ Acceso de Veterinarios
+  - `InviteVeterinarianCommand`
+  - `GrantAccessCommand`
+  - `RevokeAccessCommand`
+
+
+  ## 📖 Queries (Lectura)
+
+  ### 🐾 Animales
+  - `GetAnimalByIdQuery`
+  - `ListAnimalsBySectionQuery`
+  - `SearchAnimalsQuery`
+
+  ### 🩺 Historial Médico
+  - `GetMedicalHistoryQuery` _(retorna 3 arrays)_
+  - `GetVaccinationsQuery`
+  - `GetTreatmentsQuery`
+  - `GetDiagnosesQuery`
+
+  ### 🍽️ Alimentación
+  - `GetFoodEntriesQuery`
+
+  ### 📂 Secciones
+  - `GetSectionByIdQuery`
+  - `ListSectionsByOwnerQuery`
+
+  ### 📚 Catálogos
+  - `GetCatalogVaccineQuery`
+  - `GetCatalogMedicationQuery`
+  - `GetCatalogDiseaseQuery`
+
 #### 4.2.X.3 Application Layer  
+
+  ## 🧩 Servicios del Sistema
+
+  ### 🛠️ CommandServices
+  Servicios encargados de ejecutar acciones que modifican el estado del sistema.
+
+  - `AnimalCommandService.cs`  
+    _Registro, actualización y reasignación de animales_
+
+  - `MedicalCommandService.cs`  
+    _Gestión de vacunas, tratamientos y diagnósticos_
+
+  - `FoodCommandService.cs`  
+    _Registro y modificación del diario de alimentación_
+
+  - `SectionAccessCommandService.cs`  
+    _Invitaciones y permisos para veterinarios_
+
+  ---
+
+  ### 🔍 QueryServices
+  Servicios dedicados a la lectura y consulta de datos.
+
+  - `AnimalQueryService.cs`  
+    _Consulta de animales por ID, sección o búsqueda_
+
+  - `MedicalHistoryQueryService.cs`  
+    _Retorna arrays de `Vaccinations[]`, `Treatments[]`, `Diagnoses[]`_
+
+  - `FoodQueryService.cs`  
+    _Consulta de entradas alimenticias_
+
+  - `SectionQueryService.cs`  
+    _Consulta de secciones por ID o propietario_
+
+  ---
+
+  ### 📤 OutboundServices
+  Servicios que interactúan con sistemas externos o recursos fuera del dominio principal.
+
+  - `ExternalNotificationService.cs`  
+    _Manejo de eventos y envío de notificaciones externas_
+
+  - `ImageStorageService.cs`  
+    _Subida y eliminación de imágenes de animales_
+
+
 
 #### 4.2.X.4 Infrastructure Layer  
 
+  ## 🗂️ Repositorios
+
+  ### 🐾 Animales
+  - `AnimalRepository` _(implements `IAnimalRepository`)_
+
+  ### 📂 Secciones
+  - `SectionRepository` _(implements `ISectionRepository`)_
+
+  ### 🩺 Historial Médico
+  - `MedicalHistoryRepository` _(implements `IMedicalHistoryRepository`)_
+
+  ### 📚 Catálogos
+  - `CatalogRepository` _(maneja catálogos de Vacunas, Medicamentos y Enfermedades)_
+
+  ### 👨‍⚕️ Acceso de Veterinarios
+  - `VeterinarianAccessRepository` _(gestiona Invitaciones y Concesión de Accesos)_
+
+
 #### 4.2.X.5 Bounded Context Software Architecture Component Level Diagrams  
+A continuacion se mostrara el diagrama de componentes de nuestro sistema.
+
+<p>
+   <img src="/Assets/img/Bounded Animal/structurizr-Diagram3.png">
+ </p>
 
 #### 4.2.X.6 Bounded Context Software Architecture Code Level Diagrams  
+##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams
 
-##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams  
+A continuacion se mostrara el diagrama de clases de nuestro sistema.
+
+<p>
+   <img src="/Assets/img/Bounded Animal/diagrama de clases.png">
+ </p>
 
 ##### 4.2.X.6.2 Bounded Context Database Design Diagram  
 
----
+
+A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
+
+<p>
+   <img src="/Assets/img/Bounded Animal/prueba_2025-2025-09-15_22-25.png">
+ </p>
 
 # Capítulo V: Solution UI/UX Design  
 
