@@ -1770,6 +1770,26 @@ En caso de que las credenciales sean inválidas, el sistema emite el event Acces
 
 ### 4.1.2 Context Mapping  
 
+**IAM - Profile (Customer/Supplier)**
+El contexto de Profile depende de la autenticación y gestión de identidades que provee IAM. En este patrón, IAM actúa como supplier de credenciales y datos básicos de usuario, mientras que Profile es el customer que consume esta información para construir y mantener los perfiles.
+
+<img width="588" alt="Image" src="https://github.com/user-attachments/assets/0ed55120-0621-46af-b9cc-d09491b4b95f" /> 
+
+**Subscription - IAM (con Anti-Corruption Layer – ACL)**
+El contexto de Subscription necesita información de usuarios autenticados por IAM. Para evitar depender directamente del modelo de IAM, se define un Anti-Corruption Layer que traduce y adapta los datos, garantizando independencia evolutiva entre ambos contextos.
+
+<img width="237" alt="Image" src="https://github.com/user-attachments/assets/c414058b-b35b-4c23-b3c6-1c9b4b43de77" />
+
+**Animal Management - IoT Monitoring (Shared Kernel – SK)**
+Ambos contextos comparten un núcleo común de conceptos (por ejemplo, identificadores de animales y la vinculación con sensores). El uso de un Shared Kernel asegura consistencia en estos elementos críticos, aunque implica coordinación entre los equipos de ambos contextos para gestionar cambios.
+
+<img width="615" alt="Image" src="https://github.com/user-attachments/assets/6f3fcb54-6e22-4ab3-b680-b9ae609cc0d2" />
+
+**Notifications (Open Host Service – OHS)**
+Notifications funciona como un servicio compartido que expone una interfaz estándar (Open Host Service) para que otros contextos (Subscription, Animal Management, IoT Monitoring, IAM) puedan publicar mensajes y alertas sin necesidad de acoplarse a su implementación interna. Esto centraliza la gestión de envíos y asegura consistencia en la comunicación hacia el usuario final.
+
+<img width="253" alt="Image" src="https://github.com/user-attachments/assets/56816529-07f9-4f46-8e00-0dbb1c6823fd" />
+
 ### 4.1.3 Software Architecture  
 
 #### 4.1.3.1 Software Architecture System Landscape Diagram  
