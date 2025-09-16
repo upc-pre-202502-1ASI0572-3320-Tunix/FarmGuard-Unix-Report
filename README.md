@@ -2169,6 +2169,114 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
    <img src="/Assets/img/Bounded Animal/prueba_2025-2025-09-15_22-25.png">
  </p>
 
+### 4.2.X Bounded Context: IoT Monitoring & Analysis
+
+#### 4.2.X.1 Domain Layer
+
+- **Aggregates**
+  - `AnimalMonitoring` → Raíz del aggregate que gestiona al animal, sus sensores vinculados y los indicadores clave que se monitorean en tiempo real.  
+  - `IndicatorHistory` → Aggregate que almacena y organiza el historial de valores de los indicadores para análisis posteriores.
+
+- **Entities**
+  - `Farmer` → Representa al usuario del sistema (ganadero) encargado de registrar sensores, definir áreas de tránsito y recibir notificaciones críticas.  
+  - `Sensor` → Representa los dispositivos IoT que recopilan datos (cardíaco, temperatura, GPS) y que pueden estar vinculados o desvinculados de un animal.  
+  - `Animal` → Representa al animal monitorizado, el cual está asociado a uno o varios sensores y genera indicadores clave de salud y ubicación.  
+  - `TransitArea` → Representa el área geográfica delimitada para controlar si un animal se encuentra dentro o fuera de los límites permitidos.
+
+- **Value Objects**
+  - `SensorStatus` → Valor que define el estado de un sensor: Activo, Inactivo, Vinculado o Desvinculado.  
+  - `GeoCoordinates` → Valor que encapsula la latitud y longitud de las áreas de tránsito.  
+  - `IndicatorValue` → Valor numérico o categórico que representa la medición obtenida por un sensor (ejemplo: 70 bpm, 38 °C).
+
+- **Commands**
+  - `LinkSensorCommand` → Orden para asociar un sensor IoT a un animal específico.  
+  - `UnlinkSensorCommand` → Orden para eliminar la asociación de un sensor previamente vinculado.  
+  - `DefineTransitAreaCommand` → Orden para registrar un área geográfica en el sistema.  
+  - `ActivateSensorCommand` → Orden para habilitar un sensor IoT y comenzar el monitoreo.  
+  - `ProcessSensorDataCommand` → Orden que procesa los datos capturados por los sensores en tiempo real.
+
+- **Queries**
+  - `GetAnimalIndicatorsQuery` → Consulta que obtiene los valores actuales de los indicadores de un animal.  
+  - `GetActiveSensorsQuery` → Consulta que lista los sensores activos y vinculados en el sistema.  
+  - `GetAnalysisHistoryQuery` → Consulta que recupera el historial de análisis e indicadores críticos detectados.
+
+- **Domain Services**
+  - `AnalysisPolicyService` → Servicio que define y aplica las reglas para determinar cuándo un indicador pasa de estado normal a crítico.  
+  - `NotificationService` → Servicio que genera y envía las alertas al ganadero cuando se detecta un evento crítico.  
+  - `SensorSynchronizationService` → Servicio que asegura la correcta sincronización de datos entre los sensores IoT y el sistema central.
+
+#### 4.2.X.2 Interface Layer
+En esta capa se definen los **controladores de backend** que exponen la lógica de aplicación mediante endpoints REST.  
+
+- **SensorController**
+  - `POST /sensors/link` → Vincular un sensor IoT a un animal.
+  - `DELETE /sensors/unlink/{sensorId}` → Desvincular un sensor.
+  - `PUT /sensors/sync/{sensorId}` → Sincronizar datos de un sensor.
+  - `GET /sensors/{sensorId}` → Obtener detalles de un sensor específico.
+  - `GET /sensors` → Listar sensores activos.
+
+- **AnimalController**
+  - `POST /animals` → Registrar un animal en el sistema.
+  - `GET /animals/{animalId}` → Consultar información de un animal.
+  - `GET /animals` → Listar todos los animales registrados.
+  - `GET /animals/{animalId}/indicators` → Obtener indicadores del animal en tiempo real.
+
+- **AreaDeTransitoController**
+  - `POST /areas` → Definir un área de tránsito para los animales.
+  - `GET /areas/{areaId}` → Consultar detalles de un área.
+  - `PUT /areas/{areaId}` → Actualizar coordenadas de un área.
+  - `DELETE /areas/{areaId}` → Eliminar un área de tránsito.
+
+- **AnalisisController**
+  - `POST /analysis/process` → Ejecutar el análisis de datos provenientes de sensores.
+  - `GET /analysis/indicators` → Obtener indicadores clave verificados.
+  - `GET /analysis/history` → Consultar el historial de análisis realizados.
+
+- **NotificacionController**
+  - `POST /notifications/critical` → Enviar notificación por indicador crítico.
+  - `GET /notifications` → Listar notificaciones enviadas.
+
+#### 4.2.X.3 Application Layer
+Esta capa coordina las operaciones del dominio, gestionando la orquestación de **commands** y **queries**.  
+Implementa los servicios definidos en el **Domain Layer**.
+
+**Command Service Implementations**
+1. `SensorCommandServiceImpl` → Implementación de `LinkSensorCommand`, `UnlinkSensorCommand`, `ActivateSensorCommand` y `ProcessSensorDataCommand`.  
+2. `TransitAreaCommandServiceImpl` → Implementación de `DefineTransitAreaCommand`.  
+
+**Query Service Implementations**
+1. `AnimalQueryServiceImpl` → Implementación de `GetAnimalIndicatorsQuery`.  
+2. `SensorQueryServiceImpl` → Implementación de `GetActiveSensorsQuery`.  
+3. `AnalysisQueryServiceImpl` → Implementación de `GetAnalysisHistoryQuery`.  
+
+#### 4.2.X.4 Infrastructure Layer
+Esta capa proporciona la implementación técnica para la persistencia de datos y acceso a recursos externos.
+
+**Repositories**
+1. `SensorRepository` → Guarda, actualiza y recupera entidades `Sensor` desde la base de datos.  
+2. `AnimalRepository` → Permite la persistencia y recuperación de entidades `Animal`.  
+3. `TransitAreaRepository` → Almacena y gestiona áreas de tránsito (`TransitArea`) definidas en el sistema.  
+4. `IndicatorRepository` → Registra y consulta los valores de indicadores (`IndicatorValue`).  
+5. `HistoryRepository` → Administra la lista persistente del historial de indicadores (`IndicatorHistory`).  
+
+
+
+#### 4.2.X.5 Bounded Context Software Architecture Component Level Diagrams  
+
+<img src="Assets/img/ChapterIV/iot_BDC_domain_diagram_c4.png" alt="">  
+
+#### 4.2.X.6 Bounded Context Software Architecture Code Level Diagrams  
+
+##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams  
+
+<img src="Assets/img/ChapterIV/iot_BDC_domain_diagram.png" alt="">  
+
+##### 4.2.X.6.2 Bounded Context Database Design Diagram  
+
+<img src="Assets/img/ChapterIV/iot_BDC_DBD.png" alt="">  
+---
+
+
 # Capítulo V: Solution UI/UX Design  
 
 ## 5.1 Style Guidelines  
