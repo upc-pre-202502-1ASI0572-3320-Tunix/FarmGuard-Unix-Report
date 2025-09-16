@@ -308,7 +308,7 @@ FarmGuard se posiciona como una solución integral, accesible y centrada en el u
         Estudiante de octavo ciclo de la carrera Ingenieria de Software, tengo conocimientos técnicos en Java, Js y python. Asimismo, para el desarrollo en equipo, cuento con habilidades como participación comunicativa, creatividad, resolución de problemas, adaptabilidad y toma de decisiones
     </td>
     <td>
-     <img width="840" height="843" alt="Image" src="https://github.com/user-attachments/assets/5de507d9-5c43-4cf5-b40e-33557d064679" />
+     <img width="800" alt="Image" src="https://github.com/user-attachments/assets/5de507d9-5c43-4cf5-b40e-33557d064679" />
     </td>
   </tr>
   <tr>
@@ -1718,6 +1718,43 @@ Nuestro proyecto ayudará a lograr objetivos más grandes y cómo tendrá un imp
 ### 4.1.1 Design-Level EventStorming  
 
 #### 4.1.1.1 Candidate Context Discovery
+
+Para el event storming el equipo completo se reunio por alrededor de 2 horas para poder definir cada una de las funcionalidades que tendra el sistema, los pasos fueron los siguientes:
+1. Unstructured Exploration
+   <img width="941" alt="Image" src="https://github.com/user-attachments/assets/864b2ee5-fce8-405a-be6d-1a5f70ed3e65" />
+2. Timelines
+   <img width="628" alt="Image" src="https://github.com/user-attachments/assets/16b713fc-953b-42cd-9432-0f4db501c329" />
+   <img width="813" alt="Image" src="https://github.com/user-attachments/assets/d810d2f3-b275-4a85-94fa-95d49b40c59f" />
+3. Paint points
+   <img width="1089" alt="Image" src="https://github.com/user-attachments/assets/38d6fa02-d17e-42fb-bff1-749a695c3f68" />
+   <img width="1059" alt="Image" src="https://github.com/user-attachments/assets/8211870d-b298-4a65-96a4-848fb300a6d4" />
+   <img width="890" alt="Image" src="https://github.com/user-attachments/assets/8db84094-7b9e-4ee2-8ef3-f65523c3f4a5" />
+4. Pivotal Points
+   <img width="848" alt="Image" src="https://github.com/user-attachments/assets/33691564-6f21-440a-b839-487e3f94755e" />
+   <img width="818" alt="Image" src="https://github.com/user-attachments/assets/3dd6ee5d-165c-4ccd-ab36-456c5b0f712f" />
+5. Commands
+   <img width="536" alt="Image" src="https://github.com/user-attachments/assets/f1caae9f-1fc3-4fec-91c1-69831d7d15c3" />
+   <img width="704" alt="Image" src="https://github.com/user-attachments/assets/0dc60dfe-91e8-4370-b4ff-82c380f88f7b" />
+   <img width="822" alt="Image" src="https://github.com/user-attachments/assets/bf7ee959-c4b2-4323-84ea-178c1a52e76b" />
+6. Policies
+   <img width="586" alt="Image" src="https://github.com/user-attachments/assets/acab9c49-9ea8-49f6-9515-b4c86cc3926d" />
+   <img width="762" alt="Image" src="https://github.com/user-attachments/assets/29c2f089-30c9-4d28-9955-6fafdcaf11a9" />
+   <img width="881" alt="Image" src="https://github.com/user-attachments/assets/42ec9de1-65eb-47f5-acd3-3a37ea4a594d" />
+7. Read Models
+   <img width="915" alt="Image" src="https://github.com/user-attachments/assets/7f61e3a1-cb93-4129-9bee-afea9b7abf3d" />
+   <img width="1055" alt="Image" src="https://github.com/user-attachments/assets/fedb85bd-9686-49f2-8ad9-6209c3f9c990" />
+   <img width="1064" alt="Image" src="https://github.com/user-attachments/assets/d0ce7599-9b73-45a3-a146-101adc1a1881" />
+8. External Systems
+   <img width="990" alt="Image" src="https://github.com/user-attachments/assets/cec38b7e-8581-4983-a34e-60568aa7373e" />
+   <img width="1026" alt="Image" src="https://github.com/user-attachments/assets/a2aff5e4-c45f-48c0-8e6e-1c5841045348" />
+   <img width="1105" alt="Image" src="https://github.com/user-attachments/assets/d3f62b6e-ffd6-4b58-86dc-9d78ff6fed92" />
+9. Aggregates
+   <img width="1123" alt="Image" src="https://github.com/user-attachments/assets/4a567de4-f0a6-4dfe-ac4d-2ede1244702b" />
+   <img width="1114" alt="Image" src="https://github.com/user-attachments/assets/02b5be04-b3b8-430f-8881-07d5dda39d3c" />
+   <img width="1116" alt="Image" src="https://github.com/user-attachments/assets/d2a87187-689e-41a4-9a68-404b67427243" />
+10. Bounded Contexts
+    <img width="4096" alt="Image" src="https://github.com/user-attachments/assets/17bb86de-553f-4c64-bd20-448b1325f319" /> 
+
 #### 4.1.1.2 Domain Message Flows Modeling  
 
 #### 4.1.1.3 Bounded Context Canvases  
