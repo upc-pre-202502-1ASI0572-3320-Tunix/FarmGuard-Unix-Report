@@ -131,15 +131,15 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       - [4.1.3.3 Container Level Diagrams](#container-level-diagrams)
       - [4.1.3.4 Deployment Diagrams](#deployment-diagrams)
   - [4.2 Tactical-Level Domain-Driven Design](#tactical-level-domain-driven-design)
-    - [4.2.X Bounded Context: Nombre del Contexto](#bounded-context-nombre-del-contexto)
-      - [4.2.X.1 Domain Layer](#domain-layer)
-      - [4.2.X.2 Interface Layer](#interface-layer)
-      - [4.2.X.3 Application Layer](#application-layer)
-      - [4.2.X.4 Infrastructure Layer](#infrastructure-layer)
-      - [4.2.X.5 Component Level Diagrams](#component-level-diagrams)
-      - [4.2.X.6 Code Level Diagrams](#code-level-diagrams)
-        - [4.2.X.6.1 Domain Layer Class Diagrams](#domain-layer-class-diagrams)
-        - [4.2.X.6.2 Database Design Diagram](#database-design-diagram)
+    - [4.2.1 Bounded Context: Nombre del Contexto](#bounded-context-nombre-del-contexto)
+      - [4.2.1.1 Domain Layer](#domain-layer)
+      - [4.2.1.2 Interface Layer](#interface-layer)
+      - [4.2.1.3 Application Layer](#application-layer)
+      - [4.2.1.4 Infrastructure Layer](#infrastructure-layer)
+      - [4.2.1.5 Component Level Diagrams](#component-level-diagrams)
+      - [4.2.1.6 Code Level Diagrams](#code-level-diagrams)
+        - [4.2.1.6.1 Domain Layer Class Diagrams](#domain-layer-class-diagrams)
+        - [4.2.1.6.2 Database Design Diagram](#database-design-diagram)
 
 #### [Capítulo V: Solution UI/UX Design](#solution-uiux-design)
   - [5.1 Style Guidelines](#style-guidelines)
@@ -286,8 +286,8 @@ FarmGuard se posiciona como una solución integral, accesible y centrada en el u
   </tr>
   <tr>
     <td>
-      <strong>Zarate Castro Jose Daniel</strong>
-        Descripcion
+      <strong>Zarate Castro Jose Daniel</strong></br>
+        Estudiante de Ingeniería de Software (9no ciclo) con experiencia en análisis de datos y automatizaciónes.
     </td>
     <td>
       <img src="assets/student/Me2.jpg" alt="Carlos" style="max-height: 250px;">
@@ -1803,7 +1803,7 @@ Notifications funciona como un servicio compartido que expone una interfaz está
 ## 4.2 Tactical-Level Domain-Driven Design  
 
 
-### 4.2.X Bounded Context: <Bounded Animal Management>
+### 4.2.1 Bounded Context: <Bounded Animal Management>
 
 ## Diccionario de Clases
  
@@ -2019,7 +2019,7 @@ Diagnóstico de enfermedad.
 ---
 
 
-#### 4.2.X.1 Domain Layer 
+#### 4.2.1.1 Domain Layer 
 Dentro del dominio de Animal Management (gestión de animales y salud), se concentran las entidades y servicios que permiten identificar a cada animal, administrarlo dentro de una Section (rebaño/lote), y mantener su Historial Médico y Bitácora de Alimentación, controlando además el acceso de veterinarios y generando notificaciones de cambios relevantes.
 
 Este dominio es crítico para garantizar la integridad clínica y trazabilidad: registrar diagnósticos, vacunas y tratamientos (con modificaciones, cierres o anulaciones con motivo); asegurar que los usuarios autorizados (veterinarios) puedan actuar; y que cada animal disponga de su información actualizada (incluida su imagen).
@@ -2049,7 +2049,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
   - TagCode, ImageUrl, Dose, Severity, Status
 
-#### 4.2.X.2 Interface Layer  
+#### 4.2.1.2 Interface Layer  
 
   ## 🧭 Controladores del Sistema
 
@@ -2140,7 +2140,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
   - `GetCatalogMedicationQuery`
   - `GetCatalogDiseaseQuery`
 
-#### 4.2.X.3 Application Layer  
+#### 4.2.1.3 Application Layer  
 
   ## 🧩 Servicios del Sistema
 
@@ -2189,7 +2189,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
 
 
-#### 4.2.X.4 Infrastructure Layer  
+#### 4.2.1.4 Infrastructure Layer  
 
   ## 🗂️ Repositorios
 
@@ -2209,15 +2209,15 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
   - `VeterinarianAccessRepository` _(gestiona Invitaciones y Concesión de Accesos)_
 
 
-#### 4.2.X.5 Bounded Context Software Architecture Component Level Diagrams  
+#### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams  
 A continuacion se mostrara el diagrama de componentes de nuestro sistema.
 
 <p>
    <img src="/Assets/img/Bounded Animal/structurizr-Diagram3.png">
  </p>
 
-#### 4.2.X.6 Bounded Context Software Architecture Code Level Diagrams  
-##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams
+#### 4.2.1.6 Bounded Context Software Architecture Code Level Diagrams  
+##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
 
 A continuacion se mostrara el diagrama de clases de nuestro sistema.
 
@@ -2225,13 +2225,167 @@ A continuacion se mostrara el diagrama de clases de nuestro sistema.
    <img src="/Assets/img/Bounded Animal/diagrama de clases.png">
  </p>
 
-##### 4.2.X.6.2 Bounded Context Database Design Diagram  
+##### 4.2.1.6.2 Bounded Context Database Design Diagram  
 
 
 A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
 <p>
    <img src="/Assets/img/Bounded Animal/prueba_2025-2025-09-15_22-25.png">
+ </p>
+
+## 4.2.2 Bounded Context: <Bounded Payment Management>
+
+### Diccionario de Clases
+
+---
+
+### Clase: `Payment`
+Entidad principal (Aggregate Root): representa un pago dentro del sistema.  
+
+| Nombre      | Payment |
+| ----------- | ------- |
+| Relaciones  | Customer, PaymentMethod, Transaction |
+| Descripción | Gestiona los pagos realizados por clientes, incluyendo estado, método y referencia externa. |
+
+#### Atributos
+
+| Nombre           | Tipo de Dato       | Visibilidad |
+| ---------------- | ------------------ | ----------- |
+| Id               | int                | private     |
+| CustomerId       | int                | private     |
+| Amount           | Amount             | private     |
+| Currency         | Currency           | private     |
+| Status           | PaymentStatus      | private     |
+| ExternalReference| ExternalReference  | private     |
+| CreatedAt        | datetime           | private     |
+| UpdatedAt        | datetime           | private     |
+
+#### Métodos
+
+- `static Create(customerId:int, amount:Amount, currency:Currency, reference:ExternalReference): Payment`
+- `ChangeAmount(newAmount: Amount): void`
+- `ChangePaymentMethod(newMethod: PaymentMethod): void`
+- `MarkAsCancelled(): void`
+- `MarkAsProcessed(transaction: Transaction): void`
+- `MarkAsRefunded(transaction: Transaction): void`
+
+---
+
+### Clase: `Transaction`
+Entidad dependiente del agregado `Payment`. Representa el resultado de la operación en el sistema externo.  
+
+| Nombre      | Transaction |
+| ----------- | ----------- |
+| Relaciones  | Payment     |
+| Descripción | Contiene información del resultado de la transacción en el sistema externo. |
+
+#### Atributos
+
+| Nombre        | Tipo de Dato       | Visibilidad |
+| ------------- | ------------------ | ----------- |
+| Id            | int                | private     |
+| PaymentId     | int                | private     |
+| Status        | TransactionStatus  | private     |
+| ResponseCode  | string             | private     |
+| Message       | string             | private     |
+| ExternalId    | string             | private     |
+| CreatedAt     | datetime           | private     |
+
+#### Métodos
+
+- `RecordResponse(response:object): void`
+- `MarkSuccess(): void`
+- `MarkFailed(): void`
+
+---
+
+### 4.2.2.1 Domain Layer
+- **Aggregate Root**: `Payment` → contiene una colección/referencia a `Transaction`.  
+- **Entities**: `Payment`, `Transaction` (dentro del agregado `Payment`).  
+- **Value Objects**: `Amount`, `Currency`, `PaymentStatus`, `TransactionStatus`, `ExternalReference`.  
+- **Domain Events**:  
+  - `PaymentCreatedEvent`  
+  - `PaymentProcessedEvent`  
+  - `PaymentCancelledEvent`  
+  - `PaymentRefundedEvent`  
+
+---
+
+### 4.2.2.2 Interface Layer
+
+#### Controladores del Sistema
+- `PaymentsController`
+
+#### Comandos de Escritura
+- `CreatePaymentCommand`
+- `ProcessPaymentCommand`
+- `CancelPaymentCommand`
+- `RefundPaymentCommand`
+
+#### Queries (Lectura)
+- `GetPaymentByIdQuery`
+- `ListPaymentsByCustomerQuery`
+- `GetPaymentStatusQuery`
+
+> **Nota**: Todos los comandos y queries trabajan con **DTOs** (`PaymentDto`, `TransactionDto`, etc.) en lugar de exponer entidades de dominio directamente.
+
+---
+
+### 4.2.2.3 Application Layer
+
+#### CommandServices
+- `PaymentCommandService`  
+  _Gestiona creación de pagos, procesamiento de transacciones, cancelaciones y reembolsos. Publica eventos de dominio._
+
+#### QueryServices
+- `PaymentQueryService`  
+  _Consulta pagos y estados de transacciones a través de repositorios y devuelve DTOs._
+
+#### OutboundServices
+- `IPaymentGateway` (puerto)  
+- `ExternalPaymentGatewayService` _(adaptador que implementa `IPaymentGateway`)_  
+  _Encapsula la comunicación con el proveedor externo de pagos._  
+
+#### EventHandlers
+- `PaymentEventHandler`  
+  _Orquesta integración con el gateway externo en respuesta a eventos de dominio._
+
+---
+
+### 4.2.2.4 Infrastructure Layer
+
+#### Repositorios
+- `PaymentRepository` _(implements `IPaymentRepository`)_  
+  _Gestiona el agregado `Payment` junto con sus transacciones asociadas._  
+
+> Si se requieren consultas específicas de transacciones (ej. conciliación), se podrá crear un `TransactionReadRepository` especializado solo para reporting.
+
+
+
+#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams  
+
+A continuacion se mostrara el diagrama de componentes de nuestro sistema.
+
+<p>
+   <img src="/Assets/img/Bounded Animal/structurizr-PaymentManagementComponents.png">
+ </p>
+
+#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams  
+##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
+
+A continuacion se mostrara el diagrama de clases de nuestro sistema.
+
+<p>
+   <img src="/Assets/img/Bounded Animal/uml-clases-paymentManagement.png">
+ </p>
+
+##### 4.2.2.6.2 Bounded Context Database Design Diagram  
+
+A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
+
+<p>
+   <img src="/Assets/img/Bounded Animal/bd-paymentManagement.png">
  </p>
 
 # Capítulo V: Solution UI/UX Design  
