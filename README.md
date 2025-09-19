@@ -227,6 +227,8 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       <td>
       <h6><strong>Brayan Smith Morales Quispe</strong></h6>
       TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>
+      <h6>Jose Daniel Zarate Castro</h6>
+      TB1:<p>      Apoyé a mi equipo colaborando en las tareas y dando mi ayuda cuando fue necesario para que avanzáramos juntos en los objetivos.</p>
       <td>
       TB1: <p>
       </td>
@@ -238,6 +240,9 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       <td>
       <h6>Brayan Smith Morales Quispe</h6>
       TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>
+      <h6>Jose Daniel Zarate Castro</h6>
+      TB1:<p>Colaboré con mis compañeros creando un buen ambiente de trabajo, ayudando a entender el tema, organizando las tareas y apoyando para que logremos las metas propuestas.</p>
+      </td>
       </td>
       <td>
       TB1:</p> 
