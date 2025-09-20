@@ -120,6 +120,7 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
 - [3.3 Impact Mapping](#33-impact-mapping)  
 - [3.4 Product Backlog](#34-product-backlog)
 
+<<<<<<< HEAD
 ### Capítulo IV: Solution Software Design
 - [4.1 Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)  
   - [4.1.1 EventStorming](#411-eventstorming)  
@@ -142,6 +143,30 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
     - [4.2.X.6 Code Level Diagrams](#42x6-code-level-diagrams)  
       - [4.2.X.6.1 Domain Layer Class Diagrams](#42x61-domain-layer-class-diagrams)  
       - [4.2.X.6.2 Database Design Diagram](#42x62-database-design-diagram)
+=======
+#### [Capítulo IV: Solution Software Design](#solution-software-design)
+  - [4.1 Strategic-Level Domain-Driven Design](#strategic-level-domain-driven-design)
+    - [4.1.1 EventStorming](#eventstorming)
+      - [4.1.1.1 Candidate Context Discovery](#candidate-context-discovery)
+      - [4.1.1.2 Domain Message Flows Modeling](#domain-message-flows-modeling)
+      - [4.1.1.3 Bounded Context Canvases](#bounded-context-canvases)
+    - [4.1.2 Context Mapping](#context-mapping)
+    - [4.1.3 Software Architecture](#software-architecture)
+      - [4.1.3.1 System Landscape Diagram](#system-landscape-diagram)
+      - [4.1.3.2 Context Level Diagrams](#context-level-diagrams)
+      - [4.1.3.3 Container Level Diagrams](#container-level-diagrams)
+      - [4.1.3.4 Deployment Diagrams](#deployment-diagrams)
+  - [4.2 Tactical-Level Domain-Driven Design](#tactical-level-domain-driven-design)
+    - [4.2.1 Bounded Context: Nombre del Contexto](#bounded-context-nombre-del-contexto)
+      - [4.2.1.1 Domain Layer](#domain-layer)
+      - [4.2.1.2 Interface Layer](#interface-layer)
+      - [4.2.1.3 Application Layer](#application-layer)
+      - [4.2.1.4 Infrastructure Layer](#infrastructure-layer)
+      - [4.2.1.5 Component Level Diagrams](#component-level-diagrams)
+      - [4.2.1.6 Code Level Diagrams](#code-level-diagrams)
+        - [4.2.1.6.1 Domain Layer Class Diagrams](#domain-layer-class-diagrams)
+        - [4.2.1.6.2 Database Design Diagram](#database-design-diagram)
+>>>>>>> origin/main
 
 ### Capítulo V: Solution UI/UX Design
 - [5.1 Style Guidelines](#51-style-guidelines)  
@@ -1814,7 +1839,11 @@ Notifications funciona como un servicio compartido que expone una interfaz está
 
 ## 4.2 Tactical-Level Domain-Driven Design  
 
+<<<<<<< HEAD
 ### 4.2.X Bounded Context: <Bounded Animal Management>
+=======
+### 4.2.1 Bounded Context: <Bounded Animal Management>
+>>>>>>> origin/main
 
 ## Diccionario de Clases
  
@@ -2059,6 +2088,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
   #### Value Object:
 
   - TagCode, ImageUrl, Dose, Severity, Status
+<<<<<<< HEAD
 
 #### 4.2.X.2 Interface Layer  
 
@@ -2248,17 +2278,14 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 ### 4.2.X Bounded Context: IoT Monitoring & Analysis
 
 #### 4.2.X.1 Domain Layer
+=======
+>>>>>>> origin/main
 
-- **Aggregates**
-  - `AnimalMonitoring` → Raíz del aggregate que gestiona al animal, sus sensores vinculados y los indicadores clave que se monitorean en tiempo real.  
-  - `IndicatorHistory` → Aggregate que almacena y organiza el historial de valores de los indicadores para análisis posteriores.
+#### 4.2.1.2 Interface Layer  
 
-- **Entities**
-  - `Farmer` → Representa al usuario del sistema (ganadero) encargado de registrar sensores, definir áreas de tránsito y recibir notificaciones críticas.  
-  - `Sensor` → Representa los dispositivos IoT que recopilan datos (cardíaco, temperatura, GPS) y que pueden estar vinculados o desvinculados de un animal.  
-  - `Animal` → Representa al animal monitorizado, el cual está asociado a uno o varios sensores y genera indicadores clave de salud y ubicación.  
-  - `TransitArea` → Representa el área geográfica delimitada para controlar si un animal se encuentra dentro o fuera de los límites permitidos.
+  ## Controladores del Sistema
 
+<<<<<<< HEAD
 - **Value Objects**
   - `SensorStatus` → Valor que define el estado de un sensor: Activo, Inactivo, Vinculado o Desvinculado.  
   - `GeoCoordinates` → Valor que encapsula la latitud y longitud de las áreas de tránsito.  
@@ -2342,16 +2369,349 @@ Esta capa proporciona la implementación técnica para la persistencia de datos 
 <img src="Assets/img/ChapterIV/iot_BDC_domain_diagram_c4.png" alt="">  
 
 #### 4.2.X.6 Bounded Context Software Architecture Code Level Diagrams  
+=======
+  ### Gestión de Animales
+  - `AnimalsController`
+
+  ### Secciones
+  - `SectionsController`
+
+  ### Historial Médico
+  - `MedicalHistoryController`
+
+  ### Vacunaciones
+  - `VaccinationsController`
+
+  ### Tratamientos
+  - `TreatmentsController`
+
+  ### Diagnósticos
+  - `DiagnosesController`
+
+  ### Alimentación
+  - `FeedingController`
+
+  ### Acceso de Veterinarios
+  - `AccessController` _(invitaciones/permisos de veterinarios)_
+
+  ## Comandos de Escritura
+
+  ### Gestión de Animales
+  - `RegisterAnimalCommand`
+  - `UpdateAnimalCommand`
+  - `ReassignAnimalCommand`
+
+  ### Imagen del Animal
+  - `UploadAnimalImageCommand`
+
+  ### Vacunación
+  - `ApplyVaccineCommand`
+  - `ModifyVaccinationCommand`
+  - `AnnulVaccinationCommand`
+  - `RemoveVaccinationCommand`
+
+  ### Tratamientos
+  - `RegisterTreatmentCommand`
+  - `ModifyTreatmentCommand`
+  - `CloseTreatmentCommand`
+  - `RemoveTreatmentCommand`
+
+  ### Diagnóstico de Enfermedades
+  - `DiagnoseDiseaseCommand`
+  - `ModifyDiagnosisCommand`
+  - `RemoveDiagnosisCommand`
+
+  ### Registro de Alimentación
+  - `RegisterFeedingEntryCommand`
+  - `ModifyFeedingEntryCommand`
+  - `DeleteFeedingEntryCommand`
+
+  ### Acceso de Veterinarios
+  - `InviteVeterinarianCommand`
+  - `GrantAccessCommand`
+  - `RevokeAccessCommand`
+
+
+  ##  Queries (Lectura)
+
+  ### Animales
+  - `GetAnimalByIdQuery`
+  - `ListAnimalsBySectionQuery`
+  - `SearchAnimalsQuery`
+
+  ### Historial Médico
+  - `GetMedicalHistoryQuery` _(retorna 3 arrays)_
+  - `GetVaccinationsQuery`
+  - `GetTreatmentsQuery`
+  - `GetDiagnosesQuery`
+
+  ### Alimentación
+  - `GetFoodEntriesQuery`
+
+  ### Secciones
+  - `GetSectionByIdQuery`
+  - `ListSectionsByOwnerQuery`
+
+  ### Catálogos
+  - `GetCatalogVaccineQuery`
+  - `GetCatalogMedicationQuery`
+  - `GetCatalogDiseaseQuery`
+
+#### 4.2.1.3 Application Layer  
+
+  ## Servicios del Sistema
+
+  ### CommandServices
+  Servicios encargados de ejecutar acciones que modifican el estado del sistema.
+
+  - `AnimalCommandService.cs`  
+    _Registro, actualización y reasignación de animales_
+
+  - `MedicalCommandService.cs`  
+    _Gestión de vacunas, tratamientos y diagnósticos_
+
+  - `FoodCommandService.cs`  
+    _Registro y modificación del diario de alimentación_
+
+  - `SectionAccessCommandService.cs`  
+    _Invitaciones y permisos para veterinarios_
+
+  ---
+
+  ### QueryServices
+  Servicios dedicados a la lectura y consulta de datos.
+
+  - `AnimalQueryService.cs`  
+    _Consulta de animales por ID, sección o búsqueda_
+
+  - `MedicalHistoryQueryService.cs`  
+    _Retorna arrays de `Vaccinations[]`, `Treatments[]`, `Diagnoses[]`_
+
+  - `FoodQueryService.cs`  
+    _Consulta de entradas alimenticias_
+
+  - `SectionQueryService.cs`  
+    _Consulta de secciones por ID o propietario_
+
+  ---
+
+  ### 📤 OutboundServices
+  Servicios que interactúan con sistemas externos o recursos fuera del dominio principal.
+
+  - `ExternalNotificationService.cs`  
+    _Manejo de eventos y envío de notificaciones externas_
+
+  - `ImageStorageService.cs`  
+    _Subida y eliminación de imágenes de animales_
+
+
+
+#### 4.2.1.4 Infrastructure Layer  
+
+  ## Repositorios
+
+  ### Animales
+  - `AnimalRepository` _(implements `IAnimalRepository`)_
+
+  ### Secciones
+  - `SectionRepository` _(implements `ISectionRepository`)_
+
+  ### Historial Médico
+  - `MedicalHistoryRepository` _(implements `IMedicalHistoryRepository`)_
+
+
+  ### Catálogos
+  - `CatalogRepository` _(maneja catálogos de Vacunas, Medicamentos y Enfermedades)_
+
+  ### Acceso de Veterinarios
+  - `VeterinarianAccessRepository` _(gestiona Invitaciones y Concesión de Accesos)_
+
+
+#### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams  
+A continuacion se mostrara el diagrama de componentes de nuestro sistema.
+
+<p>
+   <img src="/Assets/img/Bounded Animal/structurizr-Diagram3.png">
+ </p>
+
+#### 4.2.1.6 Bounded Context Software Architecture Code Level Diagrams  
+##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
+>>>>>>> origin/main
 
 ##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams  
 
-<img src="Assets/img/ChapterIV/iot_BDC_domain_diagram.png" alt="">  
+##### 4.2.1.6.2 Bounded Context Database Design Diagram  
 
+<<<<<<< HEAD
 ##### 4.2.X.6.2 Bounded Context Database Design Diagram  
 
 <img src="Assets/img/ChapterIV/iot_BDC_DBD.png" alt="">  
 ---
 
+=======
+
+A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
+
+<p>
+   <img src="/Assets/img/Bounded Animal/prueba_2025-2025-09-15_22-25.png">
+ </p>
+
+## 4.2.2 Bounded Context: <Bounded Payment Management>
+
+### Diccionario de Clases
+
+---
+
+### Clase: `Payment`
+Entidad principal (Aggregate Root): representa un pago dentro del sistema.  
+
+| Nombre      | Payment |
+| ----------- | ------- |
+| Relaciones  | Customer, PaymentMethod, Transaction |
+| Descripción | Gestiona los pagos realizados por clientes, incluyendo estado, método y referencia externa. |
+
+#### Atributos
+
+| Nombre           | Tipo de Dato       | Visibilidad |
+| ---------------- | ------------------ | ----------- |
+| Id               | int                | private     |
+| CustomerId       | int                | private     |
+| Amount           | Amount             | private     |
+| Currency         | Currency           | private     |
+| Status           | PaymentStatus      | private     |
+| ExternalReference| ExternalReference  | private     |
+| CreatedAt        | datetime           | private     |
+| UpdatedAt        | datetime           | private     |
+
+#### Métodos
+
+- `static Create(customerId:int, amount:Amount, currency:Currency, reference:ExternalReference): Payment`
+- `ChangeAmount(newAmount: Amount): void`
+- `ChangePaymentMethod(newMethod: PaymentMethod): void`
+- `MarkAsCancelled(): void`
+- `MarkAsProcessed(transaction: Transaction): void`
+- `MarkAsRefunded(transaction: Transaction): void`
+
+
+<img src="Assets/img/ChapterIV/iot_BDC_DBD.png" alt="">  
+---
+
+### Clase: `Transaction`
+Entidad dependiente del agregado `Payment`. Representa el resultado de la operación en el sistema externo.  
+
+| Nombre      | Transaction |
+| ----------- | ----------- |
+| Relaciones  | Payment     |
+| Descripción | Contiene información del resultado de la transacción en el sistema externo. |
+
+#### Atributos
+
+| Nombre        | Tipo de Dato       | Visibilidad |
+| ------------- | ------------------ | ----------- |
+| Id            | int                | private     |
+| PaymentId     | int                | private     |
+| Status        | TransactionStatus  | private     |
+| ResponseCode  | string             | private     |
+| Message       | string             | private     |
+| ExternalId    | string             | private     |
+| CreatedAt     | datetime           | private     |
+
+#### Métodos
+
+- `RecordResponse(response:object): void`
+- `MarkSuccess(): void`
+- `MarkFailed(): void`
+
+---
+
+### 4.2.2.1 Domain Layer
+- **Aggregate Root**: `Payment` → contiene una colección/referencia a `Transaction`.  
+- **Entities**: `Payment`, `Transaction` (dentro del agregado `Payment`).  
+- **Value Objects**: `Amount`, `Currency`, `PaymentStatus`, `TransactionStatus`, `ExternalReference`.  
+- **Domain Events**:  
+  - `PaymentCreatedEvent`  
+  - `PaymentProcessedEvent`  
+  - `PaymentCancelledEvent`  
+  - `PaymentRefundedEvent`  
+
+---
+
+### 4.2.2.2 Interface Layer
+
+#### Controladores del Sistema
+- `PaymentsController`
+
+#### Comandos de Escritura
+- `CreatePaymentCommand`
+- `ProcessPaymentCommand`
+- `CancelPaymentCommand`
+- `RefundPaymentCommand`
+
+#### Queries (Lectura)
+- `GetPaymentByIdQuery`
+- `ListPaymentsByCustomerQuery`
+- `GetPaymentStatusQuery`
+
+> **Nota**: Todos los comandos y queries trabajan con **DTOs** (`PaymentDto`, `TransactionDto`, etc.) en lugar de exponer entidades de dominio directamente.
+
+---
+
+### 4.2.2.3 Application Layer
+
+#### CommandServices
+- `PaymentCommandService`  
+  _Gestiona creación de pagos, procesamiento de transacciones, cancelaciones y reembolsos. Publica eventos de dominio._
+
+#### QueryServices
+- `PaymentQueryService`  
+  _Consulta pagos y estados de transacciones a través de repositorios y devuelve DTOs._
+
+#### OutboundServices
+- `IPaymentGateway` (puerto)  
+- `ExternalPaymentGatewayService` _(adaptador que implementa `IPaymentGateway`)_  
+  _Encapsula la comunicación con el proveedor externo de pagos._  
+
+#### EventHandlers
+- `PaymentEventHandler`  
+  _Orquesta integración con el gateway externo en respuesta a eventos de dominio._
+
+---
+
+### 4.2.2.4 Infrastructure Layer
+
+#### Repositorios
+- `PaymentRepository` _(implements `IPaymentRepository`)_  
+  _Gestiona el agregado `Payment` junto con sus transacciones asociadas._  
+
+> Si se requieren consultas específicas de transacciones (ej. conciliación), se podrá crear un `TransactionReadRepository` especializado solo para reporting.
+
+
+
+#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams  
+
+A continuacion se mostrara el diagrama de componentes de nuestro sistema.
+
+<p>
+   <img src="/Assets/img/Bounded Animal/structurizr-PaymentManagementComponents.png">
+ </p>
+
+#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams  
+##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
+
+A continuacion se mostrara el diagrama de clases de nuestro sistema.
+
+<p>
+   <img src="/Assets/img/Bounded Animal/uml-clases-paymentManagement.png">
+ </p>
+
+##### 4.2.2.6.2 Bounded Context Database Design Diagram  
+
+A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
+
+<p>
+   <img src="/Assets/img/Bounded Animal/bd-paymentManagement.png">
+ </p>
+>>>>>>> origin/main
 
 # Capítulo V: Solution UI/UX Design  
 
