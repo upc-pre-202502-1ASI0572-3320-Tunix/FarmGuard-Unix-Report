@@ -234,6 +234,8 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>
       <h6>Jose Daniel Zarate Castro</h6>
       TB1:<p>      Apoyé a mi equipo colaborando en las tareas y dando mi ayuda cuando fue necesario para que avanzáramos juntos en los objetivos.</p>
+<h6><strong>Quique Vladimir Jara Benites</strong></h6>
+      TB1:<p>Coordiné la distribución de tareas entre los miembros del equipo, promoví la participación activa y resolví dudas técnicas para asegurar el avance conjunto hacia los objetivos del proyecto.</p>
       <td>
       TB1: <p>
       </td>
@@ -247,6 +249,8 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>
       <h6>Jose Daniel Zarate Castro</h6>
       TB1:<p>Colaboré con mis compañeros creando un buen ambiente de trabajo, ayudando a entender el tema, organizando las tareas y apoyando para que logremos las metas propuestas.</p>
+      <h6>Quique Vladimir Jara Benites</h6>
+      TB1:<p>Fomenté un ambiente colaborativo e inclusivo, ayudando a definir metas claras y participando en la planificación de tareas. Contribuí activamente al cumplimiento de los objetivos del equipo, asegurando que todos los miembros pudieran aportar y avanzar juntos. </p>
       </td>
       </td>
       <td>
@@ -2715,17 +2719,17 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 El video adopta un tono cercano, claro y profesional, coherente con la identidad visual de WaruSmart. Se presenta una visión general del sistema, incluyendo su modelo de negocio, arquitectura modular (web, móvil, backend y edge), así como ejemplos reales de uso.
 
-📺 **Captura del video**  
+ **Captura del video**  
 ![Screenshot del Video]()
-
-🔗 **Enlaces del video**
+ 
+**Enlaces del video**
 - Versión publicada en **Microsoft Stream**:  
   []()
 
 - Versión publicada en **YouTube** (para incrustar en el Landing Page):  
   []()
 
-⏱️ **Duración del video**: 9 minutos y 56 segundos
+**Duración del video**: 9 minutos y 56 segundos
 
 ---
 
@@ -2736,34 +2740,34 @@ El video adopta un tono cercano, claro y profesional, coherente con la identidad
 ## Recomendaciones
 
 
-### 📸 Captura del video:
+### Captura del video:
 ![Captura del equipo]()
 
-### 🔗 Enlaces del video:
+### Enlaces del video:
 
-- 📺 Versión en Microsoft Stream (entorno institucional):  
+- Versión en Microsoft Stream (entorno institucional):  
   []()
 
-- 📺 Versión pública en YouTube (para insertar en Landing Page):  
+- Versión pública en YouTube (para insertar en Landing Page):  
   []()
 
-### ⏱️ Duración total del video:
+### Duración total del video:
 **8 minutos con 9 segundos**
 
-# 📚 Bibliografía
+# Bibliografía
 
 
 
-# 📎 Anexos
+# Anexos
 
-### 🎬 Videos de Exposición
+### Videos de Exposición
 
 | Enlace                                             | Entregable                       |
 |----------------------------------------------------|----------------------------------|
 |                                                    | TB1                              |
 ---
 
-### 💻 Repositorios del Proyecto FarmGuard
+### Repositorios del Proyecto FarmGuard
 
 - **Landing Page**  
   [https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage)
