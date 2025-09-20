@@ -49,6 +49,7 @@ NRC: 3320</h5>
 | Versión | Fecha    | Autor(es)                             | Descripción de modificación                                                             |
 |---------|----------|----------------------------------------|-----------------------------------------------------------------------------------------|
 | 0.1     | 03/09/25 | BrayanSmith Morales Quispe        | Inicio del documento                                                            |
+| 0.2     | 19/09/25 | BrayanSmith Morales Quispe        | Agregar Software Aequitectura                                                            |
 
 
 
@@ -83,124 +84,124 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
 
 ## 📚 Tabla de Contenidos
 
-#### [Capítulo I: Introducción](#introducción)
-  - [1.1 Startup Profile](#startup-profile)
-    - [1.1.1 Descripción de la Startup](#descripción-de-la-startup)
-    - [1.1.2 Perfiles de integrantes del equipo](#perfiles-de-integrantes-del-equipo)
-  - [1.2 Solution Profile](#solution-profile)
-    - [1.2.1 Antecedentes y problemática](#antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#lean-ux-process)
-      - [1.2.2.1 Lean UX Problem Statements](#lean-ux-problem-statements)
-      - [1.2.2.2 Lean UX Assumptions](#lean-ux-assumptions)
-      - [1.2.2.3 Lean UX Hypothesis Statements](#lean-ux-hypothesis-statements)
-      - [1.2.2.4 Lean UX Canvas](#lean-ux-canvas)
-  - [1.3 Segmentos Objetivo](#segmentos-objetivo)
+### Capítulo I: Introducción
+- [1.1 Startup Profile](#11-startup-profile)  
+  - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)  
+  - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)  
+- [1.2 Solution Profile](#12-solution-profile)  
+  - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)  
+  - [1.2.2 Lean UX Process](#122-lean-ux-process)  
+    - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)  
+    - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)  
+    - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
+    - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)  
+- [1.3 Segmentos Objetivo](#13-segmentos-objetivo)
 
-#### [Capítulo II: Requirements Elicitation & Analysis](#requirements-elicitation--analysis)
-  - [2.1 Competidores](#competidores)
-    - [2.1.1 Análisis competitivo](#análisis-competitivo)
-    - [2.1.2 Estrategias y tácticas frente a competidores](#estrategias-y-tácticas-frente-a-competidores)
-  - [2.2 Entrevistas](#entrevistas)
-    - [2.2.1 Diseño de entrevistas](#diseño-de-entrevistas)
-    - [2.2.2 Registro de entrevistas](#registro-de-entrevistas)
-    - [2.2.3 Análisis de entrevistas](#análisis-de-entrevistas)
-  - [2.3 Needfinding](#needfinding)
-    - [2.3.1 User Personas](#user-personas)
-    - [2.3.2 User Task Matrix](#user-task-matrix)
-    - [2.3.3 User Journey Mapping](#user-journey-mapping)
-    - [2.3.4 Empathy Mapping](#empathy-mapping)
-    - [2.3.5 As-is Scenario Mapping](#as-is-scenario-mapping)
-  - [2.4 Ubiquitous Language](#ubiquitous-language)
+### Capítulo II: Requirements Elicitation & Analysis
+- [2.1 Competidores](#21-competidores)  
+  - [2.1.1 Análisis competitivo](#211-análisis-competitivo)  
+  - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
+- [2.2 Entrevistas](#22-entrevistas)  
+  - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)  
+  - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas)  
+  - [2.2.3 Análisis de entrevistas](#223-análisis-de-entrevistas)  
+- [2.3 Needfinding](#23-needfinding)  
+  - [2.3.1 User Personas](#231-user-personas)  
+  - [2.3.2 User Task Matrix](#232-user-task-matrix)  
+  - [2.3.3 User Journey Mapping](#233-user-journey-mapping)  
+  - [2.3.4 Empathy Mapping](#234-empathy-mapping)  
+  - [2.3.5 As-is Scenario Mapping](#235-as-is-scenario-mapping)  
+- [2.4 Big Picture EventStorming](#24-big-picture-eventstorming)  
+- [2.5 Ubiquitous Language](#25-ubiquitous-language)
 
-#### [Capítulo III: Requirements Specification](#requirements-specification)
-  - [3.1 To-Be Scenario Mapping](#to-be-scenario-mapping)
-  - [3.2 User Stories](#user-stories)
-  - [3.3 Impact Mapping](#impact-mapping)
-  - [3.4 Product Backlog](#product-backlog)
+### Capítulo III: Requirements Specification
+- [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
+- [3.2 User Stories](#32-user-stories)  
+- [3.3 Impact Mapping](#33-impact-mapping)  
+- [3.4 Product Backlog](#34-product-backlog)
 
-#### [Capítulo IV: Solution Software Design](#solution-software-design)
-  - [4.1 Strategic-Level Domain-Driven Design](#strategic-level-domain-driven-design)
-    - [4.1.1 EventStorming](#eventstorming)
-      - [4.1.1.1 Candidate Context Discovery](#candidate-context-discovery)
-      - [4.1.1.2 Domain Message Flows Modeling](#domain-message-flows-modeling)
-      - [4.1.1.3 Bounded Context Canvases](#bounded-context-canvases)
-    - [4.1.2 Context Mapping](#context-mapping)
-    - [4.1.3 Software Architecture](#software-architecture)
-      - [4.1.3.1 System Landscape Diagram](#system-landscape-diagram)
-      - [4.1.3.2 Context Level Diagrams](#context-level-diagrams)
-      - [4.1.3.3 Container Level Diagrams](#container-level-diagrams)
-      - [4.1.3.4 Deployment Diagrams](#deployment-diagrams)
-  - [4.2 Tactical-Level Domain-Driven Design](#tactical-level-domain-driven-design)
-    - [4.2.X Bounded Context: Nombre del Contexto](#bounded-context-nombre-del-contexto)
-      - [4.2.X.1 Domain Layer](#domain-layer)
-      - [4.2.X.2 Interface Layer](#interface-layer)
-      - [4.2.X.3 Application Layer](#application-layer)
-      - [4.2.X.4 Infrastructure Layer](#infrastructure-layer)
-      - [4.2.X.5 Component Level Diagrams](#component-level-diagrams)
-      - [4.2.X.6 Code Level Diagrams](#code-level-diagrams)
-        - [4.2.X.6.1 Domain Layer Class Diagrams](#domain-layer-class-diagrams)
-        - [4.2.X.6.2 Database Design Diagram](#database-design-diagram)
+### Capítulo IV: Solution Software Design
+- [4.1 Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)  
+  - [4.1.1 EventStorming](#411-eventstorming)  
+    - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)  
+    - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)  
+    - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)  
+  - [4.1.2 Context Mapping](#412-context-mapping)  
+  - [4.1.3 Software Architecture](#413-software-architecture)  
+    - [4.1.3.1 System Landscape Diagram](#4131-system-landscape-diagram)  
+    - [4.1.3.2 Context Level Diagrams](#4132-context-level-diagrams)  
+    - [4.1.3.3 Container Level Diagrams](#4133-container-level-diagrams)  
+    - [4.1.3.4 Deployment Diagrams](#4134-deployment-diagrams)  
+- [4.2 Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)  
+  - [4.2.X Bounded Context: Nombre del Contexto](#42x-bounded-context-nombre-del-contexto)  
+    - [4.2.X.1 Domain Layer](#42x1-domain-layer)  
+    - [4.2.X.2 Interface Layer](#42x2-interface-layer)  
+    - [4.2.X.3 Application Layer](#42x3-application-layer)  
+    - [4.2.X.4 Infrastructure Layer](#42x4-infrastructure-layer)  
+    - [4.2.X.5 Component Level Diagrams](#42x5-component-level-diagrams)  
+    - [4.2.X.6 Code Level Diagrams](#42x6-code-level-diagrams)  
+      - [4.2.X.6.1 Domain Layer Class Diagrams](#42x61-domain-layer-class-diagrams)  
+      - [4.2.X.6.2 Database Design Diagram](#42x62-database-design-diagram)
 
-#### [Capítulo V: Solution UI/UX Design](#solution-uiux-design)
-  - [5.1 Style Guidelines](#style-guidelines)
-    - [5.1.1 General Style Guidelines](#general-style-guidelines)
-    - [5.1.2 Web, Mobile and IoT Style Guidelines](#web-mobile-and-iot-style-guidelines)
-  - [5.2 Information Architecture](#information-architecture)
-    - [5.2.1 Organization Systems](#organization-systems)
-    - [5.2.2 Labeling Systems](#labeling-systems)
-    - [5.2.3 SEO Tags and Meta Tags](#seo-tags-and-meta-tags)
-    - [5.2.4 Searching Systems](#searching-systems)
-    - [5.2.5 Navigation Systems](#navigation-systems)
-  - [5.3 Landing Page UI Design](#landing-page-ui-design)
-    - [5.3.1 Wireframe](#wireframe)
-    - [5.3.2 Mock-up](#mock-up)
-  - [5.4 Applications UX/UI Design](#applications-uxui-design)
-    - [5.4.1 Wireframes](#wireframes)
-    - [5.4.2 Wireflow Diagrams](#wireflow-diagrams)
-    - [5.4.3 Mock-ups](#mock-ups)
-    - [5.4.4 User Flow Diagrams](#user-flow-diagrams)
-  - [5.5 Applications Prototyping](#applications-prototyping)
+### Capítulo V: Solution UI/UX Design
+- [5.1 Style Guidelines](#51-style-guidelines)  
+  - [5.1.1 General Style Guidelines](#511-general-style-guidelines)  
+  - [5.1.2 Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)  
+- [5.2 Information Architecture](#52-information-architecture)  
+  - [5.2.1 Organization Systems](#521-organization-systems)  
+  - [5.2.2 Labeling Systems](#522-labeling-systems)  
+  - [5.2.3 SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)  
+  - [5.2.4 Searching Systems](#524-searching-systems)  
+  - [5.2.5 Navigation Systems](#525-navigation-systems)  
+- [5.3 Landing Page UI Design](#53-landing-page-ui-design)  
+  - [5.3.1 Wireframe](#531-wireframe)  
+  - [5.3.2 Mock-up](#532-mock-up)  
+- [5.4 Applications UX/UI Design](#54-applications-uxui-design)  
+  - [5.4.1 Wireframes](#541-wireframes)  
+  - [5.4.2 Wireflow Diagrams](#542-wireflow-diagrams)  
+  - [5.4.3 Mock-ups](#543-mock-ups)  
+  - [5.4.4 User Flow Diagrams](#544-user-flow-diagrams)  
+- [5.5 Applications Prototyping](#55-applications-prototyping)
 
-#### [Capítulo VI: Product Implementation, Validation & Deployment](#product-implementation-validation--deployment)
-  - [6.1 Software Configuration Management](#software-configuration-management)
-    - [6.1.1 Development Environment Configuration](#development-environment-configuration)
-    - [6.1.2 Source Code Management](#source-code-management)
-    - [6.1.3 Code Style Guide & Conventions](#code-style-guide--conventions)
-    - [6.1.4 Deployment Configuration](#deployment-configuration)
-  - [6.2 Landing Page, Services & Applications Implementation](#landing-page-services--applications-implementation)
-    - [6.2.1 Sprint 1](#sprint-1)
-      - [6.2.1.1 Sprint Planning 1](#sprint-planning-1)
-      - [6.2.1.2 Sprint Backlog 1](#sprint-backlog-1)
-      - [6.2.1.3 Development Evidence](#development-evidence)
-      - [6.2.1.4 Testing Suite Evidence](#testing-suite-evidence)
-      - [6.2.1.5 Execution Evidence](#execution-evidence)
-      - [6.2.1.6 Services Documentation Evidence](#services-documentation-evidence)
-      - [6.2.1.7 Software Deployment Evidence](#deployment-evidence)
-      - [6.2.1.8 Team Collaboration Insights](#team-collaboration-insights)
-    - [6.2.2 Sprint 2](#sprint-2)
-      - [6.2.2.1 Sprint Planning 2](#sprint-planning-2)
-      - [6.2.2.2 Sprint Backlog 2](#sprint-backlog-2)
-      - [6.2.2.3 Development Evidence](#development-evidence)
-      - [6.2.2.4 Testing Suite Evidence](#testing-suite-evidence)
-      - [6.2.2.5 Execution Evidence](#execution-evidence)
-      - [6.2.2.6 Services Documentation Evidence](#services-documentation-evidence)
-      - [6.2.2.7 Software Deployment Evidence](#deployment-evidence)
-      - [6.2.2.8 Team Collaboration Insights](#team-collaboration-insights)
-    - [6.2.3 Sprint 3](#sprint-3)
-      - [6.2.3.1 Sprint Planning 3](#sprint-planning-3)
-      - [6.2.3.2 Sprint Backlog 3](#sprint-backlog-3)
-      - [6.2.3.3 Development Evidence](#development-evidence)
-      - [6.2.3.4 Testing Suite Evidence](#testing-suite-evidence)
-      - [6.2.3.5 Execution Evidence](#execution-evidence)
-      - [6.2.3.6 Services Documentation Evidence](#services-documentation-evidence)
-      - [6.2.3.7 Software Deployment Evidence](#deployment-evidence)
-      - [6.2.3.8 Team Collaboration Insights](#team-collaboration-insights)
-  - [6.3 Validation Interviews](#validation-interviews)
-    - [6.3.1 Diseño de Entrevistas](#diseño-de-entrevistas)
-    - [6.3.2 Registro de Entrevistas](#registro-de-entrevistas)
-    - [6.3.3 Evaluaciones según heurísticas](#evaluaciones-según-heurísticas)
-  - [6.4 Video About-the-Product](#video-about-the-product)
-  - [6.5 Aspect Leaders and Collaborators](#aspect-leaders-and-collaborators)
+### Capítulo VI: Product Implementation, Validation & Deployment
+- [6.1 Software Configuration Management](#61-software-configuration-management)  
+  - [6.1.1 Development Environment Configuration](#611-development-environment-configuration)  
+  - [6.1.2 Source Code Management](#612-source-code-management)  
+  - [6.1.3 Code Style Guide & Conventions](#613-code-style-guide--conventions)  
+  - [6.1.4 Deployment Configuration](#614-deployment-configuration)  
+- [6.2 Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)  
+  - [6.2.1 Sprint 1](#621-sprint-1)  
+    - [6.2.1.1 Sprint Planning 1](#6211-sprint-planning-1)  
+    - [6.2.1.2 Sprint Backlog 1](#6212-sprint-backlog-1)  
+    - [6.2.1.3 Development Evidence](#6213-development-evidence)  
+    - [6.2.1.4 Testing Suite Evidence](#6214-testing-suite-evidence)  
+    - [6.2.1.5 Execution Evidence](#6215-execution-evidence)  
+    - [6.2.1.6 Services Documentation Evidence](#6216-services-documentation-evidence)  
+    - [6.2.1.7 Software Deployment Evidence](#6217-software-deployment-evidence)  
+    - [6.2.1.8 Team Collaboration Insights](#6218-team-collaboration-insights)  
+  - [6.2.2 Sprint 2](#622-sprint-2)  
+    - [6.2.2.1 Sprint Planning 2](#6221-sprint-planning-2)  
+    - [6.2.2.2 Sprint Backlog 2](#6222-sprint-backlog-2)  
+    - [6.2.2.3 Development Evidence](#6223-development-evidence)  
+    - [6.2.2.4 Testing Suite Evidence](#6224-testing-suite-evidence)  
+    - [6.2.2.5 Execution Evidence](#6225-execution-evidence)  
+    - [6.2.2.6 Services Documentation Evidence](#6226-services-documentation-evidence)  
+    - [6.2.2.7 Software Deployment Evidence](#6227-software-deployment-evidence)  
+    - [6.2.2.8 Team Collaboration Insights](#6228-team-collaboration-insights)  
+  - [6.2.3 Sprint 3](#623-sprint-3)  
+    - [6.2.3.1 Sprint Planning 3](#6231-sprint-planning-3)  
+    - [6.2.3.2 Sprint Backlog 3](#6232-sprint-backlog-3)  
+    - [6.2.3.3 Development Evidence](#6233-development-evidence)  
+    - [6.2.3.4 Testing Suite Evidence](#6234-testing-suite-evidence)  
+    - [6.2.3.5 Execution Evidence](#6235-execution-evidence)  
+    - [6.2.3.6 Services Documentation Evidence](#6236-services-documentation-evidence)  
+    - [6.2.3.7 Software Deployment Evidence](#6237-software-deployment-evidence)  
+    - [6.2.3.8 Team Collaboration Insights](#6238-team-collaboration-insights)  
+- [6.3 Validation Interviews](#63-validation-interviews)  
+  - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)  
+  - [6.3.2 Evaluaciones según heurísticas](#632-evaluaciones-según-heurísticas)  
+- [6.4 Video About-the-Product](#64-video-about-the-product)  
+- [6.5 Aspect Leaders and Collaborators](#65-aspect-leaders-and-collaborators)
 
 ### [Anexos](#anexos)
 
@@ -851,7 +852,6 @@ En la sección de historias de usuarios, detallaremos las diversas necesidades y
 
 Proporcionar a los usuarios herramientas efectivas para el monitoreo, registro y análisis de la salud de los animales en granjas y clínicas veterinarias es el objetivo principal. Esto permitirá a los dueños de granjas y veterinarios tomar decisiones informadas y reducir los riesgos asociados con la salud animal. Al detallar estas historias de usuario, podremos comprender mejor cómo la plataforma satisfará las necesidades de ambos grupos y ofrecer una solución completa y eficiente para la administración de la salud de los animales.
 
-<!-- ===================== TABLA DE ÉPICAS ===================== -->
 <table>
   <thead>
     <tr>
@@ -863,606 +863,249 @@ Proporcionar a los usuarios herramientas efectivas para el monitoreo, registro y
   <tbody>
     <tr>
       <td>EP-01</td>
-      <td>Gestión y Monitoreo de Animales (IoT)</td>
-      <td>Digitalización integral de la granja: animales, indicadores, historial, vacunas, sensores, insumos, geocercas y mapa.</td>
+      <td>Gestión de la Granja</td>
+      <td>Digitalización y monitoreo de los animales, incluyendo registros, indicadores, sensores y control sanitario.</td>
     </tr>
     <tr>
       <td>EP-02</td>
-      <td>Notificaciones y Alertas</td>
-      <td>Mensajería proactiva ante cambios y eventos críticos de salud.</td>
+      <td>Optimización de Recursos</td>
+      <td>Gestión eficiente de insumos, visualización en mapas y delimitación de áreas para mejorar el uso de recursos.</td>
     </tr>
     <tr>
       <td>EP-03</td>
-      <td>Identidad y Acceso</td>
-      <td>Registro, autenticación y control de acceso por roles.</td>
+      <td>Notificaciones y Alertas</td>
+      <td>Recepción de notificaciones y alertas inmediatas ante cambios en la información o emergencias de salud animal.</td>
     </tr>
     <tr>
       <td>EP-04</td>
-      <td>Gestión de Perfiles de Usuario</td>
-      <td>Creación y mantenimiento de la información del usuario.</td>
+      <td>Identidad y Acceso</td>
+      <td>Registro, autenticación e inicio de sesión seguro de usuarios con validación institucional.</td>
     </tr>
     <tr>
       <td>EP-05</td>
-      <td>Landing Page</td>
-      <td>Sitio público con propuesta de valor, planes, equipo y contacto.</td>
+      <td>Gestión de Perfiles de Usuario</td>
+      <td>Creación, visualización y actualización de perfiles de usuarios para garantizar confianza y transparencia.</td>
     </tr>
     <tr>
       <td>EP-06</td>
-      <td>Gestión de Suscripciones y Pagos</td>
-      <td>Alta, activación y cancelación de suscripciones (web y móvil).</td>
+      <td>Landing Page</td>
+      <td>Diseño de la página de aterrizaje para mostrar beneficios, funcionalidades, testimonios y permitir contacto.</td>
     </tr>
   </tbody>
 </table>
 
-<br>
-
-<!-- ===================== TABLA DE USER STORIES (GHERKIN) ===================== -->
 <table>
   <thead>
     <tr>
-      <th>#</th>
-      <th>User Story ID</th>
+      <th>Epic / Story ID</th>
       <th>Título</th>
       <th>Descripción (User Story)</th>
-      <th>Criterios de aceptación (Gherkin)</th>
-      <th>Epic</th>
+      <th>Criterios de aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
     </tr>
   </thead>
   <tbody>
-    <!-- EP-01 -->
+    <!-- EP-01: Gestión de la Granja -->
     <tr>
-      <td>1</td>
-      <td>US01</td>
+      <td>EP-01-US01</td>
       <td>Gestión digital de los animales</td>
-      <td>Como productor quiero registrar y actualizar animales para consultar su información desde cualquier dispositivo.</td>
+      <td>Como productor agropecuario quiero registrar y actualizar digitalmente mis animales para acceder a su información en cualquier dispositivo.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un usuario autenticado y el formulario con campos obligatorios completos<br>
-            When guarda el nuevo animal<br>
-            Then el sistema crea el registro y lo muestra en la lista
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given un animal existente<br>
-            When el usuario edita datos válidos y guarda<br>
-            Then el sistema actualiza el registro y confirma el cambio
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado que el usuario está autenticado, Cuando agrega un nuevo animal con todos los datos requeridos, Entonces el sistema guarda el registro y lo muestra en la lista.<br>
+        <strong>Escenario 2:</strong> Dado un animal registrado, Cuando edita sus datos, Entonces el sistema actualiza la información y confirma el cambio.
       </td>
-      <td>EP-01</td>
+      <td>EP-01 – Gestión de la Granja</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>US02</td>
+      <td>EP-01-US02</td>
       <td>Monitoreo de indicadores clave</td>
-      <td>Como productor quiero ver temperatura, peso y otros indicadores en tiempo real para decidir mejor.</td>
+      <td>Como productor agropecuario quiero ver en tiempo real indicadores como temperatura y peso para tomar decisiones informadas sobre mi ganado.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given sensores conectados y operativos<br>
-            When el usuario abre el panel de monitoreo<br>
-            Then se muestran indicadores actualizados en tiempo real
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given un sensor sin envío de datos<br>
-            When el panel intenta cargar su lectura<br>
-            Then se muestra el mensaje "Sensor sin datos"
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado sensores conectados, Cuando el usuario abre el panel de monitoreo, Entonces se muestran los indicadores en tiempo real.<br>
+        <strong>Escenario 2:</strong> Dado que un sensor falla, Cuando no envía datos, Entonces se muestra un mensaje “Sensor sin datos”.
       </td>
-      <td>EP-01</td>
+      <td>EP-01 – Gestión de la Granja</td>
     </tr>
     <tr>
-      <td>3</td>
-      <td>US03</td>
+      <td>EP-01-US03</td>
       <td>Integración con equipos y sensores</td>
-      <td>Como productor quiero vincular sensores/dispositivos para automatizar el monitoreo.</td>
+      <td>Como productor agropecuario quiero conectar sensores y dispositivos a la plataforma para automatizar el monitoreo del ganado.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un dispositivo válido y credenciales de vinculación<br>
-            When se completa el proceso de enlace<br>
-            Then el sistema comienza a recibir lecturas del dispositivo
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given reglas automáticas configuradas<br>
-            When llega un evento de dispositivo (p.ej., vacunación registrada)<br>
-            Then el sistema crea el registro correspondiente sin intervención manual
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado sensores configurados, Cuando se conectan a la plataforma, Entonces los datos se actualizan automáticamente.<br>
+        <strong>Escenario 2:</strong> Dado reglas predefinidas, Cuando ocurre un evento (p. ej., vacunación), Entonces la acción se registra automáticamente.
       </td>
-      <td>EP-01</td>
+      <td>EP-01 – Gestión de la Granja</td>
     </tr>
     <tr>
-      <td>4</td>
-      <td>US04</td>
-      <td>Gestión de vacunas del animal</td>
-      <td>Como productor quiero registrar y consultar vacunas para controlar el calendario sanitario.</td>
+      <td>EP-01-US04</td>
+      <td>Gestión digital de vacunas del ganado</td>
+      <td>Como productor agropecuario quiero registrar y consultar las vacunas aplicadas a mis animales para llevar control sanitario de la granja.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un animal válido y los datos de vacuna (tipo, fecha)<br>
-            When el usuario registra la vacuna<br>
-            Then la vacuna queda guardada en el historial del animal
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given una vacuna con fecha de revacunación configurada a 7 días<br>
-            When se cumple el umbral de aviso<br>
-            Then el sistema envía un recordatorio al usuario
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado un animal registrado, Cuando el usuario agrega una vacuna con fecha y tipo, Entonces se guarda en el historial.<br>
+        <strong>Escenario 2:</strong> Dado que la fecha de revacunación se acerca, Cuando faltan 7 días, Entonces se envía una notificación automática.
       </td>
-      <td>EP-01</td>
+      <td>EP-01 – Gestión de la Granja</td>
+    </tr>
+    <!-- EP-02: Optimización de Recursos -->
+    <tr>
+      <td>EP-02-US01</td>
+      <td>Gestión de insumos para los animales</td>
+      <td>Como productor agropecuario quiero registrar insumos como alimento y medicinas para optimizar el uso y evitar desabastecimiento.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que el usuario registra un nuevo insumo, Cuando guarda los datos, Entonces se actualiza el inventario.<br>
+        <strong>Escenario 2:</strong> Dado que un insumo alcanza nivel crítico, Cuando se detecta, Entonces se muestra alerta “Stock bajo”.
+      </td>
+      <td>EP-02 – Optimización de Recursos</td>
     </tr>
     <tr>
-      <td>5</td>
-      <td>US05</td>
-      <td>Visualización del estado del animal</td>
-      <td>Como productor quiero ver un resumen del estado actual de cada animal.</td>
+      <td>EP-02-US02</td>
+      <td>Visualización de animales en un mapa</td>
+      <td>Como productor agropecuario quiero ver la ubicación de mis animales en un mapa móvil para supervisar su distribución.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un animal con lecturas recientes<br>
-            When el usuario abre la ficha del animal<br>
-            Then se muestra estado, última lectura y alertas activas
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given datos con antigüedad mayor a X horas<br>
-            When se consulta la ficha<br>
-            Then se indica "Datos desactualizados"
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado animales con dispositivos de geolocalización, Cuando el usuario abre el mapa, Entonces se muestran sus ubicaciones en tiempo real.<br>
+        <strong>Escenario 2:</strong> Dado que un animal no envía señal, Cuando no aparece en el mapa, Entonces se muestra “Animal sin localización”.
       </td>
-      <td>EP-01</td>
+      <td>EP-02 – Optimización de Recursos</td>
     </tr>
     <tr>
-      <td>6</td>
-      <td>US06</td>
-      <td>Historial médico del animal</td>
-      <td>Como productor quiero consultar el historial médico para analizar tratamientos y eventos.</td>
+      <td>EP-02-US03</td>
+      <td>Delimitar área de los animales (móvil)</td>
+      <td>Como productor agropecuario quiero definir áreas de movimiento para mis animales y recibir alertas si salen de la zona.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un animal con registros médicos<br>
-            When el usuario abre el historial<br>
-            Then se listan eventos con fecha, tipo y responsable
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given un filtro por rango de fechas<br>
-            When el usuario aplica el filtro<br>
-            Then se muestran solo los registros del rango seleccionado
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado que el usuario define un polígono en el mapa, Cuando guarda el área, Entonces se activa la supervisión.<br>
+        <strong>Escenario 2:</strong> Dado un animal registrado en el área, Cuando cruza el límite, Entonces el sistema envía alerta inmediata al móvil.
       </td>
-      <td>EP-01</td>
+      <td>EP-02 – Optimización de Recursos</td>
+    </tr>
+    <!-- EP-03: Notificaciones y Alertas -->
+    <tr>
+      <td>EP-03-US01</td>
+      <td>Notificaciones por cambios en información</td>
+      <td>Como productor agropecuario quiero recibir notificaciones cuando se actualicen datos relevantes de mis animales para mantenerme informado.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado que un animal cambia de estado, Cuando se actualiza su información, Entonces se envía una notificación al usuario.<br>
+        <strong>Escenario 2:</strong> Dado que el usuario desactiva notificaciones, Cuando ocurre un cambio, Entonces no se envía alerta.
+      </td>
+      <td>EP-03 – Notificaciones y Alertas</td>
     </tr>
     <tr>
-      <td>7</td>
-      <td>US07</td>
-      <td>Gestión de insumos</td>
-      <td>Como productor quiero registrar alimentos y medicinas para controlar inventario y consumo.</td>
+      <td>EP-03-US02</td>
+      <td>Alertas de emergencia por salud animal</td>
+      <td>Como productor agropecuario quiero recibir alertas inmediatas cuando un animal presente anomalías para tomar acciones rápidas.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un nuevo insumo con datos completos<br>
-            When se guarda el registro<br>
-            Then el stock aumenta y se registra el movimiento
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given un umbral de stock crítico<br>
-            When el stock iguala o cae por debajo del umbral<br>
-            Then el sistema muestra la alerta "Stock bajo"
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado sensores conectados, Cuando se detecta una anomalía (p. ej., fiebre), Entonces el sistema envía alerta al dispositivo.<br>
+        <strong>Escenario 2:</strong> Dado que se recibe alerta, Cuando el usuario la abre, Entonces se muestran pasos recomendados para atender al animal.
       </td>
-      <td>EP-01</td>
+      <td>EP-03 – Notificaciones y Alertas</td>
+    </tr>
+    <!-- EP-04: Identidad y Acceso -->
+    <tr>
+      <td>EP-04-US01</td>
+      <td>Inicio de sesión</td>
+      <td>Como usuario quiero iniciar sesión con mis credenciales para acceder de forma segura a la plataforma.</td>
+      <td>
+        <strong>Escenario 1:</strong> Dado usuario en la vista de login, Cuando ingresa credenciales válidas, Entonces accede al dashboard.<br>
+        <strong>Escenario 2:</strong> Dado credenciales inválidas, Cuando intenta ingresar, Entonces se muestra “Credenciales incorrectas”.
+      </td>
+      <td>EP-04 – Identidad y Acceso</td>
     </tr>
     <tr>
-      <td>8</td>
-      <td>US08</td>
-      <td>Delimitar área (geocerca)</td>
-      <td>Como productor quiero definir áreas de movimiento y recibir alertas si salen de la zona.</td>
-      <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un polígono de geocerca definido y guardado<br>
-            When se activa la supervisión<br>
-            Then el sistema monitorea entradas y salidas del área
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given un animal dentro del área<br>
-            When el animal cruza el límite<br>
-            Then el sistema envía una alerta inmediata al usuario
-          </li>
-        </ul>
-      </td>
-      <td>EP-01</td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>US09</td>
-      <td>Mapa de animales</td>
-      <td>Como productor quiero visualizar en un mapa la ubicación actual de mis animales.</td>
-      <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given dispositivos con GPS activos<br>
-            When el usuario abre el mapa<br>
-            Then se muestran marcadores en tiempo real por animal
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given un animal sin señal de ubicación<br>
-            When el mapa intenta posicionarlo<br>
-            Then se muestra el estado "Sin localización"
-          </li>
-        </ul>
-      </td>
-      <td>EP-01</td>
-    </tr>
-    <!-- EP-02 -->
-    <tr>
-      <td>10</td>
-      <td>US10</td>
-      <td>Notificaciones por cambios</td>
-      <td>Como productor quiero recibir notificaciones cuando cambien datos relevantes de un animal.</td>
-      <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un usuario suscrito a un animal<br>
-            When se actualiza su estado o información clave<br>
-            Then el sistema envía una notificación al usuario
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given notificaciones desactivadas por el usuario<br>
-            When ocurre un cambio<br>
-            Then el sistema no envía ninguna notificación
-          </li>
-        </ul>
-      </td>
-      <td>EP-02</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>US11</td>
-      <td>Alertas de emergencia</td>
-      <td>Como productor quiero alertas inmediatas ante anomalías de salud para actuar rápido.</td>
-      <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given umbrales de salud configurados<br>
-            When una lectura excede el umbral crítico<br>
-            Then el sistema envía una alerta crítica (push/email)
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given una alerta recibida<br>
-            When el usuario la abre<br>
-            Then se muestran pasos recomendados y contactos de soporte
-          </li>
-        </ul>
-      </td>
-      <td>EP-02</td>
-    </tr>
-    <!-- EP-03 -->
-    <tr>
-      <td>12</td>
-      <td>US12</td>
+      <td>EP-04-US02</td>
       <td>Creación de cuenta</td>
-      <td>Como usuario quiero registrarme para acceder a la plataforma.</td>
+      <td>Como usuario quiero registrarme con mi correo institucional para garantizar que solo miembros autorizados accedan.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un correo permitido y datos válidos<br>
-            When el usuario completa el registro<br>
-            Then el sistema crea la cuenta y envía verificación
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given un correo no permitido<br>
-            When intenta registrarlo<br>
-            Then el sistema muestra "Correo no válido"
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado que el correo termina en “.edu”, Cuando se valida, Entonces se envía invitación de confirmación.<br>
+        <strong>Escenario 2:</strong> Dado correo inválido, Cuando intenta registrarse, Entonces se muestra “Debe usar correo institucional”.
       </td>
-      <td>EP-03</td>
+      <td>EP-04 – Identidad y Acceso</td>
     </tr>
+    <!-- EP-05: Gestión de Perfiles -->
     <tr>
-      <td>13</td>
-      <td>US13</td>
-      <td>Autenticación/IAM por roles</td>
-      <td>Como usuario quiero iniciar sesión y tener permisos según mi rol.</td>
-      <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given credenciales válidas<br>
-            When el usuario inicia sesión<br>
-            Then accede al sistema con el rol correcto asignado
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given un rol sin permiso para una acción<br>
-            When intenta ejecutarla<br>
-            Then el sistema responde "Acceso denegado"
-          </li>
-        </ul>
-      </td>
-      <td>EP-03</td>
-    </tr>
-    <!-- EP-04 -->
-    <tr>
-      <td>14</td>
-      <td>US14</td>
+      <td>EP-05-US01</td>
       <td>Completar perfil de usuario</td>
-      <td>Como usuario quiero completar mi perfil con datos personales/profesionales.</td>
+      <td>Como usuario quiero completar mi perfil con datos personales y académicos para generar confianza en la plataforma.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given todos los campos obligatorios completos<br>
-            When el usuario guarda el perfil<br>
-            Then el sistema actualiza y confirma la operación
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given campos obligatorios faltantes<br>
-            When intenta guardar<br>
-            Then el sistema muestra "Faltan datos"
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado correo validado, Cuando completa todos los campos obligatorios, Entonces el perfil se guarda.<br>
+        <strong>Escenario 2:</strong> Dado campos faltantes, Cuando intenta guardar, Entonces se muestra “Faltan datos”.
       </td>
-      <td>EP-04</td>
+      <td>EP-05 – Gestión de Perfiles</td>
     </tr>
     <tr>
-      <td>15</td>
-      <td>US15</td>
+      <td>EP-05-US02</td>
       <td>Visualizar y editar mi perfil</td>
-      <td>Como usuario quiero ver y editar mi perfil para mantener mis datos actualizados.</td>
+      <td>Como usuario quiero visualizar y actualizar mi perfil para mantener mi información precisa y actualizada.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un usuario autenticado<br>
-            When abre la pantalla de perfil<br>
-            Then ve sus datos vigentes
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given cambios válidos en el perfil<br>
-            When guarda los cambios<br>
-            Then el sistema confirma la actualización
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado usuario autenticado, Cuando abre perfil, Entonces se muestran sus datos actuales.<br>
+        <strong>Escenario 2:</strong> Dado cambios válidos, Cuando los guarda, Entonces el perfil se actualiza y confirma.
       </td>
-      <td>EP-04</td>
+      <td>EP-05 – Gestión de Perfiles</td>
     </tr>
-    <!-- EP-05 -->
+    <!-- EP-06: Landing Page -->
     <tr>
-      <td>16</td>
-      <td>US16</td>
-      <td>Página de inicio (Landing)</td>
-      <td>Como visitante quiero ver la propuesta de valor de la app.</td>
+      <td>EP-06-US37</td>
+      <td>Explorar sección “Beneficios”</td>
+      <td>Como visitante quiero explorar la sección de beneficios en la landing page para conocer las ventajas de usar la app.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un visitante en la landing<br>
-            When la página carga<br>
-            Then se muestran héroe, CTA y beneficios clave
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given un recurso de portada que falla<br>
-            When ocurre el error<br>
-            Then se muestran contenidos alternativos sin romper la página
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado visitante en desktop, Cuando hace clic en “Beneficios”, Entonces la página desplaza a la sección y muestra íconos y descripciones.<br>
+        <strong>Escenario 2:</strong> Dado visitante en móvil, Cuando abre el menú hamburguesa y selecciona “Beneficios”, Entonces se carga la sección correctamente.
       </td>
-      <td>EP-05</td>
+      <td>EP-06 – Landing Page</td>
     </tr>
     <tr>
-      <td>17</td>
-      <td>US17</td>
-      <td>Sección “Beneficios”</td>
-      <td>Como visitante quiero explorar beneficios antes de registrarme.</td>
+      <td>EP-06-US39</td>
+      <td>Ver sección “Sobre la App” y “Videos”</td>
+      <td>Como visitante quiero ver la sección “Sobre la App” y reproducir videos para entender mejor el producto antes de usarlo.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un visitante en desktop<br>
-            When hace clic en "Beneficios"<br>
-            Then la página hace scroll y se muestran tarjetas con descripciones
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given un visitante en móvil<br>
-            When abre el menú y selecciona "Beneficios"<br>
-            Then navega a la sección sin errores
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado visitante desplaza la página, Cuando llega a “Sobre la App”, Entonces se muestra el texto descriptivo.<br>
+        <strong>Escenario 2:</strong> Dado visitante en la sección “Videos”, Cuando hace clic en una miniatura, Entonces el video se reproduce en modal.
       </td>
-      <td>EP-05</td>
+      <td>EP-06 – Landing Page</td>
     </tr>
     <tr>
-      <td>18</td>
-      <td>US18</td>
-      <td>Planes disponibles</td>
-      <td>Como visitante quiero ver planes y precios para evaluar la suscripción.</td>
+      <td>EP-06-US40</td>
+      <td>Botones de descarga</td>
+      <td>Como visitante quiero disponer de botones visibles de descarga (App Store y Play Store) para instalar la app fácilmente.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given la sección de planes<br>
-            When se carga<br>
-            Then se muestran nombre, precio y descripción por plan
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given el botón "Suscribirme"<br>
-            When el visitante hace clic<br>
-            Then el sistema redirige al flujo de alta correspondiente
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado visitante en la landing page, Cuando carga la sección final, Entonces se muestran botones claros de descarga.<br>
+        <strong>Escenario 2:</strong> Dado visitante hace clic en el botón correspondiente, Cuando se procesa, Entonces redirige a la tienda correcta.
       </td>
-      <td>EP-05</td>
+      <td>EP-06 – Landing Page</td>
     </tr>
     <tr>
-      <td>19</td>
-      <td>US19</td>
-      <td>Sección “Equipo”</td>
-      <td>Como visitante quiero conocer al equipo para generar confianza.</td>
+      <td>EP-06-US42</td>
+      <td>Ver sección FAQ</td>
+      <td>Como visitante quiero consultar la sección de preguntas frecuentes para resolver mis dudas comunes sin buscar soporte.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un visitante en desktop<br>
-            When llega a la sección "Equipo"<br>
-            Then se muestran fotos, nombres y roles
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given un visitante en móvil<br>
-            When hace scroll<br>
-            Then las tarjetas se ajustan al ancho del dispositivo
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado visitante en desktop, Cuando expande una pregunta, Entonces se despliega la respuesta.<br>
+        <strong>Escenario 2:</strong> Dado visitante en móvil, Cuando selecciona una pregunta, Entonces se despliega con animación suave.
       </td>
-      <td>EP-05</td>
+      <td>EP-06 – Landing Page</td>
     </tr>
     <tr>
-      <td>20</td>
-      <td>US20</td>
-      <td>Sobre la App y Videos</td>
-      <td>Como visitante quiero ver explicación y videos para entender el producto.</td>
-      <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given la sección "Sobre la App"<br>
-            When el visitante llega a la sección<br>
-            Then se muestra el texto descriptivo
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given una miniatura de video<br>
-            When el visitante hace clic<br>
-            Then el video se reproduce en un modal embebido
-          </li>
-        </ul>
-      </td>
-      <td>EP-05</td>
-    </tr>
-    <tr>
-      <td>21</td>
-      <td>US21</td>
-      <td>Sección FAQ</td>
-      <td>Como visitante quiero resolver dudas frecuentes sin contactar soporte.</td>
-      <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un acordeón de preguntas<br>
-            When el visitante expande una pregunta<br>
-            Then se muestra su respuesta sin colapsar las demás
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given un dispositivo móvil<br>
-            When el visitante toca una pregunta<br>
-            Then la respuesta se despliega con animación suave
-          </li>
-        </ul>
-      </td>
-      <td>EP-05</td>
-    </tr>
-    <tr>
-      <td>22</td>
-      <td>US22</td>
+      <td>EP-06-US43</td>
       <td>Formulario de contacto</td>
-      <td>Como visitante quiero enviar un mensaje desde la landing y recibir confirmación.</td>
+      <td>Como visitante quiero usar el formulario de contacto para enviar preguntas y recibir respuesta del equipo.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given nombre, correo y mensaje completos<br>
-            When el visitante envía el formulario<br>
-            Then se muestra "Gracias, responderemos pronto"
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given campos obligatorios vacíos<br>
-            When intenta enviar<br>
-            Then se resaltan los campos y se muestra el error correspondiente
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado que el visitante completa los campos requeridos, Cuando pulsa “Enviar”, Entonces se muestra confirmación.<br>
+        <strong>Escenario 2:</strong> Dado campos vacíos, Cuando pulsa “Enviar”, Entonces se resaltan y muestra “Por favor completa los campos”.
       </td>
-      <td>EP-05</td>
-    </tr>
-    <!-- EP-06 -->
-    <tr>
-      <td>23</td>
-      <td>US23</td>
-      <td>Alta de suscripción en web</td>
-      <td>Como usuario quiero registrar y activar mi suscripción desde la web.</td>
-      <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un plan seleccionado y pago aprobado<br>
-            When el usuario confirma el alta<br>
-            Then el sistema crea la suscripción con estado "activa"
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given un pago rechazado<br>
-            When el usuario intenta activar<br>
-            Then el sistema muestra el error y mantiene el estado "pendiente"
-          </li>
-        </ul>
-      </td>
-      <td>EP-06</td>
+      <td>EP-06 – Landing Page</td>
     </tr>
     <tr>
-      <td>24</td>
-      <td>US24</td>
-      <td>Alta de suscripción en móvil</td>
-      <td>Como usuario quiero registrar y activar mi suscripción desde la app móvil.</td>
+      <td>EP-06-US44</td>
+      <td>Ver sección “Equipo”</td>
+      <td>Como visitante quiero conocer al equipo detrás de la app para confiar en la profesionalidad del proyecto.</td>
       <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given un plan disponible en la app y pago aprobado<br>
-            When el usuario confirma el alta<br>
-            Then la suscripción se crea y se envía confirmación push
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given una desconexión temporal<br>
-            When se procesa el alta<br>
-            Then el sistema reintenta o permite reintento manual manteniendo consistencia
-          </li>
-        </ul>
+        <strong>Escenario 1:</strong> Dado visitante en desktop, Cuando llega a la sección “Equipo”, Entonces se muestran fotos, nombres y roles.<br>
+        <strong>Escenario 2:</strong> Dado visitante en móvil, Cuando hace scroll, Entonces las tarjetas se ajustan correctamente a la pantalla.
       </td>
-      <td>EP-06</td>
-    </tr>
-    <tr>
-      <td>25</td>
-      <td>US25</td>
-      <td>Cancelación de suscripción en web</td>
-      <td>Como usuario quiero cancelar mi suscripción desde la web y conocer la fecha fin.</td>
-      <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given una suscripción activa<br>
-            When el usuario confirma la cancelación<br>
-            Then el estado cambia a "cancelada" y se muestra la fecha de término
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given una suscripción ya cancelada<br>
-            When el usuario intenta cancelar de nuevo<br>
-            Then el sistema informa que no hay suscripción activa
-          </li>
-        </ul>
-      </td>
-      <td>EP-06</td>
-    </tr>
-    <tr>
-      <td>26</td>
-      <td>US26</td>
-      <td>Cancelación de suscripción en móvil</td>
-      <td>Como usuario quiero cancelar mi suscripción desde la app móvil con confirmación clara.</td>
-      <td>
-        <ul>
-          <li><strong>Scenario 1</strong><br>
-            Given una suscripción activa en la app<br>
-            When el usuario confirma la cancelación<br>
-            Then el estado pasa a "cancelada" y se envía confirmación
-          </li>
-          <li><strong>Scenario 2</strong><br>
-            Given un error de red durante la cancelación<br>
-            When ocurre el error<br>
-            Then el sistema permite reintentar y no duplica operaciones
-          </li>
-        </ul>
-      </td>
-      <td>EP-06</td>
+      <td>EP-06 – Landing Page</td>
     </tr>
   </tbody>
 </table>
+
+
+
 
 
 ## 3.2 Impact Mapping  
@@ -1477,239 +1120,178 @@ Nuestro proyecto ayudará a lograr objetivos más grandes y cómo tendrá un imp
 
 ## 3.3 Product Backlog  
 
-
-
-<table border="1" cellspacing="0" cellpadding="6">
+<table>
   <thead>
-    <tr>
+    <tr class="header">
       <th>#Orden</th>
       <th>User Story ID</th>
       <th>Título</th>
-      <th>Epic</th>
+      <th>Descripción</th>
       <th>Prioridad</th>
-      <th>Story Points</th>
+      <th>Story Points (1-2-3-5-8)</th>
     </tr>
   </thead>
   <tbody>
-    <!-- EP-01 -->
+    <!-- EP-04 Identidad y Acceso -->
     <tr>
       <td>1</td>
-      <td>US01</td>
-      <td>Gestión digital de los animales</td>
-      <td>EP-01</td>
+      <td>EP-04-US01</td>
+      <td>Inicio de sesión</td>
+      <td>Como usuario quiero iniciar sesión con credenciales válidas para acceder de forma segura.</td>
       <td>Alta</td>
-      <td>5</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>2</td>
-      <td>US02</td>
-      <td>Monitoreo de indicadores clave</td>
-      <td>EP-01</td>
+      <td>EP-04-US02</td>
+      <td>Creación de cuenta</td>
+      <td>Como usuario quiero registrarme con correo institucional para asegurar acceso autorizado.</td>
       <td>Alta</td>
-      <td>5</td>
+      <td>3</td>
     </tr>
+    <!-- EP-05 Gestión de Perfiles -->
     <tr>
       <td>3</td>
-      <td>US03</td>
-      <td>Integración con equipos y sensores</td>
-      <td>EP-01</td>
+      <td>EP-05-US01</td>
+      <td>Completar perfil</td>
+      <td>Como usuario quiero completar mi perfil con datos personales y académicos para generar confianza.</td>
       <td>Alta</td>
-      <td>8</td>
+      <td>3</td>
     </tr>
     <tr>
       <td>4</td>
-      <td>US04</td>
-      <td>Gestión de vacunas del ganado</td>
-      <td>EP-01</td>
-      <td>Alta</td>
-      <td>3</td>
+      <td>EP-05-US02</td>
+      <td>Visualizar y editar perfil</td>
+      <td>Como usuario quiero ver y editar mi perfil para mantener mis datos actualizados.</td>
+      <td>Media</td>
+      <td>2</td>
     </tr>
+    <!-- EP-01 Gestión de la Granja -->
     <tr>
       <td>5</td>
-      <td>US05</td>
-      <td>Visualización del estado del animal</td>
-      <td>EP-01</td>
-      <td>Media</td>
-      <td>3</td>
+      <td>EP-01-US01</td>
+      <td>Gestión digital de animales</td>
+      <td>Como productor quiero registrar y actualizar animales para tener acceso remoto a la información.</td>
+      <td>Alta</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>6</td>
-      <td>US06</td>
-      <td>Historial médico del animal</td>
-      <td>EP-01</td>
-      <td>Media</td>
+      <td>EP-01-US02</td>
+      <td>Monitoreo de indicadores</td>
+      <td>Como productor quiero ver en tiempo real temperatura y peso de mis animales para tomar decisiones.</td>
+      <td>Alta</td>
       <td>5</td>
     </tr>
     <tr>
       <td>7</td>
-      <td>US07</td>
-      <td>Gestión de insumos</td>
-      <td>EP-01</td>
-      <td>Alta</td>
-      <td>5</td>
+      <td>EP-01-US03</td>
+      <td>Integración con sensores</td>
+      <td>Como productor quiero conectar dispositivos y sensores para automatizar el monitoreo.</td>
+      <td>Media</td>
+      <td>8</td>
     </tr>
     <tr>
       <td>8</td>
-      <td>US08</td>
-      <td>Delimitar área (geocerca)</td>
-      <td>EP-01</td>
+      <td>EP-01-US04</td>
+      <td>Gestión de vacunas</td>
+      <td>Como productor quiero registrar vacunas aplicadas a los animales para controlar su salud.</td>
       <td>Media</td>
-      <td>5</td>
+      <td>3</td>
     </tr>
+    <!-- EP-02 Optimización de Recursos -->
     <tr>
       <td>9</td>
-      <td>US09</td>
-      <td>Mapa de animales</td>
-      <td>EP-01</td>
-      <td>Media</td>
+      <td>EP-02-US01</td>
+      <td>Gestión de insumos</td>
+      <td>Como productor quiero registrar insumos (alimentos, medicinas) para optimizar inventario.</td>
+      <td>Alta</td>
       <td>5</td>
     </tr>
-    <!-- EP-02 -->
     <tr>
       <td>10</td>
-      <td>US10</td>
-      <td>Notificaciones por cambios</td>
-      <td>EP-02</td>
-      <td>Alta</td>
+      <td>EP-02-US02</td>
+      <td>Mapa de animales</td>
+      <td>Como productor quiero visualizar animales en un mapa móvil para supervisar ubicación.</td>
+      <td>Media</td>
       <td>3</td>
     </tr>
     <tr>
       <td>11</td>
-      <td>US11</td>
-      <td>Alertas de emergencia</td>
-      <td>EP-02</td>
-      <td>Alta</td>
+      <td>EP-02-US03</td>
+      <td>Delimitación de área</td>
+      <td>Como productor quiero delimitar áreas de animales y recibir alertas si salen de la zona.</td>
+      <td>Media</td>
       <td>5</td>
     </tr>
-    <!-- EP-03 -->
+    <!-- EP-03 Notificaciones y Alertas -->
     <tr>
       <td>12</td>
-      <td>US12</td>
-      <td>Creación de cuenta</td>
-      <td>EP-03</td>
+      <td>EP-03-US01</td>
+      <td>Notificaciones por cambios</td>
+      <td>Como productor quiero recibir notificaciones automáticas cuando cambie la información de un animal.</td>
       <td>Alta</td>
-      <td>3</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>13</td>
-      <td>US13</td>
-      <td>Autenticación/IAM por roles</td>
-      <td>EP-03</td>
+      <td>EP-03-US02</td>
+      <td>Alertas de emergencia</td>
+      <td>Como productor quiero recibir alertas inmediatas cuando un animal presente anomalías de salud.</td>
       <td>Alta</td>
       <td>5</td>
     </tr>
-    <!-- EP-04 -->
+    <!-- EP-06 Landing Page -->
     <tr>
       <td>14</td>
-      <td>US14</td>
-      <td>Completar perfil de usuario</td>
-      <td>EP-04</td>
-      <td>Media</td>
-      <td>3</td>
+      <td>EP-06-US37</td>
+      <td>Explorar sección Beneficios</td>
+      <td>Como visitante quiero explorar la sección de beneficios para conocer las ventajas de la app.</td>
+      <td>Baja</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>15</td>
-      <td>US15</td>
-      <td>Visualizar y editar mi perfil</td>
-      <td>EP-04</td>
-      <td>Media</td>
-      <td>2</td>
+      <td>EP-06-US39</td>
+      <td>Ver sección Sobre la App y Videos</td>
+      <td>Como visitante quiero ver información sobre la app y reproducir videos explicativos.</td>
+      <td>Baja</td>
+      <td>3</td>
     </tr>
-    <!-- EP-05 -->
     <tr>
       <td>16</td>
-      <td>US16</td>
-      <td>Página de inicio (Landing)</td>
-      <td>EP-05</td>
+      <td>EP-06-US40</td>
+      <td>Botones de descarga</td>
+      <td>Como visitante quiero tener botones claros de descarga en la landing para instalar la app fácilmente.</td>
       <td>Media</td>
       <td>2</td>
     </tr>
     <tr>
       <td>17</td>
-      <td>US17</td>
-      <td>Sección “Beneficios”</td>
-      <td>EP-05</td>
+      <td>EP-06-US42</td>
+      <td>FAQ</td>
+      <td>Como visitante quiero consultar una sección de preguntas frecuentes para resolver dudas comunes.</td>
       <td>Baja</td>
       <td>2</td>
     </tr>
     <tr>
       <td>18</td>
-      <td>US18</td>
-      <td>Planes disponibles</td>
-      <td>EP-05</td>
+      <td>EP-06-US43</td>
+      <td>Formulario de contacto</td>
+      <td>Como visitante quiero enviar un mensaje a través de un formulario de contacto.</td>
       <td>Media</td>
-      <td>3</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>19</td>
-      <td>US19</td>
-      <td>Sección “Equipo”</td>
-      <td>EP-05</td>
+      <td>EP-06-US44</td>
+      <td>Sección Equipo</td>
+      <td>Como visitante quiero conocer al equipo detrás de la app para generar confianza.</td>
       <td>Baja</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>US20</td>
-      <td>Sobre la App y Videos</td>
-      <td>EP-05</td>
-      <td>Baja</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>21</td>
-      <td>US21</td>
-      <td>Sección FAQ</td>
-      <td>EP-05</td>
-      <td>Baja</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>22</td>
-      <td>US22</td>
-      <td>Formulario de contacto</td>
-      <td>EP-05</td>
-      <td>Media</td>
-      <td>2</td>
-    </tr>
-    <!-- EP-06 -->
-    <tr>
-      <td>23</td>
-      <td>US23</td>
-      <td>Alta de suscripción en web</td>
-      <td>EP-06</td>
-      <td>Alta</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>24</td>
-      <td>US24</td>
-      <td>Alta de suscripción en móvil</td>
-      <td>EP-06</td>
-      <td>Alta</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>25</td>
-      <td>US25</td>
-      <td>Cancelación de suscripción en web</td>
-      <td>EP-06</td>
-      <td>Media</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>26</td>
-      <td>US26</td>
-      <td>Cancelación de suscripción en móvil</td>
-      <td>EP-06</td>
-      <td>Media</td>
-      <td>3</td>
+      <td>1</td>
     </tr>
   </tbody>
 </table>
-
-
-
 
 # Capítulo IV: Solution Software Design  
 
@@ -1738,544 +1320,25 @@ Nuestro proyecto ayudará a lograr objetivos más grandes y cómo tendrá un imp
 ## 4.2 Tactical-Level Domain-Driven Design  
 
 
-### 4.2.X Bounded Context: <Bounded Animal Management>
+### 4.2.X Bounded Context: <Bounded Context Name>  
 
-## Diccionario de Clases
- 
- ### Clase: `Section`
- 
- Representa un al conjunto de animales que tiene un veterinario o ganadero.
- 
- | Nombre      | Section                                                                                                          |
- | ----------- | ------------------------------------------------------------------------------------------------------------------- |
- | Relaciones  | Animal,Veterinarian, Vaccine,Disease, Medication                                                                                                              |
- | Descripción |  Agrupa animales y administra su ciclo de vida (creación, actualización, eliminación), reasignación e invitaciones de acceso.  |
- 
- ##### Atributos
- 
- | Nombre         | Tipo de Dato | Visibilidad |
- | -------------- | ------------ | ----------- |
- | Id             | int          | private     |
- | Animals[]      | Array        | private     |
- | ProfileId      | int          | private     |
- | CreatedAt      | datetime     | private     |
- | UpdatedAt      | datetime     | private     |
- | IsActive       | bool         | private     |
-
- 
- ##### Métodos
- 
-  - `Create(): Section`
-  - `Update(profileId?:int): void`
-  - `Delete(): void`
-  - `AddAnimal(animal:Animal): void`
-  - `RemoveAnimal(animalId:int): void`
-  - `ReassignAnimal(animalId:int, targetSectionId:int): void`
-  - `InviteVeterinarian(vetId:int): Invitation`
-  - `AcceptInvitation(invitationId:int): AccessGrant`
-  - `GrantAccess(vetId:int): AccessGrant`
-  - `RevokeAccess(vetId:int): void`
-  - `ListAnimals(): Animal[]`
- 
- ---
-
- ### Clase: `Animal`
-
-Entidad principal: un animal dentro de una `Section`.
-
-| Nombre      | Animal |
-| ----------- | ------ |
-| Relaciones  | Section, MedicalHistory, FoodDiary |
-| Descripción | Identidad básica del animal y vínculo con historiales médico y de alimentación. |
-
-##### Atributos
-
-| Nombre        | Tipo de Dato         | Visibilidad |
-| ------------- | -------------------- | ----------- |
-| Id            | int                  | private     |
-| TagCode       | string               | private     |
-| Name          | string               | private     |
-| BirthDate     | date                 | private     |
-| Sex           | string               | private     |
-| Species       | string               | private     |
-| ImageUrl      | string               | private     |
-| UrlIot        | string               | private     |
-| SectionId     | int                  | private     |
-| MedicalHistory| MedicalHistory       | private     |
-| FoodDiary     | FoodDiary            | private     |
-| Status        | string               | private     |
-| CreatedAt     | datetime             | private     |
-| UpdatedAt     | datetime             | private     |
-
-
-##### Métodos
-
-- `AssignToSection(sectionId:int): void`
-- `UpdateProfile(fields:object): void`
-- `GetMedicalHistory(): MedicalHistory`
-- `GetFoodDiary(): FoodDiary`
-
----
-
-### Clase: `MedicalHistory`
-
-Historial médico longitudinal del animal (gestionado por veterinario).
-
-| Nombre      | MedicalHistory |
-| ----------- | ---------------|
-| Relaciones  | Animal, Veterinarian, Treatment, VaccinationRecord, DiseaseDiagnosis, Medication |
-| Descripción | Registro de diagnósticos, vacunas y tratamientos; conserva modificaciones y anulaciones. |
-
-##### Atributos
-
-| Nombre           | Tipo de Dato               | Visibilidad |
-| ---------------- | -------------------------- | ----------- |
-| Id               | int                         | private     |
-| AnimalId         | int                         | private     |
-| Vaccinations[]   | Vaccine[]                   | private     |
-| Treatments[]     | Treatment[]                 | private     |
-| Diagnoses[]      | DiseaseDiagnosis[]          | private     |
-| LastUpdatedBy    | int (VeterinarianId)        | private     |
-| LastUpdatedAt    | datetime                    | private     |
-
-##### Métodos
-
-- `AddVaccination(record:Vaccine): void`
-- `ModifyVaccination(recordId:int, changes:object): void`
-- `AnnulVaccination(recordId:int, reason:string): void`
-- `RemoveVaccination(recordId:int, reason:string): void`
-- `AddTreatment(t:Treatment): void`
-- `ModifyTreatment(treatmentId:int, changes:object): void`
-- `CloseTreatment(treatmentId:int): void`
-- `RemoveTreatment(treatmentId:int, reason:string): void`
-- `AddDiagnosis(d:DiseaseDiagnosis): void`
-- `ModifyDiagnosis(diagnosisId:int, changes:object): void`
-- `RemoveDiagnosis(diagnosisId:int, reason:string): void`
-
-
-
----
-
-
-<!--Clases bases-->
-
-### Clase: `Treatment`
-
-Tratamiento veterinario registrado/cerrado/modificado.
-
-| Nombre      | Treatment |
-| ----------- | --------- |
-| Relaciones  | MedicalHistory, Medication |
-| Descripción | Indica protocolo terapéutico, dosis y estado. |
-
-##### Atributos
-
-| Nombre        | Tipo de Dato | Visibilidad |
-| ------------- | ------------ | ----------- |
-| Id            | int          | private     |
-| MedicalHistoryId | int       | private     |
-| Title         | string       | private     |
-| Notes         | string       | private     |
-| StartDate     | date         | private     |
-| EndDate       | date?        | private     |
-| Medications[] | Medication[] | private     |
-| Status        | string (open|closed) | private |
-
-##### Métodos
-
-- `Close(): void`
-- `Modify(changes:object): void`
-- `Remove(reason:string): void`
----
-
-### Clase: `DiseaseDiagnosis`
-
-Diagnóstico de enfermedad.
-
-| Nombre      | DiseaseDiagnosis |
-| ----------- | ---------------- |
-| Relaciones  | MedicalHistory, Disease |
-| Descripción | Registro de diagnóstico con severidad y estado. |
-
-##### Atributos
-
-| Nombre       | Tipo de Dato | Visibilidad |
-| ------------ | ------------ | ----------- |
-| Id           | int          | private     |
-| DiseaseId    | int          | private     |
-| Severity     | string       | private     |
-| Notes        | string       | private     |
-| DiagnosedAt  | datetime     | private     |
-| PerformedBy  | int (VeterinarianId) | private |
-| Status       | string (active|modified|removed) | private |
-
-##### Métodos
-- `Modify(changes:object): void`
-- `Remove(reason:string): void`
-
----
-
-### Clase: `Vaccine` (catálogo)
-
-| Nombre      | Vaccine |
-| ----------- | ------- |
-| Relaciones  | VaccinationRecord |
-| Descripción | Catálogo de vacunas. |
-
-##### Atributos
-
-| Nombre       | Tipo de Dato | Visibilidad |
-| ------------ | ------------ | ----------- |
-| Id           | int          | private     |
-| Name         | string       | private     |
-| Manufacturer | string       | private     |
-| Schema       | string       | private     |
-
----
-
-
-### Clase: `Medication` (catálogo)
-
-| Nombre      | Medication |
-| ----------- | ---------- |
-| Relaciones  | Treatment |
-| Descripción | Catálogo de medicamentos y principios activos. |
-
-##### Atributos
-
-| Nombre            | Tipo de Dato | Visibilidad |
-| ----------------- | ------------ | ----------- |
-| Id                | int          | private     |
-| Name              | string       | private     |
-| ActiveIngredient  | string       | private     |
-| DoseDefault       | string       | private     |
-| RouteDefault      | string       | private     |
-
----
-
-
-#### 4.2.X.1 Domain Layer 
-Dentro del dominio de Animal Management (gestión de animales y salud), se concentran las entidades y servicios que permiten identificar a cada animal, administrarlo dentro de una Section (rebaño/lote), y mantener su Historial Médico y Bitácora de Alimentación, controlando además el acceso de veterinarios y generando notificaciones de cambios relevantes.
-
-Este dominio es crítico para garantizar la integridad clínica y trazabilidad: registrar diagnósticos, vacunas y tratamientos (con modificaciones, cierres o anulaciones con motivo); asegurar que los usuarios autorizados (veterinarios) puedan actuar; y que cada animal disponga de su información actualizada (incluida su imagen).
-
-  ### Aggregate Root
-
-  - Animal → contiene referencias a su MedicalHistory (3 arrays) y FoodDiary.
-  - Section → agrupa Animal(es) y gestiona accesos (invitaciones/permisos a veterinarios).
-
-  ### Entities
-
-  - Animal (Id, TagCode, Name, BirthDate, Sex, Species, Breed, ImageUrl, SectionId, Status).
-
-  - MedicalHistory (AnimalId, Vaccinations[], Treatments[], Diagnoses[], LastUpdatedBy, LastUpdatedAt).
-
-    - VaccinationRecord (VaccineId, Dose, Lot, Site, AppliedAt, PerformedBy, Status, Notes).
-
-    - Treatment (Title, Notes, StartDate, EndDate?, Medications[], PerformedBy, Status).
-
-    - DiseaseDiagnosis (DiseaseId, Severity, Notes, DiagnosedAt, PerformedBy, Status).
-
-  - FoodDiary / FoodEntry (alimento, cantidad/unidad, GivenAt, notas).
-
-  - Veterinarian, Invitation, AccessGrant (acceso controlado por sección).
-
-  #### Value Object:
-
-  - TagCode, ImageUrl, Dose, Severity, Status
+#### 4.2.X.1 Domain Layer  
 
 #### 4.2.X.2 Interface Layer  
 
-  ## 🧭 Controladores del Sistema
-
-  ### 🐾 Gestión de Animales
-  - `AnimalsController`
-
-  ### 📂 Secciones
-  - `SectionsController`
-
-  ### 🩺 Historial Médico
-  - `MedicalHistoryController`
-
-  ### 💉 Vacunaciones
-  - `VaccinationsController`
-
-  ### 🏥 Tratamientos
-  - `TreatmentsController`
-
-  ### 🦠 Diagnósticos
-  - `DiagnosesController`
-
-  ### 🍽️ Alimentación
-  - `FeedingController`
-
-  ### 👨‍⚕️ Acceso de Veterinarios
-  - `AccessController` _(invitaciones/permisos de veterinarios)_
-
-  ## 🐾 Comandos de Escritura
-
-  ### 📋 Gestión de Animales
-  - `RegisterAnimalCommand`
-  - `UpdateAnimalCommand`
-  - `ReassignAnimalCommand`
-
-  ### 🖼️ Imagen del Animal
-  - `UploadAnimalImageCommand`
-
-  ### 💉 Vacunación
-  - `ApplyVaccineCommand`
-  - `ModifyVaccinationCommand`
-  - `AnnulVaccinationCommand`
-  - `RemoveVaccinationCommand`
-
-  ### 🏥 Tratamientos
-  - `RegisterTreatmentCommand`
-  - `ModifyTreatmentCommand`
-  - `CloseTreatmentCommand`
-  - `RemoveTreatmentCommand`
-
-  ### 🦠 Diagnóstico de Enfermedades
-  - `DiagnoseDiseaseCommand`
-  - `ModifyDiagnosisCommand`
-  - `RemoveDiagnosisCommand`
-
-  ### 🍽️ Registro de Alimentación
-  - `RegisterFeedingEntryCommand`
-  - `ModifyFeedingEntryCommand`
-  - `DeleteFeedingEntryCommand`
-
-  ### 👨‍⚕️ Acceso de Veterinarios
-  - `InviteVeterinarianCommand`
-  - `GrantAccessCommand`
-  - `RevokeAccessCommand`
-
-
-  ## 📖 Queries (Lectura)
-
-  ### 🐾 Animales
-  - `GetAnimalByIdQuery`
-  - `ListAnimalsBySectionQuery`
-  - `SearchAnimalsQuery`
-
-  ### 🩺 Historial Médico
-  - `GetMedicalHistoryQuery` _(retorna 3 arrays)_
-  - `GetVaccinationsQuery`
-  - `GetTreatmentsQuery`
-  - `GetDiagnosesQuery`
-
-  ### 🍽️ Alimentación
-  - `GetFoodEntriesQuery`
-
-  ### 📂 Secciones
-  - `GetSectionByIdQuery`
-  - `ListSectionsByOwnerQuery`
-
-  ### 📚 Catálogos
-  - `GetCatalogVaccineQuery`
-  - `GetCatalogMedicationQuery`
-  - `GetCatalogDiseaseQuery`
-
 #### 4.2.X.3 Application Layer  
-
-  ## 🧩 Servicios del Sistema
-
-  ### 🛠️ CommandServices
-  Servicios encargados de ejecutar acciones que modifican el estado del sistema.
-
-  - `AnimalCommandService.cs`  
-    _Registro, actualización y reasignación de animales_
-
-  - `MedicalCommandService.cs`  
-    _Gestión de vacunas, tratamientos y diagnósticos_
-
-  - `FoodCommandService.cs`  
-    _Registro y modificación del diario de alimentación_
-
-  - `SectionAccessCommandService.cs`  
-    _Invitaciones y permisos para veterinarios_
-
-  ---
-
-  ### 🔍 QueryServices
-  Servicios dedicados a la lectura y consulta de datos.
-
-  - `AnimalQueryService.cs`  
-    _Consulta de animales por ID, sección o búsqueda_
-
-  - `MedicalHistoryQueryService.cs`  
-    _Retorna arrays de `Vaccinations[]`, `Treatments[]`, `Diagnoses[]`_
-
-  - `FoodQueryService.cs`  
-    _Consulta de entradas alimenticias_
-
-  - `SectionQueryService.cs`  
-    _Consulta de secciones por ID o propietario_
-
-  ---
-
-  ### 📤 OutboundServices
-  Servicios que interactúan con sistemas externos o recursos fuera del dominio principal.
-
-  - `ExternalNotificationService.cs`  
-    _Manejo de eventos y envío de notificaciones externas_
-
-  - `ImageStorageService.cs`  
-    _Subida y eliminación de imágenes de animales_
-
-
 
 #### 4.2.X.4 Infrastructure Layer  
 
-  ## 🗂️ Repositorios
-
-  ### 🐾 Animales
-  - `AnimalRepository` _(implements `IAnimalRepository`)_
-
-  ### 📂 Secciones
-  - `SectionRepository` _(implements `ISectionRepository`)_
-
-  ### 🩺 Historial Médico
-  - `MedicalHistoryRepository` _(implements `IMedicalHistoryRepository`)_
-
-  ### 📚 Catálogos
-  - `CatalogRepository` _(maneja catálogos de Vacunas, Medicamentos y Enfermedades)_
-
-  ### 👨‍⚕️ Acceso de Veterinarios
-  - `VeterinarianAccessRepository` _(gestiona Invitaciones y Concesión de Accesos)_
-
-
 #### 4.2.X.5 Bounded Context Software Architecture Component Level Diagrams  
-A continuacion se mostrara el diagrama de componentes de nuestro sistema.
-
-<p>
-   <img src="/Assets/img/Bounded Animal/structurizr-Diagram3.png">
- </p>
-
-#### 4.2.X.6 Bounded Context Software Architecture Code Level Diagrams  
-##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams
-
-A continuacion se mostrara el diagrama de clases de nuestro sistema.
-
-<p>
-   <img src="/Assets/img/Bounded Animal/diagrama de clases.png">
- </p>
-
-##### 4.2.X.6.2 Bounded Context Database Design Diagram  
-
-
-A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
-
-<p>
-   <img src="/Assets/img/Bounded Animal/prueba_2025-2025-09-15_22-25.png">
- </p>
-
-### 4.2.X Bounded Context: IoT Monitoring & Analysis
-
-#### 4.2.X.1 Domain Layer
-
-- **Aggregates**
-  - `AnimalMonitoring` → Raíz del aggregate que gestiona al animal, sus sensores vinculados y los indicadores clave que se monitorean en tiempo real.  
-  - `IndicatorHistory` → Aggregate que almacena y organiza el historial de valores de los indicadores para análisis posteriores.
-
-- **Entities**
-  - `Farmer` → Representa al usuario del sistema (ganadero) encargado de registrar sensores, definir áreas de tránsito y recibir notificaciones críticas.  
-  - `Sensor` → Representa los dispositivos IoT que recopilan datos (cardíaco, temperatura, GPS) y que pueden estar vinculados o desvinculados de un animal.  
-  - `Animal` → Representa al animal monitorizado, el cual está asociado a uno o varios sensores y genera indicadores clave de salud y ubicación.  
-  - `TransitArea` → Representa el área geográfica delimitada para controlar si un animal se encuentra dentro o fuera de los límites permitidos.
-
-- **Value Objects**
-  - `SensorStatus` → Valor que define el estado de un sensor: Activo, Inactivo, Vinculado o Desvinculado.  
-  - `GeoCoordinates` → Valor que encapsula la latitud y longitud de las áreas de tránsito.  
-  - `IndicatorValue` → Valor numérico o categórico que representa la medición obtenida por un sensor (ejemplo: 70 bpm, 38 °C).
-
-- **Commands**
-  - `LinkSensorCommand` → Orden para asociar un sensor IoT a un animal específico.  
-  - `UnlinkSensorCommand` → Orden para eliminar la asociación de un sensor previamente vinculado.  
-  - `DefineTransitAreaCommand` → Orden para registrar un área geográfica en el sistema.  
-  - `ActivateSensorCommand` → Orden para habilitar un sensor IoT y comenzar el monitoreo.  
-  - `ProcessSensorDataCommand` → Orden que procesa los datos capturados por los sensores en tiempo real.
-
-- **Queries**
-  - `GetAnimalIndicatorsQuery` → Consulta que obtiene los valores actuales de los indicadores de un animal.  
-  - `GetActiveSensorsQuery` → Consulta que lista los sensores activos y vinculados en el sistema.  
-  - `GetAnalysisHistoryQuery` → Consulta que recupera el historial de análisis e indicadores críticos detectados.
-
-- **Domain Services**
-  - `AnalysisPolicyService` → Servicio que define y aplica las reglas para determinar cuándo un indicador pasa de estado normal a crítico.  
-  - `NotificationService` → Servicio que genera y envía las alertas al ganadero cuando se detecta un evento crítico.  
-  - `SensorSynchronizationService` → Servicio que asegura la correcta sincronización de datos entre los sensores IoT y el sistema central.
-
-#### 4.2.X.2 Interface Layer
-En esta capa se definen los **controladores de backend** que exponen la lógica de aplicación mediante endpoints REST.  
-
-- **SensorController**
-  - `POST /sensors/link` → Vincular un sensor IoT a un animal.
-  - `DELETE /sensors/unlink/{sensorId}` → Desvincular un sensor.
-  - `PUT /sensors/sync/{sensorId}` → Sincronizar datos de un sensor.
-  - `GET /sensors/{sensorId}` → Obtener detalles de un sensor específico.
-  - `GET /sensors` → Listar sensores activos.
-
-- **AnimalController**
-  - `POST /animals` → Registrar un animal en el sistema.
-  - `GET /animals/{animalId}` → Consultar información de un animal.
-  - `GET /animals` → Listar todos los animales registrados.
-  - `GET /animals/{animalId}/indicators` → Obtener indicadores del animal en tiempo real.
-
-- **AreaDeTransitoController**
-  - `POST /areas` → Definir un área de tránsito para los animales.
-  - `GET /areas/{areaId}` → Consultar detalles de un área.
-  - `PUT /areas/{areaId}` → Actualizar coordenadas de un área.
-  - `DELETE /areas/{areaId}` → Eliminar un área de tránsito.
-
-- **AnalisisController**
-  - `POST /analysis/process` → Ejecutar el análisis de datos provenientes de sensores.
-  - `GET /analysis/indicators` → Obtener indicadores clave verificados.
-  - `GET /analysis/history` → Consultar el historial de análisis realizados.
-
-- **NotificacionController**
-  - `POST /notifications/critical` → Enviar notificación por indicador crítico.
-  - `GET /notifications` → Listar notificaciones enviadas.
-
-#### 4.2.X.3 Application Layer
-Esta capa coordina las operaciones del dominio, gestionando la orquestación de **commands** y **queries**.  
-Implementa los servicios definidos en el **Domain Layer**.
-
-**Command Service Implementations**
-1. `SensorCommandServiceImpl` → Implementación de `LinkSensorCommand`, `UnlinkSensorCommand`, `ActivateSensorCommand` y `ProcessSensorDataCommand`.  
-2. `TransitAreaCommandServiceImpl` → Implementación de `DefineTransitAreaCommand`.  
-
-**Query Service Implementations**
-1. `AnimalQueryServiceImpl` → Implementación de `GetAnimalIndicatorsQuery`.  
-2. `SensorQueryServiceImpl` → Implementación de `GetActiveSensorsQuery`.  
-3. `AnalysisQueryServiceImpl` → Implementación de `GetAnalysisHistoryQuery`.  
-
-#### 4.2.X.4 Infrastructure Layer
-Esta capa proporciona la implementación técnica para la persistencia de datos y acceso a recursos externos.
-
-**Repositories**
-1. `SensorRepository` → Guarda, actualiza y recupera entidades `Sensor` desde la base de datos.  
-2. `AnimalRepository` → Permite la persistencia y recuperación de entidades `Animal`.  
-3. `TransitAreaRepository` → Almacena y gestiona áreas de tránsito (`TransitArea`) definidas en el sistema.  
-4. `IndicatorRepository` → Registra y consulta los valores de indicadores (`IndicatorValue`).  
-5. `HistoryRepository` → Administra la lista persistente del historial de indicadores (`IndicatorHistory`).  
-
-
-
-#### 4.2.X.5 Bounded Context Software Architecture Component Level Diagrams  
-
-<img src="Assets/img/ChapterIV/iot_BDC_domain_diagram_c4.png" alt="">  
 
 #### 4.2.X.6 Bounded Context Software Architecture Code Level Diagrams  
 
 ##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams  
 
-<img src="Assets/img/ChapterIV/iot_BDC_domain_diagram.png" alt="">  
-
 ##### 4.2.X.6.2 Bounded Context Database Design Diagram  
 
-<img src="Assets/img/ChapterIV/iot_BDC_DBD.png" alt="">  
 ---
-
 
 # Capítulo V: Solution UI/UX Design  
 
