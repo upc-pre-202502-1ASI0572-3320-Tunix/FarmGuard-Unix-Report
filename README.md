@@ -228,6 +228,8 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       <td>
       <h6><strong>Brayan Smith Morales Quispe</strong></h6>
       TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>
+      <h6>Jose Daniel Zarate Castro</h6>
+      TB1:<p>      Apoyé a mi equipo colaborando en las tareas y dando mi ayuda cuando fue necesario para que avanzáramos juntos en los objetivos.</p>
       <td>
       TB1: <p>
       </td>
@@ -239,6 +241,9 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       <td>
       <h6>Brayan Smith Morales Quispe</h6>
       TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>
+      <h6>Jose Daniel Zarate Castro</h6>
+      TB1:<p>Colaboré con mis compañeros creando un buen ambiente de trabajo, ayudando a entender el tema, organizando las tareas y apoyando para que logremos las metas propuestas.</p>
+      </td>
       </td>
       <td>
       TB1:</p> 
@@ -287,8 +292,8 @@ FarmGuard se posiciona como una solución integral, accesible y centrada en el u
   </tr>
   <tr>
     <td>
-      <strong>Zarate Castro Jose Daniel</strong>
-        Descripcion
+      <strong>Zarate Castro Jose Daniel</strong></br>
+        Estudiante de Ingeniería de Software (9no ciclo) con experiencia en análisis de datos y automatizaciónes.
     </td>
     <td>
       <img src="assets/student/Me2.jpg" alt="Carlos" style="max-height: 250px;">
@@ -306,10 +311,10 @@ FarmGuard se posiciona como una solución integral, accesible y centrada en el u
   <tr>
     <td>
       <strong>Jara Benites Quique Vladimir</strong>
-        Descripcion
+        Estudiante de octavo ciclo de la carrera Ingenieria de Software, tengo conocimientos técnicos en Java, Js y python. Asimismo, para el desarrollo en equipo, cuento con habilidades como participación comunicativa, creatividad, resolución de problemas, adaptabilidad y toma de decisiones
     </td>
     <td>
-      <img src="assets/student/Me2.jpg" alt="Carlos" style="max-height: 250px;">
+     <img width="800" alt="Image" src="https://github.com/user-attachments/assets/5de507d9-5c43-4cf5-b40e-33557d064679" />
     </td>
   </tr>
   <tr>
@@ -1718,13 +1723,78 @@ Nuestro proyecto ayudará a lograr objetivos más grandes y cómo tendrá un imp
 
 ### 4.1.1 Design-Level EventStorming  
 
-#### 4.1.1.1 Candidate Context Discovery  
+#### 4.1.1.1 Candidate Context Discovery
+
+Para el event storming el equipo completo se reunio por alrededor de 2 horas para poder definir cada una de las funcionalidades que tendra el sistema, los pasos fueron los siguientes:
+1. Unstructured Exploration
+   <img width="941" alt="Image" src="https://github.com/user-attachments/assets/864b2ee5-fce8-405a-be6d-1a5f70ed3e65" />
+2. Timelines
+   <img width="628" alt="Image" src="https://github.com/user-attachments/assets/16b713fc-953b-42cd-9432-0f4db501c329" />
+   <img width="813" alt="Image" src="https://github.com/user-attachments/assets/d810d2f3-b275-4a85-94fa-95d49b40c59f" />
+3. Paint points
+   <img width="1089" alt="Image" src="https://github.com/user-attachments/assets/38d6fa02-d17e-42fb-bff1-749a695c3f68" />
+   <img width="1059" alt="Image" src="https://github.com/user-attachments/assets/8211870d-b298-4a65-96a4-848fb300a6d4" />
+   <img width="890" alt="Image" src="https://github.com/user-attachments/assets/8db84094-7b9e-4ee2-8ef3-f65523c3f4a5" />
+4. Pivotal Points
+   <img width="848" alt="Image" src="https://github.com/user-attachments/assets/33691564-6f21-440a-b839-487e3f94755e" />
+   <img width="818" alt="Image" src="https://github.com/user-attachments/assets/3dd6ee5d-165c-4ccd-ab36-456c5b0f712f" />
+5. Commands
+   <img width="536" alt="Image" src="https://github.com/user-attachments/assets/f1caae9f-1fc3-4fec-91c1-69831d7d15c3" />
+   <img width="704" alt="Image" src="https://github.com/user-attachments/assets/0dc60dfe-91e8-4370-b4ff-82c380f88f7b" />
+   <img width="822" alt="Image" src="https://github.com/user-attachments/assets/bf7ee959-c4b2-4323-84ea-178c1a52e76b" />
+6. Policies
+   <img width="586" alt="Image" src="https://github.com/user-attachments/assets/acab9c49-9ea8-49f6-9515-b4c86cc3926d" />
+   <img width="762" alt="Image" src="https://github.com/user-attachments/assets/29c2f089-30c9-4d28-9955-6fafdcaf11a9" />
+   <img width="881" alt="Image" src="https://github.com/user-attachments/assets/42ec9de1-65eb-47f5-acd3-3a37ea4a594d" />
+7. Read Models
+   <img width="915" alt="Image" src="https://github.com/user-attachments/assets/7f61e3a1-cb93-4129-9bee-afea9b7abf3d" />
+   <img width="1055" alt="Image" src="https://github.com/user-attachments/assets/fedb85bd-9686-49f2-8ad9-6209c3f9c990" />
+   <img width="1064" alt="Image" src="https://github.com/user-attachments/assets/d0ce7599-9b73-45a3-a146-101adc1a1881" />
+8. External Systems
+   <img width="990" alt="Image" src="https://github.com/user-attachments/assets/cec38b7e-8581-4983-a34e-60568aa7373e" />
+   <img width="1026" alt="Image" src="https://github.com/user-attachments/assets/a2aff5e4-c45f-48c0-8e6e-1c5841045348" />
+   <img width="1105" alt="Image" src="https://github.com/user-attachments/assets/d3f62b6e-ffd6-4b58-86dc-9d78ff6fed92" />
+9. Aggregates
+   <img width="1123" alt="Image" src="https://github.com/user-attachments/assets/4a567de4-f0a6-4dfe-ac4d-2ede1244702b" />
+   <img width="1114" alt="Image" src="https://github.com/user-attachments/assets/02b5be04-b3b8-430f-8881-07d5dda39d3c" />
+   <img width="1116" alt="Image" src="https://github.com/user-attachments/assets/d2a87187-689e-41a4-9a68-404b67427243" />
+10. Bounded Contexts
+    <img width="4096" alt="Image" src="https://github.com/user-attachments/assets/17bb86de-553f-4c64-bd20-448b1325f319" /> 
 
 #### 4.1.1.2 Domain Message Flows Modeling  
+
+**Domain: Identity and Access Management (IAM)**
+Se describe el flujo de autenticación que permite al usuario acceder a la funcionalidad principal de la aplicación.
+El proceso inicia cuando el usuario abre la aplicación e ingresa sus credenciales en la pantalla de inicio de sesión mediante el command Iniciar sesión.
+El sistema de autenticación valida los datos proporcionados y, si son correctos, emite el event Acceso concedido, permitiendo el ingreso a la aplicación.
+Una vez autenticado, el usuario puede continuar navegando y acceder a las funcionalidades habilitadas según su perfil.
+En caso de que las credenciales sean inválidas, el sistema emite el event Acceso denegado, devolviendo un mensaje de error y evitando la apertura de sesión.
+
+<img width="886" alt="Image" src="https://github.com/user-attachments/assets/1914db79-3b41-4592-826d-f1a3625688fa" /> 
 
 #### 4.1.1.3 Bounded Context Canvases  
 
 ### 4.1.2 Context Mapping  
+
+**IAM - Profile (Customer/Supplier)**
+El contexto de Profile depende de la autenticación y gestión de identidades que provee IAM. En este patrón, IAM actúa como supplier de credenciales y datos básicos de usuario, mientras que Profile es el customer que consume esta información para construir y mantener los perfiles.
+
+<img width="588" alt="Image" src="https://github.com/user-attachments/assets/0ed55120-0621-46af-b9cc-d09491b4b95f" /> 
+
+**Subscription - IAM (con Anti-Corruption Layer – ACL)**
+El contexto de Subscription necesita información de usuarios autenticados por IAM. Para evitar depender directamente del modelo de IAM, se define un Anti-Corruption Layer que traduce y adapta los datos, garantizando independencia evolutiva entre ambos contextos.
+
+<img width="237" alt="Image" src="https://github.com/user-attachments/assets/c414058b-b35b-4c23-b3c6-1c9b4b43de77" />
+
+**Animal Management - IoT Monitoring (Shared Kernel – SK)**
+Ambos contextos comparten un núcleo común de conceptos (por ejemplo, identificadores de animales y la vinculación con sensores). El uso de un Shared Kernel asegura consistencia en estos elementos críticos, aunque implica coordinación entre los equipos de ambos contextos para gestionar cambios.
+
+<img width="615" alt="Image" src="https://github.com/user-attachments/assets/6f3fcb54-6e22-4ab3-b680-b9ae609cc0d2" />
+
+**Notifications (Open Host Service – OHS)**
+Notifications funciona como un servicio compartido que expone una interfaz estándar (Open Host Service) para que otros contextos (Subscription, Animal Management, IoT Monitoring, IAM) puedan publicar mensajes y alertas sin necesidad de acoplarse a su implementación interna. Esto centraliza la gestión de envíos y asegura consistencia en la comunicación hacia el usuario final.
+
+<img width="253" alt="Image" src="https://github.com/user-attachments/assets/56816529-07f9-4f46-8e00-0dbb1c6823fd" />
 
 ### 4.1.3 Software Architecture  
 
@@ -1960,7 +2030,7 @@ Diagnóstico de enfermedad.
 ---
 
 
-#### 4.2.X.1 Domain Layer 
+#### 4.2.1.1 Domain Layer 
 Dentro del dominio de Animal Management (gestión de animales y salud), se concentran las entidades y servicios que permiten identificar a cada animal, administrarlo dentro de una Section (rebaño/lote), y mantener su Historial Médico y Bitácora de Alimentación, controlando además el acceso de veterinarios y generando notificaciones de cambios relevantes.
 
 Este dominio es crítico para garantizar la integridad clínica y trazabilidad: registrar diagnósticos, vacunas y tratamientos (con modificaciones, cierres o anulaciones con motivo); asegurar que los usuarios autorizados (veterinarios) puedan actuar; y que cada animal disponga de su información actualizada (incluida su imagen).
@@ -2081,7 +2151,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
   - `GetCatalogMedicationQuery`
   - `GetCatalogDiseaseQuery`
 
-#### 4.2.X.3 Application Layer  
+#### 4.2.1.3 Application Layer  
 
   ## Servicios del Sistema
 
@@ -2150,7 +2220,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
   - `VeterinarianAccessRepository` _(gestiona Invitaciones y Concesión de Accesos)_
 
 
-#### 4.2.X.5 Bounded Context Software Architecture Component Level Diagrams  
+#### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams  
 A continuacion se mostrara el diagrama de componentes de nuestro sistema.
 
 
