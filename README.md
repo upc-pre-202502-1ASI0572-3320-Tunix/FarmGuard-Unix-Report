@@ -55,8 +55,9 @@ NRC: 3320</h5>
 
 ### Project Report Collaboration Insights
 
-**URL del repositorio para el reporte del proyecto:** https://acortar.link/CRGD3H
-**Link de los repositorios de la oraganización:** https://github.com/upc-pre-202502-1ASI0572-3320-Unix
+**URL del repositorio para el reporte del proyecto:** [Link GitHub](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-Unix-Report)
+
+**Link de los repositorios de la oraganización:** [Link GitHub](https://github.com/orgs/upc-pre-202502-1ASI0572-3320-Tunix/repositories)
 
 **TB1**
 
@@ -83,124 +84,124 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
 
 ## 📚 Tabla de Contenidos
 
-#### [Capítulo I: Introducción](#introducción)
-  - [1.1 Startup Profile](#startup-profile)
-    - [1.1.1 Descripción de la Startup](#descripción-de-la-startup)
-    - [1.1.2 Perfiles de integrantes del equipo](#perfiles-de-integrantes-del-equipo)
-  - [1.2 Solution Profile](#solution-profile)
-    - [1.2.1 Antecedentes y problemática](#antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#lean-ux-process)
-      - [1.2.2.1 Lean UX Problem Statements](#lean-ux-problem-statements)
-      - [1.2.2.2 Lean UX Assumptions](#lean-ux-assumptions)
-      - [1.2.2.3 Lean UX Hypothesis Statements](#lean-ux-hypothesis-statements)
-      - [1.2.2.4 Lean UX Canvas](#lean-ux-canvas)
-  - [1.3 Segmentos Objetivo](#segmentos-objetivo)
+### Capítulo I: Introducción
+- [1.1 Startup Profile](#11-startup-profile)  
+  - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)  
+  - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)  
+- [1.2 Solution Profile](#12-solution-profile)  
+  - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)  
+  - [1.2.2 Lean UX Process](#122-lean-ux-process)  
+    - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)  
+    - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)  
+    - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
+    - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)  
+- [1.3 Segmentos Objetivo](#13-segmentos-objetivo)
 
-#### [Capítulo II: Requirements Elicitation & Analysis](#requirements-elicitation--analysis)
-  - [2.1 Competidores](#competidores)
-    - [2.1.1 Análisis competitivo](#análisis-competitivo)
-    - [2.1.2 Estrategias y tácticas frente a competidores](#estrategias-y-tácticas-frente-a-competidores)
-  - [2.2 Entrevistas](#entrevistas)
-    - [2.2.1 Diseño de entrevistas](#diseño-de-entrevistas)
-    - [2.2.2 Registro de entrevistas](#registro-de-entrevistas)
-    - [2.2.3 Análisis de entrevistas](#análisis-de-entrevistas)
-  - [2.3 Needfinding](#needfinding)
-    - [2.3.1 User Personas](#user-personas)
-    - [2.3.2 User Task Matrix](#user-task-matrix)
-    - [2.3.3 User Journey Mapping](#user-journey-mapping)
-    - [2.3.4 Empathy Mapping](#empathy-mapping)
-    - [2.3.5 As-is Scenario Mapping](#as-is-scenario-mapping)
-  - [2.4 Ubiquitous Language](#ubiquitous-language)
+### Capítulo II: Requirements Elicitation & Analysis
+- [2.1 Competidores](#21-competidores)  
+  - [2.1.1 Análisis competitivo](#211-análisis-competitivo)  
+  - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
+- [2.2 Entrevistas](#22-entrevistas)  
+  - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)  
+  - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas)  
+  - [2.2.3 Análisis de entrevistas](#223-análisis-de-entrevistas)  
+- [2.3 Needfinding](#23-needfinding)  
+  - [2.3.1 User Personas](#231-user-personas)  
+  - [2.3.2 User Task Matrix](#232-user-task-matrix)  
+  - [2.3.3 User Journey Mapping](#233-user-journey-mapping)  
+  - [2.3.4 Empathy Mapping](#234-empathy-mapping)  
+  - [2.3.5 As-is Scenario Mapping](#235-as-is-scenario-mapping)  
+- [2.4 Big Picture EventStorming](#24-big-picture-eventstorming)  
+- [2.5 Ubiquitous Language](#25-ubiquitous-language)
 
-#### [Capítulo III: Requirements Specification](#requirements-specification)
-  - [3.1 To-Be Scenario Mapping](#to-be-scenario-mapping)
-  - [3.2 User Stories](#user-stories)
-  - [3.3 Impact Mapping](#impact-mapping)
-  - [3.4 Product Backlog](#product-backlog)
+### Capítulo III: Requirements Specification
+- [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
+- [3.2 User Stories](#32-user-stories)  
+- [3.3 Impact Mapping](#33-impact-mapping)  
+- [3.4 Product Backlog](#34-product-backlog)
 
-#### [Capítulo IV: Solution Software Design](#solution-software-design)
-  - [4.1 Strategic-Level Domain-Driven Design](#strategic-level-domain-driven-design)
-    - [4.1.1 EventStorming](#eventstorming)
-      - [4.1.1.1 Candidate Context Discovery](#candidate-context-discovery)
-      - [4.1.1.2 Domain Message Flows Modeling](#domain-message-flows-modeling)
-      - [4.1.1.3 Bounded Context Canvases](#bounded-context-canvases)
-    - [4.1.2 Context Mapping](#context-mapping)
-    - [4.1.3 Software Architecture](#software-architecture)
-      - [4.1.3.1 System Landscape Diagram](#system-landscape-diagram)
-      - [4.1.3.2 Context Level Diagrams](#context-level-diagrams)
-      - [4.1.3.3 Container Level Diagrams](#container-level-diagrams)
-      - [4.1.3.4 Deployment Diagrams](#deployment-diagrams)
-  - [4.2 Tactical-Level Domain-Driven Design](#tactical-level-domain-driven-design)
-    - [4.2.X Bounded Context: Nombre del Contexto](#bounded-context-nombre-del-contexto)
-      - [4.2.X.1 Domain Layer](#domain-layer)
-      - [4.2.X.2 Interface Layer](#interface-layer)
-      - [4.2.X.3 Application Layer](#application-layer)
-      - [4.2.X.4 Infrastructure Layer](#infrastructure-layer)
-      - [4.2.X.5 Component Level Diagrams](#component-level-diagrams)
-      - [4.2.X.6 Code Level Diagrams](#code-level-diagrams)
-        - [4.2.X.6.1 Domain Layer Class Diagrams](#domain-layer-class-diagrams)
-        - [4.2.X.6.2 Database Design Diagram](#database-design-diagram)
+### Capítulo IV: Solution Software Design
+- [4.1 Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)  
+  - [4.1.1 EventStorming](#411-eventstorming)  
+    - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)  
+    - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)  
+    - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)  
+  - [4.1.2 Context Mapping](#412-context-mapping)  
+  - [4.1.3 Software Architecture](#413-software-architecture)  
+    - [4.1.3.1 System Landscape Diagram](#4131-system-landscape-diagram)  
+    - [4.1.3.2 Context Level Diagrams](#4132-context-level-diagrams)  
+    - [4.1.3.3 Container Level Diagrams](#4133-container-level-diagrams)  
+    - [4.1.3.4 Deployment Diagrams](#4134-deployment-diagrams)  
+- [4.2 Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)  
+  - [4.2.X Bounded Context: Nombre del Contexto](#42x-bounded-context-nombre-del-contexto)  
+    - [4.2.X.1 Domain Layer](#42x1-domain-layer)  
+    - [4.2.X.2 Interface Layer](#42x2-interface-layer)  
+    - [4.2.X.3 Application Layer](#42x3-application-layer)  
+    - [4.2.X.4 Infrastructure Layer](#42x4-infrastructure-layer)  
+    - [4.2.X.5 Component Level Diagrams](#42x5-component-level-diagrams)  
+    - [4.2.X.6 Code Level Diagrams](#42x6-code-level-diagrams)  
+      - [4.2.X.6.1 Domain Layer Class Diagrams](#42x61-domain-layer-class-diagrams)  
+      - [4.2.X.6.2 Database Design Diagram](#42x62-database-design-diagram)
 
-#### [Capítulo V: Solution UI/UX Design](#solution-uiux-design)
-  - [5.1 Style Guidelines](#style-guidelines)
-    - [5.1.1 General Style Guidelines](#general-style-guidelines)
-    - [5.1.2 Web, Mobile and IoT Style Guidelines](#web-mobile-and-iot-style-guidelines)
-  - [5.2 Information Architecture](#information-architecture)
-    - [5.2.1 Organization Systems](#organization-systems)
-    - [5.2.2 Labeling Systems](#labeling-systems)
-    - [5.2.3 SEO Tags and Meta Tags](#seo-tags-and-meta-tags)
-    - [5.2.4 Searching Systems](#searching-systems)
-    - [5.2.5 Navigation Systems](#navigation-systems)
-  - [5.3 Landing Page UI Design](#landing-page-ui-design)
-    - [5.3.1 Wireframe](#wireframe)
-    - [5.3.2 Mock-up](#mock-up)
-  - [5.4 Applications UX/UI Design](#applications-uxui-design)
-    - [5.4.1 Wireframes](#wireframes)
-    - [5.4.2 Wireflow Diagrams](#wireflow-diagrams)
-    - [5.4.3 Mock-ups](#mock-ups)
-    - [5.4.4 User Flow Diagrams](#user-flow-diagrams)
-  - [5.5 Applications Prototyping](#applications-prototyping)
+### Capítulo V: Solution UI/UX Design
+- [5.1 Style Guidelines](#51-style-guidelines)  
+  - [5.1.1 General Style Guidelines](#511-general-style-guidelines)  
+  - [5.1.2 Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)  
+- [5.2 Information Architecture](#52-information-architecture)  
+  - [5.2.1 Organization Systems](#521-organization-systems)  
+  - [5.2.2 Labeling Systems](#522-labeling-systems)  
+  - [5.2.3 SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)  
+  - [5.2.4 Searching Systems](#524-searching-systems)  
+  - [5.2.5 Navigation Systems](#525-navigation-systems)  
+- [5.3 Landing Page UI Design](#53-landing-page-ui-design)  
+  - [5.3.1 Wireframe](#531-wireframe)  
+  - [5.3.2 Mock-up](#532-mock-up)  
+- [5.4 Applications UX/UI Design](#54-applications-uxui-design)  
+  - [5.4.1 Wireframes](#541-wireframes)  
+  - [5.4.2 Wireflow Diagrams](#542-wireflow-diagrams)  
+  - [5.4.3 Mock-ups](#543-mock-ups)  
+  - [5.4.4 User Flow Diagrams](#544-user-flow-diagrams)  
+- [5.5 Applications Prototyping](#55-applications-prototyping)
 
-#### [Capítulo VI: Product Implementation, Validation & Deployment](#product-implementation-validation--deployment)
-  - [6.1 Software Configuration Management](#software-configuration-management)
-    - [6.1.1 Development Environment Configuration](#development-environment-configuration)
-    - [6.1.2 Source Code Management](#source-code-management)
-    - [6.1.3 Code Style Guide & Conventions](#code-style-guide--conventions)
-    - [6.1.4 Deployment Configuration](#deployment-configuration)
-  - [6.2 Landing Page, Services & Applications Implementation](#landing-page-services--applications-implementation)
-    - [6.2.1 Sprint 1](#sprint-1)
-      - [6.2.1.1 Sprint Planning 1](#sprint-planning-1)
-      - [6.2.1.2 Sprint Backlog 1](#sprint-backlog-1)
-      - [6.2.1.3 Development Evidence](#development-evidence)
-      - [6.2.1.4 Testing Suite Evidence](#testing-suite-evidence)
-      - [6.2.1.5 Execution Evidence](#execution-evidence)
-      - [6.2.1.6 Services Documentation Evidence](#services-documentation-evidence)
-      - [6.2.1.7 Software Deployment Evidence](#deployment-evidence)
-      - [6.2.1.8 Team Collaboration Insights](#team-collaboration-insights)
-    - [6.2.2 Sprint 2](#sprint-2)
-      - [6.2.2.1 Sprint Planning 2](#sprint-planning-2)
-      - [6.2.2.2 Sprint Backlog 2](#sprint-backlog-2)
-      - [6.2.2.3 Development Evidence](#development-evidence)
-      - [6.2.2.4 Testing Suite Evidence](#testing-suite-evidence)
-      - [6.2.2.5 Execution Evidence](#execution-evidence)
-      - [6.2.2.6 Services Documentation Evidence](#services-documentation-evidence)
-      - [6.2.2.7 Software Deployment Evidence](#deployment-evidence)
-      - [6.2.2.8 Team Collaboration Insights](#team-collaboration-insights)
-    - [6.2.3 Sprint 3](#sprint-3)
-      - [6.2.3.1 Sprint Planning 3](#sprint-planning-3)
-      - [6.2.3.2 Sprint Backlog 3](#sprint-backlog-3)
-      - [6.2.3.3 Development Evidence](#development-evidence)
-      - [6.2.3.4 Testing Suite Evidence](#testing-suite-evidence)
-      - [6.2.3.5 Execution Evidence](#execution-evidence)
-      - [6.2.3.6 Services Documentation Evidence](#services-documentation-evidence)
-      - [6.2.3.7 Software Deployment Evidence](#deployment-evidence)
-      - [6.2.3.8 Team Collaboration Insights](#team-collaboration-insights)
-  - [6.3 Validation Interviews](#validation-interviews)
-    - [6.3.1 Diseño de Entrevistas](#diseño-de-entrevistas)
-    - [6.3.2 Registro de Entrevistas](#registro-de-entrevistas)
-    - [6.3.3 Evaluaciones según heurísticas](#evaluaciones-según-heurísticas)
-  - [6.4 Video About-the-Product](#video-about-the-product)
-  - [6.5 Aspect Leaders and Collaborators](#aspect-leaders-and-collaborators)
+### Capítulo VI: Product Implementation, Validation & Deployment
+- [6.1 Software Configuration Management](#61-software-configuration-management)  
+  - [6.1.1 Development Environment Configuration](#611-development-environment-configuration)  
+  - [6.1.2 Source Code Management](#612-source-code-management)  
+  - [6.1.3 Code Style Guide & Conventions](#613-code-style-guide--conventions)  
+  - [6.1.4 Deployment Configuration](#614-deployment-configuration)  
+- [6.2 Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)  
+  - [6.2.1 Sprint 1](#621-sprint-1)  
+    - [6.2.1.1 Sprint Planning 1](#6211-sprint-planning-1)  
+    - [6.2.1.2 Sprint Backlog 1](#6212-sprint-backlog-1)  
+    - [6.2.1.3 Development Evidence](#6213-development-evidence)  
+    - [6.2.1.4 Testing Suite Evidence](#6214-testing-suite-evidence)  
+    - [6.2.1.5 Execution Evidence](#6215-execution-evidence)  
+    - [6.2.1.6 Services Documentation Evidence](#6216-services-documentation-evidence)  
+    - [6.2.1.7 Software Deployment Evidence](#6217-software-deployment-evidence)  
+    - [6.2.1.8 Team Collaboration Insights](#6218-team-collaboration-insights)  
+  - [6.2.2 Sprint 2](#622-sprint-2)  
+    - [6.2.2.1 Sprint Planning 2](#6221-sprint-planning-2)  
+    - [6.2.2.2 Sprint Backlog 2](#6222-sprint-backlog-2)  
+    - [6.2.2.3 Development Evidence](#6223-development-evidence)  
+    - [6.2.2.4 Testing Suite Evidence](#6224-testing-suite-evidence)  
+    - [6.2.2.5 Execution Evidence](#6225-execution-evidence)  
+    - [6.2.2.6 Services Documentation Evidence](#6226-services-documentation-evidence)  
+    - [6.2.2.7 Software Deployment Evidence](#6227-software-deployment-evidence)  
+    - [6.2.2.8 Team Collaboration Insights](#6228-team-collaboration-insights)  
+  - [6.2.3 Sprint 3](#623-sprint-3)  
+    - [6.2.3.1 Sprint Planning 3](#6231-sprint-planning-3)  
+    - [6.2.3.2 Sprint Backlog 3](#6232-sprint-backlog-3)  
+    - [6.2.3.3 Development Evidence](#6233-development-evidence)  
+    - [6.2.3.4 Testing Suite Evidence](#6234-testing-suite-evidence)  
+    - [6.2.3.5 Execution Evidence](#6235-execution-evidence)  
+    - [6.2.3.6 Services Documentation Evidence](#6236-services-documentation-evidence)  
+    - [6.2.3.7 Software Deployment Evidence](#6237-software-deployment-evidence)  
+    - [6.2.3.8 Team Collaboration Insights](#6238-team-collaboration-insights)  
+- [6.3 Validation Interviews](#63-validation-interviews)  
+  - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)  
+  - [6.3.2 Evaluaciones según heurísticas](#632-evaluaciones-según-heurísticas)  
+- [6.4 Video About-the-Product](#64-video-about-the-product)  
+- [6.5 Aspect Leaders and Collaborators](#65-aspect-leaders-and-collaborators)
 
 ### [Anexos](#anexos)
 
@@ -1727,16 +1728,21 @@ Nuestro proyecto ayudará a lograr objetivos más grandes y cómo tendrá un imp
 
 ### 4.1.3 Software Architecture  
 
-#### 4.1.3.1 Software Architecture System Landscape Diagram  
+#### 4.1.3.1 Software Architecture System Landscape Diagram
+![diagram Landscape](/Assets/img/ChapterIV/Software%20Diagrams/structurizr-Diagram1%20(1).png)  
 
-#### 4.1.3.2 Software Architecture Context Level Diagrams  
+#### 4.1.3.2 Software Architecture Context Level Diagrams 
 
-#### 4.1.3.3 Software Architecture Container Level Diagrams  
+![diagram Context](/Assets/img/ChapterIV/Software%20Diagrams/structurizr-Diagram2%20(1).png)  
+
+#### 4.1.3.3 Software Architecture Container Level Diagrams 
+![diagram Container](/Assets/img/ChapterIV/Software%20Diagrams/Blank%20diagram%20corregido%20(1).png)   
 
 #### 4.1.3.4 Software Architecture Deployment Diagrams  
 
-## 4.2 Tactical-Level Domain-Driven Design  
+![diagram Deployment](/Assets/img/ChapterIV/Software%20Diagrams/Blank%20diagram%20(2)%20(1).png)  
 
+## 4.2 Tactical-Level Domain-Driven Design  
 
 ### 4.2.X Bounded Context: <Bounded Animal Management>
 
@@ -1986,100 +1992,100 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
 #### 4.2.X.2 Interface Layer  
 
-  ## 🧭 Controladores del Sistema
+  ## Controladores del Sistema
 
-  ### 🐾 Gestión de Animales
+  ### Gestión de Animales
   - `AnimalsController`
 
-  ### 📂 Secciones
+  ### Secciones
   - `SectionsController`
 
-  ### 🩺 Historial Médico
+  ### Historial Médico
   - `MedicalHistoryController`
 
-  ### 💉 Vacunaciones
+  ### Vacunaciones
   - `VaccinationsController`
 
-  ### 🏥 Tratamientos
+  ### Tratamientos
   - `TreatmentsController`
 
-  ### 🦠 Diagnósticos
+  ### Diagnósticos
   - `DiagnosesController`
 
-  ### 🍽️ Alimentación
+  ### Alimentación
   - `FeedingController`
 
-  ### 👨‍⚕️ Acceso de Veterinarios
+  ### Acceso de Veterinarios
   - `AccessController` _(invitaciones/permisos de veterinarios)_
 
-  ## 🐾 Comandos de Escritura
+  ##  Comandos de Escritura
 
-  ### 📋 Gestión de Animales
+  ###  Gestión de Animales
   - `RegisterAnimalCommand`
   - `UpdateAnimalCommand`
   - `ReassignAnimalCommand`
 
-  ### 🖼️ Imagen del Animal
+  ###  Imagen del Animal
   - `UploadAnimalImageCommand`
 
-  ### 💉 Vacunación
+  ###  Vacunación
   - `ApplyVaccineCommand`
   - `ModifyVaccinationCommand`
   - `AnnulVaccinationCommand`
   - `RemoveVaccinationCommand`
 
-  ### 🏥 Tratamientos
+  ###  Tratamientos
   - `RegisterTreatmentCommand`
   - `ModifyTreatmentCommand`
   - `CloseTreatmentCommand`
   - `RemoveTreatmentCommand`
 
-  ### 🦠 Diagnóstico de Enfermedades
+  ###  Diagnóstico de Enfermedades
   - `DiagnoseDiseaseCommand`
   - `ModifyDiagnosisCommand`
   - `RemoveDiagnosisCommand`
 
-  ### 🍽️ Registro de Alimentación
+  ###  Registro de Alimentación
   - `RegisterFeedingEntryCommand`
   - `ModifyFeedingEntryCommand`
   - `DeleteFeedingEntryCommand`
 
-  ### 👨‍⚕️ Acceso de Veterinarios
+  ###  Acceso de Veterinarios
   - `InviteVeterinarianCommand`
   - `GrantAccessCommand`
   - `RevokeAccessCommand`
 
 
-  ## 📖 Queries (Lectura)
+  ## Queries (Lectura)
 
-  ### 🐾 Animales
+  ### Animales
   - `GetAnimalByIdQuery`
   - `ListAnimalsBySectionQuery`
   - `SearchAnimalsQuery`
 
-  ### 🩺 Historial Médico
+  ### Historial Médico
   - `GetMedicalHistoryQuery` _(retorna 3 arrays)_
   - `GetVaccinationsQuery`
   - `GetTreatmentsQuery`
   - `GetDiagnosesQuery`
 
-  ### 🍽️ Alimentación
+  ### Alimentación
   - `GetFoodEntriesQuery`
 
-  ### 📂 Secciones
+  ### Secciones
   - `GetSectionByIdQuery`
   - `ListSectionsByOwnerQuery`
 
-  ### 📚 Catálogos
+  ### Catálogos
   - `GetCatalogVaccineQuery`
   - `GetCatalogMedicationQuery`
   - `GetCatalogDiseaseQuery`
 
 #### 4.2.X.3 Application Layer  
 
-  ## 🧩 Servicios del Sistema
+  ## Servicios del Sistema
 
-  ### 🛠️ CommandServices
+  ### CommandServices
   Servicios encargados de ejecutar acciones que modifican el estado del sistema.
 
   - `AnimalCommandService.cs`  
@@ -2096,7 +2102,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
   ---
 
-  ### 🔍 QueryServices
+  ### QueryServices
   Servicios dedicados a la lectura y consulta de datos.
 
   - `AnimalQueryService.cs`  
@@ -2113,7 +2119,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
   ---
 
-  ### 📤 OutboundServices
+  ### OutboundServices
   Servicios que interactúan con sistemas externos o recursos fuera del dominio principal.
 
   - `ExternalNotificationService.cs`  
@@ -2126,48 +2132,48 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
 #### 4.2.X.4 Infrastructure Layer  
 
-  ## 🗂️ Repositorios
+  ## Repositorios
 
-  ### 🐾 Animales
+  ### Animales
   - `AnimalRepository` _(implements `IAnimalRepository`)_
 
-  ### 📂 Secciones
+  ### Secciones
   - `SectionRepository` _(implements `ISectionRepository`)_
 
-  ### 🩺 Historial Médico
+  ### Historial Médico
   - `MedicalHistoryRepository` _(implements `IMedicalHistoryRepository`)_
 
-  ### 📚 Catálogos
+  ### Catálogos
   - `CatalogRepository` _(maneja catálogos de Vacunas, Medicamentos y Enfermedades)_
 
-  ### 👨‍⚕️ Acceso de Veterinarios
+  ###  Acceso de Veterinarios
   - `VeterinarianAccessRepository` _(gestiona Invitaciones y Concesión de Accesos)_
 
 
 #### 4.2.X.5 Bounded Context Software Architecture Component Level Diagrams  
 A continuacion se mostrara el diagrama de componentes de nuestro sistema.
 
-<p>
-   <img src="/Assets/img/Bounded Animal/structurizr-Diagram3.png">
- </p>
+
+
+   ![Diagrama de Componentes](/Assets/img/Bounded%20Animal/structurizr-Diagram3.png)
 
 #### 4.2.X.6 Bounded Context Software Architecture Code Level Diagrams  
 ##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams
 
 A continuacion se mostrara el diagrama de clases de nuestro sistema.
 
-<p>
-   <img src="/Assets/img/Bounded Animal/diagrama de clases.png">
- </p>
+
+
+  ![Diagrama de clases](/Assets/img/Bounded%20Animal/diagrama%20de%20clases.png)
 
 ##### 4.2.X.6.2 Bounded Context Database Design Diagram  
 
 
 A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
-<p>
-   <img src="/Assets/img/Bounded Animal/prueba_2025-2025-09-15_22-25.png">
- </p>
+
+
+ ![Diagrama de databbase](/Assets/img/Bounded%20Animal/prueba_2025-2025-09-15_22-25.png)
 
 ### 4.2.X Bounded Context: IoT Monitoring & Analysis
 
