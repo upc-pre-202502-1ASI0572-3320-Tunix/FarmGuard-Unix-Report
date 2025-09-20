@@ -2766,13 +2766,13 @@ El video adopta un tono cercano, claro y profesional, coherente con la identidad
 ### 💻 Repositorios del Proyecto FarmGuard
 
 - **Landing Page**  
-  []()
+  [https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage)
 
 - **Frontend Web App**  
-  []()
+  [https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/farmguard-frontend](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/farmguard-frontend)
 
 - **Backend Web Services**  
-  []()
+  [https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage)
 
 - **Mobile Application (Android - Kotlin)**  
   []()
