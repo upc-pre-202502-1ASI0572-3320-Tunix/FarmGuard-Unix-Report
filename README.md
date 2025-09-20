@@ -1807,7 +1807,6 @@ Notifications funciona como un servicio compartido que expone una interfaz está
 
 ## 4.2 Tactical-Level Domain-Driven Design  
 
-
 ### 4.2.1 Bounded Context: <Bounded Animal Management>
 
 ## Diccionario de Clases
@@ -2056,65 +2055,65 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
 #### 4.2.1.2 Interface Layer  
 
-  ## 🧭 Controladores del Sistema
+  ## Controladores del Sistema
 
-  ### 🐾 Gestión de Animales
+  ### Gestión de Animales
   - `AnimalsController`
 
-  ### 📂 Secciones
+  ### Secciones
   - `SectionsController`
 
-  ### 🩺 Historial Médico
+  ### Historial Médico
   - `MedicalHistoryController`
 
-  ### 💉 Vacunaciones
+  ### Vacunaciones
   - `VaccinationsController`
 
-  ### 🏥 Tratamientos
+  ### Tratamientos
   - `TreatmentsController`
 
-  ### 🦠 Diagnósticos
+  ### Diagnósticos
   - `DiagnosesController`
 
-  ### 🍽️ Alimentación
+  ### Alimentación
   - `FeedingController`
 
-  ### 👨‍⚕️ Acceso de Veterinarios
+  ### Acceso de Veterinarios
   - `AccessController` _(invitaciones/permisos de veterinarios)_
 
-  ## 🐾 Comandos de Escritura
+  ## Comandos de Escritura
 
-  ### 📋 Gestión de Animales
+  ### Gestión de Animales
   - `RegisterAnimalCommand`
   - `UpdateAnimalCommand`
   - `ReassignAnimalCommand`
 
-  ### 🖼️ Imagen del Animal
+  ### Imagen del Animal
   - `UploadAnimalImageCommand`
 
-  ### 💉 Vacunación
+  ### Vacunación
   - `ApplyVaccineCommand`
   - `ModifyVaccinationCommand`
   - `AnnulVaccinationCommand`
   - `RemoveVaccinationCommand`
 
-  ### 🏥 Tratamientos
+  ### Tratamientos
   - `RegisterTreatmentCommand`
   - `ModifyTreatmentCommand`
   - `CloseTreatmentCommand`
   - `RemoveTreatmentCommand`
 
-  ### 🦠 Diagnóstico de Enfermedades
+  ### Diagnóstico de Enfermedades
   - `DiagnoseDiseaseCommand`
   - `ModifyDiagnosisCommand`
   - `RemoveDiagnosisCommand`
 
-  ### 🍽️ Registro de Alimentación
+  ### Registro de Alimentación
   - `RegisterFeedingEntryCommand`
   - `ModifyFeedingEntryCommand`
   - `DeleteFeedingEntryCommand`
 
-  ### 👨‍⚕️ Acceso de Veterinarios
+  ### Acceso de Veterinarios
   - `InviteVeterinarianCommand`
   - `GrantAccessCommand`
   - `RevokeAccessCommand`
@@ -2122,34 +2121,34 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
   ## 📖 Queries (Lectura)
 
-  ### 🐾 Animales
+  ### Animales
   - `GetAnimalByIdQuery`
   - `ListAnimalsBySectionQuery`
   - `SearchAnimalsQuery`
 
-  ### 🩺 Historial Médico
+  ### Historial Médico
   - `GetMedicalHistoryQuery` _(retorna 3 arrays)_
   - `GetVaccinationsQuery`
   - `GetTreatmentsQuery`
   - `GetDiagnosesQuery`
 
-  ### 🍽️ Alimentación
+  ### Alimentación
   - `GetFoodEntriesQuery`
 
-  ### 📂 Secciones
+  ### Secciones
   - `GetSectionByIdQuery`
   - `ListSectionsByOwnerQuery`
 
-  ### 📚 Catálogos
+  ### Catálogos
   - `GetCatalogVaccineQuery`
   - `GetCatalogMedicationQuery`
   - `GetCatalogDiseaseQuery`
 
 #### 4.2.1.3 Application Layer  
 
-  ## 🧩 Servicios del Sistema
+  ## Servicios del Sistema
 
-  ### 🛠️ CommandServices
+  ### CommandServices
   Servicios encargados de ejecutar acciones que modifican el estado del sistema.
 
   - `AnimalCommandService.cs`  
@@ -2166,7 +2165,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
   ---
 
-  ### 🔍 QueryServices
+  ### QueryServices
   Servicios dedicados a la lectura y consulta de datos.
 
   - `AnimalQueryService.cs`  
@@ -2196,21 +2195,22 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
 #### 4.2.1.4 Infrastructure Layer  
 
-  ## 🗂️ Repositorios
+  ## Repositorios
 
-  ### 🐾 Animales
+  ### Animales
   - `AnimalRepository` _(implements `IAnimalRepository`)_
 
-  ### 📂 Secciones
+  ### Secciones
   - `SectionRepository` _(implements `ISectionRepository`)_
 
-  ### 🩺 Historial Médico
+  ### Historial Médico
   - `MedicalHistoryRepository` _(implements `IMedicalHistoryRepository`)_
 
-  ### 📚 Catálogos
+
+  ### Catálogos
   - `CatalogRepository` _(maneja catálogos de Vacunas, Medicamentos y Enfermedades)_
 
-  ### 👨‍⚕️ Acceso de Veterinarios
+  ### Acceso de Veterinarios
   - `VeterinarianAccessRepository` _(gestiona Invitaciones y Concesión de Accesos)_
 
 
@@ -2275,6 +2275,8 @@ Entidad principal (Aggregate Root): representa un pago dentro del sistema.
 - `MarkAsProcessed(transaction: Transaction): void`
 - `MarkAsRefunded(transaction: Transaction): void`
 
+
+<img src="Assets/img/ChapterIV/iot_BDC_DBD.png" alt="">  
 ---
 
 ### Clase: `Transaction`
