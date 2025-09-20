@@ -120,30 +120,6 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
 - [3.3 Impact Mapping](#33-impact-mapping)  
 - [3.4 Product Backlog](#34-product-backlog)
 
-<<<<<<< HEAD
-### Capítulo IV: Solution Software Design
-- [4.1 Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)  
-  - [4.1.1 EventStorming](#411-eventstorming)  
-    - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)  
-    - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)  
-    - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)  
-  - [4.1.2 Context Mapping](#412-context-mapping)  
-  - [4.1.3 Software Architecture](#413-software-architecture)  
-    - [4.1.3.1 System Landscape Diagram](#4131-system-landscape-diagram)  
-    - [4.1.3.2 Context Level Diagrams](#4132-context-level-diagrams)  
-    - [4.1.3.3 Container Level Diagrams](#4133-container-level-diagrams)  
-    - [4.1.3.4 Deployment Diagrams](#4134-deployment-diagrams)  
-- [4.2 Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)  
-  - [4.2.X Bounded Context: Nombre del Contexto](#42x-bounded-context-nombre-del-contexto)  
-    - [4.2.X.1 Domain Layer](#42x1-domain-layer)  
-    - [4.2.X.2 Interface Layer](#42x2-interface-layer)  
-    - [4.2.X.3 Application Layer](#42x3-application-layer)  
-    - [4.2.X.4 Infrastructure Layer](#42x4-infrastructure-layer)  
-    - [4.2.X.5 Component Level Diagrams](#42x5-component-level-diagrams)  
-    - [4.2.X.6 Code Level Diagrams](#42x6-code-level-diagrams)  
-      - [4.2.X.6.1 Domain Layer Class Diagrams](#42x61-domain-layer-class-diagrams)  
-      - [4.2.X.6.2 Database Design Diagram](#42x62-database-design-diagram)
-=======
 #### [Capítulo IV: Solution Software Design](#solution-software-design)
   - [4.1 Strategic-Level Domain-Driven Design](#strategic-level-domain-driven-design)
     - [4.1.1 EventStorming](#eventstorming)
@@ -166,7 +142,6 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       - [4.2.1.6 Code Level Diagrams](#code-level-diagrams)
         - [4.2.1.6.1 Domain Layer Class Diagrams](#domain-layer-class-diagrams)
         - [4.2.1.6.2 Database Design Diagram](#database-design-diagram)
->>>>>>> origin/main
 
 ### Capítulo V: Solution UI/UX Design
 - [5.1 Style Guidelines](#51-style-guidelines)  
@@ -1839,11 +1814,7 @@ Notifications funciona como un servicio compartido que expone una interfaz está
 
 ## 4.2 Tactical-Level Domain-Driven Design  
 
-<<<<<<< HEAD
-### 4.2.X Bounded Context: <Bounded Animal Management>
-=======
 ### 4.2.1 Bounded Context: <Bounded Animal Management>
->>>>>>> origin/main
 
 ## Diccionario de Clases
  
@@ -2088,7 +2059,6 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
   #### Value Object:
 
   - TagCode, ImageUrl, Dose, Severity, Status
-<<<<<<< HEAD
 
 #### 4.2.X.2 Interface Layer  
 
@@ -2278,14 +2248,11 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 ### 4.2.X Bounded Context: IoT Monitoring & Analysis
 
 #### 4.2.X.1 Domain Layer
-=======
->>>>>>> origin/main
 
 #### 4.2.1.2 Interface Layer  
 
-  ## Controladores del Sistema
+  
 
-<<<<<<< HEAD
 - **Value Objects**
   - `SensorStatus` → Valor que define el estado de un sensor: Activo, Inactivo, Vinculado o Desvinculado.  
   - `GeoCoordinates` → Valor que encapsula la latitud y longitud de las áreas de tránsito.  
@@ -2369,191 +2336,18 @@ Esta capa proporciona la implementación técnica para la persistencia de datos 
 <img src="Assets/img/ChapterIV/iot_BDC_domain_diagram_c4.png" alt="">  
 
 #### 4.2.X.6 Bounded Context Software Architecture Code Level Diagrams  
-=======
-  ### Gestión de Animales
-  - `AnimalsController`
-
-  ### Secciones
-  - `SectionsController`
-
-  ### Historial Médico
-  - `MedicalHistoryController`
-
-  ### Vacunaciones
-  - `VaccinationsController`
-
-  ### Tratamientos
-  - `TreatmentsController`
-
-  ### Diagnósticos
-  - `DiagnosesController`
-
-  ### Alimentación
-  - `FeedingController`
-
-  ### Acceso de Veterinarios
-  - `AccessController` _(invitaciones/permisos de veterinarios)_
-
-  ## Comandos de Escritura
-
-  ### Gestión de Animales
-  - `RegisterAnimalCommand`
-  - `UpdateAnimalCommand`
-  - `ReassignAnimalCommand`
-
-  ### Imagen del Animal
-  - `UploadAnimalImageCommand`
-
-  ### Vacunación
-  - `ApplyVaccineCommand`
-  - `ModifyVaccinationCommand`
-  - `AnnulVaccinationCommand`
-  - `RemoveVaccinationCommand`
-
-  ### Tratamientos
-  - `RegisterTreatmentCommand`
-  - `ModifyTreatmentCommand`
-  - `CloseTreatmentCommand`
-  - `RemoveTreatmentCommand`
-
-  ### Diagnóstico de Enfermedades
-  - `DiagnoseDiseaseCommand`
-  - `ModifyDiagnosisCommand`
-  - `RemoveDiagnosisCommand`
-
-  ### Registro de Alimentación
-  - `RegisterFeedingEntryCommand`
-  - `ModifyFeedingEntryCommand`
-  - `DeleteFeedingEntryCommand`
-
-  ### Acceso de Veterinarios
-  - `InviteVeterinarianCommand`
-  - `GrantAccessCommand`
-  - `RevokeAccessCommand`
-
-
-  ##  Queries (Lectura)
-
-  ### Animales
-  - `GetAnimalByIdQuery`
-  - `ListAnimalsBySectionQuery`
-  - `SearchAnimalsQuery`
-
-  ### Historial Médico
-  - `GetMedicalHistoryQuery` _(retorna 3 arrays)_
-  - `GetVaccinationsQuery`
-  - `GetTreatmentsQuery`
-  - `GetDiagnosesQuery`
-
-  ### Alimentación
-  - `GetFoodEntriesQuery`
-
-  ### Secciones
-  - `GetSectionByIdQuery`
-  - `ListSectionsByOwnerQuery`
-
-  ### Catálogos
-  - `GetCatalogVaccineQuery`
-  - `GetCatalogMedicationQuery`
-  - `GetCatalogDiseaseQuery`
-
-#### 4.2.1.3 Application Layer  
-
-  ## Servicios del Sistema
-
-  ### CommandServices
-  Servicios encargados de ejecutar acciones que modifican el estado del sistema.
-
-  - `AnimalCommandService.cs`  
-    _Registro, actualización y reasignación de animales_
-
-  - `MedicalCommandService.cs`  
-    _Gestión de vacunas, tratamientos y diagnósticos_
-
-  - `FoodCommandService.cs`  
-    _Registro y modificación del diario de alimentación_
-
-  - `SectionAccessCommandService.cs`  
-    _Invitaciones y permisos para veterinarios_
-
-  ---
-
-  ### QueryServices
-  Servicios dedicados a la lectura y consulta de datos.
-
-  - `AnimalQueryService.cs`  
-    _Consulta de animales por ID, sección o búsqueda_
-
-  - `MedicalHistoryQueryService.cs`  
-    _Retorna arrays de `Vaccinations[]`, `Treatments[]`, `Diagnoses[]`_
-
-  - `FoodQueryService.cs`  
-    _Consulta de entradas alimenticias_
-
-  - `SectionQueryService.cs`  
-    _Consulta de secciones por ID o propietario_
-
-  ---
-
-  ### 📤 OutboundServices
-  Servicios que interactúan con sistemas externos o recursos fuera del dominio principal.
-
-  - `ExternalNotificationService.cs`  
-    _Manejo de eventos y envío de notificaciones externas_
-
-  - `ImageStorageService.cs`  
-    _Subida y eliminación de imágenes de animales_
-
-
-
-#### 4.2.1.4 Infrastructure Layer  
-
-  ## Repositorios
-
-  ### Animales
-  - `AnimalRepository` _(implements `IAnimalRepository`)_
-
-  ### Secciones
-  - `SectionRepository` _(implements `ISectionRepository`)_
-
-  ### Historial Médico
-  - `MedicalHistoryRepository` _(implements `IMedicalHistoryRepository`)_
-
-
-  ### Catálogos
-  - `CatalogRepository` _(maneja catálogos de Vacunas, Medicamentos y Enfermedades)_
-
-  ### Acceso de Veterinarios
-  - `VeterinarianAccessRepository` _(gestiona Invitaciones y Concesión de Accesos)_
-
-
-#### 4.2.1.5 Bounded Context Software Architecture Component Level Diagrams  
-A continuacion se mostrara el diagrama de componentes de nuestro sistema.
-
-<p>
-   <img src="/Assets/img/Bounded Animal/structurizr-Diagram3.png">
- </p>
-
-#### 4.2.1.6 Bounded Context Software Architecture Code Level Diagrams  
-##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
->>>>>>> origin/main
 
 ##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams  
-
-##### 4.2.1.6.2 Bounded Context Database Design Diagram  
-
-<<<<<<< HEAD
-##### 4.2.X.6.2 Bounded Context Database Design Diagram  
 
 <img src="Assets/img/ChapterIV/iot_BDC_DBD.png" alt="">  
 ---
 
-=======
+##### 4.2.X.6.2 Bounded Context Database Design Diagram  
 
 A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
 <p>
-   <img src="/Assets/img/Bounded Animal/prueba_2025-2025-09-15_22-25.png">
+   <img src="">
  </p>
 
 ## 4.2.2 Bounded Context: <Bounded Payment Management>
@@ -2711,7 +2505,6 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 <p>
    <img src="/Assets/img/Bounded Animal/bd-paymentManagement.png">
  </p>
->>>>>>> origin/main
 
 # Capítulo V: Solution UI/UX Design  
 
