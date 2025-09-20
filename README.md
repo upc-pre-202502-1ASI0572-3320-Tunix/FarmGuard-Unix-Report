@@ -48,7 +48,10 @@ NRC: 3320</h5>
 
 | Versión | Fecha    | Autor(es)                             | Descripción de modificación                                                             |
 |---------|----------|----------------------------------------|-----------------------------------------------------------------------------------------|
-| 0.1     | 03/09/25 | BrayanSmith Morales Quispe        | Inicio del documento                                                            |
+| 0.1     | 03/09/25 | Brayan Smith Morales Quispe        | Inicio del documento                                                            |
+| 0.2    | 08/09/25 | Zarate Castro Jose Daniel       | Añadir bounded context de suscripcion                                                            |
+| 0.3     | 19/09/25 | Jara Benites Quique Vladimir        | Añadir everstorming                                                        |
+| 0.4     | 20/09/25 | Brayan Smith Morales Quispe        | Correccion de errores                                                          |
 
 
 
@@ -65,13 +68,14 @@ En esta primera entrega (TB1), el objetivo principal fue ...
 
 | Integrante                        |Tarea|
 | ----------------------------------|-----|
-| Zarate Castro Jose Daniel         | | 
-| Brayan Smith Morales Quispe       | |
-| Oscar Nathaniel Garayar Mori      ||
-| Jara Benites Quique Vladimir      ||
-| Carlos Alberto Ochoa Colonio      ||
+| Zarate Castro Jose Daniel         | Bounded Context Subscription & Billing (GENERIC) y Notifications (GENERIC) | 
+| Brayan Smith Morales Quispe       | Bounded Context Animal Management (CORE) |
+| Oscar Nathaniel Garayar Mori      | Bounded Context IoT Monitoring & Analysis (CORE)|
+| Jara Benites Quique Vladimir      | Bounded Context Identity & Access Management (SUPPORTING) y Profile (SUPPORTING)|
+| Carlos Alberto Ochoa Colonio      | Entrevistas y validación de dominio|
 
-![TB1]()
+![TB1](/Assets/img/Integrantes/progreso/Captura%20de%20pantalla_20-9-2025_151510_github.com.jpeg)
+
 
 
 Este gráfico muestra la cantidad de commits realizados por cada integrante durante el desarrollo del TB1 Tunix.
@@ -624,7 +628,25 @@ realizar las preguntas a los diferentes segmentos objetivos
 → ¿Qué cambios crees que notarías en la gestión y productividad de tu granja o veterinaria?
 
 
-### 2.2.2 Registro de entrevistas  
+### 2.2.2 Registro de entrevistas 
+
+Entrevista 1:
+
+![](/Assets/img/Bounded%20Animal/entrevista%203.png)
+
+Nombres: Olga
+
+Apellidos: Garcia
+
+Edad: 55
+
+Lugar de residencia: Huancayo
+
+entrevista 3 Link: https://drive.google.com/file/d/1eYbbus1opsrqHmcKDbPyuulvNm6NzLuB/view?usp=sharing
+
+Evidencia de la entrevista:
+
+Resumen de la entrevista: Olga es una criadora de cuys y gallinas en la provincia de huancayo, ella tiene problemas con el monitoreo y control de sus animales puesto que usa un sistema de registro a papel con llevando perdida de informacion importante ademas considera que al haber una tecnologia en mercado que le ayudara con su trabajo haria uso de esta misma.
 
 ### 2.2.3 Análisis de entrevistas  
 
@@ -2060,7 +2082,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
   - TagCode, ImageUrl, Dose, Severity, Status
 
-#### 4.2.X.2 Interface Layer  
+#### 4.2.1.2 Interface Layer  
 
   ## Controladores del Sistema
 
@@ -2200,7 +2222,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
 
 
-#### 4.2.X.4 Infrastructure Layer  
+#### 4.2.1.4 Infrastructure Layer  
 
   ## Repositorios
 
@@ -2227,8 +2249,8 @@ A continuacion se mostrara el diagrama de componentes de nuestro sistema.
 
    ![Diagrama de Componentes](/Assets/img/Bounded%20Animal/structurizr-Diagram3.png)
 
-#### 4.2.X.6 Bounded Context Software Architecture Code Level Diagrams  
-##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams
+#### 4.2.1.6 Bounded Context Software Architecture Code Level Diagrams  
+##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
 
 A continuacion se mostrara el diagrama de clases de nuestro sistema.
 
@@ -2236,7 +2258,7 @@ A continuacion se mostrara el diagrama de clases de nuestro sistema.
 
   ![Diagrama de clases](/Assets/img/Bounded%20Animal/diagrama%20de%20clases.png)
 
-##### 4.2.X.6.2 Bounded Context Database Design Diagram  
+##### 4.2.1.6.2 Bounded Context Database Design Diagram  
 
 
 A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
@@ -2245,13 +2267,10 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
  ![Diagrama de databbase](/Assets/img/Bounded%20Animal/prueba_2025-2025-09-15_22-25.png)
 
-### 4.2.X Bounded Context: IoT Monitoring & Analysis
+### 4.2.2 Bounded Context: IoT Monitoring & Analysis
 
-#### 4.2.X.1 Domain Layer
+#### 4.2.2.1 Domain Layer
 
-#### 4.2.1.2 Interface Layer  
-
-  
 
 - **Value Objects**
   - `SensorStatus` → Valor que define el estado de un sensor: Activo, Inactivo, Vinculado o Desvinculado.  
@@ -2275,7 +2294,8 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
   - `NotificationService` → Servicio que genera y envía las alertas al ganadero cuando se detecta un evento crítico.  
   - `SensorSynchronizationService` → Servicio que asegura la correcta sincronización de datos entre los sensores IoT y el sistema central.
 
-#### 4.2.X.2 Interface Layer
+#### 4.2.2.2 Interface Layer  
+
 En esta capa se definen los **controladores de backend** que exponen la lógica de aplicación mediante endpoints REST.  
 
 - **SensorController**
@@ -2306,7 +2326,7 @@ En esta capa se definen los **controladores de backend** que exponen la lógica 
   - `POST /notifications/critical` → Enviar notificación por indicador crítico.
   - `GET /notifications` → Listar notificaciones enviadas.
 
-#### 4.2.X.3 Application Layer
+#### 4.2.2.3 Application Layer
 Esta capa coordina las operaciones del dominio, gestionando la orquestación de **commands** y **queries**.  
 Implementa los servicios definidos en el **Domain Layer**.
 
@@ -2319,7 +2339,7 @@ Implementa los servicios definidos en el **Domain Layer**.
 2. `SensorQueryServiceImpl` → Implementación de `GetActiveSensorsQuery`.  
 3. `AnalysisQueryServiceImpl` → Implementación de `GetAnalysisHistoryQuery`.  
 
-#### 4.2.X.4 Infrastructure Layer
+#### 4.2.2.4 Infrastructure Layer
 Esta capa proporciona la implementación técnica para la persistencia de datos y acceso a recursos externos.
 
 **Repositories**
@@ -2330,19 +2350,18 @@ Esta capa proporciona la implementación técnica para la persistencia de datos 
 5. `HistoryRepository` → Administra la lista persistente del historial de indicadores (`IndicatorHistory`).  
 
 
-
-#### 4.2.X.5 Bounded Context Software Architecture Component Level Diagrams  
+#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams  
 
 <img src="Assets/img/ChapterIV/iot_BDC_domain_diagram_c4.png" alt="">  
 
-#### 4.2.X.6 Bounded Context Software Architecture Code Level Diagrams  
+#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams  
 
-##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams  
+##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams  
 
 <img src="Assets/img/ChapterIV/iot_BDC_DBD.png" alt="">  
 ---
 
-##### 4.2.X.6.2 Bounded Context Database Design Diagram  
+##### 4.2.2.6.2 Bounded Context Database Design Diagram  
 
 A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
@@ -2350,7 +2369,7 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
    <img src="">
  </p>
 
-## 4.2.2 Bounded Context: <Bounded Payment Management>
+## 4.2.3 Bounded Context: <Bounded Payment Management>
 
 ### Diccionario de Clases
 
@@ -2418,7 +2437,7 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 ---
 
-### 4.2.2.1 Domain Layer
+### 4.2.3.1 Domain Layer
 - **Aggregate Root**: `Payment` → contiene una colección/referencia a `Transaction`.  
 - **Entities**: `Payment`, `Transaction` (dentro del agregado `Payment`).  
 - **Value Objects**: `Amount`, `Currency`, `PaymentStatus`, `TransactionStatus`, `ExternalReference`.  
@@ -2430,7 +2449,7 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 ---
 
-### 4.2.2.2 Interface Layer
+### 4.2.3.2 Interface Layer
 
 #### Controladores del Sistema
 - `PaymentsController`
@@ -2450,7 +2469,7 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 ---
 
-### 4.2.2.3 Application Layer
+### 4.2.3.3 Application Layer
 
 #### CommandServices
 - `PaymentCommandService`  
@@ -2471,7 +2490,7 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 ---
 
-### 4.2.2.4 Infrastructure Layer
+### 4.2.3.4 Infrastructure Layer
 
 #### Repositorios
 - `PaymentRepository` _(implements `IPaymentRepository`)_  
@@ -2481,29 +2500,29 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 
 
-#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams  
+#### 4.2.3.5 Bounded Context Software Architecture Component Level Diagrams  
 
 A continuacion se mostrara el diagrama de componentes de nuestro sistema.
 
 <p>
-   <img src="/Assets/img/Bounded Animal/structurizr-PaymentManagementComponents.png">
+   <img src="Assets/img/Bounded Animal/structurizr-PaymentManagementComponents.png">
  </p>
 
-#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams  
-##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
+#### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams  
+##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
 
 A continuacion se mostrara el diagrama de clases de nuestro sistema.
 
 <p>
-   <img src="/Assets/img/Bounded Animal/uml-clases-paymentManagement.png">
+   <img src="Assets/img/Bounded Animal/uml-clases-paymentManagement.png">
  </p>
 
-##### 4.2.2.6.2 Bounded Context Database Design Diagram  
+##### 4.2.3.6.2 Bounded Context Database Design Diagram  
 
 A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
 <p>
-   <img src="/Assets/img/Bounded Animal/bd-paymentManagement.png">
+   <img src="Assets/img/Bounded Animal/bd-paymentManagement.png">
  </p>
 
 # Capítulo V: Solution UI/UX Design  
@@ -2744,7 +2763,7 @@ El video adopta un tono cercano, claro y profesional, coherente con la identidad
 |                                                    | TB1                              |
 ---
 
-### 💻 Repositorios del Proyecto WaruSmart
+### 💻 Repositorios del Proyecto FarmGuard
 
 - **Landing Page**  
   []()
