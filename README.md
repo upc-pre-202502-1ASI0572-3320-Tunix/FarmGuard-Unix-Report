@@ -239,7 +239,7 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       <h6><strong>Oscar Nathaniel Garayar Mori</strong></h6>
       TB1:<p>Ejercí liderazgo compartido coordinando con mis compañeros la ejecución de las tareas, resolviendo dudas técnicas cuando fue necesario y motivando al equipo para mantener el ritmo de trabajo. Participé activamente en la toma de decisiones y aseguré que todos los integrantes pudieran aportar al cumplimiento de los objetivos del proyecto</p>
       <td>
-      TB1: <p>
+      TB1: El equipo mostró liderazgo compartido al dividir BCs, resolver dudas técnicas y sostener el ritmo de trabajo; las decisiones se tomaron de forma coordinada y con responsabilidad distribuida. <p>
       </td>
   </tr>
    <tr>
@@ -258,7 +258,7 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       </td>
       </td>
       <td>
-      TB1:</p> 
+      TB1:Se establecieron metas y planificación básica; aunque el tiempo de reuniones fue limitado, se mantuvo un entorno inclusivo y se cumplieron entregables del TB1 con contribución de todos.</p> 
       </td>
   </tr>
 
@@ -2533,243 +2533,18 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
    <img src="Assets/img/Bounded Animal/bd-paymentManagement.png">
  </p>
 
-# Capítulo V: Solution UI/UX Design  
-
-## 5.1 Style Guidelines  
-
-### 5.1.1 General Style Guidelines  
-
-### 5.1.2 Web, Mobile and IoT Style Guidelines  
-
-## 5.2 Information Architecture  
-
-### 5.2.1 Organization Systems  
-
-### 5.2.2 Labeling Systems  
-
-### 5.2.3 SEO Tags and Meta Tags  
-
-### 5.2.4 Searching Systems  
-
-### 5.2.5 Navigation Systems  
-
-## 5.3 Landing Page UI Design  
-
-### 5.3.1 Landing Page Wireframe  
-
-### 5.3.2 Landing Page Mock-up  
-
-## 5.4 Applications UX/UI Design  
-
-### 5.4.1 Applications Wireframes  
-
-### 5.4.2 Applications Wireflow Diagrams  
-
-### 5.4.3 Applications Mock-ups  
-
-### 5.4.4 Applications User Flow Diagrams  
-
-## 5.5 Applications Prototyping  
-
----
-
-# Capítulo VI: Product Implementation, Validation & Deployment  
-
-## 6.1 Software Configuration Management  
-
-### 6.1.1 Software Development Environment Configuration  
-
-### 6.1.2 Source Code Management  
-
-### 6.1.3 Source Code Style Guide & Conventions  
-
-### 6.1.4 Software Deployment Configuration  
-
-## 6.2 Landing Page, Services & Applications Implementation  
-
-### 6.2.1 Sprint 1  
-
-#### 6.2.1.1 Aspect Leaders and Collaborators  
-
-#### 6.2.1.2 Sprint Backlog 1  
-
-#### 6.2.1.3 Development Evidence for Sprint Review  
-
-#### 6.2.1.4 Testing Suite Evidence for Sprint Review  
-
-#### 6.2.1.5 Execution Evidence for Sprint Review  
-
-#### 6.2.1.6 Services Documentation Evidence for Sprint Review  
-
-#### 6.2.1.7 Software Deployment Evidence for Sprint Review  
-
-#### 6.2.1.8 Team Collaboration Insights during Sprint  
-
-#### 6.2.1.9 Validation Interviews  
-
-
-
-
-
-
-## 6.3 Validation Interviews
-
-A continuacion se muetras las Validation Interviews son ...
-
-### 6.3.1. Diseño de Entrevistas
-
-###  Segmento 1
-
-###  Segmento 2
-
-
-### 6.3.2. Registro de Entrevistas
-
-A continuación se presentan los registros de las entrevistas realizadas a...
-
-**Segmento1:**
-
-Entrevista 1: 
-
-Edad: 
-
-Departamento: 
-
-![Entrevista 1]()
-
-Enlace: https://acortar.link/oE3tjw
-
-Resumen:
-
-
-**Segmento 2:**
-
-Entrevista 1:  
-
-Edad:  años
-
-![Interview2]()
-
-Enlace: https://acortar.link/OAlrEE
-
-Resumen:
-
-
-
-### 6.3.3. Evaluaciones segun heuristicas
-
-<p align="center">
-  <strong>UX Heuristics & Principles Evaluation</strong><br>
-  <em>Usability – Inclusive Design – Information Architecture</em>
-</p>
-
-**CARRERA**: Ingeniería de Software  
-**CURSO**: Desarrollo de Soluciones IoT  
-**SECCIÓN**: 
-**PROFESORES**:   
-**AUDITOR**:  
-**CLIENTE(S)**: 
-
----
-
-**SITE o APP A EVALUAR**:  – Plataforma de gestión agrícola 
-
-## TAREAS A EVALUAR:
-
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas en el sistema :
-
-1. Registro de un agricultor en la plataforma (Web y Mobile)
-
-
-No están incluidas en esta versión de la evaluación las siguientes tareas:
-
-1. Integración con módulos externos de analisis climática
-
-
-## ESCALA DE SEVERIDAD:
-
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
-
-| Nivel | Descripción |
-|-------|-------------|
-| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que haya tiempo disponible. |
-| **2** | Problema menor: ocurre con algo más de frecuencia o es un poco más difícil de resolver para el usuario. Debería corregirse con baja prioridad en la siguiente versión. |
-| **3** | Problema mayor: ocurre con frecuencia o el usuario no puede resolverlo. Es importante corregirlo con alta prioridad. |
-| **4** | Problema muy grave: impide al usuario continuar usando la herramienta. Debe corregerse antes del despliegue. |
-
-## TABLA RESUMEN DE PROBLEMAS DETECTADOS
-
-
-
-### PROBLEMA #1: No hay un control que permita regresar al panel principal desde la gestión de sensores
-
-**Severidad:** 3  
-**Heurística violada:** 
-
-**Problema:**  
-
-
-**Recomendación:**  
-
-
-**Evidencia visual:**  
-![]()
-
-
-
-## 6.4.Video About-the-Product
-
-
-
-El video adopta un tono cercano, claro y profesional, coherente con la identidad visual de WaruSmart. Se presenta una visión general del sistema, incluyendo su modelo de negocio, arquitectura modular (web, móvil, backend y edge), así como ejemplos reales de uso.
-
- **Captura del video**  
-![Screenshot del Video]()
- 
-**Enlaces del video**
-- Versión publicada en **Microsoft Stream**:  
-  []()
-
-- Versión publicada en **YouTube** (para incrustar en el Landing Page):  
-  []()
-
-**Duración del video**: 9 minutos y 56 segundos
-
----
-
 
 ## Conclusiones
 
 
-## Recomendaciones
+En conclucion existe una necesidad real de un sistema para salud animal; hoy los datos están dispersos (papel/Excel/software no integrado), lo que genera omisiones y errores en tratamientos y seguimiento. Esto justifica la propuesta de FarmGuard.
 
+TB1 cumplió su objetivo: se validó el problema con 5 entrevistas y se delimitó con precisión el dominio mediante Event Storming, Bounded Context Canvas y Context Map. Quedó establecido el núcleo (Animal Management e IoT Monitoring & Analysis), los contexts de soporte (IAM y Profile) y los genéricos (Subscriptions & Billing, Notifications), con sus responsabilidades, dependencias upstream/downstream y contratos de integración (sincrónicos y por eventos). Esta definición reduce el acoplamiento, aclara el lenguaje ubicuo y crea trazabilidad directa entre hallazgos y diseño.
 
-### Captura del video:
-![Captura del equipo]()
-
-### Enlaces del video:
-
-- Versión en Microsoft Stream (entorno institucional):  
-  []()
-
-- Versión pública en YouTube (para insertar en Landing Page):  
-  []()
-
-### Duración total del video:
-**8 minutos con 9 segundos**
-
-# Bibliografía
+El equipo trabajó de forma coordinada (GitFlow por ramas de BC, evidencias de commits y PRs), avanzando en paralelo sin solaparse. Como resultado, el alcance del MVP quedó acotado y factible: ingestión y validación de lecturas IoT, reglas/alertas, registro clínico y notificación a usuarios, habilitados por identidad/permisos y planes de suscripción. En síntesis, TB1 entrega una base estratégica sólida y verificable para pasar a especificación e implementación con menor riesgo técnico y organizacional.
 
 
 
-# Anexos
-
-### Videos de Exposición
-
-| Enlace                                             | Entregable                       |
-|----------------------------------------------------|----------------------------------|
-|                                                    | TB1                              |
----
 
 ### Repositorios del Proyecto FarmGuard
 
