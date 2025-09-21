@@ -48,7 +48,10 @@ NRC: 3320</h5>
 
 | Versión | Fecha    | Autor(es)                             | Descripción de modificación                                                             |
 |---------|----------|----------------------------------------|-----------------------------------------------------------------------------------------|
-| 0.1     | 03/09/25 | BrayanSmith Morales Quispe        | Inicio del documento                                                            |
+| 0.1     | 03/09/25 | Brayan Smith Morales Quispe        | Inicio del documento                                                            |
+| 0.2    | 08/09/25 | Zarate Castro Jose Daniel       | Añadir bounded context de suscripcion                                                            |
+| 0.3     | 19/09/25 | Jara Benites Quique Vladimir        | Añadir everstorming                                                        |
+| 0.4     | 20/09/25 | Brayan Smith Morales Quispe        | Correccion de errores                                                          |
 
 
 
@@ -65,13 +68,14 @@ En esta primera entrega (TB1), el objetivo principal fue ...
 
 | Integrante                        |Tarea|
 | ----------------------------------|-----|
-| Zarate Castro Jose Daniel         | | 
-| Brayan Smith Morales Quispe       | |
-| Oscar Nathaniel Garayar Mori      ||
-| Jara Benites Quique Vladimir      ||
-| Carlos Alberto Ochoa Colonio      ||
+| Zarate Castro Jose Daniel         | Bounded Context Subscription & Billing (GENERIC) y Notifications (GENERIC) | 
+| Brayan Smith Morales Quispe       | Bounded Context Animal Management (CORE) |
+| Oscar Nathaniel Garayar Mori      | Bounded Context IoT Monitoring & Analysis (CORE)|
+| Jara Benites Quique Vladimir      | Bounded Context Identity & Access Management (SUPPORTING) y Profile (SUPPORTING)|
+| Carlos Alberto Ochoa Colonio      | Entrevistas y validación de dominio|
 
-![TB1]()
+![TB1](/Assets/img/Integrantes/progreso/Captura%20de%20pantalla_20-9-2025_151510_github.com.jpeg)
+
 
 
 Este gráfico muestra la cantidad de commits realizados por cada integrante durante el desarrollo del TB1 Tunix.
@@ -230,6 +234,10 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>
       <h6>Jose Daniel Zarate Castro</h6>
       TB1:<p>      Apoyé a mi equipo colaborando en las tareas y dando mi ayuda cuando fue necesario para que avanzáramos juntos en los objetivos.</p>
+      <h6><strong>Quique Vladimir Jara Benites</strong></h6>
+      TB1:<p>Coordiné la distribución de tareas entre los miembros del equipo, promoví la participación activa y resolví dudas técnicas para asegurar el avance conjunto hacia los objetivos del proyecto.</p>
+      <h6><strong>Oscar Nathaniel Garayar Mori</strong></h6>
+      TB1:<p>Ejercí liderazgo compartido coordinando con mis compañeros la ejecución de las tareas, resolviendo dudas técnicas cuando fue necesario y motivando al equipo para mantener el ritmo de trabajo. Participé activamente en la toma de decisiones y aseguré que todos los integrantes pudieran aportar al cumplimiento de los objetivos del proyecto</p>
       <td>
       TB1: <p>
       </td>
@@ -243,6 +251,10 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>
       <h6>Jose Daniel Zarate Castro</h6>
       TB1:<p>Colaboré con mis compañeros creando un buen ambiente de trabajo, ayudando a entender el tema, organizando las tareas y apoyando para que logremos las metas propuestas.</p>
+      <h6>Quique Vladimir Jara Benites</h6>
+      TB1:<p>Fomenté un ambiente colaborativo e inclusivo, ayudando a definir metas claras y participando en la planificación de tareas. Contribuí activamente al cumplimiento de los objetivos del equipo, asegurando que todos los miembros pudieran aportar y avanzar juntos. </p>
+      <h6><strong>Oscar Nathaniel Garayar Mori</strong></h6>
+      TB1:<p>Apoyé en la definición de metas claras junto con el equipo, proponiendo una planificación realista de las tareas. Contribuí a organizar las actividades de manera que cada miembro tuviera claridad en sus responsabilidades y el tiempo necesario para cumplirlas, fomentando un ambiente inclusivo y colaborativo</p>
       </td>
       </td>
       <td>
@@ -734,6 +746,24 @@ realizar las preguntas a los diferentes segmentos objetivos
     </td>
   </tr>
 </table>
+
+Entrevista 2:
+
+![](/Assets/img/Bounded%20Animal/entrevista%203.png)
+
+Nombres: Olga
+
+Apellidos: Garcia
+
+Edad: 55
+
+Lugar de residencia: Huancayo
+
+entrevista 3 Link: https://drive.google.com/file/d/1eYbbus1opsrqHmcKDbPyuulvNm6NzLuB/view?usp=sharing
+
+Evidencia de la entrevista:
+
+Resumen de la entrevista: Olga es una criadora de cuys y gallinas en la provincia de huancayo, ella tiene problemas con el monitoreo y control de sus animales puesto que usa un sistema de registro a papel con llevando perdida de informacion importante ademas considera que al haber una tecnologia en mercado que le ayudara con su trabajo haria uso de esta misma.
 
 ### 2.2.3 Análisis de entrevistas  
 
@@ -1908,14 +1938,14 @@ Notifications funciona como un servicio compartido que expone una interfaz está
 ### 4.1.3 Software Architecture  
 
 #### 4.1.3.1 Software Architecture System Landscape Diagram
-![diagram Landscape](/Assets/img/ChapterIV/Software%20Diagrams/structurizr-Diagram1%20(1).png)  
+![diagram Landscape](/Assets/img/ChapterIV/Software%20Diagrams/Blank%20diagram%20corregido%20(1).png)  
 
 #### 4.1.3.2 Software Architecture Context Level Diagrams 
 
-![diagram Context](/Assets/img/ChapterIV/Software%20Diagrams/structurizr-Diagram2%20(1).png)  
+![diagram Context](/Assets/img/ChapterIV/Software%20Diagrams/structurizr-Diagram1%20(1).png)  
 
 #### 4.1.3.3 Software Architecture Container Level Diagrams 
-![diagram Container](/Assets/img/ChapterIV/Software%20Diagrams/Blank%20diagram%20corregido%20(1).png)   
+![diagram Container](/Assets/img/ChapterIV/Software%20Diagrams/structurizr-Diagram2%20(1).png)   
 
 #### 4.1.3.4 Software Architecture Deployment Diagrams  
 
@@ -2169,7 +2199,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
   - TagCode, ImageUrl, Dose, Severity, Status
 
-#### 4.2.X.2 Interface Layer  
+#### 4.2.1.2 Interface Layer  
 
   ## Controladores del Sistema
 
@@ -2309,7 +2339,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
 
 
-#### 4.2.X.4 Infrastructure Layer  
+#### 4.2.1.4 Infrastructure Layer  
 
   ## Repositorios
 
@@ -2336,8 +2366,8 @@ A continuacion se mostrara el diagrama de componentes de nuestro sistema.
 
    ![Diagrama de Componentes](/Assets/img/Bounded%20Animal/structurizr-Diagram3.png)
 
-#### 4.2.X.6 Bounded Context Software Architecture Code Level Diagrams  
-##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams
+#### 4.2.1.6 Bounded Context Software Architecture Code Level Diagrams  
+##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
 
 A continuacion se mostrara el diagrama de clases de nuestro sistema.
 
@@ -2345,7 +2375,7 @@ A continuacion se mostrara el diagrama de clases de nuestro sistema.
 
   ![Diagrama de clases](/Assets/img/Bounded%20Animal/diagrama%20de%20clases.png)
 
-##### 4.2.X.6.2 Bounded Context Database Design Diagram  
+##### 4.2.1.6.2 Bounded Context Database Design Diagram  
 
 
 A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
@@ -2354,13 +2384,10 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
  ![Diagrama de databbase](/Assets/img/Bounded%20Animal/prueba_2025-2025-09-15_22-25.png)
 
-### 4.2.X Bounded Context: IoT Monitoring & Analysis
+### 4.2.2 Bounded Context: IoT Monitoring & Analysis
 
-#### 4.2.X.1 Domain Layer
+#### 4.2.2.1 Domain Layer
 
-#### 4.2.1.2 Interface Layer  
-
-  
 
 - **Value Objects**
   - `SensorStatus` → Valor que define el estado de un sensor: Activo, Inactivo, Vinculado o Desvinculado.  
@@ -2384,7 +2411,8 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
   - `NotificationService` → Servicio que genera y envía las alertas al ganadero cuando se detecta un evento crítico.  
   - `SensorSynchronizationService` → Servicio que asegura la correcta sincronización de datos entre los sensores IoT y el sistema central.
 
-#### 4.2.X.2 Interface Layer
+#### 4.2.2.2 Interface Layer  
+
 En esta capa se definen los **controladores de backend** que exponen la lógica de aplicación mediante endpoints REST.  
 
 - **SensorController**
@@ -2415,7 +2443,7 @@ En esta capa se definen los **controladores de backend** que exponen la lógica 
   - `POST /notifications/critical` → Enviar notificación por indicador crítico.
   - `GET /notifications` → Listar notificaciones enviadas.
 
-#### 4.2.X.3 Application Layer
+#### 4.2.2.3 Application Layer
 Esta capa coordina las operaciones del dominio, gestionando la orquestación de **commands** y **queries**.  
 Implementa los servicios definidos en el **Domain Layer**.
 
@@ -2428,7 +2456,7 @@ Implementa los servicios definidos en el **Domain Layer**.
 2. `SensorQueryServiceImpl` → Implementación de `GetActiveSensorsQuery`.  
 3. `AnalysisQueryServiceImpl` → Implementación de `GetAnalysisHistoryQuery`.  
 
-#### 4.2.X.4 Infrastructure Layer
+#### 4.2.2.4 Infrastructure Layer
 Esta capa proporciona la implementación técnica para la persistencia de datos y acceso a recursos externos.
 
 **Repositories**
@@ -2439,19 +2467,18 @@ Esta capa proporciona la implementación técnica para la persistencia de datos 
 5. `HistoryRepository` → Administra la lista persistente del historial de indicadores (`IndicatorHistory`).  
 
 
-
-#### 4.2.X.5 Bounded Context Software Architecture Component Level Diagrams  
+#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams  
 
 <img src="Assets/img/ChapterIV/iot_BDC_domain_diagram_c4.png" alt="">  
 
-#### 4.2.X.6 Bounded Context Software Architecture Code Level Diagrams  
+#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams  
 
-##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams  
+##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams  
 
 <img src="Assets/img/ChapterIV/iot_BDC_DBD.png" alt="">  
 ---
 
-##### 4.2.X.6.2 Bounded Context Database Design Diagram  
+##### 4.2.2.6.2 Bounded Context Database Design Diagram  
 
 A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
@@ -2459,7 +2486,7 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
    <img src="">
  </p>
 
-## 4.2.2 Bounded Context: <Bounded Payment Management>
+## 4.2.3 Bounded Context: <Bounded Payment Management>
 
 ### Diccionario de Clases
 
@@ -2527,7 +2554,7 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 ---
 
-### 4.2.2.1 Domain Layer
+### 4.2.3.1 Domain Layer
 - **Aggregate Root**: `Payment` → contiene una colección/referencia a `Transaction`.  
 - **Entities**: `Payment`, `Transaction` (dentro del agregado `Payment`).  
 - **Value Objects**: `Amount`, `Currency`, `PaymentStatus`, `TransactionStatus`, `ExternalReference`.  
@@ -2539,7 +2566,7 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 ---
 
-### 4.2.2.2 Interface Layer
+### 4.2.3.2 Interface Layer
 
 #### Controladores del Sistema
 - `PaymentsController`
@@ -2559,7 +2586,7 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 ---
 
-### 4.2.2.3 Application Layer
+### 4.2.3.3 Application Layer
 
 #### CommandServices
 - `PaymentCommandService`  
@@ -2580,7 +2607,7 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 ---
 
-### 4.2.2.4 Infrastructure Layer
+### 4.2.3.4 Infrastructure Layer
 
 #### Repositorios
 - `PaymentRepository` _(implements `IPaymentRepository`)_  
@@ -2590,29 +2617,29 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 
 
-#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams  
+#### 4.2.3.5 Bounded Context Software Architecture Component Level Diagrams  
 
 A continuacion se mostrara el diagrama de componentes de nuestro sistema.
 
 <p>
-   <img src="/Assets/img/Bounded Animal/structurizr-PaymentManagementComponents.png">
+   <img src="Assets/img/Bounded Animal/structurizr-PaymentManagementComponents.png">
  </p>
 
-#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams  
-##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
+#### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams  
+##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
 
 A continuacion se mostrara el diagrama de clases de nuestro sistema.
 
 <p>
-   <img src="/Assets/img/Bounded Animal/uml-clases-paymentManagement.png">
+   <img src="Assets/img/Bounded Animal/uml-clases-paymentManagement.png">
  </p>
 
-##### 4.2.2.6.2 Bounded Context Database Design Diagram  
+##### 4.2.3.6.2 Bounded Context Database Design Diagram  
 
 A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
 <p>
-   <img src="/Assets/img/Bounded Animal/bd-paymentManagement.png">
+   <img src="Assets/img/Bounded Animal/bd-paymentManagement.png">
  </p>
 
 # Capítulo V: Solution UI/UX Design  
@@ -2805,17 +2832,17 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 El video adopta un tono cercano, claro y profesional, coherente con la identidad visual de WaruSmart. Se presenta una visión general del sistema, incluyendo su modelo de negocio, arquitectura modular (web, móvil, backend y edge), así como ejemplos reales de uso.
 
-📺 **Captura del video**  
+ **Captura del video**  
 ![Screenshot del Video]()
-
-🔗 **Enlaces del video**
+ 
+**Enlaces del video**
 - Versión publicada en **Microsoft Stream**:  
   []()
 
 - Versión publicada en **YouTube** (para incrustar en el Landing Page):  
   []()
 
-⏱️ **Duración del video**: 9 minutos y 56 segundos
+**Duración del video**: 9 minutos y 56 segundos
 
 ---
 
@@ -2826,43 +2853,43 @@ El video adopta un tono cercano, claro y profesional, coherente con la identidad
 ## Recomendaciones
 
 
-### 📸 Captura del video:
+### Captura del video:
 ![Captura del equipo]()
 
-### 🔗 Enlaces del video:
+### Enlaces del video:
 
-- 📺 Versión en Microsoft Stream (entorno institucional):  
+- Versión en Microsoft Stream (entorno institucional):  
   []()
 
-- 📺 Versión pública en YouTube (para insertar en Landing Page):  
+- Versión pública en YouTube (para insertar en Landing Page):  
   []()
 
-### ⏱️ Duración total del video:
+### Duración total del video:
 **8 minutos con 9 segundos**
 
-# 📚 Bibliografía
+# Bibliografía
 
 
 
-# 📎 Anexos
+# Anexos
 
-### 🎬 Videos de Exposición
+### Videos de Exposición
 
 | Enlace                                             | Entregable                       |
 |----------------------------------------------------|----------------------------------|
 |                                                    | TB1                              |
 ---
 
-### 💻 Repositorios del Proyecto WaruSmart
+### Repositorios del Proyecto FarmGuard
 
 - **Landing Page**  
-  []()
+  [https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage)
 
 - **Frontend Web App**  
-  []()
+  [https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/farmguard-frontend](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/farmguard-frontend)
 
 - **Backend Web Services**  
-  []()
+  [https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage)
 
 - **Mobile Application (Android - Kotlin)**  
   []()
