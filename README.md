@@ -234,8 +234,10 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>
       <h6>Jose Daniel Zarate Castro</h6>
       TB1:<p>      Apoyé a mi equipo colaborando en las tareas y dando mi ayuda cuando fue necesario para que avanzáramos juntos en los objetivos.</p>
-<h6><strong>Quique Vladimir Jara Benites</strong></h6>
+      <h6><strong>Quique Vladimir Jara Benites</strong></h6>
       TB1:<p>Coordiné la distribución de tareas entre los miembros del equipo, promoví la participación activa y resolví dudas técnicas para asegurar el avance conjunto hacia los objetivos del proyecto.</p>
+      <h6><strong>Oscar Nathaniel Garayar Mori</strong></h6>
+      TB1:<p>Ejercí liderazgo compartido coordinando con mis compañeros la ejecución de las tareas, resolviendo dudas técnicas cuando fue necesario y motivando al equipo para mantener el ritmo de trabajo. Participé activamente en la toma de decisiones y aseguré que todos los integrantes pudieran aportar al cumplimiento de los objetivos del proyecto</p>
       <td>
       TB1: <p>
       </td>
@@ -251,6 +253,8 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       TB1:<p>Colaboré con mis compañeros creando un buen ambiente de trabajo, ayudando a entender el tema, organizando las tareas y apoyando para que logremos las metas propuestas.</p>
       <h6>Quique Vladimir Jara Benites</h6>
       TB1:<p>Fomenté un ambiente colaborativo e inclusivo, ayudando a definir metas claras y participando en la planificación de tareas. Contribuí activamente al cumplimiento de los objetivos del equipo, asegurando que todos los miembros pudieran aportar y avanzar juntos. </p>
+      <h6><strong>Oscar Nathaniel Garayar Mori</strong></h6>
+      TB1:<p>Apoyé en la definición de metas claras junto con el equipo, proponiendo una planificación realista de las tareas. Contribuí a organizar las actividades de manera que cada miembro tuviera claridad en sus responsabilidades y el tiempo necesario para cumplirlas, fomentando un ambiente inclusivo y colaborativo</p>
       </td>
       </td>
       <td>
