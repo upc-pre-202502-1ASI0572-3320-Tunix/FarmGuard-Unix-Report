@@ -618,7 +618,117 @@ realizar las preguntas a los diferentes segmentos objetivos
 → ¿Qué cambios crees que notarías en la gestión y productividad de tu granja o veterinaria?
 
 
-### 2.2.2 Registro de entrevistas  
+### 2.2.2 Registro de entrevistas
+
+**Segmento 1:** Sector veterinario
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Jeniffer Espinoza <br>
+      <b>Edad: </b> 25 años <br>
+      <b>Distrito:</b> El Rímac <br>
+      <b>Duración:</b> 12 minutos
+    </td>
+    <td align=center>
+      <img src="./Assets/img/feature-interviews/entrevista-jennifer.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href=""></a>
+      <br>
+      <b>Resumen:</b> 
+    </td>
+  </tr>
+</table>
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Gonzalo Melendez <br>
+      <b>Edad: </b> 20 años <br>
+      <b>Distrito:</b> Villa María del Triunfo <br>
+      <b>Duración:</b> 10 minutos
+    </td>
+    <td align=center>
+      <img src="./Assets/img/feature-interviews/entrevista-gonzalo.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href=""></a>
+      <br>
+      <b>Resumen:</b> 
+    </td>
+  </tr>
+</table>
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Daniel Aguilar <br>
+      <b>Edad: </b> 22 años <br>
+      <b>Distrito:</b> Surco <br>
+      <b>Duración:</b> 14 minutos
+    </td>
+    <td align=center>
+      <img src="./Assets/img/feature-interviews/entrevista-daniel.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href=""></a>
+      <br>
+      <b>Resumen:</b> 
+    </td>
+  </tr>
+</table>
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Paul Lugo <br>
+      <b>Edad: </b> 28 años <br>
+      <b>Distrito:</b> El Rímac <br>
+      <b>Duración:</b> 21 minutos
+    </td>
+    <td align=center>
+      <img src="./Assets/img/feature-interviews/entrevista-paul.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href=""></a>
+      <br>
+      <b>Resumen:</b> 
+    </td>
+  </tr>
+</table>
+
+**Segmento 2:** Sector ganadero
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Juan Calisaya <br>
+      <b>Edad: </b> 21 años <br>
+      <b>Distrito:</b> Villa María del Triunfo <br>
+      <b>Duración:</b> 13 minutos
+    </td>
+    <td align=center>
+      <img src="./Assets/img/feature-interviews/entrevista-juan.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href=""></a>
+      <br>
+      <b>Resumen:</b> 
+    </td>
+  </tr>
+</table>
+
 
 ### 2.2.3 Análisis de entrevistas  
 
