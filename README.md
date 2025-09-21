@@ -642,9 +642,9 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href=""></a>
+      <b>Enlace:</b> <a href="https://youtu.be/gqexI5g6d3I">https://youtu.be/gqexI5g6d3I</a>
       <br>
-      <b>Resumen:</b> 
+      <b>Resumen:</b> Jennifer Espinoza, veterinaria de 25 años con cinco años de experiencia y residente en El Rímac, compartió en la entrevista los principales retos en la gestión de la salud animal en su clínica, donde actualmente se usan métodos tradicionales como Excel y fichas en papel. Señaló dificultades para detectar enfermedades en etapas tempranas, pérdidas de información crítica y problemas de productividad al manejar múltiples registros. Manifestó la necesidad de un sistema centralizado que permita reducir costos, optimizar tratamientos preventivos, contar con datos en tiempo real y recibir alertas preventivas. Considera que una plataforma IoT como la propuesta por el proyecto FarmGuard sería muy útil, ya que mejoraría la trazabilidad de medicamentos y diagnósticos, incrementaría la productividad, reduciría errores y reforzaría la confianza de los clientes en la veterinaria.
     </td>
   </tr>
 </table>
@@ -663,9 +663,9 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href=""></a>
+      <b>Enlace:</b> <a href="https://youtu.be/OR5JoUFLDpA">https://youtu.be/OR5JoUFLDpA</a>
       <br>
-      <b>Resumen:</b> 
+      <b>Resumen:</b> Gonzalo Meléndez, estudiante de veterinaria de San Marcos que realiza prácticas en una clínica, explicó que actualmente la gestión de la salud animal se hace de manera tradicional, principalmente con registros en Excel y papel, lo que ocasiona pérdidas de información, duplicidad de datos y retrasos en diagnósticos. Señaló la importancia de contar con datos en tiempo real para actuar de forma preventiva y manifestó interés en optimizar tratamientos, digitalizar historiales clínicos y reducir costos. Considera que un sistema IoT como el propuesto por FarmGuard sería muy útil, ya que permitiría automatizar el monitoreo, centralizar registros, generar reportes simples y gráficos para distintos niveles de análisis, y recibir alertas preventivas. Con su implementación, espera mejoras en la eficiencia de diagnósticos, reducción de papeleo, mayor productividad y mejor gestión de la información en la clínica.
     </td>
   </tr>
 </table>
@@ -684,9 +684,9 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href=""></a>
+      <b>Enlace:</b> <a href="https://youtu.be/FrPJyGnteyk">https://youtu.be/FrPJyGnteyk</a>
       <br>
-      <b>Resumen:</b> 
+      <b>Resumen:</b> Daniel Aguilar, asistente veterinario que complementa su experiencia con cursos de especialización, explicó que actualmente la gestión de la salud animal en su centro se realiza con métodos tradicionales como registros en papel y hojas de Excel, lo que genera desorden, pérdida de información y retrasos en la atención. Considera fundamental contar con datos en tiempo real, especialmente para animales hospitalizados, y resaltó la necesidad de organizar mejor la información, reducir tiempos y facilitar el seguimiento de los casos. Mostró gran interés en la propuesta de la plataforma FarmGuard, señalando que la automatización del monitoreo, los registros digitales y las alertas preventivas serían de gran ayuda para evitar errores y enfocarse más en la atención directa de los animales. Prefiere inicialmente reportes simples para facilitar la adaptación del personal, pero reconoce el valor futuro de gráficos y análisis predictivos. Con la implementación de la solución, espera una veterinaria más organizada, con mayor eficacia, menor pérdida de tiempo, mejor seguimiento a los clientes y mayor confianza de los dueños en el servicio.
     </td>
   </tr>
 </table>
@@ -705,9 +705,9 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href=""></a>
+      <b>Enlace:</b> <a href="https://youtu.be/Elu1HOylrNI">https://youtu.be/Elu1HOylrNI</a>
       <br>
-      <b>Resumen:</b> 
+      <b>Resumen:</b> Paul Lugo Pérez, médico veterinario y dueño de la clínica Star Pets en El Rímac, comentó que actualmente la gestión de la salud animal en su centro se realiza de forma manual, combinando dispositivos médicos de distintos fabricantes con registros en papel o tablet, lo que genera pérdida de información, duplicidad de datos y dificultad para dar un seguimiento constante, especialmente en pacientes internados. Destacó la importancia de contar con datos en tiempo real y de centralizar la información de múltiples dispositivos en una sola plataforma, ya que la acción rápida es clave para salvar la vida de los animales. Considera que la propuesta de la plataforma FarmGuard sería de gran utilidad, sobre todo por la centralización de datos, la generación de reportes simples en tiempo real y la posibilidad de recibir alertas inmediatas sobre anomalías. Si bien no ve tan necesario el uso de alertas preventivas dentro de la clínica, reconoce su valor para pacientes monitoreados en casa. Estima que con la implementación de esta solución su veterinaria lograría mayor precisión en diagnósticos, mejor capacidad de respuesta del personal y una gestión más eficiente y confiable.
     </td>
   </tr>
 </table>
@@ -718,7 +718,7 @@ realizar las preguntas a los diferentes segmentos objetivos
   <tr>
     <td>
       <b>Nombres y apellidos:</b> Juan Calisaya <br>
-      <b>Edad: </b> 21 años <br>
+      <b>Edad: </b> 23 años <br>
       <b>Distrito:</b> Villa María del Triunfo <br>
       <b>Duración:</b> 13 minutos
     </td>
@@ -728,13 +728,12 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href=""></a>
+      <b>Enlace:</b> <a href="https://youtu.be/HgcujUYCcdg">https://youtu.be/HgcujUYCcdg</a>
       <br>
-      <b>Resumen:</b> 
+      <b>Resumen:</b> Juan Calisaya, de 23 años y residente en Villa María del Triunfo, apoya en la pequeña granja de sus padres y explicó que actualmente gestiona la salud animal de forma manual, usando cuadernos para registrar vacunas, medicamentos y tratamientos. Revisa diariamente a los animales observando alimentación, peso y comportamiento, aunque reconoce que su falta de experiencia y el uso de libretas generan pérdidas de información, errores y dificultades para organizar múltiples registros, lo que impacta en su productividad y puede afectar la salud de los animales. Señaló que le gustaría mejorar la organización, reducir costos y tener un mejor control de los datos sin depender de la memoria. Considera que una plataforma IoT como FarmGuard sería muy útil, sobre todo por la centralización de información, reportes simples y alertas preventivas que lo ayudarían a reaccionar a tiempo y aprender a manejar mejor la granja. Destacó también el valor de funcionalidades como monitoreo en tiempo real y localización vía GPS para animales alejados. Estima que con esta solución lograría mayor organización, menos errores en vacunas y tratamientos, ahorro de gastos y más confianza en su labor de apoyo en la granja.
     </td>
   </tr>
 </table>
-
 
 ### 2.2.3 Análisis de entrevistas  
 
