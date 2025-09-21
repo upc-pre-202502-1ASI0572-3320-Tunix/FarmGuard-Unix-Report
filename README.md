@@ -1829,14 +1829,14 @@ Notifications funciona como un servicio compartido que expone una interfaz está
 ### 4.1.3 Software Architecture  
 
 #### 4.1.3.1 Software Architecture System Landscape Diagram
-![diagram Landscape](/Assets/img/ChapterIV/Software%20Diagrams/structurizr-Diagram1%20(1).png)  
+![diagram Landscape](/Assets/img/ChapterIV/Software%20Diagrams/Blank%20diagram%20corregido%20(1).png)  
 
 #### 4.1.3.2 Software Architecture Context Level Diagrams 
 
-![diagram Context](/Assets/img/ChapterIV/Software%20Diagrams/structurizr-Diagram2%20(1).png)  
+![diagram Context](/Assets/img/ChapterIV/Software%20Diagrams/structurizr-Diagram1%20(1).png)  
 
 #### 4.1.3.3 Software Architecture Container Level Diagrams 
-![diagram Container](/Assets/img/ChapterIV/Software%20Diagrams/Blank%20diagram%20corregido%20(1).png)   
+![diagram Container](/Assets/img/ChapterIV/Software%20Diagrams/structurizr-Diagram2%20(1).png)   
 
 #### 4.1.3.4 Software Architecture Deployment Diagrams  
 
