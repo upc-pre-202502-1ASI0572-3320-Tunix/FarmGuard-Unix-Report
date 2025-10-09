@@ -3005,16 +3005,6 @@ Cada entorno cuenta con variables y credenciales específicas definidas en archi
 
 ---
 
-#### Automatización y monitoreo
-El proceso de integración y despliegue continuo se realiza con **GitHub Actions**, utilizando workflows específicos para cada componente del sistema:
-
-| Repositorio | Workflow | Acción principal |
-|--------------|-----------|-----------------|
-| `FarmGuard-Backend` | `ci-deploy.yml` | Compila, prueba y despliega en Azure. |
-| `farmguard-frontend` | `build-web.yml` | Ejecuta pruebas y publica en Vercel. |
-| `FarmGuard-LandingPage` | `pages.yml` | Publica automáticamente en GitHub Pages. |
-| `FarmGuard-Unix-Report` | `export-pdf.yml` | Genera automáticamente el informe en PDF desde Markdown. |
-
 Cada pipeline se activa mediante *push* o *pull request* hacia las ramas `develop` y `main`, asegurando control y trazabilidad en el ciclo de despliegue continuo.
 
 ---
