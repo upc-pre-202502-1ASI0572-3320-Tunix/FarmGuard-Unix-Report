@@ -3260,8 +3260,16 @@ Presenta resultados de pruebas unitarias, de integración y de aceptación reali
 #### 6.2.1.6 Execution Evidence
 Muestra la ejecución funcional del sistema (pantallas operativas, logs, endpoints activos, etc.).
 
+
+
 #### 6.2.1.7 Services Documentation Evidence
 Documenta los endpoints, modelos, controladores y contratos de API utilizando Swagger u OpenAPI.
+
+<img width="1903" height="971" alt="Image" src="https://github.com/user-attachments/assets/2ed6dd38-dbd5-463b-896a-ef7143aa0485" />
+
+<img width="1869" height="912" alt="Image" src="https://github.com/user-attachments/assets/5242d684-de2b-4255-8027-bff94ff6ad8b" />
+
+<img width="1871" height="917" alt="Image" src="https://github.com/user-attachments/assets/bf0608cb-b28c-4a20-b521-b23220e24bb2" />
 
 #### 6.2.1.8 Software Deployment Evidence
 Incluye evidencia del despliegue del sistema en el entorno productivo o de pruebas (capturas, URLs, logs de despliegue).
