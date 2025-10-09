@@ -2919,7 +2919,107 @@ La aplicación de estas convenciones asegura la calidad del código, la estandar
 
 
 ### 6.1.4 Deployment Configuration
-Describe los entornos de despliegue (desarrollo, staging, producción), las credenciales, pipelines y scripts de automatización utilizados.
+
+El proceso de despliegue de la solución FarmGuard se diseñó bajo un enfoque continuo e incremental, garantizando la integración fluida entre los entornos de desarrollo, pruebas y producción.  
+La configuración considera la naturaleza distribuida del sistema (Backend, Frontend Web, Landing Page y Aplicación Móvil) y busca mantener la trazabilidad y estabilidad del software mediante pipelines automatizados.
+
+---
+
+#### Entornos de despliegue
+
+Se definieron tres entornos principales dentro del ciclo de vida de la aplicación:
+
+| Entorno | Descripción | Propósito |
+|----------|--------------|------------|
+| **Development (local)** | Entorno de desarrollo local en cada equipo. Ejecuta servicios con configuraciones de prueba y bases de datos SQLite o MySQL locales. | Permitir el desarrollo individual, pruebas unitarias y debugging. |
+| **Staging (pre-producción)** | Entorno de validación intermedia alojado en la nube, conectado a la base de datos de pruebas. | Validar nuevas versiones antes del despliegue final y realizar pruebas de integración. |
+| **Production** | Entorno público, estable y desplegado en servicios cloud. Utiliza la base de datos principal y configuración segura. | Proveer acceso a usuarios finales y recolectar métricas de uso. |
+
+Cada entorno cuenta con variables y credenciales específicas definidas en archivos `.env` separados, no incluidos en el repositorio público por motivos de seguridad.
+
+---
+
+#### Configuración de despliegue por componente
+
+**1. Backend (.NET 8 – API RESTful)**
+- **Infraestructura:** Desplegada en **Azure App Service** (alternativamente, Render o Railway).
+- **Base de datos:** MySQL Cloud (plan gratuito académico o instancia gestionada).
+- **Gestión de entornos:**
+  - Variables configuradas en `appsettings.{Environment}.json`.
+  - Conexiones protegidas mediante `Azure Key Vault` o variables de entorno.
+- **Pipeline de CI/CD:**
+  - Compilación automatizada con `dotnet build`.
+  - Ejecución de pruebas (`dotnet test`).
+  - Despliegue automático en `develop` (staging) y manual en `main` (production).
+- **Scripts relevantes:**
+  - `deploy.yml` (pipeline GitHub Actions)
+  - `start.sh` para inicialización local en Linux.
+
+---
+
+**2. Frontend Web (Vue.js 3)**
+- **Infraestructura:** Desplegada en **Vercel** o **Netlify**.
+- **Integración:** Consumo directo de la API REST del backend.
+- **Variables de entorno:**
+  - `.env.development` para entorno local.
+  - `.env.production` con endpoints y claves de despliegue.
+- **Pipeline automatizado:**
+  - Ejecución de `npm run build` y pruebas de lint.
+  - Previsualización automática en ramas de `feature/` y `develop`.
+  - Publicación automática desde `main` al entorno productivo.
+- **Archivos clave:**
+  - `vercel.json` o `netlify.toml` para configuración de dominio y rutas.
+
+---
+
+**3. Landing Page (HTML, CSS, JS)**
+- **Infraestructura:** Servida como sitio estático en **GitHub Pages**.
+- **Automatización:**
+  - Pipeline con GitHub Actions (`pages.yml`) que publica cada cambio en `main`.
+  - Integración con dominio institucional o subdominio público.
+- **Optimización:**
+  - Minificación automática de archivos CSS/JS antes del despliegue.
+  - Validación W3C y Stylelint previas a publicación.
+
+---
+
+**4. Aplicación Móvil (Flutter – Clean Architecture)**
+- **Entornos configurados:**
+  - `dev` (para pruebas internas con conexión al backend staging).
+  - `prod` (para compilaciones firmadas y publicación en Play Store).
+- **Pipeline de integración:**
+  - Compilación automática con `flutter build apk --flavor dev` para pruebas internas.
+  - Validación de dependencias con `flutter analyze` y `dart test`.
+- **Distribución:**
+  - Entrega de versiones preliminares mediante **Firebase App Distribution**.
+  - Publicación final en Google Play Console bajo canal cerrado.
+- **Gestión de credenciales:**
+  - Firmas almacenadas de forma cifrada (`key.properties`, `keystore.jks`) fuera del repositorio.
+
+---
+
+#### Credenciales y seguridad
+- Las credenciales de despliegue (tokens, claves API, contraseñas de base de datos) se gestionan mediante **GitHub Secrets** y no se exponen en ningún archivo del repositorio.
+- Los `.env` locales se incluyen en el archivo `.gitignore` para evitar su sincronización.
+- Los permisos de los entornos de despliegue están asignados a los integrantes del equipo de forma controlada a través de GitHub Roles.
+
+---
+
+#### Automatización y monitoreo
+El proceso de integración y despliegue continuo se realiza con **GitHub Actions**, utilizando workflows específicos para cada componente del sistema:
+
+| Repositorio | Workflow | Acción principal |
+|--------------|-----------|-----------------|
+| `FarmGuard-Backend` | `ci-deploy.yml` | Compila, prueba y despliega en Azure. |
+| `farmguard-frontend` | `build-web.yml` | Ejecuta pruebas y publica en Vercel. |
+| `FarmGuard-LandingPage` | `pages.yml` | Publica automáticamente en GitHub Pages. |
+| `FarmGuard-Unix-Report` | `export-pdf.yml` | Genera automáticamente el informe en PDF desde Markdown. |
+
+Cada pipeline se activa mediante *push* o *pull request* hacia las ramas `develop` y `main`, asegurando control y trazabilidad en el ciclo de despliegue continuo.
+
+---
+
+En conjunto, esta configuración garantiza que la entrega de software de FarmGuard sea confiable, reproducible y segura en todos los entornos, cumpliendo con las buenas prácticas de DevOps y la rúbrica establecida para el trabajo final.
 
 
 ## 6.2 Landing Page, Services & Applications Implementation
