@@ -148,41 +148,51 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
         - [4.2.1.6.2 Database Design Diagram](#database-design-diagram)
 
 ### Capítulo V: Solution UI/UX Design
+
 - [5.1 Style Guidelines](#51-style-guidelines)  
   - [5.1.1 General Style Guidelines](#511-general-style-guidelines)  
   - [5.1.2 Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)  
+
 - [5.2 Information Architecture](#52-information-architecture)  
   - [5.2.1 Organization Systems](#521-organization-systems)  
   - [5.2.2 Labeling Systems](#522-labeling-systems)  
   - [5.2.3 SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)  
   - [5.2.4 Searching Systems](#524-searching-systems)  
   - [5.2.5 Navigation Systems](#525-navigation-systems)  
+
 - [5.3 Landing Page UI Design](#53-landing-page-ui-design)  
   - [5.3.1 Wireframe](#531-wireframe)  
   - [5.3.2 Mock-up](#532-mock-up)  
+
 - [5.4 Applications UX/UI Design](#54-applications-uxui-design)  
   - [5.4.1 Wireframes](#541-wireframes)  
   - [5.4.2 Wireflow Diagrams](#542-wireflow-diagrams)  
   - [5.4.3 Mock-ups](#543-mock-ups)  
   - [5.4.4 User Flow Diagrams](#544-user-flow-diagrams)  
-- [5.5 Applications Prototyping](#55-applications-prototyping)
+
+- [5.5 Applications Prototyping](#55-applications-prototyping)  
+
+
 
 ### Capítulo VI: Product Implementation, Validation & Deployment
+
 - [6.1 Software Configuration Management](#61-software-configuration-management)  
   - [6.1.1 Development Environment Configuration](#611-development-environment-configuration)  
   - [6.1.2 Source Code Management](#612-source-code-management)  
   - [6.1.3 Code Style Guide & Conventions](#613-code-style-guide--conventions)  
   - [6.1.4 Deployment Configuration](#614-deployment-configuration)  
+
 - [6.2 Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)  
   - [6.2.1 Sprint 1](#621-sprint-1)  
     - [6.2.1.1 Sprint Planning 1](#6211-sprint-planning-1)  
-    - [6.2.1.2 Sprint Backlog 1](#6212-sprint-backlog-1)  
-    - [6.2.1.3 Development Evidence](#6213-development-evidence)  
-    - [6.2.1.4 Testing Suite Evidence](#6214-testing-suite-evidence)  
-    - [6.2.1.5 Execution Evidence](#6215-execution-evidence)  
-    - [6.2.1.6 Services Documentation Evidence](#6216-services-documentation-evidence)  
-    - [6.2.1.7 Software Deployment Evidence](#6217-software-deployment-evidence)  
-    - [6.2.1.8 Team Collaboration Insights](#6218-team-collaboration-insights)  
+    - [6.2.1.2 Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)  
+    - [6.2.1.3 Sprint Backlog 1](#6213-sprint-backlog-1)  
+    - [6.2.1.4 Development Evidence](#6214-development-evidence)  
+    - [6.2.1.5 Testing Suite Evidence](#6215-testing-suite-evidence)  
+    - [6.2.1.6 Execution Evidence](#6216-execution-evidence)  
+    - [6.2.1.7 Services Documentation Evidence](#6217-services-documentation-evidence)  
+    - [6.2.1.8 Software Deployment Evidence](#6218-software-deployment-evidence)  
+    - [6.2.1.9 Team Collaboration Insights](#6219-team-collaboration-insights)   
   - [6.2.2 Sprint 2](#622-sprint-2)  
     - [6.2.2.1 Sprint Planning 2](#6221-sprint-planning-2)  
     - [6.2.2.2 Sprint Backlog 2](#6222-sprint-backlog-2)  
@@ -2641,6 +2651,116 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 <p>
    <img src="Assets/img/Bounded Animal/bd-paymentManagement.png">
  </p>
+
+# Capítulo V: Solution UI/UX Design
+
+## 5.1 Style Guidelines
+
+### 5.1.1 General Style Guidelines
+Describe las normas generales de diseño visual aplicadas al ecosistema del proyecto, incluyendo tipografía, colores, iconografía y espaciado.
+
+### 5.1.2 Web, Mobile and IoT Style Guidelines
+Detalla las guías específicas de estilo aplicadas a las plataformas web, móvil e IoT, considerando coherencia visual, responsividad y usabilidad en cada entorno.
+
+
+
+## 5.2 Information Architecture
+
+### 5.2.1 Organization Systems
+Explica cómo se estructuran los contenidos, categorías y jerarquías de información para facilitar la navegación y el acceso eficiente a la data.
+
+### 5.2.2 Labeling Systems
+Define la nomenclatura utilizada en menús, botones, etiquetas y categorías, garantizando consistencia semántica y claridad terminológica.
+
+### 5.2.3 SEO Tags and Meta Tags
+Presenta las etiquetas meta (title, description, keywords) y estrategias SEO aplicadas para mejorar la visibilidad del proyecto en motores de búsqueda.
+
+### 5.2.4 Searching Systems
+Describe los mecanismos de búsqueda implementados (filtros, autocompletado, búsqueda avanzada) para optimizar la experiencia de localización de datos.
+
+### 5.2.5 Navigation Systems
+Explica los sistemas de navegación horizontal, vertical y contextual aplicados en las interfaces, así como su coherencia entre plataformas.
+
+
+
+## 5.3 Landing Page UI Design
+
+### 5.3.1 Wireframe
+Incluye los esquemas estructurales iniciales de la página de inicio, destacando la jerarquía visual, disposición de bloques y zonas interactivas.
+
+### 5.3.2 Mock-up
+Presenta la versión visual final del diseño de la landing page, mostrando el uso de color, tipografía y componentes de interfaz definidos en las guías de estilo.
+
+
+## 5.4 Applications UX/UI Design
+
+### 5.4.1 Wireframes
+Muestra los bosquejos estructurales de las vistas principales de la aplicación web, móvil e IoT.
+
+### 5.4.2 Wireflow Diagrams
+Integra diagramas de flujo visual que relacionan pantallas, interacciones y decisiones del usuario.
+
+### 5.4.3 Mock-ups
+Exhibe las representaciones visuales finales de las interfaces de usuario, con los estilos y componentes definitivos.
+
+### 5.4.4 User Flow Diagrams
+Describe los recorridos del usuario (User Journey) y sus interacciones dentro de los sistemas de la solución.
+
+
+## 5.5 Applications Prototyping
+Presenta los prototipos funcionales interactivos de las plataformas (web, móvil, IoT), detallando el uso de herramientas como Figma, Adobe XD o similares, y su validación con usuarios.
+
+---
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1 Software Configuration Management
+
+### 6.1.1 Development Environment Configuration
+Detalla las herramientas, SDKs, frameworks y entornos utilizados para el desarrollo (por ejemplo, Angular, Kotlin, Spring Boot, .NET 8, etc.).
+
+### 6.1.2 Source Code Management
+Explica la estructura del repositorio, ramas, commits, convenciones de nomenclatura y flujos de integración continua (GitFlow, trunk-based, etc.).
+
+### 6.1.3 Code Style Guide & Conventions
+Documenta las reglas de estilo del código (linting, formateo, nombres de clases y variables) y su aplicación en cada stack tecnológico.
+
+### 6.1.4 Deployment Configuration
+Describe los entornos de despliegue (desarrollo, staging, producción), las credenciales, pipelines y scripts de automatización utilizados.
+
+
+## 6.2 Landing Page, Services & Applications Implementation
+
+### 6.2.1 Sprint 1
+
+#### 6.2.1.1 Sprint Planning 1
+Define los objetivos, duración, entregables y tareas del primer sprint de desarrollo.
+
+#### 6.2.1.2 Aspect Leaders and Collaborators
+Indica los roles, responsabilidades y colaboradores asignados a cada aspecto (frontend, backend, IoT, UX, QA, etc.).
+
+#### 6.2.1.3 Sprint Backlog 1
+Lista las historias de usuario, criterios de aceptación y tareas priorizadas incluidas en el Sprint 1.
+
+#### 6.2.1.4 Development Evidence
+Incluye capturas, fragmentos de código y commits que demuestren el desarrollo de funcionalidades implementadas.
+
+#### 6.2.1.5 Testing Suite Evidence
+Presenta resultados de pruebas unitarias, de integración y de aceptación realizadas durante el sprint.
+
+#### 6.2.1.6 Execution Evidence
+Muestra la ejecución funcional del sistema (pantallas operativas, logs, endpoints activos, etc.).
+
+#### 6.2.1.7 Services Documentation Evidence
+Documenta los endpoints, modelos, controladores y contratos de API utilizando Swagger u OpenAPI.
+
+#### 6.2.1.8 Software Deployment Evidence
+Incluye evidencia del despliegue del sistema en el entorno productivo o de pruebas (capturas, URLs, logs de despliegue).
+
+#### 6.2.1.9 Team Collaboration Insights
+Analiza el trabajo colaborativo del equipo, herramientas de gestión utilizadas (Trello, Jira, Notion, GitHub Projects) y lecciones aprendidas.
+
+---
 
 
 ## Conclusiones
