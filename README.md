@@ -2779,10 +2779,55 @@ En conjunto, esta configuración proporciona un entorno de desarrollo robusto, p
 
 
 ### 6.1.2 Source Code Management
-Explica la estructura del repositorio, ramas, commits, convenciones de nomenclatura y flujos de integración continua (GitFlow, trunk-based, etc.).
+
+Para la gestión del código fuente del proyecto **FarmGuard**, se utiliza la plataforma **GitHub**, bajo una organización pública denominada **upc-pre-202502-1ASI0572-3320-Tunix**, donde se alojan los diferentes repositorios que conforman la solución.
+
+#### Estructura de repositorios
+El ecosistema del proyecto se encuentra dividido en cuatro repositorios principales, cada uno enfocado en un componente del sistema:
+- **FarmGuard-Backend:** Contiene la API REST desarrollada con .NET 8 y la lógica de negocio principal.
+- **farmguard-frontend:** Incluye la aplicación web desarrollada con Vue.js 3.
+- **FarmGuard-LandingPage:** Abarca el sitio web estático informativo y promocional.
+- **FarmGuard-Unix-Report:** Repositorio del informe técnico elaborado en Markdown y administrado mediante control de versiones.
+
+<img alt="Image" src="https://github.com/user-attachments/assets/274af368-8cda-4232-ae22-31b784862909" />
+
+##### Estrategia de ramificación: GitFlow
+El proyecto adopta el modelo de trabajo **GitFlow**, el cual permite mantener un flujo ordenado y colaborativo. Las ramas principales son:
+
+- **main:** Contiene la versión estable y liberable del proyecto.
+- **develop:** Rama base para el desarrollo continuo y la integración de nuevas características.
+- **feature/***: Ramas dedicadas a nuevas funcionalidades o bounded contexts específicos, como por ejemplo:
+  - `feature/animal-management`
+  - `feature/iam`
+  - `feature/iot-monitoring`
+  - `feature/notification`
+  - `feature/profile`
+- **fix/***: Ramas destinadas a la corrección de errores detectados en desarrollo o pruebas (por ejemplo, `fix/bounded-core`).
+- **release/*** y **hotfix/***: Se crean de forma temporal cuando se requiere generar versiones previas al despliegue o corregir incidencias en producción.
+
+Cada integrante del equipo trabaja en su propia rama `feature/` o `fix/` asociada a un bounded context, y posteriormente realiza un *pull request* hacia `develop` para su revisión e integración.
+
+<img alt="Image" src="https://github.com/user-attachments/assets/d22383ab-9ca5-4bd2-a2d6-84faacc12838" />
+
+
+<img alt="Image" src="https://github.com/user-attachments/assets/90eaa638-fbeb-487a-b1e0-dfddb6f79793" />
+
+
+##### Convenciones de commits
+Se utiliza el estándar **Conventional Commits**, garantizando uniformidad y trazabilidad en el historial de cambios.  
+Los principales tipos de commits utilizados son:
+- `feat`: para nuevas funcionalidades.
+- `fix`: para correcciones de errores.
+- `docs`: para actualizaciones de documentación.
+- `refactor`: para mejoras internas del código.
+- `chore`: para tareas de mantenimiento o configuración.
+- `test`: para incorporación o mejora de pruebas unitarias.
+
 
 ### 6.1.3 Code Style Guide & Conventions
 Documenta las reglas de estilo del código (linting, formateo, nombres de clases y variables) y su aplicación en cada stack tecnológico.
+
+
 
 ### 6.1.4 Deployment Configuration
 Describe los entornos de despliegue (desarrollo, staging, producción), las credenciales, pipelines y scripts de automatización utilizados.
