@@ -3018,36 +3018,36 @@ En conjunto, esta configuración garantiza que la entrega de software de FarmGua
 
 #### 6.2.1.1 Sprint Planning 1
 
-A continuación se presenta el sprint planning correspondiente a la primera entrega, donde el equipo define qué trabajo se realizará durante el próximo sprint y cómo se alcanzarán los objetivos propuestos.
+A continuación se presenta la planificación del Sprint 1, donde el equipo definió el alcance, los objetivos y las tareas principales a desarrollar.  
+En esta iteración se trabajará de forma integrada sobre la **Landing Page**, la **WebApp** (interfaz interactiva de gestión) y la **primera versión del Backend** basado en .NET 8, buscando disponer de una versión funcional mínima (MVP) de la plataforma **FarmGuard**.
 
-| Sprint #                             | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sprint planning <br> background**  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Date**                             | 2025/08/20                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| **Time**                             | 5:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Location**                         | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **Prepared By**                      | Brayan Smith Morales Quispe                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| **Attendees <br> (to planning meeting)** | José Daniel Zárate Castro, Brayan Smith Morales Quispe, Oscar Nathaniel Garayar Mori, Quique Vladimir Jara Benites y Carlos Alberto Ochoa Colonio                                                                                                                                                                                                                                                                                                                                                                                |
-| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Sprint 1 Goal**                    | El objetivo del Sprint 1 es establecer la base de la solución **FarmGuard**, enfocándonos en la elaboración de la **Landing Page** informativa y en el diseño de la arquitectura inicial del sistema. <br> Este sprint busca validar la propuesta de valor de Tunix ante los usuarios objetivo, mostrando una presentación clara del producto y sus principales características. <br> La validación se confirmará mediante la navegación de los usuarios por las secciones informativas y la recepción de comentarios iniciales. |
-| **Sprint 1 Velocity**                | 9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Sum of story points**              | 9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Sprint #                             | Sprint 1                                                                                                                                                                                                                                                                                                                                                              |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint planning <br> background**  |                                                                                                                                                                                                                                                                                                                                                                       |
+| **Date**                             | 2025/08/30                                                                                                                                                                                                                                                                                                                                                            |
+| **Time**                             | 5:00 PM                                                                                                                                                                                                                                                                                                                                                               |
+| **Location**                         | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                                               |
+| **Prepared By**                      | Brayan Smith Morales Quispe                                                                                                                                                                                                                                                                                                                                           |
+| **Attendees <br> (to planning meeting)** | José Daniel Zárate Castro, Brayan Smith Morales Quispe, Oscar Nathaniel Garayar Mori, Quique Vladimir Jara Benites y Carlos Alberto Ochoa Colonio                                                                                                                                                                                                                    |
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                                       |
+| **Sprint 1 Goal**                    | Desarrollar la primera versión funcional de **FarmGuard**, incluyendo: <br> - Una **Landing Page** informativa que comunique la propuesta de valor. <br> - Una **WebApp** inicial con autenticación y dashboard básico. <br> - Un **Backend** en .NET 8 con endpoints iniciales para usuarios y reportes. <br> Este sprint permitirá contar con una versión desplegada que evidencie la integración entre los módulos y siente las bases para las futuras iteraciones. |
+| **Sprint 1 Velocity**                | 24                                                                                                                                                                                                                                                                                                                                                                    |
+| **Sum of story points**              | 24                                                                                                                                                                                                                                                                                                                                                                    |
 
 
 #### 6.2.1.2 Aspect Leaders and Collaborators
 
-Ahora presentaremos nuestro LACX (Leadership-and-Collaboration Matrix), que nos permite identificar quién lidera y quién colabora en cada aspecto de este primer sprint.  
-Los aspectos considerados corresponden a los **features** principales de la Landing Page de **FarmGuard**.
+El siguiente LACX (Leadership-and-Collaboration Matrix) identifica a los líderes y colaboradores en los principales aspectos abordados durante el Sprint 1, considerando los componentes clave del producto: Landing Page, WebApp y Backend.
 
 <div style="font-size:70%;">
 
-| **Team Member** <br> Last Name, First Name | **GitHub Username** | **Hero** <br> L/C | **About us** <br> L/C | **Benefits** <br> L/C | **Testimonials** <br> L/C | **Pricing** <br> L/C | **Contact** <br> L/C | **Footer** <br> L/C | 
-|:------------------------------------------:|:-------------------:|:-----------------:|:---------------------:|:---------------------:|:-------------------------:|:--------------------:|:--------------------:|:-------------------:|
-| **Zárate Castro, José Daniel**             |    danielzarate20   |         L         |           C           |           C           |             C             |          C           |          C           |          C          |
-| **Morales Quispe, Brayan Smith**           |    brayan-smithmq   |         C         |           L           |           L           |             C             |          C           |          C           |          C          |
-| **Garayar Mori, Oscar Nathaniel**          |    oscargarayar     |         C         |           C           |           C           |             L             |          L           |          C           |          C          |
-| **Jara Benites, Quique Vladimir**          |    quiquevladimir   |         C         |           C           |           C           |             C             |          C           |          L           |          C          |
-| **Ochoa Colonio, Carlos Alberto**          |    carlosochoac     |         C         |           C           |           C           |             C             |          C           |          C           |          L          |
+| **Team Member** <br> Last Name, First Name | **GitHub Username** | **Landing Page** <br> L/C | **WebApp (Frontend)** <br> L/C | **Backend (.NET 8)** <br> L/C | **Database / ORM** <br> L/C | **Deployment & DevOps** <br> L/C | **Documentation / Report** <br> L/C |
+|:------------------------------------------:|:-------------------:|:--------------------------:|:-------------------------------:|:-----------------------------:|:----------------------------:|:---------------------------------:|:----------------------------------:|
+| **Zárate Castro, José Daniel**             | danielzarate20      | C                         | L                              | C                            | C                           | C                                | C                                 |
+| **Morales Quispe, Brayan Smith**           | brayan-smithmq      | L                         | C                              | C                            | L                           | C                                | L                                 |
+| **Garayar Mori, Oscar Nathaniel**          | oscargarayar        | C                         | C                              | L                            | C                           | C                                | C                                 |
+| **Jara Benites, Quique Vladimir**          | quiquevladimir      | C                         | C                              | C                            | C                           | L                                | C                                 |
+| **Ochoa Colonio, Carlos Alberto**          | carlosochoac        | C                         | L                              | C                            | C                           | C                                | C                                 |
 
 </div>
 
@@ -3061,8 +3061,8 @@ C = *Collaborator* (apoya el desarrollo del aspecto).
 
 #### 6.2.1.3 Sprint Backlog 1
 
-El objetivo principal de este Sprint es **diseñar, implementar y desplegar la Landing Page** de la plataforma **FarmGuard**, de modo que los usuarios puedan conocer la propuesta de valor, características, planes de suscripción y medios de contacto.  
-Esto permitirá realizar la primera validación con usuarios interesados y establecer las bases de comunicación y visibilidad del producto.
+El Sprint Backlog 1 fue construido a partir del Product Backlog priorizado, incluyendo las historias de usuario correspondientes a las funcionalidades principales de gestión y visualización. 
+Cada historia contiene sus tareas (work-items), descripciones, estimaciones y responsables designados.
 
 <table>
   <tr>
@@ -3075,7 +3075,7 @@ Esto permitirá realizar la primera validación con usuarios interesados y estab
     <td><b>Description</b></td>
     <td><b>Estimation (Hours)</b></td>
     <td><b>Assigned To</b></td>
-    <td><b>Status (To-do / In-Process / To-Review / Done)</b></td>
+    <td><b>Status</b></td>
   </tr>
   <tr>
     <td><b>Id</b></td>
@@ -3087,97 +3087,138 @@ Esto permitirá realizar la primera validación con usuarios interesados y estab
     <td></td>
     <td></td>
   </tr>
+
+  <!-- Gestión de animales -->
   <tr>
-    <td>US31</td>
-    <td>Landing Page – Página principal</td>
-    <td>T1</td>
-    <td>Diseñar estructura de la página</td>
-    <td>Crear wireframe simple con encabezado, cuerpo y pie de página.</td>
-    <td>4</td>
-    <td>Equipo UX (Brayan / José)</td>
+    <td>US01</td>
+    <td>Gestionar animales registrados</td>
+    <td>T01</td>
+    <td>Implementar CRUD de animales</td>
+    <td>Desarrollar API y vistas para crear, editar, listar y eliminar animales.</td>
+    <td>8</td>
+    <td>Oscar / José</td>
+    <td>In-Process</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Registrar historial médico</td>
+    <td>T02</td>
+    <td>Implementar módulo de salud</td>
+    <td>Permitir registrar diagnósticos, vacunas y tratamientos veterinarios.</td>
+    <td>7</td>
+    <td>Oscar / Brayan</td>
     <td>To-do</td>
   </tr>
   <tr>
-    <td>US31</td>
-    <td>Landing Page – Página principal</td>
-    <td>T2</td>
-    <td>Implementar página principal</td>
-    <td>Desarrollar HTML/CSS base de la página principal con diseño responsive.</td>
+    <td>US03</td>
+    <td>Gestionar insumos agropecuarios</td>
+    <td>T03</td>
+    <td>Desarrollar CRUD de insumos</td>
+    <td>Registrar productos (alimentos, medicinas, herramientas) con stock y vencimiento.</td>
     <td>6</td>
-    <td>Front Dev (Carlos)</td>
+    <td>José / Quique</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- Módulos de usuario -->
+  <tr>
+    <td>US04</td>
+    <td>Creación de cuenta y autenticación</td>
+    <td>T04</td>
+    <td>Implementar registro y login</td>
+    <td>Desarrollar endpoints y formulario para crear cuentas y acceder con JWT.</td>
+    <td>6</td>
+    <td>Carlos / Brayan</td>
+    <td>In-Process</td>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Gestión de roles y permisos</td>
+    <td>T05</td>
+    <td>Configurar IAM básico</td>
+    <td>Implementar roles (Administrador, Veterinario, Productor) y control de acceso.</td>
+    <td>8</td>
+    <td>Brayan / Oscar</td>
     <td>To-do</td>
   </tr>
   <tr>
-    <td>US32</td>
-    <td>Landing Page – Características</td>
-    <td>T3</td>
-    <td>Redactar sección de características</td>
-    <td>Elaborar contenido con los puntos clave de la plataforma (IoT, Blockchain, Transparencia, etc.).</td>
-    <td>2</td>
-    <td>PO / Brayan</td>
-    <td>To-do</td>
-  </tr>
-  <tr>
-    <td>US32</td>
-    <td>Landing Page – Características</td>
-    <td>T4</td>
-    <td>Implementar sección de características</td>
-    <td>Codificar los elementos visuales y la presentación de beneficios en el frontend.</td>
+    <td>US06</td>
+    <td>Perfil de usuario</td>
+    <td>T06</td>
+    <td>Completar y editar perfil</td>
+    <td>Agregar formulario editable con información del usuario y validaciones.</td>
     <td>4</td>
-    <td>Front Dev (José / Quique)</td>
+    <td>Carlos / José</td>
     <td>To-do</td>
   </tr>
+
+  <!-- Mapa y notificaciones -->
   <tr>
-    <td>US33</td>
-    <td>Landing Page – Planes de suscripción</td>
-    <td>T5</td>
-    <td>Diseñar sección de planes</td>
-    <td>Definir estructura visual y niveles de planes (Gratuito, Pro, Enterprise).</td>
-    <td>3</td>
-    <td>UX (Brayan / Oscar)</td>
-    <td>To-do</td>
-  </tr>
-  <tr>
-    <td>US33</td>
-    <td>Landing Page – Planes de suscripción</td>
-    <td>T6</td>
-    <td>Implementar sección de planes</td>
-    <td>Programar componentes de precios con estructura adaptable y coherente.</td>
+    <td>US07</td>
+    <td>Visualizar mapa de animales</td>
+    <td>T07</td>
+    <td>Integrar mapa estático</td>
+    <td>Implementar mapa base (sin IoT) para visualizar áreas delimitadas.</td>
     <td>5</td>
-    <td>Front Dev (Carlos)</td>
+    <td>Quique / José</td>
     <td>To-do</td>
   </tr>
   <tr>
-    <td>US34</td>
-    <td>Landing Page – Contacto/Soporte</td>
-    <td>T7</td>
-    <td>Redactar información de contacto</td>
-    <td>Crear contenido con correo, soporte técnico y redes sociales.</td>
-    <td>2</td>
-    <td>PO / Oscar</td>
-    <td>To-do</td>
-  </tr>
-  <tr>
-    <td>US34</td>
-    <td>Landing Page – Contacto/Soporte</td>
-    <td>T8</td>
-    <td>Implementar sección de contacto</td>
-    <td>Agregar formulario de contacto o enlaces de comunicación directa.</td>
+    <td>US08</td>
+    <td>Notificaciones de cambios</td>
+    <td>T08</td>
+    <td>Configurar alertas locales</td>
+    <td>Enviar alertas de cambios en registros de animales o vacunas.</td>
     <td>4</td>
-    <td>Front Dev (José / Carlos)</td>
+    <td>Brayan / Carlos</td>
     <td>To-do</td>
   </tr>
+
+  <!-- Landing Page -->
   <tr>
-    <td>-</td>
-    <td>-</td>
-    <td>T9</td>
-    <td>Configuración de hosting/despliegue</td>
-    <td>Preparar entorno y publicar el Landing Page en hosting (Vercel o GitHub Pages).</td>
+    <td>US09</td>
+    <td>Landing Page informativa</td>
+    <td>T09</td>
+    <td>Sección de beneficios</td>
+    <td>Mostrar ventajas de FarmGuard para pequeños productores.</td>
+    <td>3</td>
+    <td>Brayan</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Landing Page informativa</td>
+    <td>T10</td>
+    <td>Sección equipo y “sobre la app”</td>
+    <td>Presentar al equipo Tunix y los objetivos del proyecto.</td>
+    <td>3</td>
+    <td>Carlos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Landing Page informativa</td>
+    <td>T11</td>
+    <td>Sección FAQ y formulario de contacto</td>
+    <td>Agregar preguntas frecuentes y formulario de contacto simple.</td>
+    <td>4</td>
+    <td>José / Quique</td>
+    <td>In-Process</td>
+  </tr>
+
+  <!-- Despliegue -->
+  <tr>
+    <td>US10</td>
+    <td>Despliegue inicial del sistema</td>
+    <td>T12</td>
+    <td>Configurar CI/CD</td>
+    <td>Automatizar compilación y despliegue en Vercel (frontend) y Azure (backend).</td>
     <td>6</td>
-    <td>DevOps (Quique)</td>
+    <td>Quique</td>
     <td>To-do</td>
   </tr>
 </table>
+
 
 
 #### 6.2.1.4 Development Evidence
