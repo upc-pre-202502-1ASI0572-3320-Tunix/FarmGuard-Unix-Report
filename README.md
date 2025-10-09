@@ -3222,7 +3222,37 @@ Cada historia contiene sus tareas (work-items), descripciones, estimaciones y re
 
 
 #### 6.2.1.4 Development Evidence
-Incluye capturas, fragmentos de código y commits que demuestren el desarrollo de funcionalidades implementadas.
+
+A continuación se presenta un resumen de los commits realizados durante el Sprint 1, evidenciando el progreso en las diferentes áreas del proyecto FarmGuard.
+
+| Repository                        | Branch               | Commit Id | Commit Message                                       | Commit Message Body                                                                                     | Committed on (Date) |
+|-----------------------------------|----------------------|------------|------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------------------|
+| FarmGuard-Backend                 | main                 | b856c56    | merge: integrate develop into main                   | Fusión de la rama `develop` con los módulos de animales, historial y almacenamiento.                    | 01/10/2025          |
+| FarmGuard-Backend                 | develop              | e711c4a    | fix: fixed medical history of animals                | Corrección de la entidad `MedicalHistory` y relaciones con `Animal.cs`.                                 | 01/10/2025          |
+| FarmGuard-Backend                 | develop              | 31b64cf    | add: added service StorageService.cs                 | Creación del servicio para manejo de archivos multimedia y documentos.                                  | 30/09/2025          |
+| FarmGuard-Backend                 | develop              | c7d8db4    | fix: fixed dates of animal                           | Ajuste de atributos de fecha y formato ISO en entidad Animal.                                           | 30/09/2025          |
+| FarmGuard-Backend                 | develop              | 4ad4485    | fix: mapped entities and relations                   | Corrección de mapeo entre `Animal`, `Vaccine`, y `InventoryItem`.                                       | 30/09/2025          |
+| FarmGuard-Backend                 | develop              | b555fef    | fix: fixed attributes of Animal.cs                   | Normalización de propiedades y validaciones en la entidad `Animal`.                                     | 30/09/2025          |
+| FarmGuard-Backend                 | feature/inventory    | fc647d5    | fix: renamed inventory section                       | Renombrado de `Inventory` a `SuppliesSection` para mayor claridad de dominio.                           | 29/09/2025          |
+| FarmGuard-Backend                 | feature/vaccine      | 7c9e2b3    | feat: add VaccineController and repository           | Implementación del módulo de gestión de vacunas y endpoints CRUD.                                       | 29/09/2025          |
+| FarmGuard-Backend                 | feature/auth         | a8d921e    | feat: add authentication and role-based access       | Configuración de autenticación JWT y sistema IAM por roles.                                             | 28/09/2025          |
+| FarmGuard-Backend                 | feature/profile      | 1d3a9bb    | feat: add UserProfileService and update endpoint     | Creación de servicio y controlador para completar y editar perfil de usuario.                           | 28/09/2025          |
+| FarmGuard-Backend                 | feature/notification | 89b2cfe    | feat: add notification event publisher               | Implementación de eventos de notificación en cambios de registros.                                      | 27/09/2025          |
+| FarmGuard-Backend                 | main                 | 8af2060    | chore: commit initial                                | Configuración inicial del proyecto con estructura DDD.                                                  | 05/09/2025          |
+| farmguard-frontend                | main                 | 3c2c3d9    | chore: commit initial                                | Estructura base del proyecto Vue 3 con router y servicios compartidos.                                  | 05/09/2025          |
+| farmguard-frontend                | feature/animals      | f4b21b3    | feat: add AnimalView and CRUD logic                  | Implementación de vistas y servicios para la gestión digital de animales.                               | 28/09/2025          |
+| farmguard-frontend                | feature/vaccines     | 14a7db2    | feat: add VaccinesView and service integration       | Módulo visual y conexión con API para control sanitario y vacunas.                                      | 29/09/2025          |
+| farmguard-frontend                | feature/profile      | 2e5d3ab    | feat: add profile view and edit component            | Sección para completar y actualizar perfil de usuario.                                                  | 29/09/2025          |
+| farmguard-frontend                | feature/notifications| 64c8e13    | feat: add notifications component                    | Implementación de alertas visuales ante cambios en registros.                                           | 30/09/2025          |
+| farmguard-frontend                | feature/map          | 91b0a7e    | feat: add static map component                       | Integración de mapa estático para visualización de zonas y animales.                                    | 30/09/2025          |
+| FarmGuard-LandingPage             | main                 | c03ee42    | feat(css): improve landing page styles and responsiveness | Mejoras de diseño y adaptación responsive en la landing page.                                           | 13/09/2025          |
+| FarmGuard-LandingPage             | main                 | 241ed1e    | feat(js): update landing page logic and interactions | Ajuste de lógica y eventos interactivos en la página principal.                                        | 13/09/2025          |
+| FarmGuard-LandingPage             | main                 | 22e7558    | feat: add about us section                           | Implementación de la sección “Sobre nosotros”.                                                         | 13/09/2025          |
+| FarmGuard-LandingPage             | main                 | 2808ed0    | feat: add benefits section                           | Implementación de la sección de beneficios del producto.                                               | 13/09/2025          |
+| FarmGuard-LandingPage             | main                 | 9490767    | feat: add contact section                            | Implementación del formulario de contacto y enlaces de redes sociales.                                 | 13/09/2025          |
+| FarmGuard-LandingPage             | main                 | 3d386b1    | refactor(html): update structure and content         | Reestructuración general del HTML para mejorar la semántica.                                           | 13/09/2025          |
+| FarmGuard-LandingPage             | main                 | c8cdaec    | docs(readme): add project description and usage       | Inclusión de descripción del proyecto y guía de uso.                                                   | 13/09/2025          |
+
 
 #### 6.2.1.5 Testing Suite Evidence
 Presenta resultados de pruebas unitarias, de integración y de aceptación realizadas durante el sprint.
