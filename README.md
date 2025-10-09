@@ -2717,7 +2717,66 @@ Presenta los prototipos funcionales interactivos de las plataformas (web, móvil
 ## 6.1 Software Configuration Management
 
 ### 6.1.1 Development Environment Configuration
-Detalla las herramientas, SDKs, frameworks y entornos utilizados para el desarrollo (por ejemplo, Angular, Kotlin, Spring Boot, .NET 8, etc.).
+
+Para el desarrollo de **FarmGuard**, se configuró un entorno de trabajo distribuido y multiplataforma, con herramientas y frameworks modernos que permiten una integración fluida entre los diferentes componentes del ecosistema (backend, frontend web y aplicación móvil).  
+A continuación, se detallan los entornos, SDKs y frameworks utilizados:
+
+#### Backend – .NET 8 (API RESTful)
+- **Framework principal:** .NET 8 (ASP.NET Core)
+- **Lenguaje:** C#
+- **Patrón arquitectónico:** Domain-Driven Design (DDD) con separación en capas (Domain, Application, Infrastructure, Interface)
+- **ORM:** Entity Framework Core 8
+- **Base de datos:** MySQL 8
+- **Pruebas:** xUnit y Swagger para testing y documentación de endpoints
+- **IDE:** Visual Studio 2022 / Visual Studio Code
+- **Gestor de dependencias:** NuGet
+- **Configuración del entorno:**
+  - SDK: .NET 8 SDK
+  - Versiones controladas mediante `global.json`
+  - Configuración de `launchSettings.json` para entornos de desarrollo y producción
+
+#### Frontend Web – Vue.js 3
+- **Framework:** Vue.js 3 con Composition API
+- **Lenguaje:** JavaScript/TypeScript
+- **Herramienta de construcción:** Vite
+- **UI Framework:** Vuetify 3 / TailwindCSS (según compatibilidad)
+- **Gestor de paquetes:** npm / pnpm
+- **IDE:** Visual Studio Code
+- **Integración:** Consumo directo de la API REST de .NET 8 a través de Axios
+- **Configuración del entorno:**
+  - Variables de entorno definidas en `.env.development` y `.env.production`
+  - Scripts configurados en `package.json` para ejecución local y build productivo
+
+#### Aplicación Móvil – Flutter
+- **Framework:** Flutter 3.24
+- **Lenguaje:** Dart
+- **Arquitectura:** MVVM (Model–View–ViewModel)
+- **Gestor de dependencias:** `pubspec.yaml`
+- **IDE:** Android Studio / Visual Studio Code
+- **SDK:** Flutter SDK + Android SDK (nivel 34)
+- **Testing:** Flutter Test & Widget Test
+- **Integración:** Consumo del backend mediante HTTP/Dio para peticiones REST y Firebase Storage para manejo de imágenes
+- **Configuración del entorno:**
+  - Simuladores Android (Pixel 7) y emuladores iOS
+  - Variables de entorno configuradas mediante `.env` y `flutter_dotenv`
+
+#### Control de versiones y colaboración
+- **Repositorio GitHub:** Organización `upc-pre-202502-1ASI0572-3320-Tunix`
+- **Flujo de trabajo:** GitFlow
+- **Commits:** Estilo *Conventional Commits*
+- **Ramas principales:**
+  - `main`: versión estable
+  - `develop`: rama de desarrollo
+  - `feature/*`, `hotfix/*`: ramas específicas por tarea
+
+#### Entorno de despliegue
+- **Backend:** Azure App Service / Railway / Render (según disponibilidad)
+- **Frontend:** Vercel / Netlify
+- **Base de datos:** MySQL Cloud (Plan gratuito o académico)
+- **Integración continua:** GitHub Actions para build y testing automático
+
+En conjunto, esta configuración proporciona un entorno de desarrollo robusto, portable y escalable, garantizando una experiencia consistente entre los entornos de desarrollo, pruebas y despliegue.
+
 
 ### 6.1.2 Source Code Management
 Explica la estructura del repositorio, ramas, commits, convenciones de nomenclatura y flujos de integración continua (GitFlow, trunk-based, etc.).
