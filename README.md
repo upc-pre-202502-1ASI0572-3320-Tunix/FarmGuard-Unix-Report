@@ -2824,9 +2824,98 @@ Los principales tipos de commits utilizados son:
 - `test`: para incorporación o mejora de pruebas unitarias.
 
 
-### 6.1.3 Code Style Guide & Conventions
-Documenta las reglas de estilo del código (linting, formateo, nombres de clases y variables) y su aplicación en cada stack tecnológico.
+### 6.1.3 Source Code Style Guide & Conventions
 
+El equipo estableció una guía de estilo y convenciones de código para asegurar coherencia, mantenibilidad y calidad en el desarrollo de la solución FarmGuard.  
+Cada componente del ecosistema sigue los principios de diseño más adecuados a su contexto: **Domain-Driven Design (DDD)** para el backend y frontend, y **Clean Architecture** para la aplicación móvil.  
+Estas prácticas garantizan la separación de responsabilidades, escalabilidad y facilidad de evolución del sistema.
+
+#### Estándares generales
+- Se aplican los principios de **Clean Code** y **SOLID**.
+- Nombres claros y descriptivos para clases, métodos y variables.
+- Indentación de 4 espacios, evitando tabulaciones.
+- Comentarios únicamente cuando la lógica no sea evidente.
+- Revisión de código mediante *pull requests* y validación automática de estilo con linters.
+- Uso de **.editorconfig** en todos los repositorios para unificar formato y convenciones.
+
+---
+
+#### Backend (.NET 8 – C# con Domain-Driven Design)
+El backend implementa una arquitectura **DDD** en cuatro capas: **Domain**, **Application**, **Infrastructure** e **Interface**, separando claramente la lógica de negocio, los casos de uso y los mecanismos de persistencia.
+
+- **Convenciones de nombres:**
+  - Clases y métodos: `PascalCase`
+  - Variables y propiedades privadas: `camelCase`
+  - Constantes: `UPPER_SNAKE_CASE`
+- **Estructura de carpetas:**
+  - `Domain/`: Entidades, agregados, value objects, eventos y repositorios.
+  - `Application/`: Casos de uso (commands y queries), DTOs y servicios de aplicación.
+  - `Infrastructure/`: Implementaciones concretas de repositorios, conexión a base de datos y adaptadores externos.
+  - `Interface/`: Controladores, endpoints y configuración del API.
+- **Buenas prácticas:**
+  - Se aplican principios de **Inversión de Dependencias** mediante interfaces.
+  - Se mantiene una clase por archivo.
+  - Se usan comentarios XML para documentar métodos públicos.
+  - Validación de estilo automática con *Analyzers* y *Roslyn rulesets*.
+
+---
+
+#### Frontend Web (Vue.js 3 – DDD adaptado a frontend)
+El frontend sigue una estructura inspirada en **DDD**, donde cada módulo representa un *bounded context* con componentes, servicios y modelos coherentes con el dominio.
+
+- **Estructura de carpetas:**
+  - `src/domain/`: Modelos y entidades del dominio.
+  - `src/application/`: Casos de uso, validaciones y lógica de interacción.
+  - `src/infrastructure/`: Servicios de API y almacenamiento local.
+  - `src/interface/`: Vistas, componentes y rutas.
+- **Convenciones de nombres:**
+  - Componentes Vue: `PascalCase` (`AnimalCard.vue`)
+  - Archivos: `kebab-case`
+  - Variables y funciones: `camelCase`
+- **Buenas prácticas:**
+  - Uso de **Prettier** y **ESLint** para formato y validación de código.
+  - Componentes con responsabilidad única (máximo ~300 líneas).
+  - Uso de `props` tipadas y nombres de eventos claros.
+  - Estilos aislados en `<style scoped>` para evitar colisiones.
+
+---
+
+#### Aplicación Móvil (Flutter / Dart – Clean Architecture)
+La aplicación móvil adopta **Clean Architecture**, separando capas de presentación, dominio y datos, para mantener independencia de frameworks y escalabilidad del código.
+
+- **Estructura de carpetas:**
+  - `lib/domain/`: Entidades, interfaces y casos de uso.
+  - `lib/data/`: Repositorios e implementaciones concretas de fuentes de datos (API o almacenamiento local).
+  - `lib/presentation/`: Vistas (UI), controladores y viewmodels (patrón MVVM).
+  - `lib/core/`: Constantes, temas y utilidades compartidas.
+- **Convenciones de nombres:**
+  - Clases y widgets: `UpperCamelCase`
+  - Variables, funciones y métodos: `lowerCamelCase`
+  - Constantes: `lowerCamelCase` con prefijo `const`
+- **Buenas prácticas:**
+  - Uso de `const` en widgets inmutables.
+  - Separación estricta entre lógica de negocio y presentación.
+  - Análisis estático con `flutter analyze` y formateo con `dart format`.
+  - Prohibido el uso de variables globales no controladas o sin tipo explícito.
+
+---
+
+#### Landing Page (HTML, CSS, JavaScript)
+El sitio web informativo mantiene una estructura ligera y semántica, optimizada para rendimiento y SEO.
+
+- **Estructura y estilo:**
+  - HTML5 semántico (`<header>`, `<main>`, `<footer>`).
+  - Convención **BEM (Block–Element–Modifier)** para CSS.
+  - Variables CSS globales para paleta y tipografía en `:root`.
+  - Validación mediante W3C Validator y Stylelint.
+- **Buenas prácticas:**
+  - Evitar estilos inline.
+  - Código modular en JavaScript.
+  - Optimización de recursos estáticos e imágenes antes del despliegue.
+
+---
+
+La aplicación de estas convenciones asegura la calidad del código, la estandarización entre equipos y la sostenibilidad del proyecto FarmGuard a largo plazo.
 
 
 ### 6.1.4 Deployment Configuration
