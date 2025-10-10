@@ -52,6 +52,9 @@ NRC: 3320</h5>
 | 0.2    | 08/09/25 | Zarate Castro Jose Daniel       | Añadir bounded context de suscripcion                                                            |
 | 0.3     | 19/09/25 | Jara Benites Quique Vladimir        | Añadir everstorming                                                        |
 | 0.4     | 20/09/25 | Brayan Smith Morales Quispe        | Correccion de errores                                                          |
+| 1.0     | 08/10/25 | Brayan Smith Morales Quispe        | Correccion de errores                                                          |
+| 1.1     | 20/09/25 | Brayan Smith Morales Quispe        | Agregado de Capitulo 5                                                          |
+| 1.2     | 19/09/25 | Jara Benites Quique Vladimir        | Añadir Cap 6                                                        |
 
 
 
@@ -82,6 +85,25 @@ Este gráfico muestra la cantidad de commits realizados por cada integrante dura
 
 Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada miembro aportando de manera significativa al avance y desarrollo de la solución.
 
+**TP**
+
+En esta primera entrega (TB1), el objetivo principal fue ...
+
+| Integrante                        |Tarea|
+| ----------------------------------|-----|
+| Zarate Castro Jose Daniel         | Desarrollo del landing Page | 
+| Brayan Smith Morales Quispe       | Capitulo 5 |
+| Oscar Nathaniel Garayar Mori      |Diseño Mobile|
+| Jara Benites Quique Vladimir      | Capitulo 6|
+| Carlos Alberto Ochoa Colonio      | Diseño web|
+
+![TP](/Assets/img/Integrantes/progreso/Captura%20de%20pantalla_20-9-2025_151510_github.com.jpeg)
+
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|--------------------------|-------------------------|------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Zárate Castro José Daniel:**<br>**TB1:** Lideré las primeras reuniones de planificación del proyecto, asignando responsabilidades y promoviendo que cada integrante comprendiera su rol dentro del desarrollo del sistema.<br>**TP:** Organicé la documentación técnica inicial, asegurando que los avances estuvieran alineados con los objetivos planteados y que las decisiones se tomaran en conjunto con el equipo.<br><br>**Brayan Smith Morales Quispe:**<br>**TB1:** Coordiné la elaboración de los artefactos de requisitos, orientando al equipo en la identificación de funcionalidades clave y priorizando aquellas que aportaban mayor valor al usuario final.<br>**TP:** Supervisé el diseño inicial del sistema y su validación con el equipo, fomentando la toma de decisiones compartida para definir el alcance técnico del proyecto.<br><br>**Oscar Nathaniel Garayar Mori:**<br>**TB1:** Apoyé la organización del equipo mediante la asignación de tareas técnicas y la estructuración del cronograma de entregas. Aseguré una comunicación fluida entre los miembros para evitar retrasos.<br>**TP:** Lideré la integración de los primeros prototipos visuales con la lógica del sistema, coordinando las pruebas en equipo para garantizar coherencia entre diseño y funcionalidad.<br><br>**Jara Benites Quique Vladimir:**<br>**TB1:** Contribuí en la elaboración del análisis del problema y la definición de objetivos, guiando al equipo en la comprensión de la necesidad principal que abordaba el proyecto.<br>**TP:** Participé en la revisión del modelo de datos y en la planificación de los sprints, garantizando una distribución equitativa de tareas y promoviendo decisiones consensuadas.<br><br>**Carlos Alberto Ochoa Colonio:**<br>**TB1:** Lideré la investigación de soluciones tecnológicas similares, aportando información clave para la toma de decisiones del equipo respecto al enfoque del sistema.<br>**TP:** Coordiné la documentación de los casos de uso, asegurando que los flujos representaran correctamente los procesos definidos por el equipo y fortaleciendo la visión técnica compartida. | **TB1:** Durante la primera etapa, los estudiantes demostraron liderazgo colaborativo al organizar las tareas, distribuir responsabilidades y mantener una comunicación constante entre los miembros. La planificación inicial permitió construir una base sólida para el proyecto y establecer una cultura de trabajo en equipo orientada a objetivos comunes.<br><br>**TP:** En la segunda fase, se consolidó un liderazgo horizontal enfocado en la coordinación y validación conjunta de los avances técnicos. La participación equitativa y el intercambio de ideas entre los integrantes fortalecieron la cohesión del grupo, promoviendo una toma de decisiones colectiva y una ejecución más eficiente de los entregables. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Zárate Castro José Daniel:**<br>**TB1:** Organicé el trabajo inicial mediante el uso de herramientas colaborativas y establecí metas claras en conjunto con el equipo, promoviendo la participación activa de todos los miembros.<br>**TP:** Planifiqué el backlog de tareas priorizando objetivos alcanzables y motivando al equipo a mantener un ritmo de trabajo constante y coordinado.<br><br>**Brayan Smith Morales Quispe:**<br>**TB1:** Fomenté un ambiente inclusivo en las sesiones de planificación, asegurando que cada integrante expresara sus ideas y contribuyera a la definición de las funcionalidades del sistema.<br>**TP:** Coordiné la organización de los entregables del sprint, monitoreando avances y resolviendo bloqueos en equipo para garantizar el cumplimiento de los objetivos.<br><br>**Oscar Nathaniel Garayar Mori:**<br>**TB1:** Promoví un entorno de colaboración constante, utilizando plataformas digitales para mantener comunicación y seguimiento del progreso de las tareas.<br>**TP:** Dirigí reuniones de revisión intermedia para asegurar que los objetivos definidos se cumplieran dentro de los plazos y con la calidad esperada.<br><br>**Jara Benites Quique Vladimir:**<br>**TB1:** Propuse dinámicas de trabajo colaborativas que facilitaron la integración de ideas entre los integrantes y la identificación de metas conjuntas.<br>**TP:** Realicé el control del cumplimiento de tareas según el cronograma establecido, garantizando un flujo de trabajo ordenado y transparente.<br><br>**Carlos Alberto Ochoa Colonio:**<br>**TB1:** Participé en la definición de los objetivos iniciales y en la estructuración del plan de trabajo, asegurando que las tareas estuvieran alineadas con la visión general del equipo.<br>**TP:** Brindé soporte en la gestión del avance del proyecto, reforzando la planificación y ayudando a cumplir los plazos establecidos en la entrega parcial. | **TB1:** En esta primera fase, el equipo consolidó un entorno de trabajo inclusivo y organizado, donde se promovió la participación activa y la planificación colectiva. Las metas fueron establecidas de forma clara y alcanzable, lo que favoreció la motivación y el compromiso de todos los integrantes.<br><br>**TP:** Durante el trabajo parcial, el grupo demostró madurez en la gestión de tareas y coordinación interna. El uso de herramientas colaborativas y la comunicación constante permitieron cumplir con los objetivos propuestos, manteniendo un ambiente de trabajo ordenado, participativo y enfocado en resultados concretos. |
 
 
 # Contenido
@@ -664,7 +686,7 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href="https://youtu.be/gqexI5g6d3I">https://youtu.be/gqexI5g6d3I</a>
+      <b>Enlace:</b> <a href="https://youtu.be/4rA6GmkG5IAI">https://youtu.be/4rA6GmkG5IA</a>
       <br>
       <b>Resumen:</b> Jennifer Espinoza, veterinaria de 25 años con cinco años de experiencia y residente en El Rímac, compartió en la entrevista los principales retos en la gestión de la salud animal en su clínica, donde actualmente se usan métodos tradicionales como Excel y fichas en papel. Señaló dificultades para detectar enfermedades en etapas tempranas, pérdidas de información crítica y problemas de productividad al manejar múltiples registros. Manifestó la necesidad de un sistema centralizado que permita reducir costos, optimizar tratamientos preventivos, contar con datos en tiempo real y recibir alertas preventivas. Considera que una plataforma IoT como la propuesta por el proyecto FarmGuard sería muy útil, ya que mejoraría la trazabilidad de medicamentos y diagnósticos, incrementaría la productividad, reduciría errores y reforzaría la confianza de los clientes en la veterinaria.
     </td>
@@ -685,7 +707,7 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href="https://youtu.be/OR5JoUFLDpA">https://youtu.be/OR5JoUFLDpA</a>
+      <b>Enlace:</b> <a href="https://youtu.be/LW4GK6DLWUY">https://youtu.be/LW4GK6DLWUY</a>
       <br>
       <b>Resumen:</b> Gonzalo Meléndez, estudiante de veterinaria de San Marcos que realiza prácticas en una clínica, explicó que actualmente la gestión de la salud animal se hace de manera tradicional, principalmente con registros en Excel y papel, lo que ocasiona pérdidas de información, duplicidad de datos y retrasos en diagnósticos. Señaló la importancia de contar con datos en tiempo real para actuar de forma preventiva y manifestó interés en optimizar tratamientos, digitalizar historiales clínicos y reducir costos. Considera que un sistema IoT como el propuesto por FarmGuard sería muy útil, ya que permitiría automatizar el monitoreo, centralizar registros, generar reportes simples y gráficos para distintos niveles de análisis, y recibir alertas preventivas. Con su implementación, espera mejoras en la eficiencia de diagnósticos, reducción de papeleo, mayor productividad y mejor gestión de la información en la clínica.
     </td>
@@ -706,7 +728,7 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href="https://youtu.be/FrPJyGnteyk">https://youtu.be/FrPJyGnteyk</a>
+      <b>Enlace:</b> <a href="https://youtu.be/18nHKZ1QWi4">https://youtu.be/18nHKZ1QWi4</a>
       <br>
       <b>Resumen:</b> Daniel Aguilar, asistente veterinario que complementa su experiencia con cursos de especialización, explicó que actualmente la gestión de la salud animal en su centro se realiza con métodos tradicionales como registros en papel y hojas de Excel, lo que genera desorden, pérdida de información y retrasos en la atención. Considera fundamental contar con datos en tiempo real, especialmente para animales hospitalizados, y resaltó la necesidad de organizar mejor la información, reducir tiempos y facilitar el seguimiento de los casos. Mostró gran interés en la propuesta de la plataforma FarmGuard, señalando que la automatización del monitoreo, los registros digitales y las alertas preventivas serían de gran ayuda para evitar errores y enfocarse más en la atención directa de los animales. Prefiere inicialmente reportes simples para facilitar la adaptación del personal, pero reconoce el valor futuro de gráficos y análisis predictivos. Con la implementación de la solución, espera una veterinaria más organizada, con mayor eficacia, menor pérdida de tiempo, mejor seguimiento a los clientes y mayor confianza de los dueños en el servicio.
     </td>
@@ -727,7 +749,7 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href="https://youtu.be/Elu1HOylrNI">https://youtu.be/Elu1HOylrNI</a>
+      <b>Enlace:</b> <a href="https://youtu.be/sYGL4oX_X6E">https://youtu.be/sYGL4oX_X6E</a>
       <br>
       <b>Resumen:</b> Paul Lugo Pérez, médico veterinario y dueño de la clínica Star Pets en El Rímac, comentó que actualmente la gestión de la salud animal en su centro se realiza de forma manual, combinando dispositivos médicos de distintos fabricantes con registros en papel o tablet, lo que genera pérdida de información, duplicidad de datos y dificultad para dar un seguimiento constante, especialmente en pacientes internados. Destacó la importancia de contar con datos en tiempo real y de centralizar la información de múltiples dispositivos en una sola plataforma, ya que la acción rápida es clave para salvar la vida de los animales. Considera que la propuesta de la plataforma FarmGuard sería de gran utilidad, sobre todo por la centralización de datos, la generación de reportes simples en tiempo real y la posibilidad de recibir alertas inmediatas sobre anomalías. Si bien no ve tan necesario el uso de alertas preventivas dentro de la clínica, reconoce su valor para pacientes monitoreados en casa. Estima que con la implementación de esta solución su veterinaria lograría mayor precisión en diagnósticos, mejor capacidad de respuesta del personal y una gestión más eficiente y confiable.
     </td>
@@ -750,7 +772,7 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href="https://youtu.be/HgcujUYCcdg">https://youtu.be/HgcujUYCcdg</a>
+      <b>Enlace:</b> <a href="https://youtu.be/_BnMEeOQpSU">https://youtu.be/_BnMEeOQpSU</a>
       <br>
       <b>Resumen:</b> Juan Calisaya, de 23 años y residente en Villa María del Triunfo, apoya en la pequeña granja de sus padres y explicó que actualmente gestiona la salud animal de forma manual, usando cuadernos para registrar vacunas, medicamentos y tratamientos. Revisa diariamente a los animales observando alimentación, peso y comportamiento, aunque reconoce que su falta de experiencia y el uso de libretas generan pérdidas de información, errores y dificultades para organizar múltiples registros, lo que impacta en su productividad y puede afectar la salud de los animales. Señaló que le gustaría mejorar la organización, reducir costos y tener un mejor control de los datos sin depender de la memoria. Considera que una plataforma IoT como FarmGuard sería muy útil, sobre todo por la centralización de información, reportes simples y alertas preventivas que lo ayudarían a reaccionar a tiempo y aprender a manejar mejor la granja. Destacó también el valor de funcionalidades como monitoreo en tiempo real y localización vía GPS para animales alejados. Estima que con esta solución lograría mayor organización, menos errores en vacunas y tratamientos, ahorro de gastos y más confianza en su labor de apoyo en la granja.
     </td>
@@ -3535,11 +3557,17 @@ A continuación se presenta un resumen de los commits realizados durante el Spri
 Presenta resultados de pruebas unitarias, de integración y de aceptación realizadas durante el sprint.
 
 #### 6.2.1.6 Execution Evidence
+
+# Web
 Evidencia de la ejecución del sistema en los entornos configurados (capturas de pantalla, logs, URLs).
 <img alt="Image" src="Assets/img/ChapterV/despliege 0.5.png">
 <img alt="Image" src="Assets/img/ChapterV/despliege 1.png">
 <img alt="Image" src="Assets/img/ChapterV/despliege 2.png">
 <img alt="Image" src="Assets/img/ChapterV/despliege 3.png">
+
+# Landing Page
+
+Link de pagina desplegada: [https://upc-pre-202502-1asi0572-3320-tunix.github.io/FarmGuard-LandingPage/](https://upc-pre-202502-1asi0572-3320-tunix.github.io/FarmGuard-LandingPage/)
 
 #### 6.2.1.7 Services Documentation Evidence
 
