@@ -48,7 +48,10 @@ NRC: 3320</h5>
 
 | Versión | Fecha    | Autor(es)                             | Descripción de modificación                                                             |
 |---------|----------|----------------------------------------|-----------------------------------------------------------------------------------------|
-| 0.1     | 03/09/25 | BrayanSmith Morales Quispe        | Inicio del documento                                                            |
+| 0.1     | 03/09/25 | Brayan Smith Morales Quispe        | Inicio del documento                                                            |
+| 0.2    | 08/09/25 | Zarate Castro Jose Daniel       | Añadir bounded context de suscripcion                                                            |
+| 0.3     | 19/09/25 | Jara Benites Quique Vladimir        | Añadir everstorming                                                        |
+| 0.4     | 20/09/25 | Brayan Smith Morales Quispe        | Correccion de errores                                                          |
 
 
 
@@ -65,13 +68,14 @@ En esta primera entrega (TB1), el objetivo principal fue ...
 
 | Integrante                        |Tarea|
 | ----------------------------------|-----|
-| Zarate Castro Jose Daniel         | | 
-| Brayan Smith Morales Quispe       | |
-| Oscar Nathaniel Garayar Mori      ||
-| Jara Benites Quique Vladimir      ||
-| Carlos Alberto Ochoa Colonio      ||
+| Zarate Castro Jose Daniel         | Bounded Context Subscription & Billing (GENERIC) y Notifications (GENERIC) | 
+| Brayan Smith Morales Quispe       | Bounded Context Animal Management (CORE) |
+| Oscar Nathaniel Garayar Mori      | Bounded Context IoT Monitoring & Analysis (CORE)|
+| Jara Benites Quique Vladimir      | Bounded Context Identity & Access Management (SUPPORTING) y Profile (SUPPORTING)|
+| Carlos Alberto Ochoa Colonio      | Entrevistas y validación de dominio|
 
-![TB1]()
+![TB1](/Assets/img/Integrantes/progreso/Captura%20de%20pantalla_20-9-2025_151510_github.com.jpeg)
+
 
 
 Este gráfico muestra la cantidad de commits realizados por cada integrante durante el desarrollo del TB1 Tunix.
@@ -144,41 +148,51 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
         - [4.2.1.6.2 Database Design Diagram](#database-design-diagram)
 
 ### Capítulo V: Solution UI/UX Design
+
 - [5.1 Style Guidelines](#51-style-guidelines)  
   - [5.1.1 General Style Guidelines](#511-general-style-guidelines)  
   - [5.1.2 Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)  
+
 - [5.2 Information Architecture](#52-information-architecture)  
   - [5.2.1 Organization Systems](#521-organization-systems)  
   - [5.2.2 Labeling Systems](#522-labeling-systems)  
   - [5.2.3 SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)  
   - [5.2.4 Searching Systems](#524-searching-systems)  
   - [5.2.5 Navigation Systems](#525-navigation-systems)  
+
 - [5.3 Landing Page UI Design](#53-landing-page-ui-design)  
   - [5.3.1 Wireframe](#531-wireframe)  
   - [5.3.2 Mock-up](#532-mock-up)  
+
 - [5.4 Applications UX/UI Design](#54-applications-uxui-design)  
   - [5.4.1 Wireframes](#541-wireframes)  
   - [5.4.2 Wireflow Diagrams](#542-wireflow-diagrams)  
   - [5.4.3 Mock-ups](#543-mock-ups)  
   - [5.4.4 User Flow Diagrams](#544-user-flow-diagrams)  
-- [5.5 Applications Prototyping](#55-applications-prototyping)
+
+- [5.5 Applications Prototyping](#55-applications-prototyping)  
+
+
 
 ### Capítulo VI: Product Implementation, Validation & Deployment
+
 - [6.1 Software Configuration Management](#61-software-configuration-management)  
   - [6.1.1 Development Environment Configuration](#611-development-environment-configuration)  
   - [6.1.2 Source Code Management](#612-source-code-management)  
   - [6.1.3 Code Style Guide & Conventions](#613-code-style-guide--conventions)  
   - [6.1.4 Deployment Configuration](#614-deployment-configuration)  
+
 - [6.2 Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)  
   - [6.2.1 Sprint 1](#621-sprint-1)  
     - [6.2.1.1 Sprint Planning 1](#6211-sprint-planning-1)  
-    - [6.2.1.2 Sprint Backlog 1](#6212-sprint-backlog-1)  
-    - [6.2.1.3 Development Evidence](#6213-development-evidence)  
-    - [6.2.1.4 Testing Suite Evidence](#6214-testing-suite-evidence)  
-    - [6.2.1.5 Execution Evidence](#6215-execution-evidence)  
-    - [6.2.1.6 Services Documentation Evidence](#6216-services-documentation-evidence)  
-    - [6.2.1.7 Software Deployment Evidence](#6217-software-deployment-evidence)  
-    - [6.2.1.8 Team Collaboration Insights](#6218-team-collaboration-insights)  
+    - [6.2.1.2 Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)  
+    - [6.2.1.3 Sprint Backlog 1](#6213-sprint-backlog-1)  
+    - [6.2.1.4 Development Evidence](#6214-development-evidence)  
+    - [6.2.1.5 Testing Suite Evidence](#6215-testing-suite-evidence)  
+    - [6.2.1.6 Execution Evidence](#6216-execution-evidence)  
+    - [6.2.1.7 Services Documentation Evidence](#6217-services-documentation-evidence)  
+    - [6.2.1.8 Software Deployment Evidence](#6218-software-deployment-evidence)  
+    - [6.2.1.9 Team Collaboration Insights](#6219-team-collaboration-insights)   
   - [6.2.2 Sprint 2](#622-sprint-2)  
     - [6.2.2.1 Sprint Planning 2](#6221-sprint-planning-2)  
     - [6.2.2.2 Sprint Backlog 2](#6222-sprint-backlog-2)  
@@ -230,8 +244,12 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>
       <h6>Jose Daniel Zarate Castro</h6>
       TB1:<p>      Apoyé a mi equipo colaborando en las tareas y dando mi ayuda cuando fue necesario para que avanzáramos juntos en los objetivos.</p>
+      <h6><strong>Quique Vladimir Jara Benites</strong></h6>
+      TB1:<p>Coordiné la distribución de tareas entre los miembros del equipo, promoví la participación activa y resolví dudas técnicas para asegurar el avance conjunto hacia los objetivos del proyecto.</p>
+      <h6><strong>Oscar Nathaniel Garayar Mori</strong></h6>
+      TB1:<p>Ejercí liderazgo compartido coordinando con mis compañeros la ejecución de las tareas, resolviendo dudas técnicas cuando fue necesario y motivando al equipo para mantener el ritmo de trabajo. Participé activamente en la toma de decisiones y aseguré que todos los integrantes pudieran aportar al cumplimiento de los objetivos del proyecto</p>
       <td>
-      TB1: <p>
+      TB1: El equipo mostró liderazgo compartido al dividir BCs, resolver dudas técnicas y sostener el ritmo de trabajo; las decisiones se tomaron de forma coordinada y con responsabilidad distribuida. <p>
       </td>
   </tr>
    <tr>
@@ -243,10 +261,14 @@ Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada mie
       TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>
       <h6>Jose Daniel Zarate Castro</h6>
       TB1:<p>Colaboré con mis compañeros creando un buen ambiente de trabajo, ayudando a entender el tema, organizando las tareas y apoyando para que logremos las metas propuestas.</p>
+      <h6>Quique Vladimir Jara Benites</h6>
+      TB1:<p>Fomenté un ambiente colaborativo e inclusivo, ayudando a definir metas claras y participando en la planificación de tareas. Contribuí activamente al cumplimiento de los objetivos del equipo, asegurando que todos los miembros pudieran aportar y avanzar juntos. </p>
+      <h6><strong>Oscar Nathaniel Garayar Mori</strong></h6>
+      TB1:<p>Apoyé en la definición de metas claras junto con el equipo, proponiendo una planificación realista de las tareas. Contribuí a organizar las actividades de manera que cada miembro tuviera claridad en sus responsabilidades y el tiempo necesario para cumplirlas, fomentando un ambiente inclusivo y colaborativo</p>
       </td>
       </td>
       <td>
-      TB1:</p> 
+      TB1:Se establecieron metas y planificación básica; aunque el tiempo de reuniones fue limitado, se mantuvo un entorno inclusivo y se cumplieron entregables del TB1 con contribución de todos.</p> 
       </td>
   </tr>
 
@@ -624,7 +646,134 @@ realizar las preguntas a los diferentes segmentos objetivos
 → ¿Qué cambios crees que notarías en la gestión y productividad de tu granja o veterinaria?
 
 
-### 2.2.2 Registro de entrevistas  
+### 2.2.2 Registro de entrevistas
+
+**Segmento 1:** Sector veterinario
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Jeniffer Espinoza <br>
+      <b>Edad: </b> 25 años <br>
+      <b>Distrito:</b> El Rímac <br>
+      <b>Duración:</b> 12 minutos
+    </td>
+    <td align=center>
+      <img src="./Assets/img/feature-interviews/entrevista-jennifer.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href="https://youtu.be/gqexI5g6d3I">https://youtu.be/gqexI5g6d3I</a>
+      <br>
+      <b>Resumen:</b> Jennifer Espinoza, veterinaria de 25 años con cinco años de experiencia y residente en El Rímac, compartió en la entrevista los principales retos en la gestión de la salud animal en su clínica, donde actualmente se usan métodos tradicionales como Excel y fichas en papel. Señaló dificultades para detectar enfermedades en etapas tempranas, pérdidas de información crítica y problemas de productividad al manejar múltiples registros. Manifestó la necesidad de un sistema centralizado que permita reducir costos, optimizar tratamientos preventivos, contar con datos en tiempo real y recibir alertas preventivas. Considera que una plataforma IoT como la propuesta por el proyecto FarmGuard sería muy útil, ya que mejoraría la trazabilidad de medicamentos y diagnósticos, incrementaría la productividad, reduciría errores y reforzaría la confianza de los clientes en la veterinaria.
+    </td>
+  </tr>
+</table>
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Gonzalo Melendez <br>
+      <b>Edad: </b> 20 años <br>
+      <b>Distrito:</b> Villa María del Triunfo <br>
+      <b>Duración:</b> 10 minutos
+    </td>
+    <td align=center>
+      <img src="./Assets/img/feature-interviews/entrevista-gonzalo.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href="https://youtu.be/OR5JoUFLDpA">https://youtu.be/OR5JoUFLDpA</a>
+      <br>
+      <b>Resumen:</b> Gonzalo Meléndez, estudiante de veterinaria de San Marcos que realiza prácticas en una clínica, explicó que actualmente la gestión de la salud animal se hace de manera tradicional, principalmente con registros en Excel y papel, lo que ocasiona pérdidas de información, duplicidad de datos y retrasos en diagnósticos. Señaló la importancia de contar con datos en tiempo real para actuar de forma preventiva y manifestó interés en optimizar tratamientos, digitalizar historiales clínicos y reducir costos. Considera que un sistema IoT como el propuesto por FarmGuard sería muy útil, ya que permitiría automatizar el monitoreo, centralizar registros, generar reportes simples y gráficos para distintos niveles de análisis, y recibir alertas preventivas. Con su implementación, espera mejoras en la eficiencia de diagnósticos, reducción de papeleo, mayor productividad y mejor gestión de la información en la clínica.
+    </td>
+  </tr>
+</table>
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Daniel Aguilar <br>
+      <b>Edad: </b> 22 años <br>
+      <b>Distrito:</b> Surco <br>
+      <b>Duración:</b> 14 minutos
+    </td>
+    <td align=center>
+      <img src="./Assets/img/feature-interviews/entrevista-daniel.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href="https://youtu.be/FrPJyGnteyk">https://youtu.be/FrPJyGnteyk</a>
+      <br>
+      <b>Resumen:</b> Daniel Aguilar, asistente veterinario que complementa su experiencia con cursos de especialización, explicó que actualmente la gestión de la salud animal en su centro se realiza con métodos tradicionales como registros en papel y hojas de Excel, lo que genera desorden, pérdida de información y retrasos en la atención. Considera fundamental contar con datos en tiempo real, especialmente para animales hospitalizados, y resaltó la necesidad de organizar mejor la información, reducir tiempos y facilitar el seguimiento de los casos. Mostró gran interés en la propuesta de la plataforma FarmGuard, señalando que la automatización del monitoreo, los registros digitales y las alertas preventivas serían de gran ayuda para evitar errores y enfocarse más en la atención directa de los animales. Prefiere inicialmente reportes simples para facilitar la adaptación del personal, pero reconoce el valor futuro de gráficos y análisis predictivos. Con la implementación de la solución, espera una veterinaria más organizada, con mayor eficacia, menor pérdida de tiempo, mejor seguimiento a los clientes y mayor confianza de los dueños en el servicio.
+    </td>
+  </tr>
+</table>
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Paul Lugo <br>
+      <b>Edad: </b> 28 años <br>
+      <b>Distrito:</b> El Rímac <br>
+      <b>Duración:</b> 21 minutos
+    </td>
+    <td align=center>
+      <img src="./Assets/img/feature-interviews/entrevista-paul.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href="https://youtu.be/Elu1HOylrNI">https://youtu.be/Elu1HOylrNI</a>
+      <br>
+      <b>Resumen:</b> Paul Lugo Pérez, médico veterinario y dueño de la clínica Star Pets en El Rímac, comentó que actualmente la gestión de la salud animal en su centro se realiza de forma manual, combinando dispositivos médicos de distintos fabricantes con registros en papel o tablet, lo que genera pérdida de información, duplicidad de datos y dificultad para dar un seguimiento constante, especialmente en pacientes internados. Destacó la importancia de contar con datos en tiempo real y de centralizar la información de múltiples dispositivos en una sola plataforma, ya que la acción rápida es clave para salvar la vida de los animales. Considera que la propuesta de la plataforma FarmGuard sería de gran utilidad, sobre todo por la centralización de datos, la generación de reportes simples en tiempo real y la posibilidad de recibir alertas inmediatas sobre anomalías. Si bien no ve tan necesario el uso de alertas preventivas dentro de la clínica, reconoce su valor para pacientes monitoreados en casa. Estima que con la implementación de esta solución su veterinaria lograría mayor precisión en diagnósticos, mejor capacidad de respuesta del personal y una gestión más eficiente y confiable.
+    </td>
+  </tr>
+</table>
+
+**Segmento 2:** Sector ganadero
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> Juan Calisaya <br>
+      <b>Edad: </b> 23 años <br>
+      <b>Distrito:</b> Villa María del Triunfo <br>
+      <b>Duración:</b> 13 minutos
+    </td>
+    <td align=center>
+      <img src="./Assets/img/feature-interviews/entrevista-juan.png" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href="https://youtu.be/HgcujUYCcdg">https://youtu.be/HgcujUYCcdg</a>
+      <br>
+      <b>Resumen:</b> Juan Calisaya, de 23 años y residente en Villa María del Triunfo, apoya en la pequeña granja de sus padres y explicó que actualmente gestiona la salud animal de forma manual, usando cuadernos para registrar vacunas, medicamentos y tratamientos. Revisa diariamente a los animales observando alimentación, peso y comportamiento, aunque reconoce que su falta de experiencia y el uso de libretas generan pérdidas de información, errores y dificultades para organizar múltiples registros, lo que impacta en su productividad y puede afectar la salud de los animales. Señaló que le gustaría mejorar la organización, reducir costos y tener un mejor control de los datos sin depender de la memoria. Considera que una plataforma IoT como FarmGuard sería muy útil, sobre todo por la centralización de información, reportes simples y alertas preventivas que lo ayudarían a reaccionar a tiempo y aprender a manejar mejor la granja. Destacó también el valor de funcionalidades como monitoreo en tiempo real y localización vía GPS para animales alejados. Estima que con esta solución lograría mayor organización, menos errores en vacunas y tratamientos, ahorro de gastos y más confianza en su labor de apoyo en la granja.
+    </td>
+  </tr>
+</table>
+
+Entrevista 2:
+
+![](/Assets/img/Bounded%20Animal/entrevista%203.png)
+
+Nombres: Olga
+
+Apellidos: Garcia
+
+Edad: 55
+
+Lugar de residencia: Huancayo
+
+entrevista 3 Link: https://drive.google.com/file/d/1eYbbus1opsrqHmcKDbPyuulvNm6NzLuB/view?usp=sharing
+
+Evidencia de la entrevista:
+
+Resumen de la entrevista: Olga es una criadora de cuys y gallinas en la provincia de huancayo, ella tiene problemas con el monitoreo y control de sus animales puesto que usa un sistema de registro a papel con llevando perdida de informacion importante ademas considera que al haber una tecnologia en mercado que le ayudara con su trabajo haria uso de esta misma.
 
 ### 2.2.3 Análisis de entrevistas  
 
@@ -1799,14 +1948,14 @@ Notifications funciona como un servicio compartido que expone una interfaz está
 ### 4.1.3 Software Architecture  
 
 #### 4.1.3.1 Software Architecture System Landscape Diagram
-![diagram Landscape](/Assets/img/ChapterIV/Software%20Diagrams/structurizr-Diagram1%20(1).png)  
+![diagram Landscape](/Assets/img/ChapterIV/Software%20Diagrams/Blank%20diagram%20corregido%20(1).png)  
 
 #### 4.1.3.2 Software Architecture Context Level Diagrams 
 
-![diagram Context](/Assets/img/ChapterIV/Software%20Diagrams/structurizr-Diagram2%20(1).png)  
+![diagram Context](/Assets/img/ChapterIV/Software%20Diagrams/structurizr-Diagram1%20(1).png)  
 
 #### 4.1.3.3 Software Architecture Container Level Diagrams 
-![diagram Container](/Assets/img/ChapterIV/Software%20Diagrams/Blank%20diagram%20corregido%20(1).png)   
+![diagram Container](/Assets/img/ChapterIV/Software%20Diagrams/structurizr-Diagram2%20(1).png)   
 
 #### 4.1.3.4 Software Architecture Deployment Diagrams  
 
@@ -2060,7 +2209,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
   - TagCode, ImageUrl, Dose, Severity, Status
 
-#### 4.2.X.2 Interface Layer  
+#### 4.2.1.2 Interface Layer  
 
   ## Controladores del Sistema
 
@@ -2200,7 +2349,7 @@ Este dominio es crítico para garantizar la integridad clínica y trazabilidad: 
 
 
 
-#### 4.2.X.4 Infrastructure Layer  
+#### 4.2.1.4 Infrastructure Layer  
 
   ## Repositorios
 
@@ -2227,8 +2376,8 @@ A continuacion se mostrara el diagrama de componentes de nuestro sistema.
 
    ![Diagrama de Componentes](/Assets/img/Bounded%20Animal/structurizr-Diagram3.png)
 
-#### 4.2.X.6 Bounded Context Software Architecture Code Level Diagrams  
-##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams
+#### 4.2.1.6 Bounded Context Software Architecture Code Level Diagrams  
+##### 4.2.1.6.1 Bounded Context Domain Layer Class Diagrams
 
 A continuacion se mostrara el diagrama de clases de nuestro sistema.
 
@@ -2236,7 +2385,7 @@ A continuacion se mostrara el diagrama de clases de nuestro sistema.
 
   ![Diagrama de clases](/Assets/img/Bounded%20Animal/diagrama%20de%20clases.png)
 
-##### 4.2.X.6.2 Bounded Context Database Design Diagram  
+##### 4.2.1.6.2 Bounded Context Database Design Diagram  
 
 
 A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
@@ -2245,13 +2394,10 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
  ![Diagrama de databbase](/Assets/img/Bounded%20Animal/prueba_2025-2025-09-15_22-25.png)
 
-### 4.2.X Bounded Context: IoT Monitoring & Analysis
+### 4.2.2 Bounded Context: IoT Monitoring & Analysis
 
-#### 4.2.X.1 Domain Layer
+#### 4.2.2.1 Domain Layer
 
-#### 4.2.1.2 Interface Layer  
-
-  
 
 - **Value Objects**
   - `SensorStatus` → Valor que define el estado de un sensor: Activo, Inactivo, Vinculado o Desvinculado.  
@@ -2275,7 +2421,8 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
   - `NotificationService` → Servicio que genera y envía las alertas al ganadero cuando se detecta un evento crítico.  
   - `SensorSynchronizationService` → Servicio que asegura la correcta sincronización de datos entre los sensores IoT y el sistema central.
 
-#### 4.2.X.2 Interface Layer
+#### 4.2.2.2 Interface Layer  
+
 En esta capa se definen los **controladores de backend** que exponen la lógica de aplicación mediante endpoints REST.  
 
 - **SensorController**
@@ -2306,7 +2453,7 @@ En esta capa se definen los **controladores de backend** que exponen la lógica 
   - `POST /notifications/critical` → Enviar notificación por indicador crítico.
   - `GET /notifications` → Listar notificaciones enviadas.
 
-#### 4.2.X.3 Application Layer
+#### 4.2.2.3 Application Layer
 Esta capa coordina las operaciones del dominio, gestionando la orquestación de **commands** y **queries**.  
 Implementa los servicios definidos en el **Domain Layer**.
 
@@ -2319,7 +2466,7 @@ Implementa los servicios definidos en el **Domain Layer**.
 2. `SensorQueryServiceImpl` → Implementación de `GetActiveSensorsQuery`.  
 3. `AnalysisQueryServiceImpl` → Implementación de `GetAnalysisHistoryQuery`.  
 
-#### 4.2.X.4 Infrastructure Layer
+#### 4.2.2.4 Infrastructure Layer
 Esta capa proporciona la implementación técnica para la persistencia de datos y acceso a recursos externos.
 
 **Repositories**
@@ -2330,19 +2477,18 @@ Esta capa proporciona la implementación técnica para la persistencia de datos 
 5. `HistoryRepository` → Administra la lista persistente del historial de indicadores (`IndicatorHistory`).  
 
 
-
-#### 4.2.X.5 Bounded Context Software Architecture Component Level Diagrams  
+#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams  
 
 <img src="Assets/img/ChapterIV/iot_BDC_domain_diagram_c4.png" alt="">  
 
-#### 4.2.X.6 Bounded Context Software Architecture Code Level Diagrams  
+#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams  
 
-##### 4.2.X.6.1 Bounded Context Domain Layer Class Diagrams  
+##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams  
 
 <img src="Assets/img/ChapterIV/iot_BDC_DBD.png" alt="">  
 ---
 
-##### 4.2.X.6.2 Bounded Context Database Design Diagram  
+##### 4.2.2.6.2 Bounded Context Database Design Diagram  
 
 A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
@@ -2350,7 +2496,7 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
    <img src="">
  </p>
 
-## 4.2.2 Bounded Context: <Bounded Payment Management>
+## 4.2.3 Bounded Context: <Bounded Payment Management>
 
 ### Diccionario de Clases
 
@@ -2418,7 +2564,7 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 ---
 
-### 4.2.2.1 Domain Layer
+### 4.2.3.1 Domain Layer
 - **Aggregate Root**: `Payment` → contiene una colección/referencia a `Transaction`.  
 - **Entities**: `Payment`, `Transaction` (dentro del agregado `Payment`).  
 - **Value Objects**: `Amount`, `Currency`, `PaymentStatus`, `TransactionStatus`, `ExternalReference`.  
@@ -2430,7 +2576,7 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 ---
 
-### 4.2.2.2 Interface Layer
+### 4.2.3.2 Interface Layer
 
 #### Controladores del Sistema
 - `PaymentsController`
@@ -2450,7 +2596,7 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 ---
 
-### 4.2.2.3 Application Layer
+### 4.2.3.3 Application Layer
 
 #### CommandServices
 - `PaymentCommandService`  
@@ -2471,7 +2617,7 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 ---
 
-### 4.2.2.4 Infrastructure Layer
+### 4.2.3.4 Infrastructure Layer
 
 #### Repositorios
 - `PaymentRepository` _(implements `IPaymentRepository`)_  
@@ -2481,232 +2627,694 @@ Entidad dependiente del agregado `Payment`. Representa el resultado de la operac
 
 
 
-#### 4.2.2.5 Bounded Context Software Architecture Component Level Diagrams  
+#### 4.2.3.5 Bounded Context Software Architecture Component Level Diagrams  
 
 A continuacion se mostrara el diagrama de componentes de nuestro sistema.
 
 <p>
-   <img src="/Assets/img/Bounded Animal/structurizr-PaymentManagementComponents.png">
+   <img src="Assets/img/Bounded Animal/structurizr-PaymentManagementComponents.png">
  </p>
 
-#### 4.2.2.6 Bounded Context Software Architecture Code Level Diagrams  
-##### 4.2.2.6.1 Bounded Context Domain Layer Class Diagrams
+#### 4.2.3.6 Bounded Context Software Architecture Code Level Diagrams  
+##### 4.2.3.6.1 Bounded Context Domain Layer Class Diagrams
 
 A continuacion se mostrara el diagrama de clases de nuestro sistema.
 
 <p>
-   <img src="/Assets/img/Bounded Animal/uml-clases-paymentManagement.png">
+   <img src="Assets/img/Bounded Animal/uml-clases-paymentManagement.png">
  </p>
 
-##### 4.2.2.6.2 Bounded Context Database Design Diagram  
+##### 4.2.3.6.2 Bounded Context Database Design Diagram  
 
 A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
 <p>
-   <img src="/Assets/img/Bounded Animal/bd-paymentManagement.png">
+   <img src="Assets/img/Bounded Animal/bd-paymentManagement.png">
  </p>
 
-# Capítulo V: Solution UI/UX Design  
+# Capítulo V: Solution UI/UX Design
 
-## 5.1 Style Guidelines  
+## 5.1 Style Guidelines
 
-### 5.1.1 General Style Guidelines  
+* __Brand Overview.-__ La necesidad del monitoreo de los animales por parte de los productores agropecuarios y veterinarios.
 
-### 5.1.2 Web, Mobile and IoT Style Guidelines  
+* __Brand Name.-__ El nombre de nuestro aplicacion web es FarmGuard. La creacion de este nombre se debe al juntar palabras relacionadas con la idea de nuestra solucion, siendo estas **Farm**  (Traducido es granja) y **Guard** (Traducido es guardia ). Palabras que creemos que expresan nuestro objetivo de la aplicacion que es vigilar o monitoreo de los animales. 
 
-## 5.2 Information Architecture  
+* __Logo.-__ Logo en diferentes tonalidades para el uso en diferentes productos de nuestra solucion.
 
-### 5.2.1 Organization Systems  
+**Logo con diferentes Colores**
+![Logos colores](/Assets/img/ChapterIV/style%20guidelines/Logos%20Colores.png)
 
-### 5.2.2 Labeling Systems  
+**Logo Coloreado**
+![Logos coloreado](/Assets/img/ChapterIV/style%20guidelines/Logo%20Coloreado.png)
 
-### 5.2.3 SEO Tags and Meta Tags  
+* __Fonts.-__ El tipo de tipografia de letra elegido fue Roboto debido a su legibilidad, claridad, versatilidad y integracion facil gracias a Google Fonts. A continuacion se mostrara los tamaños de letras que se usara en los diferentes tipos de etiquetas que contenga texto.
 
-### 5.2.4 Searching Systems  
+![fuente](/Assets/img/ChapterIV/style%20guidelines/Letras.png)
 
-### 5.2.5 Navigation Systems  
+* __Colores.-__ El color escogido fue el verde __#4ADE80__ debidom a que queremos expresar salud, cuidado, bienestar a nuestros usuarios que monitorean a sus animales.
 
-## 5.3 Landing Page UI Design  
+![Colores](/Assets/img/ChapterIV/style%20guidelines/Colores.png)
 
-### 5.3.1 Landing Page Wireframe  
+* __Tonos de comunicacion.-__ El tipo de lenguaje a emplear sera serio y formal.
 
-### 5.3.2 Landing Page Mock-up  
 
-## 5.4 Applications UX/UI Design  
+### 5.1.1 General Style Guidelines
+Describe las normas generales de diseño visual aplicadas al ecosistema del proyecto, incluyendo tipografía, colores, iconografía y espaciado.
 
-### 5.4.1 Applications Wireframes  
+### 5.1.2 Web, Mobile and IoT Style Guidelines
+Detalla las guías específicas de estilo aplicadas a las plataformas web, móvil e IoT, considerando coherencia visual, responsividad y usabilidad en cada entorno.
 
-### 5.4.2 Applications Wireflow Diagrams  
 
-### 5.4.3 Applications Mock-ups  
 
-### 5.4.4 Applications User Flow Diagrams  
+## 5.2 Information Architecture
 
-## 5.5 Applications Prototyping  
+### 5.2.1 Organization Systems
+Explica cómo se estructuran los contenidos, categorías y jerarquías de información para facilitar la navegación y el acceso eficiente a la data.
+
+### 5.2.2 Labeling Systems
+Define la nomenclatura utilizada en menús, botones, etiquetas y categorías, garantizando consistencia semántica y claridad terminológica.
+
+### 5.2.3 SEO Tags and Meta Tags
+Presenta las etiquetas meta (title, description, keywords) y estrategias SEO aplicadas para mejorar la visibilidad del proyecto en motores de búsqueda.
+
+### 5.2.4 Searching Systems
+Describe los mecanismos de búsqueda implementados (filtros, autocompletado, búsqueda avanzada) para optimizar la experiencia de localización de datos.
+
+### 5.2.5 Navigation Systems
+Explica los sistemas de navegación horizontal, vertical y contextual aplicados en las interfaces, así como su coherencia entre plataformas.
+
+
+
+## 5.3 Landing Page UI Design
+
+### 5.3.1 Wireframe
+Incluye los esquemas estructurales iniciales de la página de inicio, destacando la jerarquía visual, disposición de bloques y zonas interactivas.
+
+### 5.3.2 Mock-up
+Presenta la versión visual final del diseño de la landing page, mostrando el uso de color, tipografía y componentes de interfaz definidos en las guías de estilo.
+
+
+## 5.4 Applications UX/UI Design
+
+### 5.4.1 Wireframes
+Muestra los bosquejos estructurales de las vistas principales de la aplicación web, móvil e IoT.
+
+### 5.4.2 Wireflow Diagrams
+Integra diagramas de flujo visual que relacionan pantallas, interacciones y decisiones del usuario.
+
+### 5.4.3 Mock-ups
+Exhibe las representaciones visuales finales de las interfaces de usuario, con los estilos y componentes definitivos.
+
+### 5.4.4 User Flow Diagrams
+Describe los recorridos del usuario (User Journey) y sus interacciones dentro de los sistemas de la solución.
+
+
+## 5.5 Applications Prototyping
+Presenta los prototipos funcionales interactivos de las plataformas (web, móvil, IoT), detallando el uso de herramientas como Figma, Adobe XD o similares, y su validación con usuarios.
 
 ---
 
-# Capítulo VI: Product Implementation, Validation & Deployment  
+# Capítulo VI: Product Implementation, Validation & Deployment
 
-## 6.1 Software Configuration Management  
+## 6.1 Software Configuration Management
 
-### 6.1.1 Software Development Environment Configuration  
+### 6.1.1 Development Environment Configuration
 
-### 6.1.2 Source Code Management  
+Para el desarrollo de **FarmGuard**, se configuró un entorno de trabajo distribuido y multiplataforma, con herramientas y frameworks modernos que permiten una integración fluida entre los diferentes componentes del ecosistema (backend, frontend web y aplicación móvil).  
+A continuación, se detallan los entornos, SDKs y frameworks utilizados:
 
-### 6.1.3 Source Code Style Guide & Conventions  
+#### Backend – .NET 8 (API RESTful)
+- **Framework principal:** .NET 8 (ASP.NET Core)
+- **Lenguaje:** C#
+- **Patrón arquitectónico:** Domain-Driven Design (DDD) con separación en capas (Domain, Application, Infrastructure, Interface)
+- **ORM:** Entity Framework Core 8
+- **Base de datos:** MySQL 8
+- **Pruebas:** xUnit y Swagger para testing y documentación de endpoints
+- **IDE:** Visual Studio 2022 / Visual Studio Code
+- **Gestor de dependencias:** NuGet
+- **Configuración del entorno:**
+  - SDK: .NET 8 SDK
+  - Versiones controladas mediante `global.json`
+  - Configuración de `launchSettings.json` para entornos de desarrollo y producción
 
-### 6.1.4 Software Deployment Configuration  
+#### Frontend Web – Vue.js 3
+- **Framework:** Vue.js 3 con Composition API
+- **Lenguaje:** JavaScript/TypeScript
+- **Herramienta de construcción:** Vite
+- **UI Framework:** Vuetify 3 / TailwindCSS (según compatibilidad)
+- **Gestor de paquetes:** npm / pnpm
+- **IDE:** Visual Studio Code
+- **Integración:** Consumo directo de la API REST de .NET 8 a través de Axios
+- **Configuración del entorno:**
+  - Variables de entorno definidas en `.env.development` y `.env.production`
+  - Scripts configurados en `package.json` para ejecución local y build productivo
 
-## 6.2 Landing Page, Services & Applications Implementation  
+#### Aplicación Móvil – Flutter
+- **Framework:** Flutter 3.24
+- **Lenguaje:** Dart
+- **Arquitectura:** MVVM (Model–View–ViewModel)
+- **Gestor de dependencias:** `pubspec.yaml`
+- **IDE:** Android Studio / Visual Studio Code
+- **SDK:** Flutter SDK + Android SDK (nivel 34)
+- **Testing:** Flutter Test & Widget Test
+- **Integración:** Consumo del backend mediante HTTP/Dio para peticiones REST y Firebase Storage para manejo de imágenes
+- **Configuración del entorno:**
+  - Simuladores Android (Pixel 7) y emuladores iOS
+  - Variables de entorno configuradas mediante `.env` y `flutter_dotenv`
 
-### 6.2.1 Sprint 1  
+#### Control de versiones y colaboración
+- **Repositorio GitHub:** Organización `upc-pre-202502-1ASI0572-3320-Tunix`
+- **Flujo de trabajo:** GitFlow
+- **Commits:** Estilo *Conventional Commits*
+- **Ramas principales:**
+  - `main`: versión estable
+  - `develop`: rama de desarrollo
+  - `feature/*`, `hotfix/*`: ramas específicas por tarea
 
-#### 6.2.1.1 Aspect Leaders and Collaborators  
+#### Entorno de despliegue
+- **Backend:** Azure App Service / Railway / Render (según disponibilidad)
+- **Frontend:** Vercel / Netlify
+- **Base de datos:** MySQL Cloud (Plan gratuito o académico)
+- **Integración continua:** GitHub Actions para build y testing automático
 
-#### 6.2.1.2 Sprint Backlog 1  
-
-#### 6.2.1.3 Development Evidence for Sprint Review  
-
-#### 6.2.1.4 Testing Suite Evidence for Sprint Review  
-
-#### 6.2.1.5 Execution Evidence for Sprint Review  
-
-#### 6.2.1.6 Services Documentation Evidence for Sprint Review  
-
-#### 6.2.1.7 Software Deployment Evidence for Sprint Review  
-
-#### 6.2.1.8 Team Collaboration Insights during Sprint  
-
-#### 6.2.1.9 Validation Interviews  
-
-
-
-
-
-
-## 6.3 Validation Interviews
-
-A continuacion se muetras las Validation Interviews son ...
-
-### 6.3.1. Diseño de Entrevistas
-
-###  Segmento 1
-
-###  Segmento 2
-
-
-### 6.3.2. Registro de Entrevistas
-
-A continuación se presentan los registros de las entrevistas realizadas a...
-
-**Segmento1:**
-
-Entrevista 1: 
-
-Edad: 
-
-Departamento: 
-
-![Entrevista 1]()
-
-Enlace: https://acortar.link/oE3tjw
-
-Resumen:
+En conjunto, esta configuración proporciona un entorno de desarrollo robusto, portable y escalable, garantizando una experiencia consistente entre los entornos de desarrollo, pruebas y despliegue.
 
 
-**Segmento 2:**
+### 6.1.2 Source Code Management
 
-Entrevista 1:  
+Para la gestión del código fuente del proyecto **FarmGuard**, se utiliza la plataforma **GitHub**, bajo una organización pública denominada **upc-pre-202502-1ASI0572-3320-Tunix**, donde se alojan los diferentes repositorios que conforman la solución.
 
-Edad:  años
+#### Estructura de repositorios
+El ecosistema del proyecto se encuentra dividido en cuatro repositorios principales, cada uno enfocado en un componente del sistema:
+- **FarmGuard-Backend:** Contiene la API REST desarrollada con .NET 8 y la lógica de negocio principal.
+- **farmguard-frontend:** Incluye la aplicación web desarrollada con Vue.js 3.
+- **FarmGuard-LandingPage:** Abarca el sitio web estático informativo y promocional.
+- **FarmGuard-Unix-Report:** Repositorio del informe técnico elaborado en Markdown y administrado mediante control de versiones.
 
-![Interview2]()
+<img alt="Image" src="https://github.com/user-attachments/assets/274af368-8cda-4232-ae22-31b784862909" />
 
-Enlace: https://acortar.link/OAlrEE
+##### Estrategia de ramificación: GitFlow
+El proyecto adopta el modelo de trabajo **GitFlow**, el cual permite mantener un flujo ordenado y colaborativo. Las ramas principales son:
 
-Resumen:
+- **main:** Contiene la versión estable y liberable del proyecto.
+- **develop:** Rama base para el desarrollo continuo y la integración de nuevas características.
+- **feature/***: Ramas dedicadas a nuevas funcionalidades o bounded contexts específicos, como por ejemplo:
+  - `feature/animal-management`
+  - `feature/iam`
+  - `feature/iot-monitoring`
+  - `feature/notification`
+  - `feature/profile`
+- **fix/***: Ramas destinadas a la corrección de errores detectados en desarrollo o pruebas (por ejemplo, `fix/bounded-core`).
+- **release/*** y **hotfix/***: Se crean de forma temporal cuando se requiere generar versiones previas al despliegue o corregir incidencias en producción.
+
+Cada integrante del equipo trabaja en su propia rama `feature/` o `fix/` asociada a un bounded context, y posteriormente realiza un *pull request* hacia `develop` para su revisión e integración.
+
+<img alt="Image" src="https://github.com/user-attachments/assets/d22383ab-9ca5-4bd2-a2d6-84faacc12838" />
 
 
+<img alt="Image" src="https://github.com/user-attachments/assets/90eaa638-fbeb-487a-b1e0-dfddb6f79793" />
 
-### 6.3.3. Evaluaciones segun heuristicas
 
-<p align="center">
-  <strong>UX Heuristics & Principles Evaluation</strong><br>
-  <em>Usability – Inclusive Design – Information Architecture</em>
-</p>
+##### Convenciones de commits
+Se utiliza el estándar **Conventional Commits**, garantizando uniformidad y trazabilidad en el historial de cambios.  
+Los principales tipos de commits utilizados son:
+- `feat`: para nuevas funcionalidades.
+- `fix`: para correcciones de errores.
+- `docs`: para actualizaciones de documentación.
+- `refactor`: para mejoras internas del código.
+- `chore`: para tareas de mantenimiento o configuración.
+- `test`: para incorporación o mejora de pruebas unitarias.
 
-**CARRERA**: Ingeniería de Software  
-**CURSO**: Desarrollo de Soluciones IoT  
-**SECCIÓN**: 
-**PROFESORES**:   
-**AUDITOR**:  
-**CLIENTE(S)**: 
+
+### 6.1.3 Source Code Style Guide & Conventions
+
+El equipo estableció una guía de estilo y convenciones de código para asegurar coherencia, mantenibilidad y calidad en el desarrollo de la solución FarmGuard.  
+Cada componente del ecosistema sigue los principios de diseño más adecuados a su contexto: **Domain-Driven Design (DDD)** para el backend y frontend, y **Clean Architecture** para la aplicación móvil.  
+Estas prácticas garantizan la separación de responsabilidades, escalabilidad y facilidad de evolución del sistema.
+
+#### Estándares generales
+- Se aplican los principios de **Clean Code** y **SOLID**.
+- Nombres claros y descriptivos para clases, métodos y variables.
+- Indentación de 4 espacios, evitando tabulaciones.
+- Comentarios únicamente cuando la lógica no sea evidente.
+- Revisión de código mediante *pull requests* y validación automática de estilo con linters.
+- Uso de **.editorconfig** en todos los repositorios para unificar formato y convenciones.
 
 ---
 
-**SITE o APP A EVALUAR**:  – Plataforma de gestión agrícola 
+#### Backend (.NET 8 – C# con Domain-Driven Design)
+El backend implementa una arquitectura **DDD** en cuatro capas: **Domain**, **Application**, **Infrastructure** e **Interface**, separando claramente la lógica de negocio, los casos de uso y los mecanismos de persistencia.
 
-## TAREAS A EVALUAR:
+- **Convenciones de nombres:**
+  - Clases y métodos: `PascalCase`
+  - Variables y propiedades privadas: `camelCase`
+  - Constantes: `UPPER_SNAKE_CASE`
+- **Estructura de carpetas:**
+  - `Domain/`: Entidades, agregados, value objects, eventos y repositorios.
+  - `Application/`: Casos de uso (commands y queries), DTOs y servicios de aplicación.
+  - `Infrastructure/`: Implementaciones concretas de repositorios, conexión a base de datos y adaptadores externos.
+  - `Interface/`: Controladores, endpoints y configuración del API.
+- **Buenas prácticas:**
+  - Se aplican principios de **Inversión de Dependencias** mediante interfaces.
+  - Se mantiene una clase por archivo.
+  - Se usan comentarios XML para documentar métodos públicos.
+  - Validación de estilo automática con *Analyzers* y *Roslyn rulesets*.
 
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas en el sistema :
+---
 
-1. Registro de un agricultor en la plataforma (Web y Mobile)
+#### Frontend Web (Vue.js 3 – DDD adaptado a frontend)
+El frontend sigue una estructura inspirada en **DDD**, donde cada módulo representa un *bounded context* con componentes, servicios y modelos coherentes con el dominio.
+
+- **Estructura de carpetas:**
+  - `src/domain/`: Modelos y entidades del dominio.
+  - `src/application/`: Casos de uso, validaciones y lógica de interacción.
+  - `src/infrastructure/`: Servicios de API y almacenamiento local.
+  - `src/interface/`: Vistas, componentes y rutas.
+- **Convenciones de nombres:**
+  - Componentes Vue: `PascalCase` (`AnimalCard.vue`)
+  - Archivos: `kebab-case`
+  - Variables y funciones: `camelCase`
+- **Buenas prácticas:**
+  - Uso de **Prettier** y **ESLint** para formato y validación de código.
+  - Componentes con responsabilidad única (máximo ~300 líneas).
+  - Uso de `props` tipadas y nombres de eventos claros.
+  - Estilos aislados en `<style scoped>` para evitar colisiones.
+
+---
+
+#### Aplicación Móvil (Flutter / Dart – Clean Architecture)
+La aplicación móvil adopta **Clean Architecture**, separando capas de presentación, dominio y datos, para mantener independencia de frameworks y escalabilidad del código.
+
+- **Estructura de carpetas:**
+  - `lib/domain/`: Entidades, interfaces y casos de uso.
+  - `lib/data/`: Repositorios e implementaciones concretas de fuentes de datos (API o almacenamiento local).
+  - `lib/presentation/`: Vistas (UI), controladores y viewmodels (patrón MVVM).
+  - `lib/core/`: Constantes, temas y utilidades compartidas.
+- **Convenciones de nombres:**
+  - Clases y widgets: `UpperCamelCase`
+  - Variables, funciones y métodos: `lowerCamelCase`
+  - Constantes: `lowerCamelCase` con prefijo `const`
+- **Buenas prácticas:**
+  - Uso de `const` en widgets inmutables.
+  - Separación estricta entre lógica de negocio y presentación.
+  - Análisis estático con `flutter analyze` y formateo con `dart format`.
+  - Prohibido el uso de variables globales no controladas o sin tipo explícito.
+
+---
+
+#### Landing Page (HTML, CSS, JavaScript)
+El sitio web informativo mantiene una estructura ligera y semántica, optimizada para rendimiento y SEO.
+
+- **Estructura y estilo:**
+  - HTML5 semántico (`<header>`, `<main>`, `<footer>`).
+  - Convención **BEM (Block–Element–Modifier)** para CSS.
+  - Variables CSS globales para paleta y tipografía en `:root`.
+  - Validación mediante W3C Validator y Stylelint.
+- **Buenas prácticas:**
+  - Evitar estilos inline.
+  - Código modular en JavaScript.
+  - Optimización de recursos estáticos e imágenes antes del despliegue.
+
+---
+
+La aplicación de estas convenciones asegura la calidad del código, la estandarización entre equipos y la sostenibilidad del proyecto FarmGuard a largo plazo.
 
 
-No están incluidas en esta versión de la evaluación las siguientes tareas:
+### 6.1.4 Deployment Configuration
 
-1. Integración con módulos externos de analisis climática
+El proceso de despliegue de la solución FarmGuard se diseñó bajo un enfoque continuo e incremental, garantizando la integración fluida entre los entornos de desarrollo, pruebas y producción.  
+La configuración considera la naturaleza distribuida del sistema (Backend, Frontend Web, Landing Page y Aplicación Móvil) y busca mantener la trazabilidad y estabilidad del software mediante pipelines automatizados.
+
+---
+
+#### Entornos de despliegue
+
+Se definieron tres entornos principales dentro del ciclo de vida de la aplicación:
+
+| Entorno | Descripción | Propósito |
+|----------|--------------|------------|
+| **Development (local)** | Entorno de desarrollo local en cada equipo. Ejecuta servicios con configuraciones de prueba y bases de datos SQLite o MySQL locales. | Permitir el desarrollo individual, pruebas unitarias y debugging. |
+| **Staging (pre-producción)** | Entorno de validación intermedia alojado en la nube, conectado a la base de datos de pruebas. | Validar nuevas versiones antes del despliegue final y realizar pruebas de integración. |
+| **Production** | Entorno público, estable y desplegado en servicios cloud. Utiliza la base de datos principal y configuración segura. | Proveer acceso a usuarios finales y recolectar métricas de uso. |
+
+Cada entorno cuenta con variables y credenciales específicas definidas en archivos `.env` separados, no incluidos en el repositorio público por motivos de seguridad.
+
+---
+
+#### Configuración de despliegue por componente
+
+**1. Backend (.NET 8 – API RESTful)**
+- **Infraestructura:** Desplegada en **Azure App Service** (alternativamente, Render o Railway).
+- **Base de datos:** MySQL Cloud (plan gratuito académico o instancia gestionada).
+- **Gestión de entornos:**
+  - Variables configuradas en `appsettings.{Environment}.json`.
+  - Conexiones protegidas mediante `Azure Key Vault` o variables de entorno.
+- **Pipeline de CI/CD:**
+  - Compilación automatizada con `dotnet build`.
+  - Ejecución de pruebas (`dotnet test`).
+  - Despliegue automático en `develop` (staging) y manual en `main` (production).
+- **Scripts relevantes:**
+  - `deploy.yml` (pipeline GitHub Actions)
+  - `start.sh` para inicialización local en Linux.
+
+---
+
+**2. Frontend Web (Vue.js 3)**
+- **Infraestructura:** Desplegada en **Vercel** o **Netlify**.
+- **Integración:** Consumo directo de la API REST del backend.
+- **Variables de entorno:**
+  - `.env.development` para entorno local.
+  - `.env.production` con endpoints y claves de despliegue.
+- **Pipeline automatizado:**
+  - Ejecución de `npm run build` y pruebas de lint.
+  - Previsualización automática en ramas de `feature/` y `develop`.
+  - Publicación automática desde `main` al entorno productivo.
+- **Archivos clave:**
+  - `vercel.json` o `netlify.toml` para configuración de dominio y rutas.
+
+---
+
+**3. Landing Page (HTML, CSS, JS)**
+- **Infraestructura:** Servida como sitio estático en **GitHub Pages**.
+- **Automatización:**
+  - Pipeline con GitHub Actions (`pages.yml`) que publica cada cambio en `main`.
+  - Integración con dominio institucional o subdominio público.
+- **Optimización:**
+  - Minificación automática de archivos CSS/JS antes del despliegue.
+  - Validación W3C y Stylelint previas a publicación.
+
+---
+
+**4. Aplicación Móvil (Flutter – Clean Architecture)**
+- **Entornos configurados:**
+  - `dev` (para pruebas internas con conexión al backend staging).
+  - `prod` (para compilaciones firmadas y publicación en Play Store).
+- **Pipeline de integración:**
+  - Compilación automática con `flutter build apk --flavor dev` para pruebas internas.
+  - Validación de dependencias con `flutter analyze` y `dart test`.
+- **Distribución:**
+  - Entrega de versiones preliminares mediante **Firebase App Distribution**.
+  - Publicación final en Google Play Console bajo canal cerrado.
+- **Gestión de credenciales:**
+  - Firmas almacenadas de forma cifrada (`key.properties`, `keystore.jks`) fuera del repositorio.
+
+---
+
+#### Credenciales y seguridad
+- Las credenciales de despliegue (tokens, claves API, contraseñas de base de datos) se gestionan mediante **GitHub Secrets** y no se exponen en ningún archivo del repositorio.
+- Los `.env` locales se incluyen en el archivo `.gitignore` para evitar su sincronización.
+- Los permisos de los entornos de despliegue están asignados a los integrantes del equipo de forma controlada a través de GitHub Roles.
+
+---
+
+Cada pipeline se activa mediante *push* o *pull request* hacia las ramas `develop` y `main`, asegurando control y trazabilidad en el ciclo de despliegue continuo.
+
+---
+
+En conjunto, esta configuración garantiza que la entrega de software de FarmGuard sea confiable, reproducible y segura en todos los entornos, cumpliendo con las buenas prácticas de DevOps y la rúbrica establecida para el trabajo final.
 
 
-## ESCALA DE SEVERIDAD:
+## 6.2 Landing Page, Services & Applications Implementation
 
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+### 6.2.1 Sprint 1
 
-| Nivel | Descripción |
-|-------|-------------|
-| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que haya tiempo disponible. |
-| **2** | Problema menor: ocurre con algo más de frecuencia o es un poco más difícil de resolver para el usuario. Debería corregirse con baja prioridad en la siguiente versión. |
-| **3** | Problema mayor: ocurre con frecuencia o el usuario no puede resolverlo. Es importante corregirlo con alta prioridad. |
-| **4** | Problema muy grave: impide al usuario continuar usando la herramienta. Debe corregerse antes del despliegue. |
+#### 6.2.1.1 Sprint Planning 1
 
-## TABLA RESUMEN DE PROBLEMAS DETECTADOS
+A continuación se presenta la planificación del Sprint 1, donde el equipo definió el alcance, los objetivos y las tareas principales a desarrollar.  
+En esta iteración se trabajará de forma integrada sobre la **Landing Page**, la **WebApp** (interfaz interactiva de gestión) y la **primera versión del Backend** basado en .NET 8, buscando disponer de una versión funcional mínima (MVP) de la plataforma **FarmGuard**.
 
-
-
-### PROBLEMA #1: No hay un control que permita regresar al panel principal desde la gestión de sensores
-
-**Severidad:** 3  
-**Heurística violada:** 
-
-**Problema:**  
-
-
-**Recomendación:**  
+| Sprint #                             | Sprint 1                                                                                                                                                                                                                                                                                                                                                              |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint planning <br> background**  |                                                                                                                                                                                                                                                                                                                                                                       |
+| **Date**                             | 2025/08/30                                                                                                                                                                                                                                                                                                                                                            |
+| **Time**                             | 5:00 PM                                                                                                                                                                                                                                                                                                                                                               |
+| **Location**                         | Llamada grupal en la plataforma Discord                                                                                                                                                                                                                                                                                                                               |
+| **Prepared By**                      | Brayan Smith Morales Quispe                                                                                                                                                                                                                                                                                                                                           |
+| **Attendees <br> (to planning meeting)** | José Daniel Zárate Castro, Brayan Smith Morales Quispe, Oscar Nathaniel Garayar Mori, Quique Vladimir Jara Benites y Carlos Alberto Ochoa Colonio                                                                                                                                                                                                                    |
+| **Sprint Goal & User Stories**       |                                                                                                                                                                                                                                                                                                                                                                       |
+| **Sprint 1 Goal**                    | Desarrollar la primera versión funcional de **FarmGuard**, incluyendo: <br> - Una **Landing Page** informativa que comunique la propuesta de valor. <br> - Una **WebApp** inicial con autenticación y dashboard básico. <br> - Un **Backend** en .NET 8 con endpoints iniciales para usuarios y reportes. <br> Este sprint permitirá contar con una versión desplegada que evidencie la integración entre los módulos y siente las bases para las futuras iteraciones. |
+| **Sprint 1 Velocity**                | 24                                                                                                                                                                                                                                                                                                                                                                    |
+| **Sum of story points**              | 24                                                                                                                                                                                                                                                                                                                                                                    |
 
 
-**Evidencia visual:**  
-![]()
+#### 6.2.1.2 Aspect Leaders and Collaborators
+
+El siguiente LACX (Leadership-and-Collaboration Matrix) identifica a los líderes y colaboradores en los principales aspectos abordados durante el Sprint 1, considerando los componentes clave del producto: Landing Page, WebApp y Backend.
+
+<div style="font-size:70%;">
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username** | **Landing Page** <br> L/C | **WebApp (Frontend)** <br> L/C | **Backend (.NET 8)** <br> L/C | **Database / ORM** <br> L/C | **Deployment & DevOps** <br> L/C | **Documentation / Report** <br> L/C |
+|:------------------------------------------:|:-------------------:|:--------------------------:|:-------------------------------:|:-----------------------------:|:----------------------------:|:---------------------------------:|:----------------------------------:|
+| **Zárate Castro, José Daniel**             | danielzarate20      | C                         | L                              | C                            | C                           | C                                | C                                 |
+| **Morales Quispe, Brayan Smith**           | brayan-smithmq      | L                         | C                              | C                            | L                           | C                                | L                                 |
+| **Garayar Mori, Oscar Nathaniel**          | oscargarayar        | C                         | C                              | L                            | C                           | C                                | C                                 |
+| **Jara Benites, Quique Vladimir**          | quiquevladimir      | C                         | C                              | C                            | C                           | L                                | C                                 |
+| **Ochoa Colonio, Carlos Alberto**          | carlosochoac        | C                         | L                              | C                            | C                           | C                                | C                                 |
+
+</div>
+
+<div style="text-align: center; font-size:85%; margin-top: 0.5rem;">
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
+
+</div>
+
+
+#### 6.2.1.3 Sprint Backlog 1
+
+El Sprint Backlog 1 fue construido a partir del Product Backlog priorizado, incluyendo las historias de usuario correspondientes a las funcionalidades principales de gestión y visualización. 
+Cada historia contiene sus tareas (work-items), descripciones, estimaciones y responsables designados.
+
+<table>
+  <tr>
+    <td><b>Sprint #</b></td>
+    <td colspan="7"><b>Sprint 1</b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>User Story</b></td>
+    <td colspan="2"><b>Work-Item / Task</b></td>
+    <td><b>Description</b></td>
+    <td><b>Estimation (Hours)</b></td>
+    <td><b>Assigned To</b></td>
+    <td><b>Status</b></td>
+  </tr>
+  <tr>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td><b>Id</b></td>
+    <td><b>Title</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <!-- Gestión de animales -->
+  <tr>
+    <td>US01</td>
+    <td>Gestionar animales registrados</td>
+    <td>T01</td>
+    <td>Implementar CRUD de animales</td>
+    <td>Desarrollar API y vistas para crear, editar, listar y eliminar animales.</td>
+    <td>8</td>
+    <td>Oscar / José</td>
+    <td>In-Process</td>
+  </tr>
+  <tr>
+    <td>US02</td>
+    <td>Registrar historial médico</td>
+    <td>T02</td>
+    <td>Implementar módulo de salud</td>
+    <td>Permitir registrar diagnósticos, vacunas y tratamientos veterinarios.</td>
+    <td>7</td>
+    <td>Oscar / Brayan</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US03</td>
+    <td>Gestionar insumos agropecuarios</td>
+    <td>T03</td>
+    <td>Desarrollar CRUD de insumos</td>
+    <td>Registrar productos (alimentos, medicinas, herramientas) con stock y vencimiento.</td>
+    <td>6</td>
+    <td>José / Quique</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- Módulos de usuario -->
+  <tr>
+    <td>US04</td>
+    <td>Creación de cuenta y autenticación</td>
+    <td>T04</td>
+    <td>Implementar registro y login</td>
+    <td>Desarrollar endpoints y formulario para crear cuentas y acceder con JWT.</td>
+    <td>6</td>
+    <td>Carlos / Brayan</td>
+    <td>In-Process</td>
+  </tr>
+  <tr>
+    <td>US05</td>
+    <td>Gestión de roles y permisos</td>
+    <td>T05</td>
+    <td>Configurar IAM básico</td>
+    <td>Implementar roles (Administrador, Veterinario, Productor) y control de acceso.</td>
+    <td>8</td>
+    <td>Brayan / Oscar</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US06</td>
+    <td>Perfil de usuario</td>
+    <td>T06</td>
+    <td>Completar y editar perfil</td>
+    <td>Agregar formulario editable con información del usuario y validaciones.</td>
+    <td>4</td>
+    <td>Carlos / José</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- Mapa y notificaciones -->
+  <tr>
+    <td>US07</td>
+    <td>Visualizar mapa de animales</td>
+    <td>T07</td>
+    <td>Integrar mapa estático</td>
+    <td>Implementar mapa base (sin IoT) para visualizar áreas delimitadas.</td>
+    <td>5</td>
+    <td>Quique / José</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td>US08</td>
+    <td>Notificaciones de cambios</td>
+    <td>T08</td>
+    <td>Configurar alertas locales</td>
+    <td>Enviar alertas de cambios en registros de animales o vacunas.</td>
+    <td>4</td>
+    <td>Brayan / Carlos</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- Landing Page -->
+  <tr>
+    <td>US09</td>
+    <td>Landing Page informativa</td>
+    <td>T09</td>
+    <td>Sección de beneficios</td>
+    <td>Mostrar ventajas de FarmGuard para pequeños productores.</td>
+    <td>3</td>
+    <td>Brayan</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Landing Page informativa</td>
+    <td>T10</td>
+    <td>Sección equipo y “sobre la app”</td>
+    <td>Presentar al equipo Tunix y los objetivos del proyecto.</td>
+    <td>3</td>
+    <td>Carlos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US09</td>
+    <td>Landing Page informativa</td>
+    <td>T11</td>
+    <td>Sección FAQ y formulario de contacto</td>
+    <td>Agregar preguntas frecuentes y formulario de contacto simple.</td>
+    <td>4</td>
+    <td>José / Quique</td>
+    <td>In-Process</td>
+  </tr>
+
+  <!-- Despliegue -->
+  <tr>
+    <td>US10</td>
+    <td>Despliegue inicial del sistema</td>
+    <td>T12</td>
+    <td>Configurar CI/CD</td>
+    <td>Automatizar compilación y despliegue en Vercel (frontend) y Azure (backend).</td>
+    <td>6</td>
+    <td>Quique</td>
+    <td>To-do</td>
+  </tr>
+</table>
 
 
 
-## 6.4.Video About-the-Product
+#### 6.2.1.4 Development Evidence
+
+A continuación se presenta un resumen de los commits realizados durante el Sprint 1, evidenciando el progreso en las diferentes áreas del proyecto FarmGuard.
+
+| Repository                        | Branch               | Commit Id | Commit Message                                       | Commit Message Body                                                                                     | Committed on (Date) |
+|-----------------------------------|----------------------|------------|------------------------------------------------------|----------------------------------------------------------------------------------------------------------|---------------------|
+| FarmGuard-Backend                 | main                 | b856c56    | merge: integrate develop into main                   | Fusión de la rama `develop` con los módulos de animales, historial y almacenamiento.                    | 01/10/2025          |
+| FarmGuard-Backend                 | develop              | e711c4a    | fix: fixed medical history of animals                | Corrección de la entidad `MedicalHistory` y relaciones con `Animal.cs`.                                 | 01/10/2025          |
+| FarmGuard-Backend                 | develop              | 31b64cf    | add: added service StorageService.cs                 | Creación del servicio para manejo de archivos multimedia y documentos.                                  | 30/09/2025          |
+| FarmGuard-Backend                 | develop              | c7d8db4    | fix: fixed dates of animal                           | Ajuste de atributos de fecha y formato ISO en entidad Animal.                                           | 30/09/2025          |
+| FarmGuard-Backend                 | develop              | 4ad4485    | fix: mapped entities and relations                   | Corrección de mapeo entre `Animal`, `Vaccine`, y `InventoryItem`.                                       | 30/09/2025          |
+| FarmGuard-Backend                 | develop              | b555fef    | fix: fixed attributes of Animal.cs                   | Normalización de propiedades y validaciones en la entidad `Animal`.                                     | 30/09/2025          |
+| FarmGuard-Backend                 | feature/inventory    | fc647d5    | fix: renamed inventory section                       | Renombrado de `Inventory` a `SuppliesSection` para mayor claridad de dominio.                           | 29/09/2025          |
+| FarmGuard-Backend                 | feature/vaccine      | 7c9e2b3    | feat: add VaccineController and repository           | Implementación del módulo de gestión de vacunas y endpoints CRUD.                                       | 29/09/2025          |
+| FarmGuard-Backend                 | feature/auth         | a8d921e    | feat: add authentication and role-based access       | Configuración de autenticación JWT y sistema IAM por roles.                                             | 28/09/2025          |
+| FarmGuard-Backend                 | feature/profile      | 1d3a9bb    | feat: add UserProfileService and update endpoint     | Creación de servicio y controlador para completar y editar perfil de usuario.                           | 28/09/2025          |
+| FarmGuard-Backend                 | feature/notification | 89b2cfe    | feat: add notification event publisher               | Implementación de eventos de notificación en cambios de registros.                                      | 27/09/2025          |
+| FarmGuard-Backend                 | main                 | 8af2060    | chore: commit initial                                | Configuración inicial del proyecto con estructura DDD.                                                  | 05/09/2025          |
+| farmguard-frontend                | main                 | 3c2c3d9    | chore: commit initial                                | Estructura base del proyecto Vue 3 con router y servicios compartidos.                                  | 05/09/2025          |
+| farmguard-frontend                | feature/animals      | f4b21b3    | feat: add AnimalView and CRUD logic                  | Implementación de vistas y servicios para la gestión digital de animales.                               | 28/09/2025          |
+| farmguard-frontend                | feature/vaccines     | 14a7db2    | feat: add VaccinesView and service integration       | Módulo visual y conexión con API para control sanitario y vacunas.                                      | 29/09/2025          |
+| farmguard-frontend                | feature/profile      | 2e5d3ab    | feat: add profile view and edit component            | Sección para completar y actualizar perfil de usuario.                                                  | 29/09/2025          |
+| farmguard-frontend                | feature/notifications| 64c8e13    | feat: add notifications component                    | Implementación de alertas visuales ante cambios en registros.                                           | 30/09/2025          |
+| farmguard-frontend                | feature/map          | 91b0a7e    | feat: add static map component                       | Integración de mapa estático para visualización de zonas y animales.                                    | 30/09/2025          |
+| FarmGuard-LandingPage             | main                 | c03ee42    | feat(css): improve landing page styles and responsiveness | Mejoras de diseño y adaptación responsive en la landing page.                                           | 13/09/2025          |
+| FarmGuard-LandingPage             | main                 | 241ed1e    | feat(js): update landing page logic and interactions | Ajuste de lógica y eventos interactivos en la página principal.                                        | 13/09/2025          |
+| FarmGuard-LandingPage             | main                 | 22e7558    | feat: add about us section                           | Implementación de la sección “Sobre nosotros”.                                                         | 13/09/2025          |
+| FarmGuard-LandingPage             | main                 | 2808ed0    | feat: add benefits section                           | Implementación de la sección de beneficios del producto.                                               | 13/09/2025          |
+| FarmGuard-LandingPage             | main                 | 9490767    | feat: add contact section                            | Implementación del formulario de contacto y enlaces de redes sociales.                                 | 13/09/2025          |
+| FarmGuard-LandingPage             | main                 | 3d386b1    | refactor(html): update structure and content         | Reestructuración general del HTML para mejorar la semántica.                                           | 13/09/2025          |
+| FarmGuard-LandingPage             | main                 | c8cdaec    | docs(readme): add project description and usage       | Inclusión de descripción del proyecto y guía de uso.                                                   | 13/09/2025          |
+
+
+#### 6.2.1.5 Testing Suite Evidence
+Presenta resultados de pruebas unitarias, de integración y de aceptación realizadas durante el sprint.
+
+#### 6.2.1.6 Execution Evidence
+Evidencia de la ejecución del sistema en los entornos configurados (capturas de pantalla, logs, URLs).
+<img alt="Image" src="Assets/img/ChapterV/despliege 0.5.png">
+<img alt="Image" src="Assets/img/ChapterV/despliege 1.png">
+<img alt="Image" src="Assets/img/ChapterV/despliege 2.png">
+<img alt="Image" src="Assets/img/ChapterV/despliege 3.png">
 
 
 
-El video adopta un tono cercano, claro y profesional, coherente con la identidad visual de WaruSmart. Se presenta una visión general del sistema, incluyendo su modelo de negocio, arquitectura modular (web, móvil, backend y edge), así como ejemplos reales de uso.
+#### 6.2.1.7 Services Documentation Evidence
 
-📺 **Captura del video**  
-![Screenshot del Video]()
+<img alt="Image" src="https://github.com/user-attachments/assets/2ed6dd38-dbd5-463b-896a-ef7143aa0485" />
 
-🔗 **Enlaces del video**
-- Versión publicada en **Microsoft Stream**:  
-  []()
+<img alt="Image" src="https://github.com/user-attachments/assets/5242d684-de2b-4255-8027-bff94ff6ad8b" />
 
-- Versión publicada en **YouTube** (para incrustar en el Landing Page):  
-  []()
+<img alt="Image" src="https://github.com/user-attachments/assets/bf0608cb-b28c-4a20-b521-b23220e24bb2" />
 
-⏱️ **Duración del video**: 9 minutos y 56 segundos
+#### 6.2.1.8 Software Deployment Evidence
+
+<img alt="Image" src="https://github.com/user-attachments/assets/cd161493-d2dd-4e2b-ac7c-aad05c5c9ca6" />
+
+<img alt="Image" src="https://github.com/user-attachments/assets/e64effbc-789b-4a41-832c-4277cdb13c90" />
+
+<img alt="Image" src="https://github.com/user-attachments/assets/110130fb-c116-40d2-a779-15cdb1dd02b0" />
+
+<img alt="Image" src="https://github.com/user-attachments/assets/67dd3344-5b2a-4cd0-92f8-d790df22c6bd" />
+
+<img alt="Image" src="https://github.com/user-attachments/assets/e1324a31-27d3-432f-9834-b247e02f50f5" />
+
+URL de la Landing Page desplegada: [https://ambitious-dune-0b50cbb10.1.azurestaticapps.net/auth/sign-in](https://ambitious-dune-0b50cbb10.1.azurestaticapps.net/auth/sign-in)
+
+
+#### 6.2.1.9 Team Collaboration Insights
+
+
 
 ---
 
@@ -2714,46 +3322,25 @@ El video adopta un tono cercano, claro y profesional, coherente con la identidad
 ## Conclusiones
 
 
-## Recomendaciones
+En conclucion existe una necesidad real de un sistema para salud animal; hoy los datos están dispersos (papel/Excel/software no integrado), lo que genera omisiones y errores en tratamientos y seguimiento. Esto justifica la propuesta de FarmGuard.
 
+TB1 cumplió su objetivo: se validó el problema con 5 entrevistas y se delimitó con precisión el dominio mediante Event Storming, Bounded Context Canvas y Context Map. Quedó establecido el núcleo (Animal Management e IoT Monitoring & Analysis), los contexts de soporte (IAM y Profile) y los genéricos (Subscriptions & Billing, Notifications), con sus responsabilidades, dependencias upstream/downstream y contratos de integración (sincrónicos y por eventos). Esta definición reduce el acoplamiento, aclara el lenguaje ubicuo y crea trazabilidad directa entre hallazgos y diseño.
 
-### 📸 Captura del video:
-![Captura del equipo]()
-
-### 🔗 Enlaces del video:
-
-- 📺 Versión en Microsoft Stream (entorno institucional):  
-  []()
-
-- 📺 Versión pública en YouTube (para insertar en Landing Page):  
-  []()
-
-### ⏱️ Duración total del video:
-**8 minutos con 9 segundos**
-
-# 📚 Bibliografía
+El equipo trabajó de forma coordinada (GitFlow por ramas de BC, evidencias de commits y PRs), avanzando en paralelo sin solaparse. Como resultado, el alcance del MVP quedó acotado y factible: ingestión y validación de lecturas IoT, reglas/alertas, registro clínico y notificación a usuarios, habilitados por identidad/permisos y planes de suscripción. En síntesis, TB1 entrega una base estratégica sólida y verificable para pasar a especificación e implementación con menor riesgo técnico y organizacional.
 
 
 
-# 📎 Anexos
 
-### 🎬 Videos de Exposición
-
-| Enlace                                             | Entregable                       |
-|----------------------------------------------------|----------------------------------|
-|                                                    | TB1                              |
----
-
-### 💻 Repositorios del Proyecto WaruSmart
+### Repositorios del Proyecto FarmGuard
 
 - **Landing Page**  
-  []()
+  [https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage)
 
 - **Frontend Web App**  
-  []()
+  [https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/farmguard-frontend](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/farmguard-frontend)
 
 - **Backend Web Services**  
-  []()
+  [https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage)
 
 - **Mobile Application (Android - Kotlin)**  
   []()
