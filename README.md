@@ -2680,11 +2680,93 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
 
 ### 5.1.1 General Style Guidelines
-Describe las normas generales de diseño visual aplicadas al ecosistema del proyecto, incluyendo tipografía, colores, iconografía y espaciado.
+
+La aplicacion web se adaptara a todo tipos de dispositivos tecnologicos usados por nuestros segmentos objetivos, garantizando la usabilidad se mantenga en todo momento. Esto ofrecera una experiencia de usuario satisfactoria y coherente, independientemente del dispositivo que use el usuario en ese momento.
+
+![Paginas Web Responsive](/Assets/img/ChapterIV/General%20Style%20Guidelines/responsibe.jpeg)
+
+Se utilizara un patron Z para el diseño de nuestro landing page, dado que queremos que el usuario mire primero nuestro logo para luego proceder con las opciones del navbar, donde luego vea el contenido de cada seccion y termine con el texto que contiene cada una de las secciones.
+
+![Patron Z](/Assets/img/ChapterIV/General%20Style%20Guidelines/OIP.jpeg)
+
+Para la aplicacion web pensamos usar el patron F por que queremos que el usuario vea las opciones disponibles para navegar para luego proceder con sus respectivas busquedas y usos en la aplicacion web.
+
+![Patron F](/Assets/img/ChapterIV/General%20Style%20Guidelines/lectura-contenido-página-web-patrón-3.png)
 
 ### 5.1.2 Web, Mobile and IoT Style Guidelines
-Detalla las guías específicas de estilo aplicadas a las plataformas web, móvil e IoT, considerando coherencia visual, responsividad y usabilidad en cada entorno.
 
+## Web Interface Guidelines
+
+La versión web de FarmGuard fue diseñada con un enfoque funcional, limpio y centrado en el usuario, buscando que productores agropecuarios y veterinarios puedan acceder fácilmente a la información del sistema sin requerir experiencia técnica previa.  
+El diseño se orienta hacia la claridad visual, eficiencia y rapidez de uso, garantizando que la navegación sea intuitiva en cualquier dispositivo.
+
+### Imágenes
+Se utilizan recursos visuales relacionados con la actividad ganadera y el entorno rural, como íconos de animales, corrales y sensores ambientales.  
+Estas imágenes fortalecen el propósito del sistema y mantienen una coherencia visual con la identidad de marca.  
+El logotipo de FarmGuard y la foto de perfil del usuario permanecen visibles en la barra superior, reforzando la identidad del producto en todo momento.
+
+### Botones
+Los botones siguen una estructura visual uniforme y fácilmente reconocible:
+
+- Lápiz: permite modificar información o registros.  
+- Tacho: se asocia a acciones de eliminación.  
+- Ojo: muestra detalles del elemento seleccionado.  
+- Campana: despliega alertas o recordatorios.  
+
+Cada botón usa una paleta cromática funcional (verde para confirmar, rojo para eliminar, gris para acciones neutras) que ayuda al usuario a comprender el tipo de acción sin leer texto adicional.
+
+### Ventanas emergentes (Pop-ups)
+Las confirmaciones de acciones relevantes, como registrar, actualizar o eliminar animales, se presentan en ventanas emergentes adaptativas.  
+Estas incluyen tres opciones estándar: Aceptar, Cancelar y Cerrar (X).  
+El diseño es responsivo, garantizando legibilidad tanto en pantallas amplias como en portátiles.
+
+### Patrón de lectura
+El diseño aplica el patrón F, guiando la mirada del usuario desde la parte superior —donde se encuentra el logotipo y el menú principal— hacia los módulos de datos y paneles de control.  
+Esto favorece una lectura natural y jerarquizada, permitiendo identificar rápidamente indicadores clave sobre la salud y ubicación de los animales.
+
+
+
+## Mobile Interface Guidelines
+
+La interfaz móvil de FarmGuard conserva la identidad visual y la estructura lógica del entorno web, pero está adaptada a pantallas pequeñas y condiciones de uso en campo.  
+Se priorizan la rapidez de interacción, la legibilidad y la eficiencia en zonas de baja conectividad.
+
+### Imágenes
+Las imágenes e íconos se optimizan para una carga ágil y visualización nítida bajo diferentes condiciones de iluminación.  
+Se evita la sobrecarga visual y se mantienen elementos coherentes con la identidad general del sistema.
+
+### Botones
+Los botones se amplían para mejorar la accesibilidad táctil, permitiendo una operación cómoda con una sola mano.  
+Los mismos íconos y colores que en la versión web garantizan consistencia entre plataformas.
+
+### Ventanas emergentes
+Los pop-ups móviles son más compactos y aparecen únicamente cuando se requiere confirmar una acción importante (por ejemplo, enviar un aviso veterinario o registrar una alerta sanitaria).  
+Su diseño evita cubrir contenido esencial como mapas o listados.
+
+### Navegación
+La navegación móvil se organiza mediante sidebar con secciones clave:  
+Inicio, Animales, Alertas y Perfil.  
+Las transiciones y animaciones son suaves y discretas, ofreciendo una experiencia continua y agradable.
+
+
+
+## IoT Interface Guidelines
+
+En el ecosistema de FarmGuard, los dispositivos IoT están diseñados para la recolección automática de datos ambientales y fisiológicos, como temperatura, ubicación y ritmo cardíaco de los animales.  
+Toda la interacción con el usuario se realiza a través de las plataformas web o móvil, ya que los sensores operan de manera autónoma.
+
+### Interacción física mínima
+Los sensores incluyen un único botón de encendido/apagado, lo que permite su uso en campo sin necesidad de conexión directa ni conocimientos técnicos.  
+La sincronización con la plataforma se realiza de forma automática mediante redes  Wi-Fi.
+
+### Indicadores visuales
+Cada dispositivo incorpora luces LED que comunican su estado:
+
+- Verde: funcionamiento correcto.  
+- Rojo: error o desconexión.  
+- Azul: proceso de sincronización.  
+
+Estos indicadores proporcionan una referencia visual inmediata, incluso sin acceso a la aplicación digital.
 
 
 ## 5.2 Information Architecture
