@@ -2994,20 +2994,89 @@ Presenta la versión visual final del diseño de la landing page, mostrando el u
 ## 5.4 Applications UX/UI Design
 
 ### 5.4.1 Wireframes
-Muestra los bosquejos estructurales de las vistas principales de la aplicación web, móvil e IoT.
 
-### 5.4.2 Wireflow Diagrams
-Integra diagramas de flujo visual que relacionan pantallas, interacciones y decisiones del usuario.
+A continuación se muestran todos los wireframes móviles disponibles en la carpeta `Assets/img/ChapterIV/mockups mobile`:  
+
+<p align="center">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Administrador%20de%20Animales-1.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Administrador%20de%20Animales.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Inicio.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Inicio-1.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Historial%20medico.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Historial%20medico-1.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Configuracion.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Configuracion-1.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Auth.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Auth-1.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
+</p>
+
+---
+
+### Wireframes Web
+
+A continuación se muestran todos los mock-ups de la aplicación web disponibles en la carpeta `Assets/img/ChapterIV/Web app mockups`:  
+
+<p align="center">
+  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Administrador%20de%20Animales-1.png" style="filter: grayscale(100%); width: 400px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Administrador%20de%20Animales.png" style="filter: grayscale(100%); width: 400px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Inicio.png" style="filter: grayscale(100%); width: 400px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Historial%20medico.png" style="filter: grayscale(100%); width: 400px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Historial%20medico-1.png" style="filter: grayscale(100%); width: 400px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Configuracion.png" style="filter: grayscale(100%); width: 400px; margin: 10px;">
+</p>
 
 ### 5.4.3 Mock-ups
-Exhibe las representaciones visuales finales de las interfaces de usuario, con los estilos y componentes definitivos.
+A continuación se muestran todos los mock-ups móviles disponibles en la carpeta `Assets/img/ChapterIV/mockups mobile`:
 
-### 5.4.4 User Flow Diagrams
-Describe los recorridos del usuario (User Journey) y sus interacciones dentro de los sistemas de la solución.
+![](/Assets/img/ChapterIV/mockups%20mobile/Administrador%20de%20Animales-1.png)
+
+![](/Assets/img/ChapterIV/mockups%20mobile/Administrador%20de%20Animales.png)
+
+![](/Assets/img/ChapterIV/mockups%20mobile/Inicio.png)
+
+![](/Assets/img/ChapterIV/mockups%20mobile/Inicio-1.png)
+
+![](/Assets/img/ChapterIV/mockups%20mobile/Historial%20medico.png)
+
+![](/Assets/img/ChapterIV/mockups%20mobile/Historial%20medico-1.png)
+
+![](/Assets/img/ChapterIV/mockups%20mobile/Configuracion.png)
+
+![](/Assets/img/ChapterIV/mockups%20mobile/Configuracion-1.png)
+
+![](/Assets/img/ChapterIV/mockups%20mobile/Auth.png)
+
+![](/Assets/img/ChapterIV/mockups%20mobile/Auth-1.png)
+
+
+
+
+
+
+### Mock-ups web
+A continuación se muestran todos los mock-ups de la aplicación web disponibles en la carpeta `Assets/img/ChapterIV/Web app mockups`:
+
+
+![](/Assets/img/ChapterIV/Web%20app%20mockups/Administrador%20de%20Animales-1.png)
+
+![](/Assets/img/ChapterIV/Web%20app%20mockups/Administrador%20de%20Animales.png)
+
+![](/Assets/img/ChapterIV/Web%20app%20mockups/Inicio.png)
+
+
+![](/Assets/img/ChapterIV/Web%20app%20mockups/Historial%20medico.png)
+
+![](/Assets/img/ChapterIV/Web%20app%20mockups/Historial%20medico-1.png)
+
+![](/Assets/img/ChapterIV/Web%20app%20mockups/Configuracion.png)
+
+
+
 
 
 ## 5.5 Applications Prototyping
-Presenta los prototipos funcionales interactivos de las plataformas (web, móvil, IoT), detallando el uso de herramientas como Figma, Adobe XD o similares, y su validación con usuarios.
+
+Link del prototipo [Link](https://www.figma.com/design/zXpB2YEl1J8SplFzzVShWh/Glass-playground?node-id=0-1&p=f&t=ViDR171a7MkIY2qA-0)
 
 ---
 
@@ -3564,6 +3633,8 @@ Evidencia de la ejecución del sistema en los entornos configurados (capturas de
 <img alt="Image" src="Assets/img/ChapterV/despliege 1.png">
 <img alt="Image" src="Assets/img/ChapterV/despliege 2.png">
 <img alt="Image" src="Assets/img/ChapterV/despliege 3.png">
+
+Link de pagina desplegada:[https://ambitious-dune-0b50cbb10.1.azurestaticapps.net/auth/sign-in](https://ambitious-dune-0b50cbb10.1.azurestaticapps.net/auth/sign-in)
 
 # Landing Page
 
