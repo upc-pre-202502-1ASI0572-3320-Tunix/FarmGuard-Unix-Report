@@ -2772,21 +2772,193 @@ Estos indicadores proporcionan una referencia visual inmediata, incluso sin acce
 ## 5.2 Information Architecture
 
 ### 5.2.1 Organization Systems
-Explica cómo se estructuran los contenidos, categorías y jerarquías de información para facilitar la navegación y el acceso eficiente a la data.
 
+## Landing Page
+
+Para el landing page usaremos un sistema jerarquico visual puesto que este tipo de organizacion es ideal para paginas con secciones e identificar informacion mas importante en el citio.
+
+![Imaqgen del sistema jerarquico](/Assets/img/ChapterIV/Organization%20Systems/jerarquico.jpg)
+
+## Aplicación Web (Veterinarios y Ganaderos)
+
+La aplicación web de **FarmGuard** presenta una arquitectura de navegación jerárquica con componentes secuenciales y matriciales, adaptada a los diferentes perfiles de usuario (veterinario y ganadero).  
+La estructura de la interfaz se organiza a través del menú lateral principal (sidebar), que centraliza las secciones de trabajo y mantiene la coherencia visual del sistema.
+
+
+### 1. Estructura Jerárquica
+
+La jerarquía se refleja en el **sidebar principal**, donde las secciones están organizadas de lo general a lo específico, permitiendo una navegación rápida y predecible.
+
+**Estructura del Menú:**
+
+- **Inicio:**  
+  Vista principal que muestra el resumen del estado general de los animales, alertas recientes, y accesos directos a las acciones más frecuentes.  
+
+- **Section**  
+  - **Animales:** Lista jerárquica con todos los animales registrados. Al seleccionar uno, se despliega su perfil con información detallada (edad, peso, especie, historial médico y estado actual).  
+  - **Historiales Médicos:** Muestra todos los registros clínicos asociados a cada animal. Desde aquí, el usuario puede acceder a detalles específicos de cada diagnóstico o tratamiento.
+
+- **Gestión de Comida**  
+  - **Comidas:** Presenta un listado de las comidas programadas por especie, cantidad y frecuencia. Al seleccionar una comida, se accede a los detalles del plan alimenticio y las fechas de aplicación.
+
+- **Invitar Veterinario:**  
+  Permite al ganadero invitar profesionales al sistema mediante correo electrónico o código de invitación. Esta jerarquía facilita la incorporación de nuevos usuarios dentro del mismo entorno de trabajo.
+
+- **Administración de Integrantes:**  
+  Módulo jerárquico que permite gestionar los roles y permisos de los usuarios dentro de la granja digital (veterinarios, asistentes, supervisores).
+
+- **Configuración:**  
+  Espacio para la personalización del perfil, ajustes de notificaciones, idioma y preferencias del sistema.
+
+- **Perfil de Usuario (Juan Pérez - Ganadero):**  
+  Sección inferior fija que identifica al usuario activo y brinda acceso directo a su perfil personal, sin alterar la navegación principal.
+
+
+### 2. Estructura Secuencial
+
+La aplicación utiliza flujos secuenciales en las acciones que requieren **registro o actualización de información**, guiando al usuario paso a paso.
+
+- **Agregar Animal:**  
+  Flujo guiado que solicita los datos del animal (especie, raza, edad, identificación, estado de salud).  
+  El usuario avanza progresivamente hasta completar todos los campos necesarios antes de guardar.
+
+- **Registrar Vacuna:**  
+  Proceso estructurado en etapas: selección del animal → tipo de vacuna → fecha → veterinario responsable → confirmación.  
+  Este orden asegura consistencia y evita omisiones en el registro.
+
+- **Programar Comida:**  
+  Secuencia que permite definir un plan alimenticio siguiendo pasos ordenados: tipo de alimento, dosis, frecuencia y animales asignados.
+
+
+### 3. Estructura Matricial
+
+En módulos donde se requiere **comparar o analizar información en paralelo**, se aplica una estructura matricial.
+
+- **Exploracion de Animales:**  
+  Muestra una tabla con diferentes animales y sus características (edad, especie, peso, estado de salud).  
+  Permite seleccionar múltiples registros para administrarlos.
+
+- **Control de Vacunación:**  
+  Presenta una vista tipo matriz con los animales en filas y las vacunas en columnas, mostrando visualmente el estado de cumplimiento (aplicada, pendiente o vencida).
+
+---
 ### 5.2.2 Labeling Systems
-Define la nomenclatura utilizada en menús, botones, etiquetas y categorías, garantizando consistencia semántica y claridad terminológica.
+
+A continuación se detalla el sistema de etiquetado que se aplica en las diferentes secciones del **Landing Page** y la **Aplicación Web** de FarmGuard.  
+El objetivo de este sistema es mantener una comunicación clara, coherente y fácilmente comprensible para los distintos perfiles de usuario (ganaderos y veterinarios), garantizando uniformidad en la terminología empleada dentro del sistema.
+
+#### Landing Page
+
+**Inicio / Home:**  
+Sección principal que presenta un banner con una frase representativa del propósito del sistema. Incluye un mensaje introductorio sobre los beneficios de la plataforma y un botón de acceso directo hacia la aplicación.
+
+**Beneficios / Benefits:**  
+Espacio donde se explican las ventajas específicas para cada tipo de usuario. Se muestran de forma segmentada, destacando los beneficios que obtendrán ganaderos y veterinarios al utilizar la aplicación.
+
+**Planes / Plans:**  
+Presenta los diferentes planes de suscripción disponibles, junto con una descripción breve de cada uno y su respectivo precio. Se incluyen botones de acción que facilitan la selección o contratación del plan.
+
+**Contáctanos / Contact Us:**  
+Sección que muestra los canales de comunicación oficiales del proyecto (correo electrónico, redes sociales, formulario de contacto). Permite al visitante enviar mensajes o solicitudes de información de manera directa.
+
+**Nosotros / About Us:**  
+Brinda información sobre el equipo desarrollador de FarmGuard, su rol en el proyecto y la misión general del sistema. Refuerza la transparencia y la identidad del equipo ante los usuarios.
+
+
+#### Aplicación Web (Veterinarios y Ganaderos)
+
+**Inicio / Home:**  
+Vista principal que muestra notificaciones recientes, estadísticas sobre el estado de salud del ganado y gráficos comparativos del número de animales registrados. Sirve como panel de control general del usuario.
+
+**Animales / Animals:**  
+Sección que lista todos los animales registrados en el sistema con sus respectivos datos (nombre, especie, edad, peso, estado de salud). Permite agregar nuevos registros y acceder al perfil detallado de cada animal.
+
+**Historiales Médicos / Medical Records:**  
+Módulo que centraliza la información clínica de los animales. Incluye diagnósticos, tratamientos, fechas de atención y el veterinario responsable de cada caso.
+
+**Gestión de Comida / Food Management:**  
+Permite administrar la alimentación de los animales, registrar comidas por tipo y programar planes nutricionales personalizados. Incluye opciones para editar o eliminar registros previos.
+
+**Invitar Veterinario / Invite Veterinarian:**  
+Opción que permite al ganadero invitar a profesionales veterinarios a unirse a la plataforma mediante correo electrónico o código de acceso, fortaleciendo la colaboración dentro del sistema.
+
+**Administración de Integrantes / Members Management:**  
+Sección destinada a gestionar los usuarios asociados a una granja digital. Permite asignar roles, editar permisos y visualizar la lista completa de integrantes activos.
+
+**Configuración / Settings:**  
+Espacio donde el usuario puede personalizar su experiencia en la plataforma: cambiar idioma, ajustar notificaciones, actualizar su perfil y modificar preferencias del sistema.
+
+**Perfil de Usuario / User Profile:**  
+Ubicado en la parte inferior del menú lateral, muestra la información básica del usuario (nombre, rol y foto). Permite acceder a su perfil personal sin interrumpir la navegación principal.
 
 ### 5.2.3 SEO Tags and Meta Tags
-Presenta las etiquetas meta (title, description, keywords) y estrategias SEO aplicadas para mejorar la visibilidad del proyecto en motores de búsqueda.
+
+# Metadata and ASO Configuration – FarmGuard
+
+```html
+<!-- Charset -->
+<meta charset="UTF-8">
+```
+```html
+<!-- Description -->
+<meta name="description" content="FarmGuard es una solución IoT que permite a ganaderos y veterinarios monitorear la salud, alimentación y bienestar del ganado de forma inteligente y en tiempo real."/>
+```
+
+```html
+<!-- Keywords -->
+<meta name="keywords" content="ganadería, animales, salud animal, veterinaria, IoT, monitoreo, alimentación, bienestar, tecnología agropecuaria, gestión de granjas"/>
+```
+
+```html
+<!-- Copyright and Author -->
+<meta name="author" content="Equipo Tunix" />
+<meta name="copyright" content="Copyright © 2025 Tunix - Todos los derechos reservados" />
+```
+
+```html
+<!-- Viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+## ASO (App Store Optimization)
+
+**App Title:**  
+FarmGuard Mobile
+
+**App Keywords:**  
+Ganadería, veterinaria, animales, IoT, monitoreo, salud, alimentación, bienestar animal, gestión agropecuaria, granja inteligente
+
+**App Subtitle:**  
+Supervisa la salud y el bienestar de tus animales en tiempo real.
+
+**App Description:**  
+FarmGuard Mobile es la aplicación complementaria del sistema IoT **FarmGuard**.  
+Permite a ganaderos y veterinarios supervisar en tiempo real los datos de salud, ubicación y alimentación del ganado desde su dispositivo móvil.  
+Incluye alertas instantáneas, registros veterinarios y reportes automáticos de cada animal.  
+*(Requiere dispositivo IoT FarmGuard sincronizado con la cuenta del usuario.)*
 
 ### 5.2.4 Searching Systems
-Describe los mecanismos de búsqueda implementados (filtros, autocompletado, búsqueda avanzada) para optimizar la experiencia de localización de datos.
+
+En esta seccion, se presentara el sistema de busqueda que implementaremos en la aplicacion. Para que los usuarios puedan buscar la informacion que desean.
+
+Para la busqueda de nuestra aplicacion usaremos (Patron Search Filters). Por el motivo que permite hacer busquedas por filtros sobre un respectivo contenido.
+
+![Patron](/Assets/img/ChapterIV/Navigation%20Systems/best_1366.jpg)
 
 ### 5.2.5 Navigation Systems
-Explica los sistemas de navegación horizontal, vertical y contextual aplicados en las interfaces, así como su coherencia entre plataformas.
 
+A continuacion, presentaremos el sistema de navegacion con el que contara FarmGuard que permititra al usuario navegar en el landing page y app web.
 
+## Landing Page
+En este caso usaremos un solo sistema de navegacion, siendo este Navigation Tabs puesto que permite tener una vista rapida de las opciones de la aplicacion para interactuar tanto para el landing page, como ejemplo la imagen que hay debajo siendo esta un sidebar con las diversas partes de los sistemas
+
+![navigation tabs](https://ui-patterns.com/uploads/image/file/8/best_old_3.jpg)
+
+# App Mobile y Web
+
+En este caso usaremos un solo sistema de navegacion, siendo este Horizontal Dropdown Menu.
+
+![navigation](https://ui-patterns.com/uploads/image/file/174/best_1079.jpg)
 
 ## 5.3 Landing Page UI Design
 
