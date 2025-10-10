@@ -3287,8 +3287,6 @@ Evidencia de la ejecución del sistema en los entornos configurados (capturas de
 <img alt="Image" src="Assets/img/ChapterV/despliege 2.png">
 <img alt="Image" src="Assets/img/ChapterV/despliege 3.png">
 
-
-
 #### 6.2.1.7 Services Documentation Evidence
 
 <img alt="Image" src="https://github.com/user-attachments/assets/2ed6dd38-dbd5-463b-896a-ef7143aa0485" />
@@ -3314,7 +3312,7 @@ URL de la Landing Page desplegada: [https://ambitious-dune-0b50cbb10.1.azurestat
 
 #### 6.2.1.9 Team Collaboration Insights
 
-
+<img alt="Image" src="https://github.com/user-attachments/assets/f2ce903e-d1cc-4902-8393-aaad8d408d15" />
 
 ---
 
