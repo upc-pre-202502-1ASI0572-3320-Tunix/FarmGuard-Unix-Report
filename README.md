@@ -52,6 +52,9 @@ NRC: 3320</h5>
 | 0.2    | 08/09/25 | Zarate Castro Jose Daniel       | Añadir bounded context de suscripcion                                                            |
 | 0.3     | 19/09/25 | Jara Benites Quique Vladimir        | Añadir everstorming                                                        |
 | 0.4     | 20/09/25 | Brayan Smith Morales Quispe        | Correccion de errores                                                          |
+| 1.0     | 08/10/25 | Brayan Smith Morales Quispe        | Correccion de errores                                                          |
+| 1.1     | 20/09/25 | Brayan Smith Morales Quispe        | Agregado de Capitulo 5                                                          |
+| 1.2     | 19/09/25 | Jara Benites Quique Vladimir        | Añadir Cap 6                                                        |
 
 
 
@@ -82,6 +85,25 @@ Este gráfico muestra la cantidad de commits realizados por cada integrante dura
 
 Estas evidencias reflejan una colaboración equilibrada y efectiva, con cada miembro aportando de manera significativa al avance y desarrollo de la solución.
 
+**TP**
+
+En esta primera entrega (TB1), el objetivo principal fue ...
+
+| Integrante                        |Tarea|
+| ----------------------------------|-----|
+| Zarate Castro Jose Daniel         | Desarrollo del landing Page | 
+| Brayan Smith Morales Quispe       | Capitulo 5 |
+| Oscar Nathaniel Garayar Mori      |Diseño Mobile|
+| Jara Benites Quique Vladimir      | Capitulo 6|
+| Carlos Alberto Ochoa Colonio      | Diseño web|
+
+![TP](/Assets/img/Integrantes/progreso/Captura%20de%20pantalla_20-9-2025_151510_github.com.jpeg)
+
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|--------------------------|-------------------------|------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Zárate Castro José Daniel:**<br>**TB1:** Lideré las primeras reuniones de planificación del proyecto, asignando responsabilidades y promoviendo que cada integrante comprendiera su rol dentro del desarrollo del sistema.<br>**TP:** Organicé la documentación técnica inicial, asegurando que los avances estuvieran alineados con los objetivos planteados y que las decisiones se tomaran en conjunto con el equipo.<br><br>**Brayan Smith Morales Quispe:**<br>**TB1:** Coordiné la elaboración de los artefactos de requisitos, orientando al equipo en la identificación de funcionalidades clave y priorizando aquellas que aportaban mayor valor al usuario final.<br>**TP:** Supervisé el diseño inicial del sistema y su validación con el equipo, fomentando la toma de decisiones compartida para definir el alcance técnico del proyecto.<br><br>**Oscar Nathaniel Garayar Mori:**<br>**TB1:** Apoyé la organización del equipo mediante la asignación de tareas técnicas y la estructuración del cronograma de entregas. Aseguré una comunicación fluida entre los miembros para evitar retrasos.<br>**TP:** Lideré la integración de los primeros prototipos visuales con la lógica del sistema, coordinando las pruebas en equipo para garantizar coherencia entre diseño y funcionalidad.<br><br>**Jara Benites Quique Vladimir:**<br>**TB1:** Contribuí en la elaboración del análisis del problema y la definición de objetivos, guiando al equipo en la comprensión de la necesidad principal que abordaba el proyecto.<br>**TP:** Participé en la revisión del modelo de datos y en la planificación de los sprints, garantizando una distribución equitativa de tareas y promoviendo decisiones consensuadas.<br><br>**Carlos Alberto Ochoa Colonio:**<br>**TB1:** Lideré la investigación de soluciones tecnológicas similares, aportando información clave para la toma de decisiones del equipo respecto al enfoque del sistema.<br>**TP:** Coordiné la documentación de los casos de uso, asegurando que los flujos representaran correctamente los procesos definidos por el equipo y fortaleciendo la visión técnica compartida. | **TB1:** Durante la primera etapa, los estudiantes demostraron liderazgo colaborativo al organizar las tareas, distribuir responsabilidades y mantener una comunicación constante entre los miembros. La planificación inicial permitió construir una base sólida para el proyecto y establecer una cultura de trabajo en equipo orientada a objetivos comunes.<br><br>**TP:** En la segunda fase, se consolidó un liderazgo horizontal enfocado en la coordinación y validación conjunta de los avances técnicos. La participación equitativa y el intercambio de ideas entre los integrantes fortalecieron la cohesión del grupo, promoviendo una toma de decisiones colectiva y una ejecución más eficiente de los entregables. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Zárate Castro José Daniel:**<br>**TB1:** Organicé el trabajo inicial mediante el uso de herramientas colaborativas y establecí metas claras en conjunto con el equipo, promoviendo la participación activa de todos los miembros.<br>**TP:** Planifiqué el backlog de tareas priorizando objetivos alcanzables y motivando al equipo a mantener un ritmo de trabajo constante y coordinado.<br><br>**Brayan Smith Morales Quispe:**<br>**TB1:** Fomenté un ambiente inclusivo en las sesiones de planificación, asegurando que cada integrante expresara sus ideas y contribuyera a la definición de las funcionalidades del sistema.<br>**TP:** Coordiné la organización de los entregables del sprint, monitoreando avances y resolviendo bloqueos en equipo para garantizar el cumplimiento de los objetivos.<br><br>**Oscar Nathaniel Garayar Mori:**<br>**TB1:** Promoví un entorno de colaboración constante, utilizando plataformas digitales para mantener comunicación y seguimiento del progreso de las tareas.<br>**TP:** Dirigí reuniones de revisión intermedia para asegurar que los objetivos definidos se cumplieran dentro de los plazos y con la calidad esperada.<br><br>**Jara Benites Quique Vladimir:**<br>**TB1:** Propuse dinámicas de trabajo colaborativas que facilitaron la integración de ideas entre los integrantes y la identificación de metas conjuntas.<br>**TP:** Realicé el control del cumplimiento de tareas según el cronograma establecido, garantizando un flujo de trabajo ordenado y transparente.<br><br>**Carlos Alberto Ochoa Colonio:**<br>**TB1:** Participé en la definición de los objetivos iniciales y en la estructuración del plan de trabajo, asegurando que las tareas estuvieran alineadas con la visión general del equipo.<br>**TP:** Brindé soporte en la gestión del avance del proyecto, reforzando la planificación y ayudando a cumplir los plazos establecidos en la entrega parcial. | **TB1:** En esta primera fase, el equipo consolidó un entorno de trabajo inclusivo y organizado, donde se promovió la participación activa y la planificación colectiva. Las metas fueron establecidas de forma clara y alcanzable, lo que favoreció la motivación y el compromiso de todos los integrantes.<br><br>**TP:** Durante el trabajo parcial, el grupo demostró madurez en la gestión de tareas y coordinación interna. El uso de herramientas colaborativas y la comunicación constante permitieron cumplir con los objetivos propuestos, manteniendo un ambiente de trabajo ordenado, participativo y enfocado en resultados concretos. |
 
 
 # Contenido
@@ -664,7 +686,7 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href="https://youtu.be/gqexI5g6d3I">https://youtu.be/gqexI5g6d3I</a>
+      <b>Enlace:</b> <a href="https://youtu.be/4rA6GmkG5IAI">https://youtu.be/4rA6GmkG5IA</a>
       <br>
       <b>Resumen:</b> Jennifer Espinoza, veterinaria de 25 años con cinco años de experiencia y residente en El Rímac, compartió en la entrevista los principales retos en la gestión de la salud animal en su clínica, donde actualmente se usan métodos tradicionales como Excel y fichas en papel. Señaló dificultades para detectar enfermedades en etapas tempranas, pérdidas de información crítica y problemas de productividad al manejar múltiples registros. Manifestó la necesidad de un sistema centralizado que permita reducir costos, optimizar tratamientos preventivos, contar con datos en tiempo real y recibir alertas preventivas. Considera que una plataforma IoT como la propuesta por el proyecto FarmGuard sería muy útil, ya que mejoraría la trazabilidad de medicamentos y diagnósticos, incrementaría la productividad, reduciría errores y reforzaría la confianza de los clientes en la veterinaria.
     </td>
@@ -685,7 +707,7 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href="https://youtu.be/OR5JoUFLDpA">https://youtu.be/OR5JoUFLDpA</a>
+      <b>Enlace:</b> <a href="https://youtu.be/LW4GK6DLWUY">https://youtu.be/LW4GK6DLWUY</a>
       <br>
       <b>Resumen:</b> Gonzalo Meléndez, estudiante de veterinaria de San Marcos que realiza prácticas en una clínica, explicó que actualmente la gestión de la salud animal se hace de manera tradicional, principalmente con registros en Excel y papel, lo que ocasiona pérdidas de información, duplicidad de datos y retrasos en diagnósticos. Señaló la importancia de contar con datos en tiempo real para actuar de forma preventiva y manifestó interés en optimizar tratamientos, digitalizar historiales clínicos y reducir costos. Considera que un sistema IoT como el propuesto por FarmGuard sería muy útil, ya que permitiría automatizar el monitoreo, centralizar registros, generar reportes simples y gráficos para distintos niveles de análisis, y recibir alertas preventivas. Con su implementación, espera mejoras en la eficiencia de diagnósticos, reducción de papeleo, mayor productividad y mejor gestión de la información en la clínica.
     </td>
@@ -706,7 +728,7 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href="https://youtu.be/FrPJyGnteyk">https://youtu.be/FrPJyGnteyk</a>
+      <b>Enlace:</b> <a href="https://youtu.be/18nHKZ1QWi4">https://youtu.be/18nHKZ1QWi4</a>
       <br>
       <b>Resumen:</b> Daniel Aguilar, asistente veterinario que complementa su experiencia con cursos de especialización, explicó que actualmente la gestión de la salud animal en su centro se realiza con métodos tradicionales como registros en papel y hojas de Excel, lo que genera desorden, pérdida de información y retrasos en la atención. Considera fundamental contar con datos en tiempo real, especialmente para animales hospitalizados, y resaltó la necesidad de organizar mejor la información, reducir tiempos y facilitar el seguimiento de los casos. Mostró gran interés en la propuesta de la plataforma FarmGuard, señalando que la automatización del monitoreo, los registros digitales y las alertas preventivas serían de gran ayuda para evitar errores y enfocarse más en la atención directa de los animales. Prefiere inicialmente reportes simples para facilitar la adaptación del personal, pero reconoce el valor futuro de gráficos y análisis predictivos. Con la implementación de la solución, espera una veterinaria más organizada, con mayor eficacia, menor pérdida de tiempo, mejor seguimiento a los clientes y mayor confianza de los dueños en el servicio.
     </td>
@@ -727,7 +749,7 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href="https://youtu.be/Elu1HOylrNI">https://youtu.be/Elu1HOylrNI</a>
+      <b>Enlace:</b> <a href="https://youtu.be/sYGL4oX_X6E">https://youtu.be/sYGL4oX_X6E</a>
       <br>
       <b>Resumen:</b> Paul Lugo Pérez, médico veterinario y dueño de la clínica Star Pets en El Rímac, comentó que actualmente la gestión de la salud animal en su centro se realiza de forma manual, combinando dispositivos médicos de distintos fabricantes con registros en papel o tablet, lo que genera pérdida de información, duplicidad de datos y dificultad para dar un seguimiento constante, especialmente en pacientes internados. Destacó la importancia de contar con datos en tiempo real y de centralizar la información de múltiples dispositivos en una sola plataforma, ya que la acción rápida es clave para salvar la vida de los animales. Considera que la propuesta de la plataforma FarmGuard sería de gran utilidad, sobre todo por la centralización de datos, la generación de reportes simples en tiempo real y la posibilidad de recibir alertas inmediatas sobre anomalías. Si bien no ve tan necesario el uso de alertas preventivas dentro de la clínica, reconoce su valor para pacientes monitoreados en casa. Estima que con la implementación de esta solución su veterinaria lograría mayor precisión en diagnósticos, mejor capacidad de respuesta del personal y una gestión más eficiente y confiable.
     </td>
@@ -750,7 +772,7 @@ realizar las preguntas a los diferentes segmentos objetivos
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a href="https://youtu.be/HgcujUYCcdg">https://youtu.be/HgcujUYCcdg</a>
+      <b>Enlace:</b> <a href="https://youtu.be/_BnMEeOQpSU">https://youtu.be/_BnMEeOQpSU</a>
       <br>
       <b>Resumen:</b> Juan Calisaya, de 23 años y residente en Villa María del Triunfo, apoya en la pequeña granja de sus padres y explicó que actualmente gestiona la salud animal de forma manual, usando cuadernos para registrar vacunas, medicamentos y tratamientos. Revisa diariamente a los animales observando alimentación, peso y comportamiento, aunque reconoce que su falta de experiencia y el uso de libretas generan pérdidas de información, errores y dificultades para organizar múltiples registros, lo que impacta en su productividad y puede afectar la salud de los animales. Señaló que le gustaría mejorar la organización, reducir costos y tener un mejor control de los datos sin depender de la memoria. Considera que una plataforma IoT como FarmGuard sería muy útil, sobre todo por la centralización de información, reportes simples y alertas preventivas que lo ayudarían a reaccionar a tiempo y aprender a manejar mejor la granja. Destacó también el valor de funcionalidades como monitoreo en tiempo real y localización vía GPS para animales alejados. Estima que con esta solución lograría mayor organización, menos errores en vacunas y tratamientos, ahorro de gastos y más confianza en su labor de apoyo en la granja.
     </td>
@@ -2680,31 +2702,285 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
 
 ### 5.1.1 General Style Guidelines
-Describe las normas generales de diseño visual aplicadas al ecosistema del proyecto, incluyendo tipografía, colores, iconografía y espaciado.
+
+La aplicacion web se adaptara a todo tipos de dispositivos tecnologicos usados por nuestros segmentos objetivos, garantizando la usabilidad se mantenga en todo momento. Esto ofrecera una experiencia de usuario satisfactoria y coherente, independientemente del dispositivo que use el usuario en ese momento.
+
+![Paginas Web Responsive](/Assets/img/ChapterIV/General%20Style%20Guidelines/responsibe.jpeg)
+
+Se utilizara un patron Z para el diseño de nuestro landing page, dado que queremos que el usuario mire primero nuestro logo para luego proceder con las opciones del navbar, donde luego vea el contenido de cada seccion y termine con el texto que contiene cada una de las secciones.
+
+![Patron Z](/Assets/img/ChapterIV/General%20Style%20Guidelines/OIP.jpeg)
+
+Para la aplicacion web pensamos usar el patron F por que queremos que el usuario vea las opciones disponibles para navegar para luego proceder con sus respectivas busquedas y usos en la aplicacion web.
+
+![Patron F](/Assets/img/ChapterIV/General%20Style%20Guidelines/lectura-contenido-página-web-patrón-3.png)
 
 ### 5.1.2 Web, Mobile and IoT Style Guidelines
-Detalla las guías específicas de estilo aplicadas a las plataformas web, móvil e IoT, considerando coherencia visual, responsividad y usabilidad en cada entorno.
 
+## Web Interface Guidelines
+
+La versión web de FarmGuard fue diseñada con un enfoque funcional, limpio y centrado en el usuario, buscando que productores agropecuarios y veterinarios puedan acceder fácilmente a la información del sistema sin requerir experiencia técnica previa.  
+El diseño se orienta hacia la claridad visual, eficiencia y rapidez de uso, garantizando que la navegación sea intuitiva en cualquier dispositivo.
+
+### Imágenes
+Se utilizan recursos visuales relacionados con la actividad ganadera y el entorno rural, como íconos de animales, corrales y sensores ambientales.  
+Estas imágenes fortalecen el propósito del sistema y mantienen una coherencia visual con la identidad de marca.  
+El logotipo de FarmGuard y la foto de perfil del usuario permanecen visibles en la barra superior, reforzando la identidad del producto en todo momento.
+
+### Botones
+Los botones siguen una estructura visual uniforme y fácilmente reconocible:
+
+- Lápiz: permite modificar información o registros.  
+- Tacho: se asocia a acciones de eliminación.  
+- Ojo: muestra detalles del elemento seleccionado.  
+- Campana: despliega alertas o recordatorios.  
+
+Cada botón usa una paleta cromática funcional (verde para confirmar, rojo para eliminar, gris para acciones neutras) que ayuda al usuario a comprender el tipo de acción sin leer texto adicional.
+
+### Ventanas emergentes (Pop-ups)
+Las confirmaciones de acciones relevantes, como registrar, actualizar o eliminar animales, se presentan en ventanas emergentes adaptativas.  
+Estas incluyen tres opciones estándar: Aceptar, Cancelar y Cerrar (X).  
+El diseño es responsivo, garantizando legibilidad tanto en pantallas amplias como en portátiles.
+
+### Patrón de lectura
+El diseño aplica el patrón F, guiando la mirada del usuario desde la parte superior —donde se encuentra el logotipo y el menú principal— hacia los módulos de datos y paneles de control.  
+Esto favorece una lectura natural y jerarquizada, permitiendo identificar rápidamente indicadores clave sobre la salud y ubicación de los animales.
+
+
+
+## Mobile Interface Guidelines
+
+La interfaz móvil de FarmGuard conserva la identidad visual y la estructura lógica del entorno web, pero está adaptada a pantallas pequeñas y condiciones de uso en campo.  
+Se priorizan la rapidez de interacción, la legibilidad y la eficiencia en zonas de baja conectividad.
+
+### Imágenes
+Las imágenes e íconos se optimizan para una carga ágil y visualización nítida bajo diferentes condiciones de iluminación.  
+Se evita la sobrecarga visual y se mantienen elementos coherentes con la identidad general del sistema.
+
+### Botones
+Los botones se amplían para mejorar la accesibilidad táctil, permitiendo una operación cómoda con una sola mano.  
+Los mismos íconos y colores que en la versión web garantizan consistencia entre plataformas.
+
+### Ventanas emergentes
+Los pop-ups móviles son más compactos y aparecen únicamente cuando se requiere confirmar una acción importante (por ejemplo, enviar un aviso veterinario o registrar una alerta sanitaria).  
+Su diseño evita cubrir contenido esencial como mapas o listados.
+
+### Navegación
+La navegación móvil se organiza mediante sidebar con secciones clave:  
+Inicio, Animales, Alertas y Perfil.  
+Las transiciones y animaciones son suaves y discretas, ofreciendo una experiencia continua y agradable.
+
+
+
+## IoT Interface Guidelines
+
+En el ecosistema de FarmGuard, los dispositivos IoT están diseñados para la recolección automática de datos ambientales y fisiológicos, como temperatura, ubicación y ritmo cardíaco de los animales.  
+Toda la interacción con el usuario se realiza a través de las plataformas web o móvil, ya que los sensores operan de manera autónoma.
+
+### Interacción física mínima
+Los sensores incluyen un único botón de encendido/apagado, lo que permite su uso en campo sin necesidad de conexión directa ni conocimientos técnicos.  
+La sincronización con la plataforma se realiza de forma automática mediante redes  Wi-Fi.
+
+### Indicadores visuales
+Cada dispositivo incorpora luces LED que comunican su estado:
+
+- Verde: funcionamiento correcto.  
+- Rojo: error o desconexión.  
+- Azul: proceso de sincronización.  
+
+Estos indicadores proporcionan una referencia visual inmediata, incluso sin acceso a la aplicación digital.
 
 
 ## 5.2 Information Architecture
 
 ### 5.2.1 Organization Systems
-Explica cómo se estructuran los contenidos, categorías y jerarquías de información para facilitar la navegación y el acceso eficiente a la data.
 
+## Landing Page
+
+Para el landing page usaremos un sistema jerarquico visual puesto que este tipo de organizacion es ideal para paginas con secciones e identificar informacion mas importante en el citio.
+
+![Imaqgen del sistema jerarquico](/Assets/img/ChapterIV/Organization%20Systems/jerarquico.jpg)
+
+## Aplicación Web (Veterinarios y Ganaderos)
+
+La aplicación web de **FarmGuard** presenta una arquitectura de navegación jerárquica con componentes secuenciales y matriciales, adaptada a los diferentes perfiles de usuario (veterinario y ganadero).  
+La estructura de la interfaz se organiza a través del menú lateral principal (sidebar), que centraliza las secciones de trabajo y mantiene la coherencia visual del sistema.
+
+
+### 1. Estructura Jerárquica
+
+La jerarquía se refleja en el **sidebar principal**, donde las secciones están organizadas de lo general a lo específico, permitiendo una navegación rápida y predecible.
+
+**Estructura del Menú:**
+
+- **Inicio:**  
+  Vista principal que muestra el resumen del estado general de los animales, alertas recientes, y accesos directos a las acciones más frecuentes.  
+
+- **Section**  
+  - **Animales:** Lista jerárquica con todos los animales registrados. Al seleccionar uno, se despliega su perfil con información detallada (edad, peso, especie, historial médico y estado actual).  
+  - **Historiales Médicos:** Muestra todos los registros clínicos asociados a cada animal. Desde aquí, el usuario puede acceder a detalles específicos de cada diagnóstico o tratamiento.
+
+- **Gestión de Comida**  
+  - **Comidas:** Presenta un listado de las comidas programadas por especie, cantidad y frecuencia. Al seleccionar una comida, se accede a los detalles del plan alimenticio y las fechas de aplicación.
+
+- **Invitar Veterinario:**  
+  Permite al ganadero invitar profesionales al sistema mediante correo electrónico o código de invitación. Esta jerarquía facilita la incorporación de nuevos usuarios dentro del mismo entorno de trabajo.
+
+- **Administración de Integrantes:**  
+  Módulo jerárquico que permite gestionar los roles y permisos de los usuarios dentro de la granja digital (veterinarios, asistentes, supervisores).
+
+- **Configuración:**  
+  Espacio para la personalización del perfil, ajustes de notificaciones, idioma y preferencias del sistema.
+
+- **Perfil de Usuario (Juan Pérez - Ganadero):**  
+  Sección inferior fija que identifica al usuario activo y brinda acceso directo a su perfil personal, sin alterar la navegación principal.
+
+
+### 2. Estructura Secuencial
+
+La aplicación utiliza flujos secuenciales en las acciones que requieren **registro o actualización de información**, guiando al usuario paso a paso.
+
+- **Agregar Animal:**  
+  Flujo guiado que solicita los datos del animal (especie, raza, edad, identificación, estado de salud).  
+  El usuario avanza progresivamente hasta completar todos los campos necesarios antes de guardar.
+
+- **Registrar Vacuna:**  
+  Proceso estructurado en etapas: selección del animal → tipo de vacuna → fecha → veterinario responsable → confirmación.  
+  Este orden asegura consistencia y evita omisiones en el registro.
+
+- **Programar Comida:**  
+  Secuencia que permite definir un plan alimenticio siguiendo pasos ordenados: tipo de alimento, dosis, frecuencia y animales asignados.
+
+
+### 3. Estructura Matricial
+
+En módulos donde se requiere **comparar o analizar información en paralelo**, se aplica una estructura matricial.
+
+- **Exploracion de Animales:**  
+  Muestra una tabla con diferentes animales y sus características (edad, especie, peso, estado de salud).  
+  Permite seleccionar múltiples registros para administrarlos.
+
+- **Control de Vacunación:**  
+  Presenta una vista tipo matriz con los animales en filas y las vacunas en columnas, mostrando visualmente el estado de cumplimiento (aplicada, pendiente o vencida).
+
+---
 ### 5.2.2 Labeling Systems
-Define la nomenclatura utilizada en menús, botones, etiquetas y categorías, garantizando consistencia semántica y claridad terminológica.
+
+A continuación se detalla el sistema de etiquetado que se aplica en las diferentes secciones del **Landing Page** y la **Aplicación Web** de FarmGuard.  
+El objetivo de este sistema es mantener una comunicación clara, coherente y fácilmente comprensible para los distintos perfiles de usuario (ganaderos y veterinarios), garantizando uniformidad en la terminología empleada dentro del sistema.
+
+#### Landing Page
+
+**Inicio / Home:**  
+Sección principal que presenta un banner con una frase representativa del propósito del sistema. Incluye un mensaje introductorio sobre los beneficios de la plataforma y un botón de acceso directo hacia la aplicación.
+
+**Beneficios / Benefits:**  
+Espacio donde se explican las ventajas específicas para cada tipo de usuario. Se muestran de forma segmentada, destacando los beneficios que obtendrán ganaderos y veterinarios al utilizar la aplicación.
+
+**Planes / Plans:**  
+Presenta los diferentes planes de suscripción disponibles, junto con una descripción breve de cada uno y su respectivo precio. Se incluyen botones de acción que facilitan la selección o contratación del plan.
+
+**Contáctanos / Contact Us:**  
+Sección que muestra los canales de comunicación oficiales del proyecto (correo electrónico, redes sociales, formulario de contacto). Permite al visitante enviar mensajes o solicitudes de información de manera directa.
+
+**Nosotros / About Us:**  
+Brinda información sobre el equipo desarrollador de FarmGuard, su rol en el proyecto y la misión general del sistema. Refuerza la transparencia y la identidad del equipo ante los usuarios.
+
+
+#### Aplicación Web (Veterinarios y Ganaderos)
+
+**Inicio / Home:**  
+Vista principal que muestra notificaciones recientes, estadísticas sobre el estado de salud del ganado y gráficos comparativos del número de animales registrados. Sirve como panel de control general del usuario.
+
+**Animales / Animals:**  
+Sección que lista todos los animales registrados en el sistema con sus respectivos datos (nombre, especie, edad, peso, estado de salud). Permite agregar nuevos registros y acceder al perfil detallado de cada animal.
+
+**Historiales Médicos / Medical Records:**  
+Módulo que centraliza la información clínica de los animales. Incluye diagnósticos, tratamientos, fechas de atención y el veterinario responsable de cada caso.
+
+**Gestión de Comida / Food Management:**  
+Permite administrar la alimentación de los animales, registrar comidas por tipo y programar planes nutricionales personalizados. Incluye opciones para editar o eliminar registros previos.
+
+**Invitar Veterinario / Invite Veterinarian:**  
+Opción que permite al ganadero invitar a profesionales veterinarios a unirse a la plataforma mediante correo electrónico o código de acceso, fortaleciendo la colaboración dentro del sistema.
+
+**Administración de Integrantes / Members Management:**  
+Sección destinada a gestionar los usuarios asociados a una granja digital. Permite asignar roles, editar permisos y visualizar la lista completa de integrantes activos.
+
+**Configuración / Settings:**  
+Espacio donde el usuario puede personalizar su experiencia en la plataforma: cambiar idioma, ajustar notificaciones, actualizar su perfil y modificar preferencias del sistema.
+
+**Perfil de Usuario / User Profile:**  
+Ubicado en la parte inferior del menú lateral, muestra la información básica del usuario (nombre, rol y foto). Permite acceder a su perfil personal sin interrumpir la navegación principal.
 
 ### 5.2.3 SEO Tags and Meta Tags
-Presenta las etiquetas meta (title, description, keywords) y estrategias SEO aplicadas para mejorar la visibilidad del proyecto en motores de búsqueda.
+
+# Metadata and ASO Configuration – FarmGuard
+
+```html
+<!-- Charset -->
+<meta charset="UTF-8">
+```
+```html
+<!-- Description -->
+<meta name="description" content="FarmGuard es una solución IoT que permite a ganaderos y veterinarios monitorear la salud, alimentación y bienestar del ganado de forma inteligente y en tiempo real."/>
+```
+
+```html
+<!-- Keywords -->
+<meta name="keywords" content="ganadería, animales, salud animal, veterinaria, IoT, monitoreo, alimentación, bienestar, tecnología agropecuaria, gestión de granjas"/>
+```
+
+```html
+<!-- Copyright and Author -->
+<meta name="author" content="Equipo Tunix" />
+<meta name="copyright" content="Copyright © 2025 Tunix - Todos los derechos reservados" />
+```
+
+```html
+<!-- Viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+## ASO (App Store Optimization)
+
+**App Title:**  
+FarmGuard Mobile
+
+**App Keywords:**  
+Ganadería, veterinaria, animales, IoT, monitoreo, salud, alimentación, bienestar animal, gestión agropecuaria, granja inteligente
+
+**App Subtitle:**  
+Supervisa la salud y el bienestar de tus animales en tiempo real.
+
+**App Description:**  
+FarmGuard Mobile es la aplicación complementaria del sistema IoT **FarmGuard**.  
+Permite a ganaderos y veterinarios supervisar en tiempo real los datos de salud, ubicación y alimentación del ganado desde su dispositivo móvil.  
+Incluye alertas instantáneas, registros veterinarios y reportes automáticos de cada animal.  
+*(Requiere dispositivo IoT FarmGuard sincronizado con la cuenta del usuario.)*
 
 ### 5.2.4 Searching Systems
-Describe los mecanismos de búsqueda implementados (filtros, autocompletado, búsqueda avanzada) para optimizar la experiencia de localización de datos.
+
+En esta seccion, se presentara el sistema de busqueda que implementaremos en la aplicacion. Para que los usuarios puedan buscar la informacion que desean.
+
+Para la busqueda de nuestra aplicacion usaremos (Patron Search Filters). Por el motivo que permite hacer busquedas por filtros sobre un respectivo contenido.
+
+![Patron](/Assets/img/ChapterIV/Navigation%20Systems/best_1366.jpg)
 
 ### 5.2.5 Navigation Systems
-Explica los sistemas de navegación horizontal, vertical y contextual aplicados en las interfaces, así como su coherencia entre plataformas.
 
+A continuacion, presentaremos el sistema de navegacion con el que contara FarmGuard que permititra al usuario navegar en el landing page y app web.
 
+## Landing Page
+En este caso usaremos un solo sistema de navegacion, siendo este Navigation Tabs puesto que permite tener una vista rapida de las opciones de la aplicacion para interactuar tanto para el landing page, como ejemplo la imagen que hay debajo siendo esta un sidebar con las diversas partes de los sistemas
+
+![navigation tabs](https://ui-patterns.com/uploads/image/file/8/best_old_3.jpg)
+
+# App Mobile y Web
+
+En este caso usaremos un solo sistema de navegacion, siendo este Horizontal Dropdown Menu.
+
+![navigation](https://ui-patterns.com/uploads/image/file/174/best_1079.jpg)
 
 ## 5.3 Landing Page UI Design
 
@@ -3278,16 +3554,31 @@ A continuación se presenta un resumen de los commits realizados durante el Spri
 
 
 #### 6.2.1.5 Testing Suite Evidence
-Presenta resultados de pruebas unitarias, de integración y de aceptación realizadas durante el sprint.
+
+Se realizaron las siguientes pruebas unitarias para validar las funcionalidades implementadas durante el Sprint 1.
+
+**Pruebas unitarias**
+<img alt="Image" src="https://github.com/user-attachments/assets/a3be5446-7afa-4f11-9aac-792c2040eae2" />
+
+<img alt="Image" src="https://github.com/user-attachments/assets/61a4bbc0-5289-4d74-9e4a-19dd237d0655" />
+
+<img alt="Image" src="https://github.com/user-attachments/assets/d75c488a-3537-467e-83fd-69230f50b18d" />
+
+**Resultado**
+<img alt="Image" src="https://github.com/user-attachments/assets/b14c8ebb-d470-4ffa-904d-036e17b5ba1e" />
 
 #### 6.2.1.6 Execution Evidence
+
+# Web
 Evidencia de la ejecución del sistema en los entornos configurados (capturas de pantalla, logs, URLs).
 <img alt="Image" src="Assets/img/ChapterV/despliege 0.5.png">
 <img alt="Image" src="Assets/img/ChapterV/despliege 1.png">
 <img alt="Image" src="Assets/img/ChapterV/despliege 2.png">
 <img alt="Image" src="Assets/img/ChapterV/despliege 3.png">
 
+# Landing Page
 
+Link de pagina desplegada: [https://upc-pre-202502-1asi0572-3320-tunix.github.io/FarmGuard-LandingPage/](https://upc-pre-202502-1asi0572-3320-tunix.github.io/FarmGuard-LandingPage/)
 
 #### 6.2.1.7 Services Documentation Evidence
 
@@ -3314,10 +3605,9 @@ URL de la Landing Page desplegada: [https://ambitious-dune-0b50cbb10.1.azurestat
 
 #### 6.2.1.9 Team Collaboration Insights
 
-
+<img alt="Image" src="https://github.com/user-attachments/assets/f2ce903e-d1cc-4902-8393-aaad8d408d15" />
 
 ---
-
 
 ## Conclusiones
 
