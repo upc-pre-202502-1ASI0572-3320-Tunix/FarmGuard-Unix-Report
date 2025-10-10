@@ -3276,6 +3276,18 @@ Evidencia de la ejecución del sistema en los entornos configurados (capturas de
 
 #### 6.2.1.8 Software Deployment Evidence
 
+<img alt="Image" src="https://github.com/user-attachments/assets/cd161493-d2dd-4e2b-ac7c-aad05c5c9ca6" />
+
+<img alt="Image" src="https://github.com/user-attachments/assets/e64effbc-789b-4a41-832c-4277cdb13c90" />
+
+<img alt="Image" src="https://github.com/user-attachments/assets/110130fb-c116-40d2-a779-15cdb1dd02b0" />
+
+<img alt="Image" src="https://github.com/user-attachments/assets/67dd3344-5b2a-4cd0-92f8-d790df22c6bd" />
+
+<img alt="Image" src="https://github.com/user-attachments/assets/e1324a31-27d3-432f-9834-b247e02f50f5" />
+
+URL de la Landing Page desplegada: [https://ambitious-dune-0b50cbb10.1.azurestaticapps.net/auth/sign-in](https://ambitious-dune-0b50cbb10.1.azurestaticapps.net/auth/sign-in)
+
 
 #### 6.2.1.9 Team Collaboration Insights
 
