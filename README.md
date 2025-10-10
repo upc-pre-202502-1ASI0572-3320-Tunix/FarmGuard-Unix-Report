@@ -3278,7 +3278,18 @@ A continuación se presenta un resumen de los commits realizados durante el Spri
 
 
 #### 6.2.1.5 Testing Suite Evidence
-Presenta resultados de pruebas unitarias, de integración y de aceptación realizadas durante el sprint.
+
+Se realizaron las siguientes pruebas unitarias para validar las funcionalidades implementadas durante el Sprint 1.
+
+**Pruebas unitarias**
+<img alt="Image" src="https://github.com/user-attachments/assets/a3be5446-7afa-4f11-9aac-792c2040eae2" />
+
+<img alt="Image" src="https://github.com/user-attachments/assets/61a4bbc0-5289-4d74-9e4a-19dd237d0655" />
+
+<img alt="Image" src="https://github.com/user-attachments/assets/d75c488a-3537-467e-83fd-69230f50b18d" />
+
+**Resultado**
+<img alt="Image" src="https://github.com/user-attachments/assets/b14c8ebb-d470-4ffa-904d-036e17b5ba1e" />
 
 #### 6.2.1.6 Execution Evidence
 Evidencia de la ejecución del sistema en los entornos configurados (capturas de pantalla, logs, URLs).
@@ -3315,7 +3326,6 @@ URL de la Landing Page desplegada: [https://ambitious-dune-0b50cbb10.1.azurestat
 <img alt="Image" src="https://github.com/user-attachments/assets/f2ce903e-d1cc-4902-8393-aaad8d408d15" />
 
 ---
-
 
 ## Conclusiones
 
