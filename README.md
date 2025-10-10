@@ -2656,6 +2656,29 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
 ## 5.1 Style Guidelines
 
+* __Brand Overview.-__ La necesidad del monitoreo de los animales por parte de los productores agropecuarios y veterinarios.
+
+* __Brand Name.-__ El nombre de nuestro aplicacion web es FarmGuard. La creacion de este nombre se debe al juntar palabras relacionadas con la idea de nuestra solucion, siendo estas **Farm**  (Traducido es granja) y **Guard** (Traducido es guardia ). Palabras que creemos que expresan nuestro objetivo de la aplicacion que es vigilar o monitoreo de los animales. 
+
+* __Logo.-__ Logo en diferentes tonalidades para el uso en diferentes productos de nuestra solucion.
+
+**Logo con diferentes Colores**
+![Logos colores](/Assets/img/ChapterIV/style%20guidelines/Logos%20Colores.png)
+
+**Logo Coloreado**
+![Logos coloreado](/Assets/img/ChapterIV/style%20guidelines/Logo%20Coloreado.png)
+
+* __Fonts.-__ El tipo de tipografia de letra elegido fue Roboto debido a su legibilidad, claridad, versatilidad y integracion facil gracias a Google Fonts. A continuacion se mostrara los tamaños de letras que se usara en los diferentes tipos de etiquetas que contenga texto.
+
+![fuente](/Assets/img/ChapterIV/style%20guidelines/Letras.png)
+
+* __Colores.-__ El color escogido fue el verde __#4ADE80__ debidom a que queremos expresar salud, cuidado, bienestar a nuestros usuarios que monitorean a sus animales.
+
+![Colores](/Assets/img/ChapterIV/style%20guidelines/Colores.png)
+
+* __Tonos de comunicacion.-__ El tipo de lenguaje a emplear sera serio y formal.
+
+
 ### 5.1.1 General Style Guidelines
 Describe las normas generales de diseño visual aplicadas al ecosistema del proyecto, incluyendo tipografía, colores, iconografía y espaciado.
 
