@@ -39,7 +39,7 @@ NRC: 3320</h5>
 </div>
 
 <div align="center">
-  <h5>Setiembre-2025</h5>
+  <h5>Octubre-2025</h5>
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -97,13 +97,8 @@ En esta primera entrega (TB1), el objetivo principal fue ...
 | Jara Benites Quique Vladimir      | Capitulo 6|
 | Carlos Alberto Ochoa Colonio      | Diseño web|
 
-![TP](/Assets/img/Integrantes/progreso/Captura%20de%20pantalla_20-9-2025_151510_github.com.jpeg)
+![TP](/Assets/img/Integrantes/progreso/Captura%20de%20pantalla_11-10-2025_12441_github.com.jpeg)
 
-
-| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
-|--------------------------|-------------------------|------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Zárate Castro José Daniel:**<br>**TB1:** Lideré las primeras reuniones de planificación del proyecto, asignando responsabilidades y promoviendo que cada integrante comprendiera su rol dentro del desarrollo del sistema.<br>**TP:** Organicé la documentación técnica inicial, asegurando que los avances estuvieran alineados con los objetivos planteados y que las decisiones se tomaran en conjunto con el equipo.<br><br>**Brayan Smith Morales Quispe:**<br>**TB1:** Coordiné la elaboración de los artefactos de requisitos, orientando al equipo en la identificación de funcionalidades clave y priorizando aquellas que aportaban mayor valor al usuario final.<br>**TP:** Supervisé el diseño inicial del sistema y su validación con el equipo, fomentando la toma de decisiones compartida para definir el alcance técnico del proyecto.<br><br>**Oscar Nathaniel Garayar Mori:**<br>**TB1:** Apoyé la organización del equipo mediante la asignación de tareas técnicas y la estructuración del cronograma de entregas. Aseguré una comunicación fluida entre los miembros para evitar retrasos.<br>**TP:** Lideré la integración de los primeros prototipos visuales con la lógica del sistema, coordinando las pruebas en equipo para garantizar coherencia entre diseño y funcionalidad.<br><br>**Jara Benites Quique Vladimir:**<br>**TB1:** Contribuí en la elaboración del análisis del problema y la definición de objetivos, guiando al equipo en la comprensión de la necesidad principal que abordaba el proyecto.<br>**TP:** Participé en la revisión del modelo de datos y en la planificación de los sprints, garantizando una distribución equitativa de tareas y promoviendo decisiones consensuadas.<br><br>**Carlos Alberto Ochoa Colonio:**<br>**TB1:** Lideré la investigación de soluciones tecnológicas similares, aportando información clave para la toma de decisiones del equipo respecto al enfoque del sistema.<br>**TP:** Coordiné la documentación de los casos de uso, asegurando que los flujos representaran correctamente los procesos definidos por el equipo y fortaleciendo la visión técnica compartida. | **TB1:** Durante la primera etapa, los estudiantes demostraron liderazgo colaborativo al organizar las tareas, distribuir responsabilidades y mantener una comunicación constante entre los miembros. La planificación inicial permitió construir una base sólida para el proyecto y establecer una cultura de trabajo en equipo orientada a objetivos comunes.<br><br>**TP:** En la segunda fase, se consolidó un liderazgo horizontal enfocado en la coordinación y validación conjunta de los avances técnicos. La participación equitativa y el intercambio de ideas entre los integrantes fortalecieron la cohesión del grupo, promoviendo una toma de decisiones colectiva y una ejecución más eficiente de los entregables. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Zárate Castro José Daniel:**<br>**TB1:** Organicé el trabajo inicial mediante el uso de herramientas colaborativas y establecí metas claras en conjunto con el equipo, promoviendo la participación activa de todos los miembros.<br>**TP:** Planifiqué el backlog de tareas priorizando objetivos alcanzables y motivando al equipo a mantener un ritmo de trabajo constante y coordinado.<br><br>**Brayan Smith Morales Quispe:**<br>**TB1:** Fomenté un ambiente inclusivo en las sesiones de planificación, asegurando que cada integrante expresara sus ideas y contribuyera a la definición de las funcionalidades del sistema.<br>**TP:** Coordiné la organización de los entregables del sprint, monitoreando avances y resolviendo bloqueos en equipo para garantizar el cumplimiento de los objetivos.<br><br>**Oscar Nathaniel Garayar Mori:**<br>**TB1:** Promoví un entorno de colaboración constante, utilizando plataformas digitales para mantener comunicación y seguimiento del progreso de las tareas.<br>**TP:** Dirigí reuniones de revisión intermedia para asegurar que los objetivos definidos se cumplieran dentro de los plazos y con la calidad esperada.<br><br>**Jara Benites Quique Vladimir:**<br>**TB1:** Propuse dinámicas de trabajo colaborativas que facilitaron la integración de ideas entre los integrantes y la identificación de metas conjuntas.<br>**TP:** Realicé el control del cumplimiento de tareas según el cronograma establecido, garantizando un flujo de trabajo ordenado y transparente.<br><br>**Carlos Alberto Ochoa Colonio:**<br>**TB1:** Participé en la definición de los objetivos iniciales y en la estructuración del plan de trabajo, asegurando que las tareas estuvieran alineadas con la visión general del equipo.<br>**TP:** Brindé soporte en la gestión del avance del proyecto, reforzando la planificación y ayudando a cumplir los plazos establecidos en la entrega parcial. | **TB1:** En esta primera fase, el equipo consolidó un entorno de trabajo inclusivo y organizado, donde se promovió la participación activa y la planificación colectiva. Las metas fueron establecidas de forma clara y alcanzable, lo que favoreció la motivación y el compromiso de todos los integrantes.<br><br>**TP:** Durante el trabajo parcial, el grupo demostró madurez en la gestión de tareas y coordinación interna. El uso de herramientas colaborativas y la comunicación constante permitieron cumplir con los objetivos propuestos, manteniendo un ambiente de trabajo ordenado, participativo y enfocado en resultados concretos. |
 
 
 # Contenido
@@ -248,54 +243,12 @@ En esta primera entrega (TB1), el objetivo principal fue ...
 
 # Student Outcome 
 
-<table>
-  <thead>
-    <tr>
-        <th>Criterio especifico</th>
-        <th>Acciones realizadas</th>
-        <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-      <td><strong>Trabaja en equipo para 
-      proporcionar liderazgo en 
-      forma conjunta</strong></td>
-      <td>
-      <h6><strong>Brayan Smith Morales Quispe</strong></h6>
-      TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>
-      <h6>Jose Daniel Zarate Castro</h6>
-      TB1:<p>      Apoyé a mi equipo colaborando en las tareas y dando mi ayuda cuando fue necesario para que avanzáramos juntos en los objetivos.</p>
-      <h6><strong>Quique Vladimir Jara Benites</strong></h6>
-      TB1:<p>Coordiné la distribución de tareas entre los miembros del equipo, promoví la participación activa y resolví dudas técnicas para asegurar el avance conjunto hacia los objetivos del proyecto.</p>
-      <h6><strong>Oscar Nathaniel Garayar Mori</strong></h6>
-      TB1:<p>Ejercí liderazgo compartido coordinando con mis compañeros la ejecución de las tareas, resolviendo dudas técnicas cuando fue necesario y motivando al equipo para mantener el ritmo de trabajo. Participé activamente en la toma de decisiones y aseguré que todos los integrantes pudieran aportar al cumplimiento de los objetivos del proyecto</p>
-      <td>
-      TB1: El equipo mostró liderazgo compartido al dividir BCs, resolver dudas técnicas y sostener el ritmo de trabajo; las decisiones se tomaron de forma coordinada y con responsabilidad distribuida. <p>
-      </td>
-  </tr>
-   <tr>
-      <td><strong>Crea un entorno colaborativo e 
-      inclusivo, establece metas, planifica tareas 
-      y cumple objetivos </strong></td>
-      <td>
-      <h6>Brayan Smith Morales Quispe</h6>
-      TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>
-      <h6>Jose Daniel Zarate Castro</h6>
-      TB1:<p>Colaboré con mis compañeros creando un buen ambiente de trabajo, ayudando a entender el tema, organizando las tareas y apoyando para que logremos las metas propuestas.</p>
-      <h6>Quique Vladimir Jara Benites</h6>
-      TB1:<p>Fomenté un ambiente colaborativo e inclusivo, ayudando a definir metas claras y participando en la planificación de tareas. Contribuí activamente al cumplimiento de los objetivos del equipo, asegurando que todos los miembros pudieran aportar y avanzar juntos. </p>
-      <h6><strong>Oscar Nathaniel Garayar Mori</strong></h6>
-      TB1:<p>Apoyé en la definición de metas claras junto con el equipo, proponiendo una planificación realista de las tareas. Contribuí a organizar las actividades de manera que cada miembro tuviera claridad en sus responsabilidades y el tiempo necesario para cumplirlas, fomentando un ambiente inclusivo y colaborativo</p>
-      </td>
-      </td>
-      <td>
-      TB1:Se establecieron metas y planificación básica; aunque el tiempo de reuniones fue limitado, se mantuvo un entorno inclusivo y se cumplieron entregables del TB1 con contribución de todos.</p> 
-      </td>
-  </tr>
 
-  </tbody>
-</table>
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|--------------------------|-------------------------|------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Zárate Castro José Daniel:**<br>**TB1:** Lideré las primeras reuniones de planificación del proyecto, asignando responsabilidades y promoviendo que cada integrante comprendiera su rol dentro del desarrollo del sistema.<br>**TP:** Organicé la documentación técnica inicial, asegurando que los avances estuvieran alineados con los objetivos planteados y que las decisiones se tomaran en conjunto con el equipo.<br><br>**Brayan Smith Morales Quispe:**<br>**TB1:** Coordiné la elaboración de los artefactos de requisitos, orientando al equipo en la identificación de funcionalidades clave y priorizando aquellas que aportaban mayor valor al usuario final.<br>**TP:** Supervisé el diseño inicial del sistema y su validación con el equipo, fomentando la toma de decisiones compartida para definir el alcance técnico del proyecto.<br><br>**Oscar Nathaniel Garayar Mori:**<br>**TB1:** Apoyé la organización del equipo mediante la asignación de tareas técnicas y la estructuración del cronograma de entregas. Aseguré una comunicación fluida entre los miembros para evitar retrasos.<br>**TP:** Lideré la integración de los primeros prototipos visuales con la lógica del sistema, coordinando las pruebas en equipo para garantizar coherencia entre diseño y funcionalidad.<br><br>**Jara Benites Quique Vladimir:**<br>**TB1:** Contribuí en la elaboración del análisis del problema y la definición de objetivos, guiando al equipo en la comprensión de la necesidad principal que abordaba el proyecto.<br>**TP:** Participé en la revisión del modelo de datos y en la planificación de los sprints, garantizando una distribución equitativa de tareas y promoviendo decisiones consensuadas.<br><br>**Carlos Alberto Ochoa Colonio:**<br>**TB1:** Lideré la investigación de soluciones tecnológicas similares, aportando información clave para la toma de decisiones del equipo respecto al enfoque del sistema.<br>**TP:** Coordiné la documentación de los casos de uso, asegurando que los flujos representaran correctamente los procesos definidos por el equipo y fortaleciendo la visión técnica compartida. | **TB1:** Durante la primera etapa, los estudiantes demostraron liderazgo colaborativo al organizar las tareas, distribuir responsabilidades y mantener una comunicación constante entre los miembros. La planificación inicial permitió construir una base sólida para el proyecto y establecer una cultura de trabajo en equipo orientada a objetivos comunes.<br><br>**TP:** En la segunda fase, se consolidó un liderazgo horizontal enfocado en la coordinación y validación conjunta de los avances técnicos. La participación equitativa y el intercambio de ideas entre los integrantes fortalecieron la cohesión del grupo, promoviendo una toma de decisiones colectiva y una ejecución más eficiente de los entregables. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Zárate Castro José Daniel:**<br>**TB1:** Organicé el trabajo inicial mediante el uso de herramientas colaborativas y establecí metas claras en conjunto con el equipo, promoviendo la participación activa de todos los miembros.<br>**TP:** Planifiqué el backlog de tareas priorizando objetivos alcanzables y motivando al equipo a mantener un ritmo de trabajo constante y coordinado.<br><br>**Brayan Smith Morales Quispe:**<br>**TB1:** Fomenté un ambiente inclusivo en las sesiones de planificación, asegurando que cada integrante expresara sus ideas y contribuyera a la definición de las funcionalidades del sistema.<br>**TP:** Coordiné la organización de los entregables del sprint, monitoreando avances y resolviendo bloqueos en equipo para garantizar el cumplimiento de los objetivos.<br><br>**Oscar Nathaniel Garayar Mori:**<br>**TB1:** Promoví un entorno de colaboración constante, utilizando plataformas digitales para mantener comunicación y seguimiento del progreso de las tareas.<br>**TP:** Dirigí reuniones de revisión intermedia para asegurar que los objetivos definidos se cumplieran dentro de los plazos y con la calidad esperada.<br><br>**Jara Benites Quique Vladimir:**<br>**TB1:** Propuse dinámicas de trabajo colaborativas que facilitaron la integración de ideas entre los integrantes y la identificación de metas conjuntas.<br>**TP:** Realicé el control del cumplimiento de tareas según el cronograma establecido, garantizando un flujo de trabajo ordenado y transparente.<br><br>**Carlos Alberto Ochoa Colonio:**<br>**TB1:** Participé en la definición de los objetivos iniciales y en la estructuración del plan de trabajo, asegurando que las tareas estuvieran alineadas con la visión general del equipo.<br>**TP:** Brindé soporte en la gestión del avance del proyecto, reforzando la planificación y ayudando a cumplir los plazos establecidos en la entrega parcial. | **TB1:** En esta primera fase, el equipo consolidó un entorno de trabajo inclusivo y organizado, donde se promovió la participación activa y la planificación colectiva. Las metas fueron establecidas de forma clara y alcanzable, lo que favoreció la motivación y el compromiso de todos los integrantes.<br><br>**TP:** Durante el trabajo parcial, el grupo demostró madurez en la gestión de tareas y coordinación interna. El uso de herramientas colaborativas y la comunicación constante permitieron cumplir con los objetivos propuestos, manteniendo un ambiente de trabajo ordenado, participativo y enfocado en resultados concretos. |
+
 
 
 
@@ -796,6 +749,27 @@ entrevista 3 Link: https://drive.google.com/file/d/1eYbbus1opsrqHmcKDbPyuulvNm6N
 Evidencia de la entrevista:
 
 Resumen de la entrevista: Olga es una criadora de cuys y gallinas en la provincia de huancayo, ella tiene problemas con el monitoreo y control de sus animales puesto que usa un sistema de registro a papel con llevando perdida de informacion importante ademas considera que al haber una tecnologia en mercado que le ayudara con su trabajo haria uso de esta misma.
+
+
+Entrevista 3:
+
+Nombres: Joaquin
+
+Apellidos: Fernandez
+
+Edad: 20
+
+Lugar de residencia: Chorrillos
+
+Evidencia de la entrevista:
+
+![Entrevita 3](/Assets/img/ChapterIV/entrevista1.png)
+
+
+[Entrevista a Joaquin Fernandez - Estudiante de Veterinaria](https://drive.google.com/file/d/1RbRsImuD0NQTC3V6GTRcPB1UlGM2D4Qm/view?usp=sharing)
+
+Resumen de la entrevista: Como cuidador en una granja con animales que se encontraba en la sierra, el entrevistado utilizaba Excel para administrar las distintas categorías del análisis de los animales que cuidaba. Considera que la tecnología actual tiene un gran potencial pero no está siendo aprovechada, por lo que sugiere que se pueden crear aplicaciones que permita rastrear actividad, monitoreo constante, un collar sensorial, entre otros. Todas las sugerencias dadas por el entrevistado se dan debido a que en una anterior oportunidad ha cometido errores debido a las limitadas herramientas a las que tiene acceso a pesar de tener al alcance dispositivos tecnológicos modernos, por lo que busca una aplicación que aproveche todo el potencial de la tecnología actual.
+
 
 ### 2.2.3 Análisis de entrevistas  
 
@@ -2985,45 +2959,114 @@ En este caso usaremos un solo sistema de navegacion, siendo este Horizontal Drop
 ## 5.3 Landing Page UI Design
 
 ### 5.3.1 Wireframe
-Incluye los esquemas estructurales iniciales de la página de inicio, destacando la jerarquía visual, disposición de bloques y zonas interactivas.
+
+En esta seccion se mostrara los diferrentes wireframes desarrollados en software de figma para el landing page.
+
+![Inicio](/Assets/img/ChapterIV/Wireframes%20LP/W-Inicio.png)
+
+![Inicio](/Assets/img/ChapterIV/Wireframes%20LP/W-Beneficios.png)
+
+![Inicio](/Assets/img/ChapterIV/Wireframes%20LP/W-Planes.png)
+
+![Inicio](/Assets/img/ChapterIV/Wireframes%20LP/W-Nosotros.png)
+
+![Inicio](/Assets/img/ChapterIV/Wireframes%20LP/W-Contactanos.png)
+
+![Inicio](/Assets/img/ChapterIV/Wireframes%20LP/W-Footer.png)
 
 ### 5.3.2 Mock-up
-Presenta la versión visual final del diseño de la landing page, mostrando el uso de color, tipografía y componentes de interfaz definidos en las guías de estilo.
+
+En esta seccion mostraremos los mockups realizados para el landing page con los respectivos estilos establecidos en los puntos anteriores.
+
+![Inicio](/Assets/img/ChapterIV/Landing%20Page%20Mockup/Inicio.png)
+
+En este mockup del inicio del landing page se aprecia el inicio de aplicativo con una frase haciendo referencia al negocio asi como las imagenes respectivas. Ademas de un boton de accion que permitira al usuario redirigirlo a la aplicacion web.
+
+![Inicio](/Assets/img/ChapterIV/Landing%20Page%20Mockup/Beneficios.png)
+
+En este mockup de los beneficios mostrara los beneficios al usar el aplicativos con imagenes dentro de cards que tendran animaciones haciendo mas agradable la interaccion del usuario.
+
+![Inicio](/Assets/img/ChapterIV/Landing%20Page%20Mockup/Planes.png)
+
+En este mockup de los planes se muestra cards con los diferentes planes que tendra la aplicacion web.
+
+![Inicio](/Assets/img/ChapterIV/Landing%20Page%20Mockup/Nosotros.png)
+
+En esta seccion mostraremos al equipo detras del desarrollo del aplicativo web.
+
+![Inicio](/Assets/img/ChapterIV/Landing%20Page%20Mockup/Contactanos.png)
+
+En este mockup mostraremos un formulario para poder contactar con el equipo de desarrollo de FarmGuard.
+
+![Inicio](/Assets/img/ChapterIV/Landing%20Page%20Mockup/Footer.png)
+
+En este mockup se puede ver el footer donde tendra una pequeña descripcion con nuestras respectivas redes.
+
+Enlace a la mockup de la Landing Page en Figma: [https://www.figma.com/design/DUUA7IzOUkyUtHMm9hOo5Z/Untitled?node-id=0-1&t=nZEpVk0KewGNnMTo-1](https://www.figma.com/design/DUUA7IzOUkyUtHMm9hOo5Z/Untitled?node-id=0-1&t=nZEpVk0KewGNnMTo-1)
+
 
 
 ## 5.4 Applications UX/UI Design
 
 ### 5.4.1 Wireframes
 
-A continuación se muestran todos los wireframes móviles disponibles en la carpeta `Assets/img/ChapterIV/mockups mobile`:  
+A continuación se muestran todos los wireframes móviles disponibles.
 
 <p align="center">
-  <img src="./Assets/img/ChapterIV/mockups%20mobile/Administrador%20de%20Animales-1.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
-  <img src="./Assets/img/ChapterIV/mockups%20mobile/Administrador%20de%20Animales.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
-  <img src="./Assets/img/ChapterIV/mockups%20mobile/Inicio.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
-  <img src="./Assets/img/ChapterIV/mockups%20mobile/Inicio-1.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
-  <img src="./Assets/img/ChapterIV/mockups%20mobile/Historial%20medico.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
-  <img src="./Assets/img/ChapterIV/mockups%20mobile/Historial%20medico-1.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
-  <img src="./Assets/img/ChapterIV/mockups%20mobile/Configuracion.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
-  <img src="./Assets/img/ChapterIV/mockups%20mobile/Configuracion-1.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
-  <img src="./Assets/img/ChapterIV/mockups%20mobile/Auth.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
-  <img src="./Assets/img/ChapterIV/mockups%20mobile/Auth-1.png" style="filter: grayscale(100%); width: 300px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Administrador%20de%20Animales-1.png" style="filter: grayscale(100%);">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Administrador%20de%20Animales.png" style="filter: grayscale(100%);">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Inicio.png" style="filter: grayscale(100%); ">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Inicio-1.png" style="filter: grayscale(100%); ">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Historial%20medico.png" style="filter: grayscale(100%);">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Historial%20medico-1.png" style="filter: grayscale(100%);">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Configuracion.png" style="filter: grayscale(100%); ">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Configuracion-1.png" style="filter: grayscale(100%); ">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Auth.png" style="filter: grayscale(100%); ">
+  <img src="./Assets/img/ChapterIV/mockups%20mobile/Auth-1.png" style="filter: grayscale(100%);">
 </p>
 
 ---
 
 ### Wireframes Web
 
-A continuación se muestran todos los mock-ups de la aplicación web disponibles en la carpeta `Assets/img/ChapterIV/Web app mockups`:  
+A continuación se muestran todos los mock-ups de la aplicación web disponibles. 
 
 <p align="center">
-  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Administrador%20de%20Animales-1.png" style="filter: grayscale(100%); width: 400px; margin: 10px;">
-  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Administrador%20de%20Animales.png" style="filter: grayscale(100%); width: 400px; margin: 10px;">
-  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Inicio.png" style="filter: grayscale(100%); width: 400px; margin: 10px;">
-  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Historial%20medico.png" style="filter: grayscale(100%); width: 400px; margin: 10px;">
-  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Historial%20medico-1.png" style="filter: grayscale(100%); width: 400px; margin: 10px;">
-  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Configuracion.png" style="filter: grayscale(100%); width: 400px; margin: 10px;">
+  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Administrador%20de%20Animales-1.png" style="filter: grayscale(100%); ">
+  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Administrador%20de%20Animales.png" style="filter: grayscale(100%); ">
+  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Inicio.png" style="filter: grayscale(100%); ">
+  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Historial%20medico.png" style="filter: grayscale(100%); ">
+  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Historial%20medico-1.png" style="filter: grayscale(100%); ">
+  <img src="./Assets/img/ChapterIV/Web%20app%20mockups/Configuracion.png" style="filter: grayscale(100%); ">
 </p>
+
+### 5.4.2 Wireflow Diagrams
+
+#### Wireflow Diagrams Web
+
+Wireflow Diagrams Web retratando el recorrido de administrar un animal y su salud.
+
+![](/Assets/img/ChapterIV/Wireflow%20Diagrams/Screenshot%202025-10-11%20010649.png)
+
+### Wireflow Diagrams Mobile
+
+Wireflow Diagrams Web retratando el recorrido de nuestra aplicacion web.
+
+![](/Assets/img/ChapterIV/Wireflow%20Diagrams/InicioSesión-PaginaInicio.png)
+
+![](/Assets/img/ChapterIV/Wireflow%20Diagrams/InicioSesión-CrearCuenta.png)
+
+![](/Assets/img/ChapterIV/Wireflow%20Diagrams/AdministraciónAni-NuevoAnimal.png)
+
+![](/Assets/img/ChapterIV/Wireflow%20Diagrams/AdministraciónAni-Info.png)
+
+![](/Assets/img/ChapterIV/Wireflow%20Diagrams/Config.png)
+
+![](/Assets/img/ChapterIV/Wireflow%20Diagrams/HistorialMedico-editar.png)
+
+![](/Assets/img/ChapterIV/Wireflow%20Diagrams/HistorialMedico-nuevo.png)
+
+
 
 ### 5.4.3 Mock-ups
 A continuación se muestran todos los mock-ups móviles disponibles en la carpeta `Assets/img/ChapterIV/mockups mobile`:
@@ -3076,9 +3119,17 @@ A continuación se muestran todos los mock-ups de la aplicación web disponibles
 
 ## 5.5 Applications Prototyping
 
-Link del prototipo [Link](https://www.figma.com/design/zXpB2YEl1J8SplFzzVShWh/Glass-playground?node-id=0-1&p=f&t=ViDR171a7MkIY2qA-0)
+# Web
 
----
+![Prototipo Web](/Assets/img/ChapterIV/Prototyping/Captura%20de%20pantalla_11-10-2025_0353_www.figma.com.jpeg)
+Link de nuestro prototipo para la version Web: [https://www.figma.com/proto/DUUA7IzOUkyUtHMm9hOo5Z/IoT---UX-UI-Design?node-id=2116-3849&t=FqQ3N8BwZlkzLvJD-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2116%3A520](https://www.figma.com/proto/DUUA7IzOUkyUtHMm9hOo5Z/IoT---UX-UI-Design?node-id=2116-3849&t=FqQ3N8BwZlkzLvJD-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2116%3A520)
+
+# Mobile
+
+![Prototipo Mobile](/Assets/img/ChapterIV/Prototyping/screenshot-1760161449270.png)
+
+Link de nuestro prototipo para la version Mobile: [https://www.figma.com/proto/DUUA7IzOUkyUtHMm9hOo5Z/IoT---UX-UI-Design?node-id=2217-5&p=f&t=nZud13jamSkNImvE-1&scaling=scale-down&content-scaling=fixed&page-id=2150%3A4&starting-point-node-id=2217%3A3](https://www.figma.com/proto/DUUA7IzOUkyUtHMm9hOo5Z/IoT---UX-UI-Design?node-id=2217-5&p=f&t=nZud13jamSkNImvE-1&scaling=scale-down&content-scaling=fixed&page-id=2150%3A4&starting-point-node-id=2217%3A3)
+
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
@@ -3645,7 +3696,6 @@ Evidencia de la ejecución del sistema en los entornos configurados (capturas de
 <img alt="Image" src="Assets/img/ChapterV/despliege 2.png">
 <img alt="Image" src="Assets/img/ChapterV/despliege 3.png">
 
-Link de pagina desplegada:[https://ambitious-dune-0b50cbb10.1.azurestaticapps.net/auth/sign-in](https://ambitious-dune-0b50cbb10.1.azurestaticapps.net/auth/sign-in)
 
 # Landing Page
 
@@ -3688,6 +3738,8 @@ En conclucion existe una necesidad real de un sistema para salud animal; hoy los
 TB1 cumplió su objetivo: se validó el problema con 5 entrevistas y se delimitó con precisión el dominio mediante Event Storming, Bounded Context Canvas y Context Map. Quedó establecido el núcleo (Animal Management e IoT Monitoring & Analysis), los contexts de soporte (IAM y Profile) y los genéricos (Subscriptions & Billing, Notifications), con sus responsabilidades, dependencias upstream/downstream y contratos de integración (sincrónicos y por eventos). Esta definición reduce el acoplamiento, aclara el lenguaje ubicuo y crea trazabilidad directa entre hallazgos y diseño.
 
 El equipo trabajó de forma coordinada (GitFlow por ramas de BC, evidencias de commits y PRs), avanzando en paralelo sin solaparse. Como resultado, el alcance del MVP quedó acotado y factible: ingestión y validación de lecturas IoT, reglas/alertas, registro clínico y notificación a usuarios, habilitados por identidad/permisos y planes de suscripción. En síntesis, TB1 entrega una base estratégica sólida y verificable para pasar a especificación e implementación con menor riesgo técnico y organizacional.
+
+TP1 cumplio su objetivo: El desarrollo de los capítulos V y VI permitió consolidar una visión integral del proceso de diseño, implementación y validación del sistema FarmGuard, asegurando la coherencia entre la experiencia de usuario, la arquitectura técnica y los mecanismos de despliegue. En el ámbito del diseño, se alcanzó una interfaz centrada en la usabilidad y la accesibilidad, sustentada en lineamientos estéticos uniformes y en una arquitectura de información que facilita la interacción entre los distintos perfiles de usuario. Este enfoque no solo optimizó la navegabilidad de la plataforma, sino que también integró la visualización de datos provenientes de la capa IoT, generando una experiencia fluida entre el entorno digital y los dispositivos de monitoreo.
 
 
 
