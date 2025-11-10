@@ -1,45 +1,51 @@
-<div align="center">
+<div style="text-align: center">
 
-# FarmGuard-Tunix-Report 
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="150" height="150" alt="Logo UPC">
 
-  <h3>Universidad Peruana de Ciencias Aplicadas</h3>
+<h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="150" height="150">
+<h4>Ingeniería de Software</h4>
 
-<h5>Ingeniería de Software - 7mo ciclo</h5>
-  <h5>Desarrollo de Soluciones IOT - 1ASI0572</h5>
-  <h5>
-NRC: 3320</h5>
-  <h5>Docente: Marco Antonio Leon Baca</h5>
-  <h5>"Informe de Trabajo Final" <h5>
-  <h5>Startup: Tunix</h5>
-  <h5>Producto: FarmGuard</h5>
+<h5>2025-20</h5>
+
+<h5>1ASI0572 - Desarrollo de Soluciones IOT</h5>
+
+<h5>NRC: 3320</h5>
+
+<h5>Profesor: Marco Antonio Leon Baca</h5>
+
+<h5>"Informe de Trabajo Final"<h5>
+
+<h5>Startup: Tunix</h5>
+
+<h5>Producto: FarmGuard</h5>
+
 </div>
 
 ## Team Members 
 
-<div align="center">
+<div>
 
 <table>
   <thead>
     <tr>
-      <th>Nombre</th>
       <th>Código</th>
+      <th>Apellidos y Nombres</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Zarate Castro Jose Daniel</td><td>u202019128</td></tr>
-    <tr><td>Morales Quispe Brayan Smith</td><td>u20211f984</td></tr>
-    <tr><td>Garayar Mori Oscar Nathaniel</td><td>u202014115</td></tr>
-    <tr><td>Jara Benites Quique Vladimir</td><td>u202022365</td></tr>
-    <tr><td>Ochoa Colonio Carlos Alberto</td><td>u202315945</td></tr>
+    <tr><td>u202019128</td><td>Zarate Castro Jose Daniel</td></tr>
+    <tr><td>u20211f984</td><td>Morales Quispe Brayan Smith</td></tr>
+    <tr><td>u202014115</td><td>Garayar Mori Oscar Nathaniel</td></tr>
+    <tr><td>u202022365</td><td>Jara Benites Quique Vladimir</td></tr>
+    <tr><td>u202315945</td><td>Ochoa Colonio Carlos Alberto</td></tr>
   </tbody>
 </table>
 
 </div>
 
-<div align="center">
-  <h5>Setiembre-2025</h5>
+<div style="text-align: center">
+  <h5>Noviembre, 2025</h5>
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -78,8 +84,6 @@ En esta primera entrega (TB1), el objetivo principal fue ...
 | Carlos Alberto Ochoa Colonio      | Entrevistas y validación de dominio|
 
 ![TB1](/Assets/img/Integrantes/progreso/Captura%20de%20pantalla_20-9-2025_151510_github.com.jpeg)
-
-
 
 Este gráfico muestra la cantidad de commits realizados por cada integrante durante el desarrollo del TB1 Tunix.
 
@@ -336,31 +340,31 @@ FarmGuard se posiciona como una solución integral, accesible y centrada en el u
 
 ### 1.1.2 Perfiles de integrantes del equipo
 
-<table border="1" cellspacing="0" cellpadding="8">
+<table style="border-collapse: collapse; border: 1px solid #ddd;">
   <tr>
     <th colspan="2">Perfiles de integrantes del equipo</th>
   </tr>
   <tr>
     <td>
       <strong>Carlos Alberto Ochoa Colonio</strong><br>
-      Soy un estudiante y actualmente me encuentro en el octavo ciclo de la carrera de ingeniería de software.
+      Soy un estudiante y actualmente me encuentro en el noveno ciclo de la carrera de ingeniería de software.
     </td>
-    <td align="center">
-      <img src="assets/student/Carlos_Ochoa.jpg" alt="Carlos" style="max-height: 250px;">
+    <td>
+      <img src="Assets/img/Integrantes/Carlos.jpg" alt="Carlos" style="max-height: 250px;">
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Zarate Castro Jose Daniel</strong></br>
-        Estudiante de Ingeniería de Software (9no ciclo) con experiencia en análisis de datos y automatizaciónes.
+      <strong>Zarate Castro Jose Daniel</strong><br>
+        Estudiante de Ingeniería de Software (9no ciclo) con experiencia en análisis de datos y automatizaciones.
     </td>
     <td>
-      <img src="assets/student/Me2.jpg" alt="Carlos" style="max-height: 250px;">
+      <img src="assets/student/Me2.jpg" alt="Jose" style="max-height: 250px;">
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Oscar Nathaniel Garayar Mori</strong>
+      <strong>Oscar Nathaniel Garayar Mori</strong><br>
         Descripcion
     </td>
     <td>
