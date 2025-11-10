@@ -29,10 +29,10 @@ NRC: 3320</h5>
   </thead>
   <tbody>
     <tr><td>Zarate Castro Jose Daniel</td><td>u202019128</td></tr>
-    <tr><td>Brayan smith morales quispe</td><td>u20211f984</td></tr>
-    <tr><td>Oscar nathaniel garayar mori</td><td>u202014115</td></tr>
+    <tr><td>Morales Quispe Brayan Smith</td><td>u20211f984</td></tr>
+    <tr><td>Garayar Mori Oscar Nathaniel</td><td>u202014115</td></tr>
     <tr><td>Jara Benites Quique Vladimir</td><td>u202022365</td></tr>
-    <tr><td>Carlos Alberto Ochoa Colonio</td><td>u202315945</td></tr>
+    <tr><td>Ochoa Colonio Carlos Alberto</td><td>u202315945</td></tr>
   </tbody>
 </table>
 
