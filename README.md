@@ -518,24 +518,24 @@ El segundo segmento objetivo son las veterinarias de todo el país. La razón de
         FarmGuard
         <br>
         <div style="text-align: center; margin-top: 10px;">
-                <img src="/Assets/img/ChapterIII/DevDream-Logo.jpeg" alt="StartUp" width="60px">
+                <img src="/Assets/img/ChapterIII/DevDream-Logo.jpeg" alt="StartUp" width="193">
         </div>
     <td colspan="1" style="vertical-align: top;" style="font-weight: bold;">
     FarmLogs
     <div style="text-align: center; margin-top: 20px;">
-                <img src="/Assets/img/ChapterIII/FarmLogs-Logo.jpg" alt="" width="100px">
+                <img src="/Assets/img/ChapterIII/FarmLogs-Logo.jpg" alt="" width="900">
         </div>
     </td>
     <td colspan="1" style="vertical-align: top;" style="font-weight: bold;">
       Herdwatch
       <div style="text-align: center; margin-top: 40px;">
-                <img src="/Assets/img/ChapterIII/Herdwatch-Logo.png" alt="" width="200px">
+                <img src="/Assets/img/ChapterIII/Herdwatch-Logo.png" alt="" width="439">
             </div>
       </td>
     <td colspan="1" style="vertical-align: top;" style="font-weight: bold;" >
       AgriWebb
       <div style="text-align: center; margin-top: 20px;">
-                <img src="/Assets/img/ChapterIII/AgriWebb-Logo.jpg" alt="" width="610px">
+                <img src="/Assets/img/ChapterIII/AgriWebb-Logo.jpg" alt="" width="274">
             </div>
     </td>
   </tr>
