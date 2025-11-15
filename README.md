@@ -3675,7 +3675,7 @@ A continuación se presenta el registro de las entrevistas realizadas a los vete
 
 Entrevistado 1: Juan Calisaya
 
-Segmento 1: Ganaderos
+Segmento 2: Ganaderos
 
 Edad: 23 años
 
@@ -3683,7 +3683,15 @@ Distrito: Villa María del Triunfo
 
 <img src="Assets/img/feature-interviews/Juan_Calisaya.png" alt="Juan Calisaya">
 
+Enlace: https://youtu.be/iSETqk6i-b0
+
 Resumen:
+
+El entrevistado destacó que la aplicación es intuitiva, rápida y fácil de usar, incluso considerando escenarios con conectividad limitada. Valoró especialmente el monitoreo en tiempo real de temperatura, frecuencia cardíaca y ubicación de los animales mediante sensores IoT, aunque sugirió mejorar la velocidad de actualización de datos a menos de un segundo.
+
+Sobre la gestión de historial clínico, indicó que tener tratamientos, diagnósticos y vacunas organizados digitalmente le permitiría mejor control del inventario, evitar pérdidas de información y gestionar mejor sus costos. Comparó esta solución con sus métodos previos en papel, señalando que la aplicación reduciría errores, confusión y pérdida de datos.
+
+Finalmente, mencionó que la herramienta automatizaría gran parte del trabajo repetitivo, ahorrándole tiempo en el manejo diario de sus animales. Recalcó que le sería muy útil contar con la aplicación en su celular, algo que el equipo confirmó que ya es posible gracias a su diseño multiplataforma.
 
 ---
 
@@ -3697,7 +3705,15 @@ Distrito: Santiago de Surco
 
 <img src="Assets/img/feature-interviews/Daniel_Aguilar.png" alt="Daniel Aguilar">
 
+Enlace: https://youtu.be/bbyPPUkyL3c
+
 Resumen:
+
+Durante la entrevista, el veterinario Daniel Aguilar evaluó el prototipo de Farmguard desde la perspectiva clínica. Señaló que la experiencia general al registrar o buscar animales es rápida, sencilla e intuitiva, destacando que los campos son claros y el flujo de uso es eficiente. Sugirió agregar filtros adicionales como el nombre del dueño para agilizar el trabajo en clínicas veterinarias.
+
+Con respecto al historial médico (vacunas, diagnósticos y tratamientos), afirmó que la información está bien organizada, fácil de ubicar y que la visualización por fechas mejora el seguimiento clínico. Consideró que el proceso de registrar diagnósticos y tratamientos es intuitivo, valorando especialmente la posibilidad de adjuntar fotos del animal o de lesiones. Propuso incluir una función para duplicar tratamientos, lo que facilitaría modificaciones rápidas en casos recurrentes.
+
+En cuanto al diseño visual, señaló que es profesional, legible y agradable a la vista, aunque recomendó aumentar ligeramente el tamaño de los títulos para diferenciar mejor las secciones. Finalmente, afirmó que podría explicar la aplicación a un colega en menos de diez minutos, pues considera que Farmguard ayuda a ahorrar tiempo, reducir el uso de papel, evitar pérdidas de información y centralizar registros clínicos de manera eficiente.
 
 ---
 
@@ -3711,7 +3727,17 @@ Distrito: Villa María del Triunfo
 
 <img src="Assets/img/feature-interviews/Gonzalo_Melendez.png" alt="Gonzalo Melendez">
 
+Enlace: https://youtu.be/8kWGDodHVu0
+
 Resumen:
+
+Gonzalo Meléndez, veterinario y parte del segmento objetivo, evaluó el prototipo de Farmguard. Describió la experiencia al registrar y buscar animales como muy automatizada, práctica y fácil de usar, destacando que el sistema guía paso a paso y ahorra tiempo en la gestión de pacientes. Sugirió ampliar la lista de especies disponibles para facilitar la clasificación clínica.
+
+Respecto al historial médico, comentó que la información de tratamientos, vacunas y diagnósticos es muy accesible, con un botón visible que facilita acceder a toda la ficha del animal. Señaló que, en la práctica veterinaria, rara vez eliminaría un diagnóstico, salvo por error de tipeo, y recomendó agregar un detalle más profundo dentro de cada diagnóstico para consultar información ampliada.
+
+Durante el flujo de registro de diagnósticos y tratamientos, indicó que el proceso es intuitivo y práctico, valorando las opciones de severidad y notas. Mencionó que los formatos de fecha podrían ser más claros y que clasificar mejor las vacunas sería útil, especialmente por la existencia de esquemas y secuencias diferentes.
+
+Sobre el diseño visual, Gonzalo consideró la interfaz profesional y adecuada para una clínica veterinaria. Aunque inicialmente no comprendió el propósito del monitoreo por GPS, valoró la utilidad de recibir alertas si un animal se desplaza fuera del área de la veterinaria. Finalmente, afirmó que recomendaría la plataforma por su rapidez, practicidad y facilidad para centralizar información clínica, especialmente en comparación con los métodos tradicionales basados en papel.
 
 ---
 
