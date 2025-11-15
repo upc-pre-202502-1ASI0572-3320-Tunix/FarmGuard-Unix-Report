@@ -3739,6 +3739,32 @@ Durante el flujo de registro de diagnósticos y tratamientos, indicó que el pro
 
 Sobre el diseño visual, Gonzalo consideró la interfaz profesional y adecuada para una clínica veterinaria. Aunque inicialmente no comprendió el propósito del monitoreo por GPS, valoró la utilidad de recibir alertas si un animal se desplaza fuera del área de la veterinaria. Finalmente, afirmó que recomendaría la plataforma por su rapidez, practicidad y facilidad para centralizar información clínica, especialmente en comparación con los métodos tradicionales basados en papel.
 
+---
+
+Entrevistado 4: Miguel Alfaro
+
+Segmento 2: Ganaderos
+
+Edad: 22 años
+
+Distrito: Villa María del Triunfo
+
+<img src="Assets/img/feature-interviews/Gonzalo_Melendez.png" alt="Gonzalo Melendez">
+
+Miguel Alfaro
+
+Enlace: https://youtu.be/oupP_r1CcYs?si=MDLP8DTZsBTSkrHI
+
+Resumen:
+
+Miguel Alfaro, ganadero de vacunos y porcinos y parte del segmento objetivo, probó el prototipo de Farmguard. Comentó que la experiencia de registrar y buscar animales le resultó muy automatizada, práctica y sencilla, resaltando que el sistema lo va guiando paso a paso y le permite ahorrar tiempo en la gestión de su ganado. Propuso ampliar la lista de especies disponibles para que sea más fácil clasificar clínicamente a sus animales.
+
+En cuanto al historial sanitario, señaló que la información sobre tratamientos, vacunas y diagnósticos es muy fácil de consultar, gracias a un botón visible que da acceso rápido a toda la ficha del animal. Indicó que, en su manejo diario, casi nunca eliminaría un diagnóstico, salvo cuando se trate de un error de tipeo, y sugirió incluir un nivel de detalle más profundo dentro de cada diagnóstico para revisar información ampliada.
+
+Durante el flujo de registro de diagnósticos y tratamientos, consideró que el proceso es intuitivo y conveniente, y valoró especialmente las opciones de severidad y las notas adicionales. Comentó que los formatos de fecha podrían ser más claros y que una mejor clasificación de las vacunas sería de gran ayuda, sobre todo porque existen distintos esquemas y secuencias de aplicación según la especie y la etapa productiva.
+
+Respecto al diseño visual, Miguel percibió la interfaz como profesional y adecuada para una herramienta de gestión ganadera. Aunque al inicio no entendió del todo el propósito del monitoreo por GPS, luego destacó lo útil que le resultaría recibir alertas si una vaca o un cerdo sale del área establecida de la granja. Finalmente, afirmó que recomendaría la plataforma por su rapidez, practicidad y la facilidad para centralizar la información sanitaria de sus animales, especialmente frente a los métodos tradicionales basados en registros en papel.
+
 ### 6.3.3 Evaluaciones según heurísticas
 
 ## 6.4 Video About-the-Product
