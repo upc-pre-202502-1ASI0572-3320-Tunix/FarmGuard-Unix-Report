@@ -3681,7 +3681,7 @@ Edad: 23 años
 
 Distrito: Villa María del Triunfo
 
-<img src="Assets/img/Juan_Calisaya.png" alt="Juan Calisaya">
+<img src="Assets/img/feature-interviews/Juan_Calisaya.png" alt="Juan Calisaya">
 
 Resumen:
 
@@ -3695,6 +3695,8 @@ Edad: 22 años
 
 Distrito: Santiago de Surco
 
+<img src="Assets/img/feature-interviews/Daniel_Aguilar.png" alt="Daniel Aguilar">
+
 Resumen:
 
 ---
@@ -3706,6 +3708,8 @@ Segmento 1: Veterinarios
 Edad: 20 años
 
 Distrito: Villa María del Triunfo
+
+<img src="Assets/img/feature-interviews/Gonzalo_Melendez.png" alt="Gonzalo Melendez">
 
 Resumen:
 
