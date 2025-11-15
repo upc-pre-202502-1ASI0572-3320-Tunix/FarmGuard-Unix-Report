@@ -3739,11 +3739,9 @@ Durante el flujo de registro de diagnósticos y tratamientos, indicó que el pro
 
 Sobre el diseño visual, Gonzalo consideró la interfaz profesional y adecuada para una clínica veterinaria. Aunque inicialmente no comprendió el propósito del monitoreo por GPS, valoró la utilidad de recibir alertas si un animal se desplaza fuera del área de la veterinaria. Finalmente, afirmó que recomendaría la plataforma por su rapidez, practicidad y facilidad para centralizar información clínica, especialmente en comparación con los métodos tradicionales basados en papel.
 
----
-
 ### 6.3.3 Evaluaciones según heurísticas
 
-## 6.4 Conclusiones
+## 6.4 Video About-the-Product
 
 ## Conclusiones
 
