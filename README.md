@@ -52,15 +52,29 @@
 
 ### Registro de Informe
 
-| Versión | Fecha    | Autor(es)                             | Descripción de modificación                                                             |
-|---------|----------|----------------------------------------|-----------------------------------------------------------------------------------------|
-| 0.1     | 03/09/25 | Brayan Smith Morales Quispe        | Inicio del documento                                                            |
-| 0.2    | 08/09/25 | Zarate Castro Jose Daniel       | Añadir bounded context de suscripcion                                                            |
-| 0.3     | 19/09/25 | Jara Benites Quique Vladimir        | Añadir everstorming                                                        |
-| 0.4     | 20/09/25 | Brayan Smith Morales Quispe        | Correccion de errores                                                          |
-| 1.0     | 08/10/25 | Brayan Smith Morales Quispe        | Correccion de errores                                                          |
-| 1.1     | 20/09/25 | Brayan Smith Morales Quispe        | Agregado de Capitulo 5                                                          |
-| 1.2     | 19/09/25 | Jara Benites Quique Vladimir        | Añadir Cap 6                                                        |
+| Versión | Fecha | Autor(es) | Descripción de modificación |
+| :--- | :--- | :--- | :--- |
+| 0.1 | 04/04/25 | Zarate Castro Jose Daniel | Redacción del Perfil Inicial |
+| 0.2 | 06/04/25 | Brayan smith morales quispe | Proceso Lean UX, Mapeo de Eventos, Recolección de Testimonios, Contextos Delimitados |
+| 0.3 | 09/04/25 | Oscar nathaniel garayar mori | Modelo C4, Encuesta Inicial |
+| 0.4 | 10/04/25 | Jara Benites Quique Vladimir | Perfil de Startup, Perfil de Solución, Entrevistas, Mapeo de Impacto, Cartografía de Contexto |
+| 0.5 | 11/04/25 | Carlos Alberto Ochoa Colonio | Precisión del Context Mapping, Reconocimiento de Ámbitos Delimitados |
+| 0.6 | 12/04/25 | Zarate Castro Jose Daniel | Ajustes en el Impact Mapping, Primeros Casos de Uso |
+| 0.7 | 14/04/25 | Brayan smith morales quispe | Ajuste de Hipótesis UX, Preparación de Cuestionarios |
+| 0.9 | 20/04/25 | Oscar nathaniel garayar mori | Escenario As-Is, Elaboración de Mapas de Empatía |
+| 1.0 | 22/04/25 | Jara Benites Quique Vladimir | Versión final de TB1 |
+| 1.1 | 12/09/25 | Carlos Alberto Ochoa Colonio | Elaboración de User Journey Mapping y actualización de User Task Matrix |
+| 1.4 | 23/09/25 | Zarate Castro Jose Daniel | Desarrollo de User Stories priorizadas con sus respectivos criterios de aceptación |
+| 1.5 | 25/09/25 | Brayan smith morales quispe | Definición estructurada del Product Backlog y priorización mediante MoSCoW |
+| 2.0 | 28/09/25 | Oscar nathaniel garayar mori | Finalización de TP1 |
+| 2.1 | 02/10/24 | Jara Benites Quique Vladimir | Sprint Planning 1: Preparación del entorno y gestión de tareas |
+| 2.2 | 08/10/24 | Carlos Alberto Ochoa Colonio | Implementación de Landing Page, secciones esenciales y pruebas de usabilidad |
+| 2.3 | 11/10/24 | Zarate Castro Jose Daniel | Configuración del entorno de desarrollo, gestión de código fuente |
+| 2.4 | 14/10/24 | Brayan smith morales quispe | Revisión del Sprint 1, evidencias y pruebas de accesibilidad |
+| 2.5 | 16/10/24 | Oscar nathaniel garayar mori | Despliegue de Landing Page y preparación para Sprint 2 |
+| 2.6 | 20/10/24 | Jara Benites Quique Vladimir | Sprint Planning 2: Definición de REST Endpoints y configuración UI |
+| 2.7 | 23/10/24 | Carlos Alberto Ochoa Colonio | Integración de componentes UI y gestión de grupos |
+| 3.0 | 24/10/24 | Zarate Castro Jose Daniel | Finalización de TB2: Implementación de funcionalidades clave de gestión de usuarios y cuentas |
 
 
 
