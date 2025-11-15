@@ -381,13 +381,13 @@ FarmGuard se posiciona como una solución integral, accesible y centrada en el u
         Descripcion
     </td>
     <td>
-      <img src="" alt="Oscar" style="max-height: 250px;">
+      <img src="Assets/img/Integrantes/Oscar.jpg" alt="Oscar" style="max-height: 250px;">
     </td>
   </tr>
   <tr>
     <td>
       <strong>Jara Benites Quique Vladimir</strong>
-        Estudiante de octavo ciclo de la carrera Ingenieria de Software, tengo conocimientos técnicos en Java, Js y python. Asimismo, para el desarrollo en equipo, cuento con habilidades como participación comunicativa, creatividad, resolución de problemas, adaptabilidad y toma de decisiones
+        Estudiante de octavo ciclo de la carrera Ingeniería de Software, tengo conocimientos técnicos en Java, Js y python. Asimismo, para el desarrollo en equipo, cuento con habilidades como participación comunicativa, creatividad, resolución de problemas, adaptabilidad y toma de decisiones
     </td>
     <td>
      <img width="800" alt="Image" src="https://github.com/user-attachments/assets/5de507d9-5c43-4cf5-b40e-33557d064679" />
@@ -396,7 +396,7 @@ FarmGuard se posiciona como una solución integral, accesible y centrada en el u
   <tr>
     <td>
       <strong>Brayan Smith Morales Quispe</strong><br>
-      Soy estudiante de ingenieria de software de la upc 8.º ciclo que le gusta el desarrollo web, desarrollo de videojuegos y aplicaciones moviles.
+      Soy estudiante de ingeniería de software de la upc 8.º ciclo que le gusta el desarrollo web, desarrollo de videojuegos y aplicaciones moviles.
     </td>
     <td>
       <img src="Assets/img/Integrantes/brayan.png" alt="Bryan" style="max-height:250px;">
@@ -3781,6 +3781,109 @@ Respecto al diseño visual, Miguel percibió la interfaz como profesional y adec
 
 ### 6.3.3 Evaluaciones según heurísticas
 
+## UX Heuristics & Principles Evaluation Usability - Inclusive Design - Information Architecture
+
+CARRERA: Ingeniería de Software
+
+CURSO: 1ASI0572 - Desarrollo de Soluciones IOT
+
+SECCIÓN: 3320
+
+PROFESORES: Marco Antonio Leon Baca
+
+AUDITOR: Tunix
+
+CLIENTE(S): Ganaderos y Veterinarios
+
+---
+
+SITE O APP A EVALUAR: FarmGuard
+
+### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+1. Iniciar sesión en la plataforma. 
+2. Visualizar la lista de animales y sus estados vitales. 
+3. Seleccionar un animal para ver su detalle. 
+4. Acceder al historial clínico de un animal. 
+5. Consultar los tratamientos de un animal.
+
+### ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase. |
+| **3** | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+### TABLA RESUMEN:
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|----------|----------------------|---------------------------------|
+| **1** | Inconsistencia visual entre el avatar del animal (neutral) y el estado "Crítico" de sus vitales. | 3 | Usability: Consistencia y estándares |
+| **2** | El ícono de "Acciones" (círculo verde) en la lista de animales no es estándar y su significado es ambiguo. | 2 | Usability: Coincidencia entre el sistema y el mundo real |
+| **3** | Las acciones del panel de detalle del animal ("Ver Historial", "Editar") están al final y requieren scroll. | 2 | Information Architecture: Is it usable? / Usability: Flexibilidad y eficiencia de uso |
+| **4** | La única acción en la tabla de "Tratamientos" del historial clínico es "Eliminar", una acción destructiva. | 3 | Usability: Libertad y control del usuario / Usability: Prevención de errores |
+
+### DESCRIPCIÓN DE PROBLEMAS:
+
+PROBLEMA #1: Inconsistencia visual entre el avatar del animal (neutral) y el estado "Crítico" de sus vitales.
+
+Severidad: 3 Heurística violada: Usabilidad - Consistencia y estándares
+
+Problema:  En el panel de detalle del animal, el avatar de "lola" es una imagen pixel art neutral o contenta. Sin embargo, sus "Datos Vitales" (Frecuencia Cardíaca y Temperatura) están marcados como "Crítico" en color rojo brillante. Esta es una inconsistencia visual que genera confusión: el sistema comunica "todo está bien" (avatar) y "emergencia" (vitales) al mismo tiempo.
+
+Evidencia:
+
+<img src="Assets/img/EvidenciasEuristicas/Problema1.png" alt="Problema1">
+
+Recomendación:  Implementar un sistema de avatares dinámicos que refleje el estado del animal (ej. un avatar triste, enfermo o con un ícono de alerta si el estado es "Crítico"). Adicionalmente, agregar un botón de "Acción Recomendada" junto a los vitales críticos para guiar al usuario.
+
+---
+
+PROBLEMA #2: El ícono de "Acciones" (círculo verde) en la lista de animales no es estándar y su significado es ambiguo.
+
+Severidad: 2 Heurística violada: Usabilidad - Coincidencia entre el sistema y el mundo real
+
+Problema: En la "Lista de Animales", la columna "ACCIONES" muestra un único ícono de círculo verde para cada fila. Este ícono no es un estándar de interfaz (como un ojo, un lápiz o una papelera) y no comunica claramente su función. El usuario no sabe si significa "Ver detalle", "Estado: Activo" o "Saludable", generando duda antes de la interacción.
+
+Evidencia:
+
+<img src="Assets/img/EvidenciasEuristicas/Problema1.png" alt="Problema1">
+
+Recomendación: Reemplazar el ícono ambiguo por íconos estándar que representen acciones claras. Si la acción es "Ver detalle" (que parece ser el caso, ya que activa el panel derecho), usar un ícono de "ojo" (eye) o un botón de "Ver". Si es solo un indicador de estado, moverlo a la columna "ESTADO" y usar un texto.
+
+---
+
+PROBLEMA #3: Las acciones del panel de detalle del animal ("Ver Historial", "Editar") están al final y requieren scroll.
+
+Severidad: 2 Heurística violada: Information Architecture: Is it usable? / Usability: Flexibilidad y eficiencia de uso
+
+Problema: Las acciones más comunes que un usuario querría realizar sobre un animal seleccionado ("Ver Historial Médico", "Editar", "Eliminar") se encuentran al final del panel de detalles. El usuario debe desplazarse (scroll) más allá de "Información Básica", "Datos Vitales" y "Ubicación" para encontrarlas. Esto es ineficiente, ya que las acciones principales no están visibles al primer vistazo.
+
+Evidencia:
+
+<img src="Assets/img/EvidenciasEuristicas/Problema2.png" alt="Problema2">
+
+Recomendación: Mover los botones de acción principales ("Ver Historial Médico", "Editar", "Eliminar") a una ubicación más prominente, preferiblemente debajo de la información básica del animal (bajo la imagen y el nombre, en image_68b72d.png), para que sean accesibles inmediatamente al seleccionar un animal.
+
+---
+
+PROBLEMA #4: La única acción en la tabla de "Tratamientos" del historial clínico es "Eliminar", una acción destructiva.
+
+Severidad: 3 Heurística violada: Usability - Libertad y control del usuario / Usability: Prevención de errores
+
+Problema: En la pantalla "Historial Clínico", la tabla de "Tratamientos" muestra una columna de "ACCIONES" que solo contiene un ícono de papelera (Eliminar). No ofrece una opción para "Editar" o "Modificar" un tratamiento, lo cual es un caso de uso muy común en la gestión médica. Ofrecer "Eliminar" como la única acción es peligroso, ya que la eliminación accidental de un registro médico es un error grave.
+
+Evidencia:
+
+<img src="Assets/img/EvidenciasEuristicas/Problema3.png" alt="Problema3">
+
+Recomendación: Añadir un ícono de "Editar" (lápiz) como acción principal para modificar los tratamientos. La acción "Eliminar" debe requerir un paso de confirmación claro ("¿Está seguro de que desea eliminar este tratamiento? Esta acción no se puede deshacer.") para prevenir errores.
+
 ## 6.4 Video About-the-Product
 
 ## Conclusiones
@@ -3790,6 +3893,8 @@ En conclusión existe una necesidad real de un sistema para salud animal; hoy lo
 TB1 cumplió su objetivo: se validó el problema con 5 entrevistas y se delimitó con precisión el dominio mediante Event Storming, Bounded Context Canvas y Context Map. Quedó establecido el núcleo (Animal Management e IoT Monitoring & Analysis), los contexts de soporte (IAM y Profile) y los genéricos (Subscriptions & Billing, Notifications), con sus responsabilidades, dependencias upstream/downstream y contratos de integración (sincrónicos y por eventos). Esta definición reduce el acoplamiento, aclara el lenguaje ubicuo y crea trazabilidad directa entre hallazgos y diseño.
 
 El equipo trabajó de forma coordinada (GitFlow por ramas de BC, evidencias de commits y PRs), avanzando en paralelo sin solaparse. Como resultado, el alcance del MVP quedó acotado y factible: ingestión y validación de lecturas IoT, reglas/alertas, registro clínico y notificación a usuarios, habilitados por identidad/permisos y planes de suscripción. En síntesis, TB1 entrega una base estratégica sólida y verificable para pasar a especificación e implementación con menor riesgo técnico y organizacional.
+
+## Recomendaciones
 
 ## Bibliografía
 
