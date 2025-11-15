@@ -3749,7 +3749,7 @@ Edad: 22 años
 
 Distrito: Villa María del Triunfo
 
-<img src="Assets/img/feature-interviews/Gonzalo_Melendez.png" alt="Gonzalo Melendez">
+<img src="Assets/img/feature-interviews/Miguel_Ramirez.png" alt="Gonzalo Melendez">
 
 Miguel Alfaro
 
