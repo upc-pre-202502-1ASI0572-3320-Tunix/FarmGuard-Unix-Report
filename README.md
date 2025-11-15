@@ -3807,7 +3807,7 @@ El equipo trabajó de forma coordinada (GitFlow por ramas de BC, evidencias de c
   [https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/FarmGuard-LandingPage)
 
 - **Mobile Application (Android - Kotlin)**  
-  []()
+   [https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/front](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/front)
 
 
 
