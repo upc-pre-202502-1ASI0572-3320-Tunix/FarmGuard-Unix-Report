@@ -3669,6 +3669,48 @@ Objetivo: Validar la utilidad de las funciones de Monitoreo IoT, Gestión de Ani
 
 ### 6.3.2 Registro de entrevistas
 
+A continuación se presenta el registro de las entrevistas realizadas a los veterinarios y a los ganaderos.
+
+---
+
+Entrevistado 1: Juan Calisaya
+
+Segmento 1: Ganaderos
+
+Edad: 23 años
+
+Distrito: Villa María del Triunfo
+
+<img src="Assets/img/Juan_Calisaya.png" alt="Juan Calisaya">
+
+Resumen:
+
+---
+
+Entrevistado 2: Daniel Aguilar
+
+Segmento 1: Veterinarios
+
+Edad: 22 años
+
+Distrito: Santiago de Surco
+
+Resumen:
+
+---
+
+Entrevistado 3: Gonzalo Melendez
+
+Segmento 1: Veterinarios
+
+Edad: 20 años
+
+Distrito: Villa María del Triunfo
+
+Resumen:
+
+---
+
 ### 6.3.3 Evaluaciones según heurísticas
 
 ## 6.4 Conclusiones
