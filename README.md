@@ -640,7 +640,7 @@ El segundo segmento objetivo son las veterinarias de todo el país. La razón de
 En esta sección se han definido todas las preguntas que se plantearan en el momento de
 realizar las preguntas a los diferentes segmentos objetivos
 
-### 2.2.1 Diseño de entrevistas  
+### 2.2.1 Diseño de entrevistas
 
 
 #### 1. Contexto Inicial – Gestión y monitoreo de animales
@@ -2720,15 +2720,15 @@ A continuacion se mostrara el diagrama de base de datos de nuestro sistema.
 
 ### 5.1.1 General Style Guidelines
 
-La aplicacion web se adaptara a todo tipos de dispositivos tecnologicos usados por nuestros segmentos objetivos, garantizando la usabilidad se mantenga en todo momento. Esto ofrecera una experiencia de usuario satisfactoria y coherente, independientemente del dispositivo que use el usuario en ese momento.
+La aplicacion web se adaptará a todo tipo de dispositivos tecnologicos usados por nuestros segmentos objetivos, garantizando la usabilidad se mantenga en todo momento. Esto ofrecera una experiencia de usuario satisfactoria y coherente, independientemente del dispositivo que use el usuario en ese momento.
 
 ![Paginas Web Responsive](/Assets/img/ChapterIV/General%20Style%20Guidelines/responsibe.jpeg)
 
-Se utilizara un patron Z para el diseño de nuestro landing page, dado que queremos que el usuario mire primero nuestro logo para luego proceder con las opciones del navbar, donde luego vea el contenido de cada seccion y termine con el texto que contiene cada una de las secciones.
+Se utilizará un patron Z para el diseño de nuestra landing page, dado que queremos que el usuario mire primero nuestro logo para luego proceder con las opciones del navbar, donde luego vea el contenido de cada seccion y termine con el texto que contiene cada una de las secciones.
 
 ![Patron Z](/Assets/img/ChapterIV/General%20Style%20Guidelines/OIP.jpeg)
 
-Para la aplicacion web pensamos usar el patron F por que queremos que el usuario vea las opciones disponibles para navegar para luego proceder con sus respectivas busquedas y usos en la aplicacion web.
+Para la aplicacion web pensamos usar el patron F porque queremos que el usuario vea las opciones disponibles para navegar para luego proceder con sus respectivas busquedas y usos en la aplicacion web.
 
 ![Patron F](/Assets/img/ChapterIV/General%20Style%20Guidelines/lectura-contenido-página-web-patrón-3.png)
 
@@ -2814,7 +2814,7 @@ Estos indicadores proporcionan una referencia visual inmediata, incluso sin acce
 
 ## Landing Page
 
-Para el landing page usaremos un sistema jerarquico visual puesto que este tipo de organizacion es ideal para paginas con secciones e identificar informacion mas importante en el citio.
+Para la landing page usaremos un sistema jerarquico visual, puesto que este tipo de organizacion es ideal para paginas con secciones e identificar informacion mas importante en el citio.
 
 ![Imaqgen del sistema jerarquico](/Assets/img/ChapterIV/Organization%20Systems/jerarquico.jpg)
 
@@ -3595,7 +3595,7 @@ Evidencia de la ejecución del sistema en los entornos configurados (capturas de
 
 # Landing Page
 
-Link de pagina desplegada: [https://upc-pre-202502-1asi0572-3320-tunix.github.io/FarmGuard-LandingPage/](https://upc-pre-202502-1asi0572-3320-tunix.github.io/FarmGuard-LandingPage/)
+Link de página desplegada: [https://upc-pre-202502-1asi0572-3320-tunix.github.io/FarmGuard-LandingPage/](https://upc-pre-202502-1asi0572-3320-tunix.github.io/FarmGuard-LandingPage/)
 
 #### 6.2.1.7 Services Documentation Evidence
 
@@ -3626,10 +3626,58 @@ URL de la Landing Page desplegada: [https://ambitious-dune-0b50cbb10.1.azurestat
 
 ---
 
+## 6.3 Validation Interviews
+
+A continuación mostraremos las entrevistas de validación.
+
+### 6.3.1 Diseño de entrevistas
+
+El propósito de estas entrevistas es obtener feedback directo sobre la solución implementada (FarmGuard), evaluando su usabilidad, utilidad y cómo se ajusta a las necesidades reales de los usuarios.
+
+Segmento Objetivo 1: Veterinarias
+
+Objetivo: Validar la usabilidad y utilidad del módulo de Historial Médico y las Alertas en el flujo de trabajo clínico.
+
+1. Introducción y Usabilidad de la Gestión
+- Después de probar el prototipo/versión inicial de FarmGuard: ¿Cómo describiría su experiencia general al registrar un nuevo animal o al buscar uno existente?
+- ¿Qué tan fácil le resultó encontrar la información de vacunas, diagnósticos o tratamientos dentro del Historial Médico?.
+
+2. Flujo Crítico (Registro Médico)
+- Al registrar un nuevo diagnóstico o tratamiento: ¿El proceso fue intuitivo? ¿Qué pasos le parecieron innecesarios o faltantes?
+- En una emergencia, ¿qué tan rápido podría registrar un evento médico y cómo calificaría la claridad de los campos de Medicación y Dosis?
+- Si tuviera que modificar o anular un registro (por ejemplo, una vacuna): ¿El sistema le proporcionó las herramientas y confirmaciones necesarias?
+
+3. Reacción a la Solución y Diseño
+- ¿Considera que las alertas de emergencia (US11) le ayudarían a actuar más rápido que con sus métodos anteriores? ¿Qué tipo de alerta le resulta más valiosa?
+- ¿El diseño visual (colores, botones, tipografía) le resultó profesional, claro y legible en el móvil y en la web?
+- Si tuviera que invitar a un colega a usar FarmGuard: ¿Qué tan rápido podría hacerlo y qué le diría que es lo mejor de la plataforma?
+
+---
+
+Segmento Objetivo 2: Ganaderos
+
+Objetivo: Validar la utilidad de las funciones de Monitoreo IoT, Gestión de Animales y la accesibilidad de la solución en entornos de campo.
+
+1. Monitoreo y Datos en Tiempo Real
+- Cuando revisó el Monitoreo de indicadores clave: ¿La información de temperatura, peso o ritmo cardíaco se mostró en tiempo real como esperaba?.
+- ¿La interfaz de la aplicación es lo suficientemente rápida y ágil para usarla en un entorno con conectividad limitada?
+
+2. Gestión de Inventario y Alertas
+- ¿La Gestión de insumos le ayudaría a controlar mejor su inventario de medicinas y alimentos, evitando tener un stock bajo?
+- ¿Cómo compara la usabilidad de FarmGuard con las hojas de cálculo o registros en papel que usaba antes?
+
+3. Adquisición y Soporte
+- ¿Qué tanto se simplificó o redujo el tiempo que invierte en la gestión de sus animales usando FarmGuard?
+
+### 6.3.2 Registro de entrevistas
+
+### 6.3.3 Evaluaciones según heurísticas
+
+## 6.4 Conclusiones
+
 ## Conclusiones
 
-
-En conclucion existe una necesidad real de un sistema para salud animal; hoy los datos están dispersos (papel/Excel/software no integrado), lo que genera omisiones y errores en tratamientos y seguimiento. Esto justifica la propuesta de FarmGuard.
+En conclusión existe una necesidad real de un sistema para salud animal; hoy los datos están dispersos (papel/Excel/software no integrado), lo que genera omisiones y errores en tratamientos y seguimiento. Esto justifica la propuesta de FarmGuard.
 
 TB1 cumplió su objetivo: se validó el problema con 5 entrevistas y se delimitó con precisión el dominio mediante Event Storming, Bounded Context Canvas y Context Map. Quedó establecido el núcleo (Animal Management e IoT Monitoring & Analysis), los contexts de soporte (IAM y Profile) y los genéricos (Subscriptions & Billing, Notifications), con sus responsabilidades, dependencias upstream/downstream y contratos de integración (sincrónicos y por eventos). Esta definición reduce el acoplamiento, aclara el lenguaje ubicuo y crea trazabilidad directa entre hallazgos y diseño.
 
