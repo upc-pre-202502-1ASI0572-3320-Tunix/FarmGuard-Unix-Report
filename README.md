@@ -3644,12 +3644,10 @@ Objetivo: Validar la usabilidad y utilidad del módulo de Historial Médico y la
 
 2. Flujo Crítico (Registro Médico)
 - Al registrar un nuevo diagnóstico o tratamiento: ¿El proceso fue intuitivo? ¿Qué pasos le parecieron innecesarios o faltantes?
-- En una emergencia, ¿qué tan rápido podría registrar un evento médico y cómo calificaría la claridad de los campos de Medicación y Dosis?
 - Si tuviera que modificar o anular un registro (por ejemplo, una vacuna): ¿El sistema le proporcionó las herramientas y confirmaciones necesarias?
 
 3. Reacción a la Solución y Diseño
-- ¿Considera que las alertas de emergencia (US11) le ayudarían a actuar más rápido que con sus métodos anteriores? ¿Qué tipo de alerta le resulta más valiosa?
-- ¿El diseño visual (colores, botones, tipografía) le resultó profesional, claro y legible en el móvil y en la web?
+- ¿El diseño visual (colores, botones, tipografía) le resultó profesional, claro y legible en la aplicación?
 - Si tuviera que invitar a un colega a usar FarmGuard: ¿Qué tan rápido podría hacerlo y qué le diría que es lo mejor de la plataforma?
 
 ---
