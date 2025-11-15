@@ -3751,8 +3751,9 @@ TB1 cumplió su objetivo: se validó el problema con 5 entrevistas y se delimit�
 
 El equipo trabajó de forma coordinada (GitFlow por ramas de BC, evidencias de commits y PRs), avanzando en paralelo sin solaparse. Como resultado, el alcance del MVP quedó acotado y factible: ingestión y validación de lecturas IoT, reglas/alertas, registro clínico y notificación a usuarios, habilitados por identidad/permisos y planes de suscripción. En síntesis, TB1 entrega una base estratégica sólida y verificable para pasar a especificación e implementación con menor riesgo técnico y organizacional.
 
+## Bibliografía
 
-
+## Anexos
 
 ### Repositorios del Proyecto FarmGuard
 
