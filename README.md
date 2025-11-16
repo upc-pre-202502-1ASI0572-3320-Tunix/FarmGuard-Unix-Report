@@ -3755,7 +3755,7 @@ Sobre el diseño visual, Gonzalo consideró la interfaz profesional y adecuada p
 
 ---
 
-Entrevistado 4: Miguel Alfaro
+Entrevistado 4: Jesus Ochoa
 
 Segmento 2: Ganaderos
 
@@ -3765,19 +3765,71 @@ Distrito: Villa María del Triunfo
 
 <img src="Assets/img/feature-interviews/Miguel_Ramirez.png" alt="Gonzalo Melendez">
 
-Miguel Alfaro
+Jesus Ochoa
 
 Enlace: https://youtu.be/oupP_r1CcYs?si=MDLP8DTZsBTSkrHI
 
 Resumen:
 
-Miguel Alfaro, ganadero de vacunos y porcinos y parte del segmento objetivo, probó el prototipo de Farmguard. Comentó que la experiencia de registrar y buscar animales le resultó muy automatizada, práctica y sencilla, resaltando que el sistema lo va guiando paso a paso y le permite ahorrar tiempo en la gestión de su ganado. Propuso ampliar la lista de especies disponibles para que sea más fácil clasificar clínicamente a sus animales.
+Jesus Ochoa, ganadero de vacunos y porcinos y parte del segmento objetivo, probó el prototipo de Farmguard. Comentó que la experiencia de registrar y buscar animales le resultó muy automatizada, práctica y sencilla, resaltando que el sistema lo va guiando paso a paso y le permite ahorrar tiempo en la gestión de su ganado. Propuso ampliar la lista de especies disponibles para que sea más fácil clasificar clínicamente a sus animales.
 
 En cuanto al historial sanitario, señaló que la información sobre tratamientos, vacunas y diagnósticos es muy fácil de consultar, gracias a un botón visible que da acceso rápido a toda la ficha del animal. Indicó que, en su manejo diario, casi nunca eliminaría un diagnóstico, salvo cuando se trate de un error de tipeo, y sugirió incluir un nivel de detalle más profundo dentro de cada diagnóstico para revisar información ampliada.
 
 Durante el flujo de registro de diagnósticos y tratamientos, consideró que el proceso es intuitivo y conveniente, y valoró especialmente las opciones de severidad y las notas adicionales. Comentó que los formatos de fecha podrían ser más claros y que una mejor clasificación de las vacunas sería de gran ayuda, sobre todo porque existen distintos esquemas y secuencias de aplicación según la especie y la etapa productiva.
 
 Respecto al diseño visual, Miguel percibió la interfaz como profesional y adecuada para una herramienta de gestión ganadera. Aunque al inicio no entendió del todo el propósito del monitoreo por GPS, luego destacó lo útil que le resultaría recibir alertas si una vaca o un cerdo sale del área establecida de la granja. Finalmente, afirmó que recomendaría la plataforma por su rapidez, practicidad y la facilidad para centralizar la información sanitaria de sus animales, especialmente frente a los métodos tradicionales basados en registros en papel.
+
+---
+
+Entrevistado 5: Jesus Ochoa
+
+Segmento 2: Ganaderos
+
+Edad: 22 años
+
+Distrito: San Juan de miraflores
+
+<img src="Assets/img/feature-interviews/Carlos_Onofre.png" alt="Gonzalo Melendez">
+
+Jesus Ochoa
+
+Enlace: https://youtu.be/oupP_r1CcYs?si=MDLP8DTZsBTSkrHI
+
+Resumen:
+
+Jesus Ochoa, productor de ganado vacuno y porcino e integrante del segmento objetivo, utilizó el prototipo de Farmguard. Señaló que el proceso de registrar y localizar animales le pareció muy automatizado, práctico y fácil de usar, subrayando que la plataforma lo orienta paso a paso y le ayuda a optimizar el tiempo dedicado a la gestión de su ganado. Además, sugirió ampliar el catálogo de especies para facilitar una mejor clasificación clínica de los animales.
+
+Sobre el historial sanitario, comentó que acceder a la información de tratamientos, vacunas y diagnósticos le resultó muy sencillo, gracias a un botón claramente visible que le permite abrir rápidamente la ficha completa de cada animal. Indicó que, en su trabajo cotidiano, casi nunca eliminaría un diagnóstico, excepto cuando se trate de un error de escritura, y recomendó incorporar un nivel de detalle más profundo dentro de cada diagnóstico para poder revisar información extendida.
+
+En relación con el flujo para registrar diagnósticos y tratamientos, consideró que es un proceso intuitivo y cómodo, y valoró especialmente las opciones para indicar la severidad y las notas adicionales. También mencionó que los formatos de fecha podrían mostrarse de manera más clara y que una clasificación más ordenada de las vacunas sería muy útil, sobre todo porque existen distintos esquemas y secuencias de aplicación según la especie y la etapa productiva.
+
+En cuanto al aspecto visual, Miguel percibió la interfaz como profesional y adecuada para una solución de gestión ganadera. Aunque al principio no le quedó del todo claro el propósito del monitoreo por GPS, luego destacó lo valioso que sería recibir alertas cuando una vaca o un cerdo salga del perímetro definido de la granja. Al final, afirmó que recomendaría la plataforma por su rapidez, practicidad y por la facilidad que ofrece para centralizar la información sanitaria de sus animales, especialmente si se la compara con los métodos tradicionales basados en registros en papel.
+
+---
+
+Entrevistado 6: Jesus Ochoa
+
+Segmento 1: Veterinario
+
+Edad: 28 años
+
+Distrito: San Juan de Lurigancho
+
+<img src="Assets/img/feature-interviews/Jesus_Ochoa.png" alt="Gonzalo Melendez">
+
+Jesus Ochoa
+
+Enlace: https://youtu.be/oupP_r1CcYs?si=MDLP8DTZsBTSkrHI
+
+Resumen:
+
+Jesús Ochoa, médico veterinario especializado en ganado vacuno y porcino e integrante del segundo segmento objetivo, utilizó el prototipo de Farmguard. Señaló que el proceso de registrar y localizar animales le pareció muy automatizado, práctico y fácil de usar, resaltando que la plataforma lo guía paso a paso y le ayuda a optimizar el tiempo que dedica a la gestión sanitaria de los rebaños que atiende. Además, sugirió ampliar el catálogo de especies para facilitar una mejor clasificación clínica de los animales bajo su cuidado.
+
+Sobre el historial sanitario, comentó que acceder a la información de tratamientos, vacunas y diagnósticos le resultó muy sencillo, gracias a un botón claramente visible que le permite abrir rápidamente la ficha completa de cada paciente. Indicó que, en su práctica diaria, casi nunca eliminaría un diagnóstico, salvo cuando se trate de un error de escritura, y recomendó incorporar un nivel de detalle más profundo dentro de cada diagnóstico para revisar información clínica ampliada.
+
+En relación con el flujo para registrar diagnósticos y tratamientos, consideró que es un proceso intuitivo y cómodo, y valoró especialmente las opciones para indicar la severidad de los casos y añadir notas adicionales con observaciones clínicas. También mencionó que los formatos de fecha podrían mostrarse de manera más clara y que una clasificación más ordenada de las vacunas sería muy útil, sobre todo porque existen distintos esquemas y secuencias de aplicación según la especie, la edad y la etapa productiva de los animales.
+
+En cuanto al aspecto visual, Jesús percibió la interfaz como profesional y adecuada para una solución de gestión sanitaria ganadera orientada a veterinarios. Aunque al principio no le quedó del todo claro el propósito del monitoreo por GPS, luego destacó lo valioso que sería, en coordinación con los productores, recibir alertas cuando una vaca o un cerdo salga del perímetro definido de la granja. Al final, afirmó que recomendaría la plataforma por su rapidez, practicidad y por la facilidad que ofrece para centralizar la información sanitaria de los animales que atiende, especialmente frente a los métodos tradicionales basados en registros en papel o planillas dispersas.
 
 ### 6.3.3 Evaluaciones según heurísticas
 
