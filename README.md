@@ -117,16 +117,9 @@ En esta primera entrega (TB1), el objetivo principal fue ...
 
 ![TP](/Assets/img/Integrantes/progreso/Captura%20de%20pantalla_20-9-2025_151510_github.com.jpeg)
 
-
-| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
-|--------------------------|-------------------------|------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Zárate Castro José Daniel:**<br>**TB1:** Lideré las primeras reuniones de planificación del proyecto, asignando responsabilidades y promoviendo que cada integrante comprendiera su rol dentro del desarrollo del sistema.<br>**TP:** Organicé la documentación técnica inicial, asegurando que los avances estuvieran alineados con los objetivos planteados y que las decisiones se tomaran en conjunto con el equipo.<br><br>**Brayan Smith Morales Quispe:**<br>**TB1:** Coordiné la elaboración de los artefactos de requisitos, orientando al equipo en la identificación de funcionalidades clave y priorizando aquellas que aportaban mayor valor al usuario final.<br>**TP:** Supervisé el diseño inicial del sistema y su validación con el equipo, fomentando la toma de decisiones compartida para definir el alcance técnico del proyecto.<br><br>**Oscar Nathaniel Garayar Mori:**<br>**TB1:** Apoyé la organización del equipo mediante la asignación de tareas técnicas y la estructuración del cronograma de entregas. Aseguré una comunicación fluida entre los miembros para evitar retrasos.<br>**TP:** Lideré la integración de los primeros prototipos visuales con la lógica del sistema, coordinando las pruebas en equipo para garantizar coherencia entre diseño y funcionalidad.<br><br>**Jara Benites Quique Vladimir:**<br>**TB1:** Contribuí en la elaboración del análisis del problema y la definición de objetivos, guiando al equipo en la comprensión de la necesidad principal que abordaba el proyecto.<br>**TP:** Participé en la revisión del modelo de datos y en la planificación de los sprints, garantizando una distribución equitativa de tareas y promoviendo decisiones consensuadas.<br><br>**Carlos Alberto Ochoa Colonio:**<br>**TB1:** Lideré la investigación de soluciones tecnológicas similares, aportando información clave para la toma de decisiones del equipo respecto al enfoque del sistema.<br>**TP:** Coordiné la documentación de los casos de uso, asegurando que los flujos representaran correctamente los procesos definidos por el equipo y fortaleciendo la visión técnica compartida. | **TB1:** Durante la primera etapa, los estudiantes demostraron liderazgo colaborativo al organizar las tareas, distribuir responsabilidades y mantener una comunicación constante entre los miembros. La planificación inicial permitió construir una base sólida para el proyecto y establecer una cultura de trabajo en equipo orientada a objetivos comunes.<br><br>**TP:** En la segunda fase, se consolidó un liderazgo horizontal enfocado en la coordinación y validación conjunta de los avances técnicos. La participación equitativa y el intercambio de ideas entre los integrantes fortalecieron la cohesión del grupo, promoviendo una toma de decisiones colectiva y una ejecución más eficiente de los entregables. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Zárate Castro José Daniel:**<br>**TB1:** Organicé el trabajo inicial mediante el uso de herramientas colaborativas y establecí metas claras en conjunto con el equipo, promoviendo la participación activa de todos los miembros.<br>**TP:** Planifiqué el backlog de tareas priorizando objetivos alcanzables y motivando al equipo a mantener un ritmo de trabajo constante y coordinado.<br><br>**Brayan Smith Morales Quispe:**<br>**TB1:** Fomenté un ambiente inclusivo en las sesiones de planificación, asegurando que cada integrante expresara sus ideas y contribuyera a la definición de las funcionalidades del sistema.<br>**TP:** Coordiné la organización de los entregables del sprint, monitoreando avances y resolviendo bloqueos en equipo para garantizar el cumplimiento de los objetivos.<br><br>**Oscar Nathaniel Garayar Mori:**<br>**TB1:** Promoví un entorno de colaboración constante, utilizando plataformas digitales para mantener comunicación y seguimiento del progreso de las tareas.<br>**TP:** Dirigí reuniones de revisión intermedia para asegurar que los objetivos definidos se cumplieran dentro de los plazos y con la calidad esperada.<br><br>**Jara Benites Quique Vladimir:**<br>**TB1:** Propuse dinámicas de trabajo colaborativas que facilitaron la integración de ideas entre los integrantes y la identificación de metas conjuntas.<br>**TP:** Realicé el control del cumplimiento de tareas según el cronograma establecido, garantizando un flujo de trabajo ordenado y transparente.<br><br>**Carlos Alberto Ochoa Colonio:**<br>**TB1:** Participé en la definición de los objetivos iniciales y en la estructuración del plan de trabajo, asegurando que las tareas estuvieran alineadas con la visión general del equipo.<br>**TP:** Brindé soporte en la gestión del avance del proyecto, reforzando la planificación y ayudando a cumplir los plazos establecidos en la entrega parcial. | **TB1:** En esta primera fase, el equipo consolidó un entorno de trabajo inclusivo y organizado, donde se promovió la participación activa y la planificación colectiva. Las metas fueron establecidas de forma clara y alcanzable, lo que favoreció la motivación y el compromiso de todos los integrantes.<br><br>**TP:** Durante el trabajo parcial, el grupo demostró madurez en la gestión de tareas y coordinación interna. El uso de herramientas colaborativas y la comunicación constante permitieron cumplir con los objetivos propuestos, manteniendo un ambiente de trabajo ordenado, participativo y enfocado en resultados concretos. |
-
-
 # Contenido
 
-## 📚 Tabla de Contenidos
+## Tabla de Contenidos
 
 ### Capítulo I: Introducción
 - [1.1 Startup Profile](#11-startup-profile)  
@@ -283,7 +276,7 @@ En esta primera entrega (TB1), el objetivo principal fue ...
       <h6><strong>Brayan Smith Morales Quispe</strong></h6>
       TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>
       TP:<p>Colideró la organización y reparto de tareas (BCs), dio soporte a dudas del equipo y mantuvo la coordinación para cumplir los objetivos del TB1.</p>
-      <h6>Jose Daniel Zarate Castro</h6>
+      <h6><strong>Jose Daniel Zarate Castro</strong></h6>
       TB1:<p>Apoyé a mi equipo colaborando en las tareas y dando mi ayuda cuando fue necesario para que avanzáramos juntos en los objetivos.</p>
       TP:<p>Colaboró activamente en tareas del equipo y brindó apoyo puntual para mantener el avance conjunto y la responsabilidad distribuida.</p>
       <h6><strong>Quique Vladimir Jara Benites</strong></h6>
@@ -292,12 +285,18 @@ En esta primera entrega (TB1), el objetivo principal fue ...
       <h6><strong>Oscar Nathaniel Garayar Mori</strong></h6>
       TB1:<p>Ejercí liderazgo compartido coordinando con mis compañeros la ejecución de las tareas, resolviendo dudas técnicas cuando fue necesario y motivando al equipo para mantener el ritmo de trabajo. Participé activamente en la toma de decisiones y aseguré que todos los integrantes pudieran aportar al cumplimiento de los objetivos del proyecto</p>
       TP:<p>Coordinó la ejecución, resolvió dudas técnicas y motivó al equipo; participó en decisiones y sostuvo la responsabilidad distribuida.</p>
-      </td>
+
+<h6><strong>Carlos Alberto Ochoa Colonio</strong></h6>
+  <p><strong>TB1:</strong> Lideré la investigación de soluciones tecnológicas similares, aportando información clave para la toma de decisiones del equipo respecto al enfoque del sistema.</p>
+  <p><strong>TP:</strong> Coordiné la documentación de los casos de uso, asegurando que los flujos representaran correctamente los procesos definidos por el equipo y fortaleciendo la visión técnica compartida.</p>
+  <p><strong>TB2:</strong> Colideró el diseño de la WebApp y apoyó en la definición de los flujos de usuario y el guion para las entrevistas de validación (Sección 6.3), aportando a la visión conjunta del producto final.</p>
       </td>
       <td>
       TB1: El equipo mostró liderazgo compartido al dividir BCs, resolver dudas técnicas y sostener el ritmo de trabajo; las decisiones se tomaron de forma coordinada y con responsabilidad distribuida. <p>
       <br>
-      TP: Se ejerció liderazgo compartido al dividir BCs, resolver dudas técnicas y mantener el ritmo; decisiones coordinadas con responsabilidad distribuida.<p>
+      TP: Se ejerció liderazgo compartido al dividir BCs, resolver dudas técnicas y mantener el ritmo; decisiones coordinadas con responsabilidad distribuida<p>
+      <br>
+      TB2: El liderazgo conjunto fue crucial para la integración de los componentes (Frontend, Backend, DB). Cada miembro lideró su aspecto técnico (IoT, web, DevOps), resolviendo dependencias y tomando decisiones colectivas para asegurar la funcionalidad del prototipo validado en las entrevistas.
       </td>
 
   </tr>
@@ -306,30 +305,34 @@ En esta primera entrega (TB1), el objetivo principal fue ...
       inclusivo, establece metas, planifica tareas 
       y cumple objetivos </strong></td>
       <td>
-      <h6>Brayan Smith Morales Quispe</h6>
+      <h6><strong>Brayan Smith Morales Quispe</strong></h6>
       TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>
       TP:<p>Participó en la definición de metas y en la planificación básica; favoreció un ambiente inclusivo pese a la limitada frecuencia de reuniones y aportó al cierre de entregables</p>
-      <h6>Jose Daniel Zarate Castro</h6>
+      <h6><strong>Jose Daniel Zarate Castro</strong></h6>
       TB1:<p>Colaboré con mis compañeros creando un buen ambiente de trabajo, ayudando a entender el tema, organizando las tareas y apoyando para que logremos las metas propuestas.</p>
       TP:<p>Contribuyó a un clima de trabajo positivo, ayudó a comprender el tema y a organizar tareas para alcanzar las metas</p>
-      <h6>Quique Vladimir Jara Benites</h6>
+      <h6><strong>Quique Vladimir Jara Benites</strong></h6>
       TB1:<p>Fomenté un ambiente colaborativo e inclusivo, ayudando a definir metas claras y participando en la planificación de tareas. Contribuí activamente al cumplimiento de los objetivos del equipo, asegurando que todos los miembros pudieran aportar y avanzar juntos. </p>
       TP:<p>Ayudó a fijar metas claras, participó en la planificación y aseguró la contribución de todos para cumplir los objetivos</p>
       <h6><strong>Oscar Nathaniel Garayar Mori</strong></h6>
       TB1:<p>Apoyé en la definición de metas claras junto con el equipo, proponiendo una planificación realista de las tareas. Contribuí a organizar las actividades de manera que cada miembro tuviera claridad en sus responsabilidades y el tiempo necesario para cumplirlas, fomentando un ambiente inclusivo y colaborativo</p>
       TP:<p>Propuso planificación realista, clarificó responsabilidades y fomentó la inclusión para cumplir con los entregables</p>
+<h6><strong>Carlos Alberto Ochoa Colonio</strong></h6>
+  <p><strong>TB1:</strong> Participé en la definición de los objetivos iniciales y en la estructuración del plan de trabajo, asegurando que las tareas estuvieran alineadas con la visión general del equipo.</p>
+  <p><strong>TP:</strong> Brindé soporte en la gestión del avance del proyecto, reforzando la planificación y ayudando a cumplir los plazos establecidos en la entrega parcial.</p>
+  <p><strong>TB2:</strong> Colaboró en la planificación y ejecución de las entrevistas de validación (Sección 6.3.2) y en el establecimiento de metas para el Sprint 2, ayudando a cumplir los objetivos de diseño y usabilidad de la WebApp.</p>
       </td>
       <td>
-      TB1:Se establecieron metas y planificación básica; aunque el tiempo de reuniones fue limitado, se mantuvo un entorno inclusivo y se cumplieron entregables del TB1 con contribución de todos.</p> 
+      TB1:Se establecieron metas y planificación básica; aunque el tiempo de reuniones fue limitado, se mantuvo un entorno inclusivo y se cumplieron entregables del TB1 con contribución de todos.<p>
       <br>
       TP: Se establecieron metas y una planificación básica; aunque el tiempo de reuniones fue limitado, se sostuvo un entorno inclusivo y se cumplieron los entregables<p>
+      <br>
+      TB2: Se consolidó el entorno colaborativo mediante la ejecución de Sprints (Sprint 2) y la realización de entrevistas de validación (Sección 6.3). La planificación de tareas fue más precisa, permitiendo al equipo cumplir con las metas de implementación del prototipo funcional y la recolección de feedback directo de los usuarios.
       </td>
   </tr>
 
   </tbody>
 </table>
-
-
 
 # Capítulo I: Introducción  
 
@@ -4159,19 +4162,72 @@ Recomendación: Añadir un ícono de "Editar" (lápiz) como acción principal pa
 
 ## 6.4 Video About-the-Product
 
+En esta sección presentamos un breve resumen del producto y la experiencia del usuario.
+
+<img src="Assets/img/VideoAboutTheProduct.png" alt="VideoAboutTheProduct">
+
+Enlace:
+
+[https://youtu.be/aJnE8Fs01Gs](https://youtu.be/aJnE8Fs01Gs)
+
 ## Conclusiones
 
-En conclusión existe una necesidad real de un sistema para salud animal; hoy los datos están dispersos (papel/Excel/software no integrado), lo que genera omisiones y errores en tratamientos y seguimiento. Esto justifica la propuesta de FarmGuard.
+Tras la finalización del Sprint 2 y la realización de las entrevistas de validación (Sección 6.3), se ha logrado validar exitosamente las hipótesis y supuestos fundamentales planteados en el proceso Lean UX (Capítulo 1.2).
 
-TB1 cumplió su objetivo: se validó el problema con 5 entrevistas y se delimitó con precisión el dominio mediante Event Storming, Bounded Context Canvas y Context Map. Quedó establecido el núcleo (Animal Management e IoT Monitoring & Analysis), los contexts de soporte (IAM y Profile) y los genéricos (Subscriptions & Billing, Notifications), con sus responsabilidades, dependencias upstream/downstream y contratos de integración (sincrónicos y por eventos). Esta definición reduce el acoplamiento, aclara el lenguaje ubicuo y crea trazabilidad directa entre hallazgos y diseño.
-
-El equipo trabajó de forma coordinada (GitFlow por ramas de BC, evidencias de commits y PRs), avanzando en paralelo sin solaparse. Como resultado, el alcance del MVP quedó acotado y factible: ingestión y validación de lecturas IoT, reglas/alertas, registro clínico y notificación a usuarios, habilitados por identidad/permisos y planes de suscripción. En síntesis, TB1 entrega una base estratégica sólida y verificable para pasar a especificación e implementación con menor riesgo técnico y organizacional.
+1. Validación del Problema: La problemática inicial, centrada en la ineficiencia, el riesgo de pérdida de información y la duplicidad de datos al usar métodos tradicionales (papel y Excel), fue contundentemente confirmada. Las entrevistas de needfinding (Capítulo 2.2) y las entrevistas de validación (Capítulo 6.3.2) coincidieron: los veterinarios y ganaderos identifican este método manual como una fuente de errores, retrasos y pérdida de información crítica. 
+2. Validación de la Solución: La solución FarmGuard demostró ser la respuesta adecuada a la problemática. Durante las entrevistas de validación (Sección 6.3.2), los usuarios de ambos segmentos (ganaderos y veterinarios) describieron el prototipo funcional como "intuitivo", "rápido", "fácil de usar" y "práctico". Todos los entrevistados confirmaron que la plataforma digital es una mejora significativa sobre sus métodos actuales, destacando la accesibilidad inmediata al historial clínico  y la centralización de datos como los principales valores. 
+3. Confirmación de Hipótesis: Los resultados validan las hipótesis iniciales (Sección 1.2.2.3), confirmando que existe un alto interés en la plataforma y que los usuarios están dispuestos a compartir información a cambio de una gestión centralizada y eficiente. La respuesta positiva de los entrevistados valida el Product-Market Fit preliminar. 
+4. Estado del Desarrollo: La arquitectura del proyecto, con el despliegue de la Landing Page , la Web App y el Backend (.NET 8), ha demostrado ser una base sólida que permitió realizar pruebas funcionales y validaciones de usabilidad de manera temprana, tal como se evidencia en los Sprints 1 y 2 (Sección 6.2).
 
 ## Recomendaciones
 
+1. Correcciones de Alta Prioridad (Usabilidad y Errores Graves)
+- Corregir Inconsistencia de Estado (Severidad 3): Modificar la interfaz para que el avatar o la tarjeta del animal refleje visualmente el estado "Crítico" detectado en los datos vitales. La inconsistencia actual (avatar feliz con alerta roja) genera confusión.
+
+- Prevenir Errores (Severidad 3): En el "Historial Clínico", la acción "Eliminar" no debe ser la única opción para un tratamiento. Se debe añadir la funcionalidad de "Editar" como acción principal. Además, la acción "Eliminar" debe implementar un diálogo de confirmación ("¿Está seguro?") para prevenir la pérdida accidental de registros médicos.
+
+2. Mejoras de Eficiencia y Flujo de Usuario
+- Reposicionar Acciones (Severidad 2): Mover los botones de acción principales ("Ver Historial Médico", "Editar", "Eliminar") en el panel de detalle del animal a una posición visible (ej. debajo de la información básica). Actualmente, requieren que el usuario haga scroll hasta el final, reduciendo la eficiencia.
+
+- Añadir Filtros y Funciones de Eficiencia: Implementar las mejoras sugeridas por los validadores:
+
+  - Añadir filtros a la lista de animales (ej. "filtrar por nombre del dueño").
+
+  - Añadir la función de "Duplicar Tratamiento" sugerida por Daniel Aguilar, para agilizar el registro de casos recurrentes.
+
+  - Expandir las listas de opciones (ej. "Especies") para abarcar más casos de uso.
+
+- Mejorar Claridad de Iconos (Severidad 2): Reemplazar los íconos ambiguos (ej. el círculo verde en la columna "Acciones" de la lista de animales) por iconografía estándar (ej. un ícono de "ojo" para "Ver detalle").
+
+3. Foco del Próximo Sprint (Sprint 3)
+
+- Rendimiento de IoT: Atender la sugerencia de Juan Calisaya  y enfocar esfuerzos técnicos en optimizar la velocidad de actualización de los datos provenientes de los sensores IoT, apuntando a una respuesta en tiempo real (<1 segundo).
+
+- Implementar Feedback: Priorizar la implementación de las correcciones de "Alta Prioridad" y las "Mejoras de Eficiencia" identificadas en la validación y la evaluación heurística para refinar el producto antes de la entrega final.
+
 ## Bibliografía
 
+Banhazi, T. M., Lehr, H., Black, J. L., Crabtree, H., Schofield, P., & Tscharke, M. (2012). Precision Livestock Farming: An international review of scientific and commercial applications. Australian Journal of Multi-Disciplinary Engineering, 10(1), 77-91. https://doi.org/10.1080/14488388.2012.11464868
+
+Evans, E. (2004). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley Professional.
+
+Fielding, R. T. (2000). Architectural styles and the design of network-based software architectures [Tesis doctoral, University of California, Irvine]. https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
+
+Martin, R. C. (2018). Arquitectura limpia: Guía del artesano para la estructura y el diseño de software. Anaya Multimedia.
+
+Naha, R. K., Garg, S., Georgakopoulos, D., Jayaraman, P. P., Gao, L., Xiang, Y., & St-Hilaire, M. (2021). A Fog/Edge/Cloud-Based IoT Framework for Scalable and Real-Time Animal Behaviour Monitoring. IEEE Internet of Things Journal, 8(12), 9801-9811. https://doi.org/10.1109/JIOT.2021.3060251
+
+Pressman, R. S., & Maxim, B. R. (2020). Ingeniería de software: Un enfoque práctico (9ª ed.). McGraw-Hill Education.
+
 ## Anexos
+
+### Video About The Team
+
+<img src="Assets/img/VideoAboutTheTeam.png" alt="video_team">
+
+Enlace:
+
+[https://youtu.be/Cq15jj4m8bw](https://youtu.be/Cq15jj4m8bw)
 
 ### Repositorios del Proyecto FarmGuard
 
@@ -4186,6 +4242,3 @@ El equipo trabajó de forma coordinada (GitFlow por ramas de BC, evidencias de c
 
 - **Mobile Application (Android - Kotlin)**  
    [https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/front](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/front)
-
-
-
