@@ -375,13 +375,13 @@ FarmGuard se posiciona como una solución integral, accesible y centrada en el u
         Estudiante de Ingeniería de Software (9.º ciclo) con experiencia en análisis de datos y automatizaciones.
     </td>
     <td>
-      <img src="" alt="Jose" style="max-height: 250px;">
+      <img src="Assets/img/Integrantes/jose_foto.jpg" alt="Jose" style="max-height: 250px;">
     </td>
   </tr>
   <tr>
     <td>
       <strong>Garayar Mori Oscar Nathaniel</strong><br>
-        Descripcion
+      Soy un estudiante y actualmente me encuentro en el noveno ciclo de la carrera de ingeniería de software.
     </td>
     <td>
       <img src="Assets/img/Integrantes/Oscar.jpg" alt="Oscar" style="max-height: 250px;">
