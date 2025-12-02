@@ -3912,13 +3912,21 @@ El **Sprint Backlog 3** se centra en la materialización de la solución IoT, pa
 
 #### 6.2.3.4 Development Evidence for Sprint Review
 
-
+<img alt="Sprint 3 Dev Ev" src="Assets/img/Sprint-3/001.jpeg">
 
 #### 6.2.3.5 Testing Suite Evidence for Sprint Review
 
+<img alt="Sprint 3 Test Ev" src="Assets/img/Sprint-3/002.jpeg">
+
 #### 6.2.3.6 Execution Evidence for Sprint Review
 
+<img alt="Sprint 3 Dev Ev" src="Assets/img/Sprint-3/003.jpeg">
+
 #### 6.2.3.7 Services Documentation Evidence for Sprint Review
+
+<img alt="Sprint 3 Test Ev" src="Assets/img/Sprint-3/002.jpeg">
+
+El endpoint es /api/v1/telemetry
 
 #### 6.2.3.8 Software Deployment Evidence for Sprint Review
 
