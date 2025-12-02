@@ -3930,7 +3930,11 @@ El endpoint es /api/v1/telemetry
 
 #### 6.2.3.8 Software Deployment Evidence for Sprint Review
 
+<img alt="Sprint 3 Dev Ev" src="Assets/img/Sprint-3/003.jpeg">
+
 #### 6.2.3.9 Team Collaboration Insights during Sprint
+
+<img alt="Sprint 3 Dev Ev" src="Assets/img/Sprint-3/004.jpeg">
 
 ## 6.3 Validation Interviews
 
