@@ -276,15 +276,19 @@ En esta primera entrega (TB1), el objetivo principal fue ...
       <h6><strong>Brayan Smith Morales Quispe</strong></h6>
       TB1:<p>Ayude a organizar y repartir temas a  cada miembro del equipo aparte q ayude cualquier duda de mis compañeros respecto al trabajo.</p>
       TP:<p>Colideró la organización y reparto de tareas (BCs), dio soporte a dudas del equipo y mantuvo la coordinación para cumplir los objetivos del TB1.</p>
+    TF:<p>Lideró el desarrollo de la aplicación móvil (Flutter) y la integración final con la nube. Coordinó con el equipo de backend para asegurar que los datos procesados en la capa Edge se visualizaran correctamente en los dispositivos móviles.</p>
       <h6><strong>Jose Daniel Zarate Castro</strong></h6>
       TB1:<p>Apoyé a mi equipo colaborando en las tareas y dando mi ayuda cuando fue necesario para que avanzáramos juntos en los objetivos.</p>
       TP:<p>Colaboró activamente en tareas del equipo y brindó apoyo puntual para mantener el avance conjunto y la responsabilidad distribuida.</p>
+TF: <p>Asumió el liderazgo técnico en la lógica de Edge Computing, diseñando los algoritmos de filtrado de datos en el firmware del ESP32 para optimizar el envío de información al backend, guiando al equipo en la gestión de datos</p>
       <h6><strong>Quique Vladimir Jara Benites</strong></h6>
       TB1:<p>Coordiné la distribución de tareas entre los miembros del equipo, promoví la participación activa y resolví dudas técnicas para asegurar el avance conjunto hacia los objetivos del proyecto.</p>
       TP:<p>Coordinó la distribución de tareas, impulsó la participación y resolvió dudas técnicas para sostener el ritmo del equipo.</p>
+TF: <p>Dirigió la implementación de la infraestructura en la nube y el despliegue de los servicios (CI/CD). Lideró la configuración de las alertas críticas locales en el dispositivo, asegurando la sincronización entre hardware y software</p>
       <h6><strong>Oscar Nathaniel Garayar Mori</strong></h6>
       TB1:<p>Ejercí liderazgo compartido coordinando con mis compañeros la ejecución de las tareas, resolviendo dudas técnicas cuando fue necesario y motivando al equipo para mantener el ritmo de trabajo. Participé activamente en la toma de decisiones y aseguré que todos los integrantes pudieran aportar al cumplimiento de los objetivos del proyecto</p>
       TP:<p>Coordinó la ejecución, resolvió dudas técnicas y motivó al equipo; participó en decisiones y sostuvo la responsabilidad distribuida.</p>
+TF: <p>Ejerció el liderazgo en el ensamblaje del hardware físico y la calibración de sensores. Tomó decisiones clave sobre la arquitectura física del prototipo IoT y resolvió problemas de conectividad eléctrica junto al equipo</p>
 
 <h6><strong>Carlos Alberto Ochoa Colonio</strong></h6>
   <p><strong>TB1:</strong> Lideré la investigación de soluciones tecnológicas similares, aportando información clave para la toma de decisiones del equipo respecto al enfoque del sistema.</p>
@@ -297,6 +301,8 @@ En esta primera entrega (TB1), el objetivo principal fue ...
       TP: Se ejerció liderazgo compartido al dividir BCs, resolver dudas técnicas y mantener el ritmo; decisiones coordinadas con responsabilidad distribuida<p>
       <br>
       TB2: El liderazgo conjunto fue crucial para la integración de los componentes (Frontend, Backend, DB). Cada miembro lideró su aspecto técnico (IoT, web, DevOps), resolviendo dependencias y tomando decisiones colectivas para asegurar la funcionalidad del prototipo validado en las entrevistas.
+<br>
+TF: Lideró la fase de validación con usuarios y la refactorización de la interfaz web basada en el feedback recibido. Organizó la documentación final y aseguró que la visión del producto se mantuviera coherente en la presentación final
       </td>
 
   </tr>
@@ -308,15 +314,19 @@ En esta primera entrega (TB1), el objetivo principal fue ...
       <h6><strong>Brayan Smith Morales Quispe</strong></h6>
       TB1:<p>Como grupo nos establecimos metas claras hacia donde va nuestro trabajo, la planificacion considero que fue regular puesto que no todo el equipo tiene el tiempo para realizar juntas mas seguidas.</p>
       TP:<p>Participó en la definición de metas y en la planificación básica; favoreció un ambiente inclusivo pese a la limitada frecuencia de reuniones y aportó al cierre de entregables</p>
+TF:<p>Lideró el desarrollo de la aplicación móvil (Flutter) y la integración final con la nube. Coordinó con el equipo de backend para asegurar que los datos procesados en la capa Edge se visualizaran correctamente en los dispositivos móviles.</p>
       <h6><strong>Jose Daniel Zarate Castro</strong></h6>
       TB1:<p>Colaboré con mis compañeros creando un buen ambiente de trabajo, ayudando a entender el tema, organizando las tareas y apoyando para que logremos las metas propuestas.</p>
       TP:<p>Contribuyó a un clima de trabajo positivo, ayudó a comprender el tema y a organizar tareas para alcanzar las metas</p>
+TF: <p>Asumió el liderazgo técnico en la lógica de Edge Computing, diseñando los algoritmos de filtrado de datos en el firmware del ESP32 para optimizar el envío de información al backend, guiando al equipo en la gestión de datos</p>
       <h6><strong>Quique Vladimir Jara Benites</strong></h6>
       TB1:<p>Fomenté un ambiente colaborativo e inclusivo, ayudando a definir metas claras y participando en la planificación de tareas. Contribuí activamente al cumplimiento de los objetivos del equipo, asegurando que todos los miembros pudieran aportar y avanzar juntos. </p>
       TP:<p>Ayudó a fijar metas claras, participó en la planificación y aseguró la contribución de todos para cumplir los objetivos</p>
+TF: <p>Dirigió la implementación de la infraestructura en la nube y el despliegue de los servicios (CI/CD). Lideró la configuración de las alertas críticas locales en el dispositivo, asegurando la sincronización entre hardware y software</p>
       <h6><strong>Oscar Nathaniel Garayar Mori</strong></h6>
       TB1:<p>Apoyé en la definición de metas claras junto con el equipo, proponiendo una planificación realista de las tareas. Contribuí a organizar las actividades de manera que cada miembro tuviera claridad en sus responsabilidades y el tiempo necesario para cumplirlas, fomentando un ambiente inclusivo y colaborativo</p>
       TP:<p>Propuso planificación realista, clarificó responsabilidades y fomentó la inclusión para cumplir con los entregables</p>
+TF: <p>Ejerció el liderazgo en el ensamblaje del hardware físico y la calibración de sensores. Tomó decisiones clave sobre la arquitectura física del prototipo IoT y resolvió problemas de conectividad eléctrica junto al equipo</p>
 <h6><strong>Carlos Alberto Ochoa Colonio</strong></h6>
   <p><strong>TB1:</strong> Participé en la definición de los objetivos iniciales y en la estructuración del plan de trabajo, asegurando que las tareas estuvieran alineadas con la visión general del equipo.</p>
   <p><strong>TP:</strong> Brindé soporte en la gestión del avance del proyecto, reforzando la planificación y ayudando a cumplir los plazos establecidos en la entrega parcial.</p>
@@ -328,6 +338,8 @@ En esta primera entrega (TB1), el objetivo principal fue ...
       TP: Se establecieron metas y una planificación básica; aunque el tiempo de reuniones fue limitado, se sostuvo un entorno inclusivo y se cumplieron los entregables<p>
       <br>
       TB2: Se consolidó el entorno colaborativo mediante la ejecución de Sprints (Sprint 2) y la realización de entrevistas de validación (Sección 6.3). La planificación de tareas fue más precisa, permitiendo al equipo cumplir con las metas de implementación del prototipo funcional y la recolección de feedback directo de los usuarios.
+<br>
+TF: Lideró la fase de validación con usuarios y la refactorización de la interfaz web basada en el feedback recibido. Organizó la documentación final y aseguró que la visión del producto se mantuviera coherente en la presentación final
       </td>
   </tr>
 
