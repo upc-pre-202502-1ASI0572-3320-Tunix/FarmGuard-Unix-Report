@@ -3852,7 +3852,7 @@ Link de página desplegada: [https://upc-pre-202502-1asi0572-3320-tunix.github.i
 <img alt="Image" src="Assets/img/ChapterVI/AZ2.jpeg">
 <img alt="Image" src="Assets/img/ChapterVI/GIT1.jpeg">
 
-URL de la Landing Page desplegada: [https://ambitious-dune-0b50cbb10.1.azurestaticapps.net/auth/sign-in](https://ambitious-dune-0b50cbb10.1.azurestaticapps.net/auth/sign-in)
+URL de la WebApp desplegada: [https://calm-forest-08b0d0210.3.azurestaticapps.net/#/medical-history](https://calm-forest-08b0d0210.3.azurestaticapps.net/#/medical-history)
 
 URL de la Mobile desplegada: [https://calm-forest-08b0d0210.3.azurestaticapps.net/](https://calm-forest-08b0d0210.3.azurestaticapps.net/)
 
@@ -3868,11 +3868,51 @@ URL de la Swagger desplegada: [https://www.ibrayan.dev/swagger/index.html](https
 
 #### 6.2.3.1 Sprint Planning 3
 
+| **Campo** | **Detalle** |
+|-----------|-------------|
+| Sprint # | Sprint 3 |
+| Date | 2025/11/24 |
+| Time | 5:00 PM |
+| Location | Llamada grupal en la plataforma Discord |
+| Prepared By | Brayan Smith Morales Quispe |
+| Attendees (to planning meeting) | José Daniel Zárate Castro, Brayan Smith Morales Quispe, Oscar Nathaniel Garayar Mori, Quique Vladimir Jara Benites y Carlos Alberto Ochoa Colonio |
+| Sprint 3 Goal | Consolidar la arquitectura IoT de FarmGuard a través de: <br> - La construcción y programación del **Prototipo IoT Físico (Hardware Real)** para la captura verídica de variables ambientales y fisiológicas. <br> - La implementación de la **Capa Edge**, dotando al dispositivo de inteligencia para filtrar datos y detectar anomalías localmente antes de enviarlas al backend. <br> - La **integración End-to-End** entre hardware físico, nube y clientes (Web y Móvil). |
+| Sprint 3 Velocity | 24 |
+| Sum of story points | 24 |
+
+
 #### 6.2.3.2 Aspect Leaders and Collaborators
+
+El siguiente LACX (Leadership-and-Collaboration Matrix) identifica a los líderes y colaboradores en los principales aspectos abordados durante el Sprint 3, incorporando ahora el componente de **Hardware IoT y Edge Computing** dentro del flujo de desarrollo, además de mantener la evolución de la Landing Page, WebApp y Backend.
+
+| **Team Member** <br> Last Name, First Name | **GitHub Username** | **Landing Page** <br> L/C | **WebApp (Frontend)** <br> L/C | **Backend / IoT Edge** <br> L/C | **Database / ORM** <br> L/C | **Deployment & DevOps** <br> L/C | **Documentation / Report** <br> L/C |
+|:------------------------------------------:|:-------------------:|:--------------------------:|:-------------------------------:|:-----------------------------:|:----------------------------:|:---------------------------------:|:----------------------------------:|
+| **Zárate Castro, José Daniel** | danielzarate20      | C                         | L                              | C                            | C                           | C                                | C                                 |
+| **Morales Quispe, Brayan Smith** | brayan-smithmq      | L                         | C                              | C                            | L                           | C                                | L                                 |
+| **Garayar Mori, Oscar Nathaniel** | oscargarayar        | C                         | C                              | L                            | C                           | C                                | C                                 |
+| **Jara Benites, Quique Vladimir** | quiquevladimir      | C                         | C                              | C                            | C                           | L                                | C                                 |
+| **Ochoa Colonio, Carlos Alberto** | carlosochoac        | C                         | L                              | C                            | C                           | C                                | C                                 |
+
+**Nota.** L = *Leader* (responsable principal del aspecto).  
+C = *Collaborator* (apoya el desarrollo del aspecto).
 
 #### 6.2.3.3 Sprint Backlog 3
 
+El **Sprint Backlog 3** se centra en la materialización de la solución IoT, pasando de la simulación a la implementación física y lógica en el borde. Se han priorizado las historias de usuario relacionadas con el ensamblaje de hardware, la programación de algoritmos de filtrado en el microcontrolador (Edge) y la integración final con la nube.
+
+| **User Story** |                                        | **Work-Item / Task** |  | **Description** | **Estimation (Hours)** | **Assigned To** | **Status**  |
+|---------------|----------------------------------------|-----------------------|--|------------------|-------------------------|------------------|-------------|
+| **Id** | **Title**                              | **Id** | **Title** | | | |             |
+| US16 | Construcción del prototipo físico      | T18 | Ensamblaje de circuito y sensores | Conectar físicamente los sensores (DHT22, GPS, Ritmo Cardíaco) al microcontrolador ESP32 y asegurar la alimentación energética en el case. | 8 | Oscar / Quique | Done        |
+| US17 | Procesamiento de datos en la capa Edge | T19 | Implementar algoritmos de filtrado y agregación | Programar en C++ la lógica para promediar lecturas cada minuto y evitar el envío de datos ruidosos o redundantes a la nube. | 8 | José / Oscar | Done        |
+| US18 | Detección de anomalías locales         | T20 | Programar reglas de negocio en firmware | Implementar lógica en el ESP32 para detectar estados críticos (ej. fiebre > 40 °C) y forzar envíos inmediatos de alertas prioritarias. | 6 | José / Quique | In Progress |
+| US19 | Sincronización Hardware–Nube           | T21 | Integración MQTT/HTTP con Backend | Configurar el ESP32 para enviar payloads JSON procesados hacia los endpoints del Backend .NET desplegado en Azure. | 8 | José / Brayan | Done        |
+| US20 | Validación integral del sistema        | T22 | Pruebas de campo End-to-End | Realizar pruebas completas desde la captura del dato físico en el animal hasta su visualización en la App Móvil y la WebApp. | 6 | Carlos / Brayan | Done        |
+
+
 #### 6.2.3.4 Development Evidence for Sprint Review
+
+
 
 #### 6.2.3.5 Testing Suite Evidence for Sprint Review
 
