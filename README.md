@@ -300,9 +300,9 @@ TF: <p>Ejerció el liderazgo en el ensamblaje del hardware físico y la calibrac
       <br>
       TP: Se ejerció liderazgo compartido al dividir BCs, resolver dudas técnicas y mantener el ritmo; decisiones coordinadas con responsabilidad distribuida<p>
       <br>
-      TB2: El liderazgo conjunto fue crucial para la integración de los componentes (Frontend, Backend, DB). Cada miembro lideró su aspecto técnico (IoT, web, DevOps), resolviendo dependencias y tomando decisiones colectivas para asegurar la funcionalidad del prototipo validado en las entrevistas.
-<br>
-TF: Lideró la fase de validación con usuarios y la refactorización de la interfaz web basada en el feedback recibido. Organizó la documentación final y aseguró que la visión del producto se mantuviera coherente en la presentación final
+      TB2: El liderazgo conjunto fue crucial para la integración de los componentes (Frontend, Backend, DB). Cada miembro lideró su aspecto técnico (IoT, web, DevOps), resolviendo dependencias y tomando decisiones colectivas para asegurar la funcionalidad del prototipo validado en las entrevistas.<p>
+      <br>
+      TF: Lideró la fase de validación con usuarios y la refactorización de la interfaz web basada en el feedback recibido. Organizó la documentación final y aseguró que la visión del producto se mantuviera coherente en la presentación final<p>
       </td>
 
   </tr>
