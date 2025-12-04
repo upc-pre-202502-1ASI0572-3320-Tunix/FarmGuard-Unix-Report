@@ -45,7 +45,7 @@
 </div>
 
 <div style="text-align: center">
-  <h5>Noviembre, 2025</h5>
+  <h5>Diciembre, 2025</h5>
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -330,7 +330,7 @@ TF: <p>Ejerció el liderazgo en el ensamblaje del hardware físico y la calibrac
 <h6><strong>Carlos Alberto Ochoa Colonio</strong></h6>
   <p><strong>TB1:</strong> Participé en la definición de los objetivos iniciales y en la estructuración del plan de trabajo, asegurando que las tareas estuvieran alineadas con la visión general del equipo.</p>
   <p><strong>TP:</strong> Brindé soporte en la gestión del avance del proyecto, reforzando la planificación y ayudando a cumplir los plazos establecidos en la entrega parcial.</p>
-  <p><strong>TB2:</strong> Colaboró en la planificación y ejecución de las entrevistas de validación (Sección 6.3.2) y en el establecimiento de metas para el Sprint 2, ayudando a cumplir los objetivos de diseño y usabilidad de la WebApp.</p>
+  <p><strong>TB2:</strong> Colaboró en la planificación y ejecución de las entrevistas de validación (Sección 6.3.2) y en el establecimiento de metas para el Sprint 2, ayudando a cumplir los objetivos de diseño y usabilidad de la WebApp.<strong>TF</strong>Lideró la fase de validación con usuarios y la refactorización de la interfaz web basada en el feedback recibido. Organizó la documentación final y aseguró que la visión del producto se mantuviera coherente en la presentación final</p>
       </td>
       <td>
       TB1:Se establecieron metas y planificación básica; aunque el tiempo de reuniones fue limitado, se mantuvo un entorno inclusivo y se cumplieron entregables del TB1 con contribución de todos.<p>
@@ -339,7 +339,6 @@ TF: <p>Ejerció el liderazgo en el ensamblaje del hardware físico y la calibrac
       <br>
       TB2: Se consolidó el entorno colaborativo mediante la ejecución de Sprints (Sprint 2) y la realización de entrevistas de validación (Sección 6.3). La planificación de tareas fue más precisa, permitiendo al equipo cumplir con las metas de implementación del prototipo funcional y la recolección de feedback directo de los usuarios.
 <br>
-TF: Lideró la fase de validación con usuarios y la refactorización de la interfaz web basada en el feedback recibido. Organizó la documentación final y aseguró que la visión del producto se mantuviera coherente en la presentación final
       </td>
   </tr>
 
@@ -4326,3 +4325,10 @@ Enlace:
 
 - **Mobile Application (Android - Kotlin)**  
    [https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/front](https://github.com/upc-pre-202502-1ASI0572-3320-Tunix/front)
+
+  - **Link del Frontend**  
+   [https://calm-forest-08b0d0210.3.azurestaticapps.net](https://calm-forest-08b0d0210.3.azurestaticapps.net)
+
+
+  - **Backend (.Net 7)**  
+   [https://www.ibrayan.dev/swagger/index.html](https://www.ibrayan.dev/swagger/index.html)
